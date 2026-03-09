@@ -26,10 +26,12 @@ jobs:
       - name: Rodar extração
         run: python cartola_extractor.py
 
-      - name: Commit e push dos dados atualizados
+      - name: Commit e push
         run: |
-          git config user.name  "github-actions[bot]"
+          git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
+          git fetch origin main
+          git reset --soft origin/main
           git add data/
-          git diff --cached --quiet || git commit -m "dados: coleta automática $(date -u '+%Y-%m-%d %H:%M UTC')"
-          git push
+          git diff --cached --quiet || git commit -m "dados: coleta automatica $(date -u '+%Y-%m-%d %H:%M UTC')"
+          git push --force-with-lease origin main
