@@ -3,7 +3,7 @@ name: Coleta Cartola FC
 on:
   schedule:
     # 8h horário de Brasília = 11h UTC
-    - cron: "50 19 * * *"
+    - cron: "53 16 * * *"
 
   workflow_dispatch:  # permite rodar manualmente pelo GitHub
 
