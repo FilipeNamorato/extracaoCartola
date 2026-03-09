@@ -27,6 +27,7 @@ ENDPOINTS = {
     "pontuados": "/atletas/pontuados",
     "partidas":  "/partidas",
     "rodadas":   "/rodadas",
+    "status": "/mercado/status",
 }
 
 HEADERS = {
@@ -125,21 +126,24 @@ def normalizar_rodadas(raw: list) -> pd.DataFrame:
 def enriquecer(df_mercado: pd.DataFrame, df_partidas: pd.DataFrame) -> pd.DataFrame:
     df = df_mercado.copy()
 
-    # ── Mandante / adversário ────────────────────────────────
+    # Mapa clube_id -> abreviacao construído a partir dos próprios atletas
+    mapa_clubes = {}
+    for _, row in df.iterrows():
+        if pd.notna(row.get('clube_id')) and row.get('clube'):
+            mapa_clubes[int(row['clube_id'])] = row['clube']
+
     mapa_confronto = {}
 
     if not df_partidas.empty:
-        col_casa     = next((c for c in df_partidas.columns if "casa_id" in c), None)
-        col_vis      = next((c for c in df_partidas.columns if "visitante_id" in c), None)
-        col_casa_abr = next((c for c in df_partidas.columns if "casa_abreviacao" in c or "casa.abreviacao" in c), None)
-        col_vis_abr  = next((c for c in df_partidas.columns if "visitante_abreviacao" in c or "visitante.abreviacao" in c), None)
+        col_casa = next((c for c in df_partidas.columns if "casa_id" in c), None)
+        col_vis  = next((c for c in df_partidas.columns if "visitante_id" in c), None)
 
         for _, p in df_partidas.iterrows():
             try:
-                id_casa  = int(p[col_casa]) if col_casa else None
-                id_vis   = int(p[col_vis])  if col_vis  else None
-                abr_casa = str(p[col_casa_abr]) if col_casa_abr else str(id_casa)
-                abr_vis  = str(p[col_vis_abr])  if col_vis_abr  else str(id_vis)
+                id_casa = int(p[col_casa]) if col_casa else None
+                id_vis  = int(p[col_vis])  if col_vis  else None
+                abr_casa = mapa_clubes.get(id_casa, str(id_casa))
+                abr_vis  = mapa_clubes.get(id_vis,  str(id_vis))
 
                 if id_casa:
                     mapa_confronto[id_casa] = {"mandante": True,  "adversario": abr_vis}
@@ -250,6 +254,17 @@ try:
 except Exception as e:
     print(f"  ERRO no enriquecimento: {e}")
     log.append({"endpoint": "enriquecido", "registros": 0, "status": "ERRO", "erro": str(e)})
+
+# Salva status do mercado separado
+try:
+    raw_status = get_json("status")
+    with open(DATA_DIR / "mercado_status.json", "w", encoding="utf-8") as f:
+        json.dump(raw_status, f, ensure_ascii=False, indent=2)
+    pd.DataFrame([raw_status]).to_csv(DATA_DIR / "mercado_status.csv", index=False, encoding="utf-8-sig")
+    log.append({"endpoint": "status", "registros": 1, "status": "OK", "erro": ""})
+except Exception as e:
+    log.append({"endpoint": "status", "registros": 0, "status": "ERRO", "erro": str(e)})
+
 
 # ── Log ──────────────────────────────────────────────────────
 ts = datetime.now().strftime("%Y-%m-%d %H:%M")

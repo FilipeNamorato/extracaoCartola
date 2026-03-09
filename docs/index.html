@@ -495,6 +495,8 @@ const CSV_ENR   = './data/atletas_enriquecido.csv';
 const CSV_PART  = './data/partidas.csv';
 const CSV_ROD   = './data/rodadas.csv';
 const CSV_LOG   = './data/log.csv';
+const CSV_STATUS = './data/mercado_status.csv';
+
 
 const STATUS_MAP = {
   '7': { l: 'Provável',   c: 's7' },
@@ -744,7 +746,6 @@ function renderConfrontos() {
   }).join('');
 }
 
-// ── LAST UPDATE ───────────────────────────────────────────────
 async function fetchMeta() {
   try {
     const rows = await fetchCSV(CSV_LOG);
@@ -752,25 +753,23 @@ async function fetchMeta() {
     if (last) document.getElementById('last-update').textContent = last.timestamp;
   } catch(e) {}
 
-  // Rodada atual: pega a rodada do primeiro jogo em partidas
-  // (mais confiável que pegar a última do CSV de rodadas)
+  // Tenta pegar rodada do mercado/status (mais confiável)
+  try {
+    const rows = await fetchCSV(CSV_STATUS);
+    if (rows.length && rows[0].rodada_atual) {
+      document.getElementById('rodada-pill').textContent = 'Rodada ' + rows[0].rodada_atual;
+      return;
+    }
+  } catch(e) {}
+
+  // Fallback: partidas
   try {
     if (PARTIDAS.length) {
       const rodada = PARTIDAS[0].rodada || PARTIDAS[0].rodada_id || '';
       if (rodada) {
         document.getElementById('rodada-pill').textContent = 'Rodada ' + rodada;
-        return;
       }
     }
-    // fallback: busca rodadas e pega a que tem status de abertura mais recente
-    const rodadas = await fetchCSV(CSV_ROD);
-    const comData = rodadas.filter(r => r.inicio).sort((a,b) => {
-      return new Date(b.inicio) - new Date(a.inicio);
-    });
-    const hoje = new Date();
-    const atual = comData.find(r => new Date(r.inicio) <= hoje) || comData[0];
-    if (atual) document.getElementById('rodada-pill').textContent =
-      'Rodada ' + (atual.rodada_id || '—');
   } catch(e) {}
 }
 
