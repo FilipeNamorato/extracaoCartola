@@ -543,6 +543,7 @@ const CSV_ENR   = './data/atletas_enriquecido.csv';
 const CSV_PART  = './data/partidas.csv';
 const CSV_ROD   = './data/rodadas.csv';
 const CSV_LOG   = './data/log.csv';
+const CSV_STATUS = './data/mercado_status.csv';
 
 const STATUS_MAP = {
   '7': { l: 'Provável',   c: 's7' },
@@ -559,7 +560,7 @@ let sortCol = 'media', sortAsc = false;
 
 // ── CSV PARSER ────────────────────────────────────────────────
 function parseCSV(txt) {
-  const lines = txt.trim().split('\n');
+  const lines = txt.trim().replace(/\r/g, '').split('\n');
   const heads = parseLine(lines[0]);
   return lines.slice(1).map(line => {
     const vals = parseLine(line);
