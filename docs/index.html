@@ -774,7 +774,8 @@ function renderConfrontos() {
     const idVis  = String(p.clube_visitante_id || '');
     const casa   = mapa[idCasa] || idCasa || '?';
     const vis    = mapa[idVis]  || idVis  || '?';
-    const dt     = (p.partida_data || '—').substring(0, 10);
+    const dtRaw = (p.partida_data || '').substring(0, 10);
+    const dt = dtRaw ? dtRaw.split('-').reverse().join('/') : '—';
     const local  = p.local || '—';
 
     const qtdCasa = ALL.filter(a => a.clube === casa && a.status_id === '7').length;
