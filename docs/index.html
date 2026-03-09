@@ -650,7 +650,7 @@ function renderDestaques() {
   renderCardList('l-arm',
     top8([...ALL].filter(a=>a.armadilha==='True').sort((a,b)=>+b.preco-+a.preco)),
     a => 'C$'+parseFloat(a.preco||0).toFixed(1), 'down');
-  document.getElementById('leg-arm').textContent = 'preço acima da mediana, mas média abaixo — risco alto';
+  document.getElementById('leg-arm').textContent = 'preço acima da mediana, mas média abaixo - risco alto';
 }
 
 function renderTopMandantes() {
