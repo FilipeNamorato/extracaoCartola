@@ -436,7 +436,7 @@ footer a { color: var(--green); text-decoration: none; }
       </div>
 
       <div class="card">
-        <div class="card-header"><div class="card-title" data-tip="Preço acima da mediana da posição, mas média abaixo - cuidado antes de escalar">⚠ ARMADILHAS</div><div class="badge bo">PREÇO ALTO / MÉDIA BAIXA</div></div>
+        <div class="card-header"><div class="card-title" data-tip="Preço acima da mediana da posição, mas média abaixo - cuidado antes de escalar">⚠️ ARMADILHAS</div><div class="badge bo">PREÇO ALTO / MÉDIA BAIXA</div></div>
         <ul class="card-list" id="l-arm"><li><div class="loading"><div class="spinner"></div>carregando...</div></li></ul>
         <div class="card-leg" id="leg-arm"></div>
       </div>
@@ -462,10 +462,10 @@ footer a { color: var(--green); text-decoration: none; }
         <button class="filter-btn" data-pos="Técnico">TEC</button>
       </div>
       <button class="filter-btn danger" id="btn-mandante" data-active="false">🏠 Mandante</button>
-      <button class="filter-btn danger" id="btn-armadilha" data-active="false">⚠ Armadilha</button>
-      <button class="filter-btn" id="btn-legenda" title="Legenda dos campos">?</button>
+      <button class="filter-btn danger" id="btn-armadilha" data-active="false">⚠️ Armadilha</button>
+      <button class="filter-btn" id="btn-legenda" title="Legenda dos campos">❓</button>
       <div class="search-wrap">
-        <span class="search-icon">⌕</span>
+        <span class="search-icon">🔎</span>
         <input class="search-input" type="text" id="search-input" placeholder="Atleta ou clube...">
       </div>
     </div>
@@ -483,10 +483,10 @@ footer a { color: var(--green); text-decoration: none; }
               <th data-col="media" data-tip="Média de pontos por rodada disputada">MÉDIA ↕</th>
               <th data-col="custo_beneficio" data-tip="Custo-benefício: média ÷ preço. Quanto ponto rende por C$ gasto">C/B ↕</th>
               <th data-col="cb_rank" data-tip="Ranking de custo-benefício dentro da posição">RANK</th>
-              <th data-col="mandante" data-tip="Confronto: 🏠 joga em casa, ✈ joga fora">CONF</th>
+              <th data-col="mandante" data-tip="Confronto: 🏠 joga em casa,✈️ joga fora">CONF</th>
               <th data-col="tendencia" data-tip="Tendência de preço: alta (+0.5), baixa (-0.5) ou estável">TEND</th>
               <th data-col="status_id" data-tip="Status: Provável, Dúvida, Contundido, Suspenso">STATUS</th>
-              <th data-col="armadilha" data-tip="Armadilha: preço acima da mediana mas média abaixo da posição">⚠</th>
+              <th data-col="armadilha" data-tip="Armadilha: preço acima da mediana mas média abaixo da posição">⚠️</th>
             </tr>
           </thead>
           <tbody id="table-body">
@@ -496,7 +496,7 @@ footer a { color: var(--green); text-decoration: none; }
       </div>
       <div class="table-footer">
         <span id="table-count">—</span>
-        <span>atletas_enriquecido.csv — api.cartola.globo.com</span>
+        <span>atletas_enriquecido.csv - api.cartola.globo.com</span>
       </div>
     </div>
   </div>
@@ -524,10 +524,10 @@ footer a { color: var(--green); text-decoration: none; }
       <div style="display:flex; gap:10px;"><span style="color:var(--green); min-width:70px;">MÉDIA</span><span style="color:var(--muted)">Média de pontos por rodada disputada</span></div>
       <div style="display:flex; gap:10px;"><span style="color:var(--green); min-width:70px;">C/B</span><span style="color:var(--muted)">Custo-benefício: média ÷ preço. Quanto ponto rende por C$ gasto</span></div>
       <div style="display:flex; gap:10px;"><span style="color:var(--green); min-width:70px;">RANK</span><span style="color:var(--muted)">Ranking de custo-benefício dentro da posição</span></div>
-      <div style="display:flex; gap:10px;"><span style="color:var(--green); min-width:70px;">CONF</span><span style="color:var(--muted)">Confronto da rodada: 🏠 joga em casa, ✈ joga fora</span></div>
+      <div style="display:flex; gap:10px;"><span style="color:var(--green); min-width:70px;">CONF</span><span style="color:var(--muted)">Confronto da rodada: 🏠 joga em casa, ✈️ joga fora</span></div>
       <div style="display:flex; gap:10px;"><span style="color:var(--green); min-width:70px;">TEND</span><span style="color:var(--muted)">Tendência de preço: alta (+0.5), baixa (-0.5) ou estável</span></div>
       <div style="display:flex; gap:10px;"><span style="color:var(--green); min-width:70px;">STATUS</span><span style="color:var(--muted)">Provável, Dúvida, Contundido ou Suspenso</span></div>
-      <div style="display:flex; gap:10px;"><span style="color:var(--orange); min-width:70px;">⚠</span><span style="color:var(--muted)">Armadilha: preço acima da mediana da posição, mas média abaixo — risco alto</span></div>
+      <div style="display:flex; gap:10px;"><span style="color:var(--orange); min-width:70px;">⚠️</span><span style="color:var(--muted)">Armadilha: preço acima da mediana da posição, mas média abaixo - risco alto</span></div>
     </div>
   </div>
 </div>
@@ -615,7 +615,7 @@ function renderCardList(id, items, valueFn, cls) {
   el.innerHTML = items.map((a,i) => {
     const isMand = a.mandante === 'True';
     const confTag = a.adversario && a.adversario !== '—'
-      ? `<span class="conf-tag ${isMand?'conf-home':'conf-away'}">${isMand?'🏠':'✈'} ${a.adversario}</span>` : '';
+      ? `<span class="conf-tag ${isMand?'conf-home':'conf-away'}">${isMand?'🏠':'✈️'} ${a.adversario}</span>` : '';
     return `<li>
       <span class="rank">${i+1}</span>
       <span class="pname">${a.nome||'—'}</span>
@@ -728,7 +728,7 @@ function renderTable() {
     const isArm  = a.armadilha === 'True';
     const tend   = a.tendencia||'estavel';
     const confHtml = a.adversario && a.adversario!=='—'
-      ? `<span class="conf-tag ${isMand?'conf-home':'conf-away'}">${isMand?'🏠':'✈'} ${a.adversario}</span>`
+      ? `<span class="conf-tag ${isMand?'conf-home':'conf-away'}">${isMand?'🏠':'✈️'} ${a.adversario}</span>`
       : '<span class="tm">—</span>';
     return `<tr class="${isArm?'armadilha-row':''}">
       <td class="nm">${a.nome||'—'}</td>
@@ -742,7 +742,7 @@ function renderTable() {
       <td>${confHtml}</td>
       <td><span class="tend-badge tend-${tend}">${tend}</span></td>
       <td><span class="sbadge ${st.c}">${st.l}</span></td>
-      <td>${isArm?'<span class="arm-icon" title="Armadilha: preço alto, média baixa">⚠</span>':''}</td>
+      <td>${isArm?'<span class="arm-icon" title="Armadilha: preço alto, média baixa">⚠️</span>':''}</td>
     </tr>`;
   }).join('');
 
