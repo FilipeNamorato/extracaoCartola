@@ -561,27 +561,29 @@ let sortCol = 'media', sortAsc = false;
 // ── CSV PARSER ────────────────────────────────────────────────
 function parseCSV(txt) {
   const lines = txt.trim().split('\n');
-  const heads = parseLine(lines[0]);
+  const heads = lines[0].split(',').map(h => h.trim().replace(/^"|"$/g,''));
   return lines.slice(1).map(line => {
-    const vals = parseLine(line);
+    const vals = [];
+    let cur = '', inQ = false;
+    for (let i = 0; i < line.length; i++) {
+      const ch = line[i];
+      if (ch === '"') { inQ = !inQ; continue; }
+      if (ch === ',' && !inQ) { vals.push(cur); cur = ''; continue; }
+      cur += ch;
+    }
+    vals.push(cur);
     const obj = {};
-    heads.forEach((h, i) => obj[h.trim()] = (vals[i] || '').trim());
+    heads.forEach((h,i) => obj[h] = (vals[i]||'').trim());
     return obj;
   });
 }
 
-function parseLine(line) {
-  const vals = [];
-  let cur = '', inQ = false;
-  for (let i = 0; i < line.length; i++) {
-    const ch = line[i];
-    if (ch === '"') { inQ = !inQ; continue; }
-    if (ch === ',' && !inQ) { vals.push(cur); cur = ''; continue; }
-    cur += ch;
-  }
-  vals.push(cur);
-  return vals;
+async function fetchCSV(url) {
+  const r = await fetch(url + '?t=' + Date.now());
+  if (!r.ok) throw new Error('HTTP ' + r.status);
+  return parseCSV(await r.text());
 }
+
 // ── STATS ─────────────────────────────────────────────────────
 function renderStats() {
   const total = ALL.length;
