@@ -1,8 +1,17 @@
 """
 cartola_extractor.py
 --------------------
-Extrai dados brutos da API do Cartola FC e salva em data/.
-Roda via GitHub Actions diariamente.
+Extrai dados da API do Cartola FC, enriquece com colunas calculadas
+e salva em data/. Roda via GitHub Actions diariamente.
+
+Colunas extras geradas em atletas_enriquecido.csv:
+  - mandante      : True se o clube joga em casa nessa rodada
+  - adversario    : abreviação do adversário na rodada
+  - tendencia     : 'alta' | 'baixa' | 'estavel' com base na variação
+  - custo_beneficio : media / preco
+  - cb_rank       : posição no ranking de custo-benefício dentro da posição
+  - armadilha     : True se preço acima da mediana mas média abaixo da mediana da posição
+  - status_label  : texto legível do status (Provável, Dúvida, etc.)
 """
 
 import json
@@ -23,6 +32,14 @@ ENDPOINTS = {
 HEADERS = {
     "User-Agent": "Mozilla/5.0",
     "Accept": "application/json",
+}
+
+STATUS_LABEL = {
+    2: "Dúvida",
+    3: "Suspenso",
+    5: "Contundido",
+    6: "Nulo",
+    7: "Provável",
 }
 
 DATA_DIR = Path("data")
@@ -103,6 +120,87 @@ def normalizar_rodadas(raw: list) -> pd.DataFrame:
 
 
 # ─────────────────────────────────────────────────────────────
+# ENRIQUECIMENTO
+# ─────────────────────────────────────────────────────────────
+
+def enriquecer(df_mercado: pd.DataFrame, df_partidas: pd.DataFrame) -> pd.DataFrame:
+    df = df_mercado.copy()
+
+    # ── Mandante / adversário ────────────────────────────────
+    mapa_confronto = {}
+
+    if not df_partidas.empty:
+        col_casa     = next((c for c in df_partidas.columns if "casa_id" in c), None)
+        col_vis      = next((c for c in df_partidas.columns if "visitante_id" in c), None)
+        col_casa_abr = next((c for c in df_partidas.columns if "casa_abreviacao" in c or "casa.abreviacao" in c), None)
+        col_vis_abr  = next((c for c in df_partidas.columns if "visitante_abreviacao" in c or "visitante.abreviacao" in c), None)
+
+        for _, p in df_partidas.iterrows():
+            try:
+                id_casa  = int(p[col_casa]) if col_casa else None
+                id_vis   = int(p[col_vis])  if col_vis  else None
+                abr_casa = str(p[col_casa_abr]) if col_casa_abr else str(id_casa)
+                abr_vis  = str(p[col_vis_abr])  if col_vis_abr  else str(id_vis)
+
+                if id_casa:
+                    mapa_confronto[id_casa] = {"mandante": True,  "adversario": abr_vis}
+                if id_vis:
+                    mapa_confronto[id_vis]  = {"mandante": False, "adversario": abr_casa}
+            except Exception:
+                continue
+
+    def get_confronto(clube_id, campo, default):
+        try:
+            return mapa_confronto.get(int(clube_id), {}).get(campo, default)
+        except Exception:
+            return default
+
+    df["mandante"]   = df["clube_id"].apply(lambda x: get_confronto(x, "mandante", None))
+    df["adversario"] = df["clube_id"].apply(lambda x: get_confronto(x, "adversario", "—"))
+
+    # ── Tendência ────────────────────────────────────────────
+    def calcular_tendencia(v):
+        try:
+            v = float(v)
+            if v > 0.5:  return "alta"
+            if v < -0.5: return "baixa"
+            return "estavel"
+        except Exception:
+            return "estavel"
+
+    df["tendencia"] = df["variacao"].apply(calcular_tendencia)
+
+    # ── Custo-benefício e rank por posição ───────────────────
+    df["preco"] = pd.to_numeric(df["preco"], errors="coerce").fillna(0)
+    df["media"] = pd.to_numeric(df["media"], errors="coerce").fillna(0)
+
+    df["custo_beneficio"] = df.apply(
+        lambda r: round(r["media"] / r["preco"], 3) if r["preco"] > 0 else 0, axis=1
+    )
+
+    df["cb_rank"] = (
+        df[df["preco"] > 0]
+        .groupby("posicao")["custo_beneficio"]
+        .rank(ascending=False, method="min")
+        .reindex(df.index)
+        .fillna(0)
+        .astype(int)
+    )
+
+    # ── Armadilha ────────────────────────────────────────────
+    mediana_preco = df.groupby("posicao")["preco"].transform("median")
+    mediana_media = df.groupby("posicao")["media"].transform("median")
+    df["armadilha"] = (df["preco"] > mediana_preco) & (df["media"] < mediana_media)
+
+    # ── Status legível ───────────────────────────────────────
+    df["status_label"] = df["status_id"].apply(
+        lambda x: STATUS_LABEL.get(int(x), "Desconhecido") if pd.notna(x) else "Desconhecido"
+    )
+
+    return df
+
+
+# ─────────────────────────────────────────────────────────────
 # EXECUÇÃO
 # ─────────────────────────────────────────────────────────────
 
@@ -114,19 +212,19 @@ EXTRATORES = {
 }
 
 log = []
+dados_brutos = {}
 
 for key, (normalizador, nome_arquivo) in EXTRATORES.items():
     print(f"Extraindo {key}...")
     try:
         raw = get_json(key)
 
-        # JSON bruto
         with open(DATA_DIR / f"{nome_arquivo}.json", "w", encoding="utf-8") as f:
             json.dump(raw, f, ensure_ascii=False, indent=2)
 
-        # CSV normalizado
         df = normalizador(raw)
         df.to_csv(DATA_DIR / f"{nome_arquivo}.csv", index=False, encoding="utf-8-sig")
+        dados_brutos[key] = df
 
         print(f"  OK — {len(df)} registros")
         log.append({"endpoint": key, "registros": len(df), "status": "OK", "erro": ""})
@@ -134,8 +232,27 @@ for key, (normalizador, nome_arquivo) in EXTRATORES.items():
     except Exception as e:
         print(f"  ERRO: {e}")
         log.append({"endpoint": key, "registros": 0, "status": "ERRO", "erro": str(e)})
+        dados_brutos[key] = pd.DataFrame()
 
-# Salva log com timestamp
+# ── CSV enriquecido ──────────────────────────────────────────
+print("Gerando CSV enriquecido...")
+try:
+    df_mercado  = dados_brutos.get("mercado", pd.DataFrame())
+    df_partidas = dados_brutos.get("partidas", pd.DataFrame())
+
+    if not df_mercado.empty:
+        df_enriquecido = enriquecer(df_mercado, df_partidas)
+        df_enriquecido.to_csv(DATA_DIR / "atletas_enriquecido.csv", index=False, encoding="utf-8-sig")
+        print(f"  OK — {len(df_enriquecido)} atletas enriquecidos")
+        log.append({"endpoint": "enriquecido", "registros": len(df_enriquecido), "status": "OK", "erro": ""})
+    else:
+        print("  SKIP — mercado vazio")
+
+except Exception as e:
+    print(f"  ERRO no enriquecimento: {e}")
+    log.append({"endpoint": "enriquecido", "registros": 0, "status": "ERRO", "erro": str(e)})
+
+# ── Log ──────────────────────────────────────────────────────
 ts = datetime.now().strftime("%Y-%m-%d %H:%M")
 log_df = pd.DataFrame(log)
 log_df.insert(0, "timestamp", ts)
