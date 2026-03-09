@@ -267,7 +267,10 @@ except Exception as e:
 
 
 # ── Log ──────────────────────────────────────────────────────
-ts = datetime.now().strftime("%Y-%m-%d %H:%M")
+from datetime import timezone, timedelta
+BRT = timezone(timedelta(hours=-3))
+ts = datetime.now(BRT).strftime("%d/%m/%Y %H:%M")
+
 log_df = pd.DataFrame(log)
 log_df.insert(0, "timestamp", ts)
 
