@@ -43,8 +43,7 @@ STATUS_LABEL = {
 }
 
 DATA_DIR = Path("docs/data")
-DATA_DIR.mkdir(exist_ok=True)
-
+DATA_DIR.mkdir(parents=True, exist_ok=True)
 
 # ─────────────────────────────────────────────────────────────
 # REQUISIÇÃO
