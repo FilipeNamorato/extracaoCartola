@@ -1,0 +1,35 @@
+name: Coleta Cartola FC
+
+on:
+  schedule:
+    # 8h horário de Brasília = 11h UTC
+    - cron: "53 16 * * *"
+
+  workflow_dispatch:  # permite rodar manualmente pelo GitHub
+
+jobs:
+  coletar:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout do repositório
+        uses: actions/checkout@v4
+
+      - name: Configurar Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Instalar dependências
+        run: pip install requests pandas
+
+      - name: Rodar extração
+        run: python cartola_extractor.py
+
+      - name: Commit e push dos dados atualizados
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/
+          git diff --cached --quiet || git commit -m "dados: coleta automática $(date -u '+%Y-%m-%d %H:%M UTC')"
+          git push
