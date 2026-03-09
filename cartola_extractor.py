@@ -42,7 +42,7 @@ STATUS_LABEL = {
     7: "Provável",
 }
 
-DATA_DIR = Path("data")
+DATA_DIR = Path("docs/data")
 DATA_DIR.mkdir(exist_ok=True)
 
 
