@@ -61,3 +61,10 @@
 10/03/2026 12:25,status,1,OK,
 10/03/2026 12:25,odds,30,OK,
 10/03/2026 12:25,enriquecido,711,OK,
+10/03/2026 12:35,mercado,711,OK,
+10/03/2026 12:35,pontuados,0,ERRO,Expecting value: line 1 column 1 (char 0)
+10/03/2026 12:35,partidas,10,OK,
+10/03/2026 12:35,rodadas,38,OK,
+10/03/2026 12:35,status,1,OK,
+10/03/2026 12:35,odds,30,OK,
+10/03/2026 12:35,enriquecido,711,OK,
