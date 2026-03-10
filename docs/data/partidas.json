@@ -284,16 +284,16 @@
   "partidas": [
     {
       "aproveitamento_visitante": [
-        "",
         "d",
         "e",
         "d",
-        "v"
+        "v",
+        "e"
       ],
       "aproveitamento_mandante": [
         "",
-        "",
         "v",
+        "e",
         "e",
         "e"
       ],
