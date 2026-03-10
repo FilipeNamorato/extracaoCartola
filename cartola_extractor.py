@@ -233,15 +233,19 @@ def enriquecer(df_mercado: pd.DataFrame, df_partidas: pd.DataFrame) -> pd.DataFr
     if not df_partidas.empty:
         col_casa     = next((c for c in df_partidas.columns if "casa_id" in c), None)
         col_vis      = next((c for c in df_partidas.columns if "visitante_id" in c), None)
-        col_casa_abr = next((c for c in df_partidas.columns if "casa_abreviacao" in c or "casa.abreviacao" in c), None)
-        col_vis_abr  = next((c for c in df_partidas.columns if "visitante_abreviacao" in c or "visitante.abreviacao" in c), None)
+        # mapa clube_id → abreviação a partir do próprio df_mercado
+        mapa_abr = {}
+        if not df_mercado.empty:
+            for _, row in df_mercado.iterrows():
+                if pd.notna(row.get("clube_id")) and pd.notna(row.get("clube")):
+                    mapa_abr[int(row["clube_id"])] = row["clube"]
 
         for _, p in df_partidas.iterrows():
             try:
-                id_casa  = int(p[col_casa]) if col_casa else None
-                id_vis   = int(p[col_vis])  if col_vis  else None
-                abr_casa = str(p[col_casa_abr]) if col_casa_abr else str(id_casa)
-                abr_vis  = str(p[col_vis_abr])  if col_vis_abr  else str(id_vis)
+                id_casa = int(p[col_casa]) if col_casa else None
+                id_vis  = int(p[col_vis])  if col_vis  else None
+                abr_casa = mapa_abr.get(id_casa, str(id_casa))
+                abr_vis  = mapa_abr.get(id_vis,  str(id_vis))
 
                 if id_casa:
                     mapa_confronto[id_casa] = {"mandante": True,  "adversario": abr_vis}
