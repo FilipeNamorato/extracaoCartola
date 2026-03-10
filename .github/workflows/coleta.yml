@@ -2,7 +2,10 @@ name: Coleta Cartola FC
 
 on:
   schedule:
-    - cron: "52 19 * * *"
+    - cron: "0 3 * * *"
+    - cron: "0 13 * * *"
+    - cron: "15 0 * * *"
+
   workflow_dispatch:
 
 jobs:
