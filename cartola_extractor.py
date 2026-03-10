@@ -174,7 +174,7 @@ def normalizar_mercado(raw: dict) -> pd.DataFrame:
             "atleta_id":     a.get("atleta_id"),
             "nome":          a.get("apelido", a.get("nome")),
             "clube_id":      a.get("clube_id"),
-            "clube":         clubes.get(a.get("clube_id"), a.get("clube_id")),
+            "clube":         clubes.get(int(a.get("clube_id", 0)), a.get("clube_id")),
             "posicao_id":    a.get("posicao_id"),
             "posicao":       posicoes.get(a.get("posicao_id"), a.get("posicao_id")),
             "status_id":     a.get("status_id"),
