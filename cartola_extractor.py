@@ -44,7 +44,7 @@ STATUS_LABEL = {
     7: "Provável",
 }
 
-ODDS_API_KEY = os.environ["ODDS_API_KEY"]
+ODDS_API_KEY = os.environ.get("ODDS_API_KEY", "")
 ODDS_URL     = "https://api.the-odds-api.com/v4/sports/soccer_brazil_campeonato/odds"
 
 # Mapa de nomes da Odds API → abreviações do Cartola

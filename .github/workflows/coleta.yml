@@ -5,7 +5,7 @@ on:
     - cron: "0 11 * * *"    # 08h00 BRT
     - cron: "0 16 * * *"    # 13h00 BRT
     - cron: "0 21 * * *"    # 18h00 BRT
-    - cron: "0 1 * * *"    # 22h00 BRT
+    - cron: "0 1 * * *"     # 22h00 BRT
 
   workflow_dispatch:
 
@@ -28,12 +28,9 @@ jobs:
         run: pip install requests pandas
 
       - name: Rodar extracao
-        run: python cartola_extractor.py
-      
-      - name: Coletar odds
         env:
           ODDS_API_KEY: ${{ secrets.ODDS_API_KEY }}
-        run: python consultaOdds.py
+        run: python cartola_extractor.py
 
       - name: Commit e push
         run: |
