@@ -29,6 +29,11 @@ jobs:
 
       - name: Rodar extracao
         run: python cartola_extractor.py
+      
+      - name: Coletar odds
+        env:
+          ODDS_API_KEY: ${{ secrets.ODDS_API_KEY }}
+        run: python consultaOdds.py
 
       - name: Commit e push
         run: |
