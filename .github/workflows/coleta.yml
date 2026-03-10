@@ -2,10 +2,14 @@ name: Coleta Cartola FC
 
 on:
   schedule:
-    - cron: "0 11 * * *"    # 08h00 BRT
-    - cron: "0 16 * * *"    # 13h00 BRT
-    - cron: "0 21 * * *"    # 18h00 BRT
-    - cron: "0 1 * * *"     # 22h00 BRT
+    # 8h horário de Brasília = 11h UTC
+    - cron: "0 9 * * *"    # 06h BRT
+    - cron: "0 13 * * *"   # 10h BRT
+    - cron: "30 15 * * *"   # 12:40 BRT
+    - cron: "0 19 * * *"   # 16h BRT
+    - cron: "10 21 * * *"  # 18h BRT
+    - cron: "0 1 * * *"    # 22h BRT
+    
 
   workflow_dispatch:
 
