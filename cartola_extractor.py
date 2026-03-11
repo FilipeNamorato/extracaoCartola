@@ -442,9 +442,57 @@ try:
 
     if not df_mercado.empty:
         df_enriquecido = enriquecer(df_mercado, df_partidas)
+        df_enriquecido = df_enriquecido[
+            (df_enriquecido["status_id"].astype(str).isin(["7", "2"])) &
+            (df_enriquecido["preco"] > 0)
+        ]
         df_enriquecido.to_csv(DATA_DIR / "atletas_enriquecido.csv", index=False, encoding="utf-8-sig")
+        # ── CSV enxuto para escalação ────────────────────────────────
+        print("Gerando CSV enxuto para escalação...")
+        try:
+            df_partidas_validas = dados_brutos.get("partidas", pd.DataFrame())
+
+            # times com jogo válido na rodada
+            times_validos = set()
+            if not df_partidas_validas.empty and "valida" in df_partidas_validas.columns:
+                col_casa = next((c for c in df_partidas_validas.columns if "casa_id" in c), None)
+                col_vis  = next((c for c in df_partidas_validas.columns if "visitante_id" in c), None)
+                validas  = df_partidas_validas[df_partidas_validas["valida"].astype(str).str.lower() == "true"]
+                if col_casa: times_validos.update(validas[col_casa].astype(str).tolist())
+                if col_vis:  times_validos.update(validas[col_vis].astype(str).tolist())
+
+            cols_enxuto = [
+                "nome", "clube", "clube_id", "posicao", "status_id", "status_label",
+                "preco", "media", "variacao", "jogos",
+                "custo_beneficio", "cb_rank",
+                "mandante", "adversario", "armadilha"
+            ]
+            cols_enxuto = [c for c in cols_enxuto if c in df_enriquecido.columns]
+
+            df_enxuto = df_enriquecido[
+                df_enriquecido["status_id"].astype(str).isin(["7", "2"]) &
+                (df_enriquecido["preco"] > 0) &
+                (df_enriquecido["clube_id"].astype(str).isin(times_validos))
+            ][cols_enxuto].sort_values("media", ascending=False)
+
+            df_enxuto.to_csv(DATA_DIR / "atletas_escalacao.csv", index=False, encoding="utf-8-sig")
+            print(f"  OK — {len(df_enxuto)} atletas no enxuto (de {len(df_enriquecido)} total)")
+            log.append({"endpoint": "escalacao", "registros": len(df_enxuto), "status": "OK", "erro": ""})
+
+        except Exception as e:
+            print(f"  ERRO no enxuto: {e}")
+            log.append({"endpoint": "escalacao", "registros": 0, "status": "ERRO", "erro": str(e)})
+
+
         print(f"  OK — {len(df_enriquecido)} atletas enriquecidos")
         log.append({"endpoint": "enriquecido", "registros": len(df_enriquecido), "status": "OK", "erro": ""})
+        # quantos prováveis foram cortados por não ter jogo válido
+        df_enxuto = df_enriquecido[
+            (df_enriquecido["status_id"].astype(str).isin(["7", "2"])) &
+            (df_enriquecido["preco"] > 0) &
+            (df_enriquecido["clube_id"].astype(str).isin(times_validos))
+        ][cols_enxuto].sort_values(["posicao","media"], ascending=[True,False])
+        print(len(df_enxuto))
     else:
         print("  SKIP — mercado vazio")
 
