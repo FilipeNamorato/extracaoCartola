@@ -298,7 +298,7 @@
         "e"
       ],
       "transmissao": {
-        "label": "fique por dentro",
+        "label": "acompanhe em tempo real",
         "url": "https://ge.globo.com/sp/tem-esporte/futebol/brasileirao-serie-a/jogo/10-03-2026/mirassol-santos.ghtml?utm_source=cartolafc"
       },
       "local": "Maião",
@@ -307,12 +307,12 @@
       "periodo_tr": "",
       "partida_data": "2026-03-10 21:30:00",
       "inicio_cronometro_tr": "",
-      "placar_oficial_visitante": null,
-      "placar_oficial_mandante": null,
+      "placar_oficial_visitante": 2,
+      "placar_oficial_mandante": 2,
       "partida_id": 346405,
-      "clube_visitante_posicao": 13,
+      "clube_visitante_posicao": 11,
       "clube_visitante_id": 277,
-      "clube_casa_posicao": 10,
+      "clube_casa_posicao": 9,
       "clube_casa_id": 2305,
       "timestamp": 1773189000,
       "campeonato_id": 26,
@@ -320,18 +320,18 @@
     },
     {
       "aproveitamento_visitante": [
-        "",
+        "d",
+        "e",
+        "d",
+        "e",
+        "e"
+      ],
+      "aproveitamento_mandante": [
+        "e",
         "d",
         "e",
         "d",
         "e"
-      ],
-      "aproveitamento_mandante": [
-        "",
-        "e",
-        "d",
-        "e",
-        "d"
       ],
       "transmissao": {
         "label": "fique por dentro",
@@ -393,17 +393,17 @@
     {
       "aproveitamento_visitante": [
         "",
-        "",
         "v",
         "d",
-        "d"
+        "d",
+        "e"
       ],
       "aproveitamento_mandante": [
         "",
-        "",
         "v",
         "e",
-        "v"
+        "v",
+        "e"
       ],
       "transmissao": {
         "label": "fique por dentro",
@@ -428,18 +428,18 @@
     },
     {
       "aproveitamento_visitante": [
-        "",
         "d",
         "d",
+        "e",
         "e",
         "e"
       ],
       "aproveitamento_mandante": [
         "",
-        "",
         "d",
         "e",
-        "v"
+        "v",
+        "e"
       ],
       "transmissao": {
         "label": "fique por dentro",
@@ -456,7 +456,7 @@
       "partida_id": 346401,
       "clube_visitante_posicao": 19,
       "clube_visitante_id": 283,
-      "clube_casa_posicao": 11,
+      "clube_casa_posicao": 12,
       "clube_casa_id": 262,
       "timestamp": 1773275400,
       "campeonato_id": 26,
@@ -464,17 +464,17 @@
     },
     {
       "aproveitamento_visitante": [
-        "",
         "d",
         "v",
         "e",
-        "d"
+        "d",
+        "e"
       ],
       "aproveitamento_mandante": [
-        "",
         "d",
         "v",
         "v",
+        "e",
         "e"
       ],
       "transmissao": {
@@ -490,7 +490,7 @@
       "placar_oficial_visitante": null,
       "placar_oficial_mandante": null,
       "partida_id": 346404,
-      "clube_visitante_posicao": 12,
+      "clube_visitante_posicao": 13,
       "clube_visitante_id": 294,
       "clube_casa_posicao": 3,
       "clube_casa_id": 264,
@@ -598,7 +598,7 @@
       "placar_oficial_visitante": null,
       "placar_oficial_mandante": null,
       "partida_id": 346403,
-      "clube_visitante_posicao": 9,
+      "clube_visitante_posicao": 10,
       "clube_visitante_id": 315,
       "clube_casa_posicao": 2,
       "clube_casa_id": 276,
