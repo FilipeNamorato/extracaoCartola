@@ -492,7 +492,6 @@ try:
             (df_enriquecido["preco"] > 0) &
             (df_enriquecido["clube_id"].astype(str).isin(times_validos))
         ][cols_enxuto].sort_values(["posicao","media"], ascending=[True,False])
-        print(len(df_enxuto))
     else:
         print("  SKIP — mercado vazio")
 

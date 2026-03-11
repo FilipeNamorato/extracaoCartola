@@ -757,8 +757,8 @@ function renderConfrontos() {
   grid.innerHTML = PARTIDAS.map(p => {
     const idCasa = String(p.clube_casa_id || '');
     const idVis  = String(p.clube_visitante_id || '');
-    const casa   = mapa[idCasa] || idCasa || '?';
-    const vis    = mapa[idVis]  || idVis  || '?';
+    const casa = p.nome_casa      || mapa[idCasa] || idCasa || '?';
+    const vis  = p.nome_visitante || mapa[idVis]  || idVis  || '?';
     const dtRaw  = (p.partida_data || '').substring(0,10);
     const dt     = dtRaw ? dtRaw.split('-').reverse().join('/') : '—';
     const local  = p.local || '—';
