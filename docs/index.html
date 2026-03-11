@@ -764,12 +764,42 @@ function renderConfrontos() {
     const qtdCasa = ALL.filter(a => a.clube === casa && a.status_id === '7').length;
     const qtdVis  = ALL.filter(a => a.clube === vis  && a.status_id === '7').length;
 
-    const odd = getOdds(casa, vis);
-    const oddsHTML = odd ? `
-      <div style="border-top: 1px solid var(--border); padding-top: 10px;">
-        ${buildProbBar(odd)}
-      </div>
-    ` : '';
+    const valida    = String(p.valida).toLowerCase() === 'true';
+    const validaTag = valida
+      ? `<span class="jogo-tag bg">✓ válida</span>`
+      : `<span class="jogo-tag" style="background:rgba(255,61,90,.1);color:var(--red);border:1px solid rgba(255,61,90,.2)">✗ não válida</span>`;
+
+    const placCasa = p.placar_oficial_mandante;
+    const placVis  = p.placar_oficial_visitante;
+    const temPlacar = placCasa !== '' && placCasa !== null && placCasa !== undefined
+                   && placVis  !== '' && placVis  !== null && placVis  !== undefined;
+
+    let bottomHTML = '';
+    if (temPlacar) {
+      const pc = parseInt(placCasa);
+      const pv = parseInt(placVis);
+      const corCasa = pc > pv ? 'var(--green)' : pc < pv ? 'var(--muted)' : 'var(--yellow)';
+      const corVis  = pv > pc ? 'var(--blue)'  : pv < pc ? 'var(--muted)' : 'var(--yellow)';
+      bottomHTML = `
+        <div style="border-top: 1px solid var(--border); padding-top: 10px;">
+          <div style="display:flex; align-items:center; justify-content:center; gap:16px;">
+            <span style="font-family:var(--fh); font-size:42px; letter-spacing:2px; color:${corCasa}; line-height:1">${pc}</span>
+            <span style="font-family:var(--fm); font-size:11px; color:var(--muted)">×</span>
+            <span style="font-family:var(--fh); font-size:42px; letter-spacing:2px; color:${corVis}; line-height:1">${pv}</span>
+          </div>
+          <div style="text-align:center; font-family:var(--fm); font-size:9px; color:var(--muted); letter-spacing:2px; margin-top:4px">ENCERRADO</div>
+        </div>
+      `;
+    } else {
+      const odd = getOdds(casa, vis);
+      if (odd) {
+        bottomHTML = `
+          <div style="border-top: 1px solid var(--border); padding-top: 10px;">
+            ${buildProbBar(odd)}
+          </div>
+        `;
+      }
+    }
 
     return `<div class="jogo-card">
       <div class="jogo-times">
@@ -785,14 +815,16 @@ function renderConfrontos() {
         <span class="jogo-tag bg conf-home">🏠 ${casa}</span>
         <span class="jogo-tag bb">${dt}</span>
         ${local !== '—' ? `<span class="jogo-tag" style="background:rgba(90,116,145,.1);color:var(--muted)">${local}</span>` : ''}
+        ${validaTag}
       </div>
-      ${oddsHTML}
+      ${bottomHTML}
       <div class="jogo-atletas">
         Prováveis: <span>${qtdCasa} de ${casa}</span> · <span>${qtdVis} de ${vis}</span>
       </div>
     </div>`;
   }).join('');
 }
+
 
 // ── LAST UPDATE + TIMER ───────────────────────────────────────
 async function fetchMeta() {
