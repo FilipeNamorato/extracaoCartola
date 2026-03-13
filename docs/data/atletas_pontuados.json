@@ -566,12 +566,12 @@
         "CA": 1,
         "FC": 3,
         "FD": 1,
-        "FF": 2,
+        "FF": 3,
         "FS": 3
       },
       "apelido": "Enamorado",
       "foto": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/clubes_2026/silhuetas/GRE/FORMATO.png",
-      "pontuacao": 7.4,
+      "pontuacao": 8.2,
       "posicao_id": 5,
       "clube_id": 284,
       "entrou_em_campo": true
@@ -1872,7 +1872,7 @@
       "scout": {},
       "apelido": "Vagner Mancini",
       "foto": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/clubes_2026/silhuetas/RBB/FORMATO.png",
-      "pontuacao": 4.72,
+      "pontuacao": 4.79,
       "posicao_id": 6,
       "clube_id": 280,
       "entrou_em_campo": true
@@ -2651,7 +2651,7 @@
       "scout": {},
       "apelido": "Luís Castro",
       "foto": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/clubes_2026/silhuetas/GRE/FORMATO.png",
-      "pontuacao": 4.35,
+      "pontuacao": 4.42,
       "posicao_id": 6,
       "clube_id": 284,
       "entrou_em_campo": true
@@ -3008,10 +3008,12 @@
       "entrou_em_campo": true
     },
     "94067": {
-      "scout": {},
+      "scout": {
+        "FF": 1
+      },
       "apelido": "Matheus Fernandes",
       "foto": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/clubes_2026/silhuetas/RBB/FORMATO.png",
-      "pontuacao": 0,
+      "pontuacao": 0.8,
       "posicao_id": 4,
       "clube_id": 280,
       "entrou_em_campo": true
