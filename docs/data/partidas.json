@@ -284,17 +284,17 @@
   "partidas": [
     {
       "aproveitamento_visitante": [
-        "e",
         "d",
         "e",
         "d",
-        "v"
+        "v",
+        "e"
       ],
       "aproveitamento_mandante": [
-        "",
         "v",
         "d",
         "d",
+        "e",
         "e"
       ],
       "transmissao": {
@@ -320,18 +320,18 @@
     },
     {
       "aproveitamento_visitante": [
-        "",
         "d",
         "e",
         "v",
-        "v"
+        "v",
+        "e"
       ],
       "aproveitamento_mandante": [
         "",
-        "",
         "v",
         "d",
-        "d"
+        "d",
+        "e"
       ],
       "transmissao": {
         "label": "fique por dentro",
