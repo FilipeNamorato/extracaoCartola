@@ -67,14 +67,13 @@
     "101254": {
       "scout": {
         "FC": 1,
-        "FD": 1,
-        "FF": 1,
+        "FF": 2,
         "FS": 1,
         "I": 2
       },
       "apelido": "Alef Manga",
       "foto": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/clubes_2026/silhuetas/REM/FORMATO.png",
-      "pontuacao": 2,
+      "pontuacao": 1.6,
       "posicao_id": 5,
       "clube_id": 364,
       "entrou_em_campo": true
@@ -249,7 +248,7 @@
       "pontuacao": -1.3,
       "posicao_id": 4,
       "clube_id": 277,
-      "entrou_em_campo": false
+      "entrou_em_campo": true
     },
     "102340": {
       "scout": {
@@ -2015,7 +2014,7 @@
       "scout": {},
       "apelido": "Léo Condé",
       "foto": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/clubes_2026/silhuetas/REM/FORMATO.png",
-      "pontuacao": 2.34,
+      "pontuacao": 2.3,
       "posicao_id": 6,
       "clube_id": 364,
       "entrou_em_campo": true
