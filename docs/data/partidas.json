@@ -310,7 +310,7 @@
       "placar_oficial_visitante": 0,
       "placar_oficial_mandante": 2,
       "partida_id": 346483,
-      "clube_visitante_posicao": 15,
+      "clube_visitante_posicao": 16,
       "clube_visitante_id": 282,
       "clube_casa_posicao": 11,
       "clube_casa_id": 287,
@@ -360,14 +360,14 @@
         "v",
         "d",
         "e",
-        "e"
+        "d"
       ],
       "aproveitamento_mandante": [
         "e",
         "v",
         "d",
         "v",
-        "e"
+        "v"
       ],
       "transmissao": {
         "label": "saiba como foi",
@@ -432,14 +432,14 @@
         "e",
         "v",
         "e",
-        "e"
+        "v"
       ],
       "aproveitamento_mandante": [
         "e",
         "d",
         "e",
         "d",
-        "e"
+        "d"
       ],
       "transmissao": {
         "label": "saiba como foi",
@@ -456,7 +456,7 @@
       "partida_id": 346481,
       "clube_visitante_posicao": 4,
       "clube_visitante_id": 265,
-      "clube_casa_posicao": 19,
+      "clube_casa_posicao": 20,
       "clube_casa_id": 285,
       "timestamp": 1773601200,
       "campeonato_id": 26,
@@ -468,31 +468,31 @@
         "e",
         "e",
         "e",
-        "e"
+        "d"
       ],
       "aproveitamento_mandante": [
         "v",
         "v",
         "v",
         "d",
-        "e"
+        "v"
       ],
       "transmissao": {
-        "label": "ao vivo",
+        "label": "saiba como foi",
         "url": "https://ge.globo.com/sp/futebol/brasileirao-serie-a/jogo/15-03-2026/palmeiras-mirassol.ghtml?utm_source=cartolafc"
       },
       "local": "Allianz Parque",
-      "status_transmissao_tr": "EM_ANDAMENTO",
-      "status_cronometro_tr": "INICIADO",
-      "periodo_tr": "SEGUNDO_TEMPO",
+      "status_transmissao_tr": "ENCERRADA",
+      "status_cronometro_tr": "PAUSADO",
+      "periodo_tr": "POS_JOGO",
       "partida_data": "2026-03-15 18:30:00",
-      "inicio_cronometro_tr": "2026-03-15T22:38:41.177Z",
+      "inicio_cronometro_tr": "2026-03-16T02:33:29.484Z",
       "placar_oficial_visitante": 0,
       "placar_oficial_mandante": 1,
       "partida_id": 346478,
       "clube_visitante_posicao": 12,
       "clube_visitante_id": 2305,
-      "clube_casa_posicao": 1,
+      "clube_casa_posicao": 2,
       "clube_casa_id": 275,
       "timestamp": 1773610200,
       "campeonato_id": 26,
@@ -504,25 +504,25 @@
         "e",
         "e",
         "d",
-        "e"
+        "d"
       ],
       "aproveitamento_mandante": [
         "v",
         "e",
         "d",
         "v",
-        "e"
+        "v"
       ],
       "transmissao": {
-        "label": "ao vivo",
+        "label": "saiba como foi",
         "url": "https://ge.globo.com/pr/futebol/brasileirao-serie-a/jogo/15-03-2026/coritiba-remo.ghtml?utm_source=cartolafc"
       },
       "local": "Couto Pereira",
-      "status_transmissao_tr": "EM_ANDAMENTO",
-      "status_cronometro_tr": "INICIADO",
-      "periodo_tr": "SEGUNDO_TEMPO",
+      "status_transmissao_tr": "ENCERRADA",
+      "status_cronometro_tr": "PAUSADO",
+      "periodo_tr": "POS_JOGO",
       "partida_data": "2026-03-15 18:30:00",
-      "inicio_cronometro_tr": "2026-03-15T22:39:57.246Z",
+      "inicio_cronometro_tr": "2026-03-15T23:40:01.119Z",
       "placar_oficial_visitante": 0,
       "placar_oficial_mandante": 1,
       "partida_id": 346482,
@@ -540,29 +540,29 @@
         "v",
         "v",
         "v",
-        "e"
+        "v"
       ],
       "aproveitamento_mandante": [
         "v",
         "d",
         "e",
         "e",
-        "e"
+        "d"
       ],
       "transmissao": {
-        "label": "ao vivo",
+        "label": "saiba como foi",
         "url": "https://ge.globo.com/sp/vale-do-paraiba-regiao/futebol/brasileirao-serie-a/jogo/15-03-2026/bragantino-sao-paulo.ghtml?utm_source=cartolafc"
       },
       "local": "Cícero de Souza Marques",
-      "status_transmissao_tr": "EM_ANDAMENTO",
+      "status_transmissao_tr": "ENCERRADA",
       "status_cronometro_tr": "PAUSADO",
-      "periodo_tr": "PRE_JOGO",
+      "periodo_tr": "POS_JOGO",
       "partida_data": "2026-03-15 20:30:00",
-      "inicio_cronometro_tr": "2026-03-15T22:30:37.271Z",
-      "placar_oficial_visitante": null,
-      "placar_oficial_mandante": null,
+      "inicio_cronometro_tr": "2026-03-16T01:39:21.940Z",
+      "placar_oficial_visitante": 2,
+      "placar_oficial_mandante": 1,
       "partida_id": 346479,
-      "clube_visitante_posicao": 2,
+      "clube_visitante_posicao": 1,
       "clube_visitante_id": 276,
       "clube_casa_posicao": 8,
       "clube_casa_id": 280,
@@ -586,21 +586,21 @@
         "e"
       ],
       "transmissao": {
-        "label": "ao vivo",
+        "label": "saiba como foi",
         "url": "https://ge.globo.com/mg/futebol/brasileirao-serie-a/jogo/15-03-2026/cruzeiro-vasco.ghtml?utm_source=cartolafc"
       },
       "local": "Mineirão",
-      "status_transmissao_tr": "EM_ANDAMENTO",
+      "status_transmissao_tr": "ENCERRADA",
       "status_cronometro_tr": "PAUSADO",
-      "periodo_tr": "PRE_JOGO",
+      "periodo_tr": "POS_JOGO",
       "partida_data": "2026-03-15 20:30:00",
-      "inicio_cronometro_tr": "2026-03-15T22:27:46.587Z",
-      "placar_oficial_visitante": null,
-      "placar_oficial_mandante": null,
+      "inicio_cronometro_tr": "2026-03-16T01:42:52.773Z",
+      "placar_oficial_visitante": 3,
+      "placar_oficial_mandante": 3,
       "partida_id": 346480,
-      "clube_visitante_posicao": 16,
+      "clube_visitante_posicao": 15,
       "clube_visitante_id": 267,
-      "clube_casa_posicao": 20,
+      "clube_casa_posicao": 19,
       "clube_casa_id": 283,
       "timestamp": 1773617400,
       "campeonato_id": 26,
@@ -608,18 +608,18 @@
     },
     {
       "aproveitamento_visitante": [
-        "d",
         "v",
         "d",
         "v",
+        "e",
         "e"
       ],
       "aproveitamento_mandante": [
-        "",
         "v",
         "e",
         "e",
-        "d"
+        "d",
+        "e"
       ],
       "transmissao": {
         "label": "fique por dentro",
