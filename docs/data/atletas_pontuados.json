@@ -2088,7 +2088,7 @@
       "scout": {},
       "apelido": "Tite",
       "foto": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/clubes_2026/silhuetas/CRU/FORMATO.png",
-      "pontuacao": 6.73,
+      "pontuacao": 6.64,
       "posicao_id": 6,
       "clube_id": 283,
       "entrou_em_campo": true
@@ -2934,13 +2934,14 @@
     },
     "89256": {
       "scout": {
+        "CA": 1,
         "DS": 1,
         "FD": 1,
         "FS": 1
       },
       "apelido": "Gerson",
       "foto": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/clubes_2026/silhuetas/CRU/FORMATO.png",
-      "pontuacao": 3.2,
+      "pontuacao": 2.2,
       "posicao_id": 4,
       "clube_id": 283,
       "entrou_em_campo": true
