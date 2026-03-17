@@ -701,3 +701,11 @@
 17/03/2026 18:58,odds,20,OK,
 17/03/2026 18:58,escalacao,259,OK,
 17/03/2026 18:58,enriquecido,259,OK,
+17/03/2026 20:30,mercado,723,OK,
+17/03/2026 20:30,pontuados,0,ERRO,Expecting value: line 1 column 1 (char 0)
+17/03/2026 20:30,partidas,10,OK,
+17/03/2026 20:30,rodadas,38,OK,
+17/03/2026 20:30,status,1,OK,
+17/03/2026 20:30,odds,20,OK,
+17/03/2026 20:30,escalacao,265,OK,
+17/03/2026 20:30,enriquecido,265,OK,
