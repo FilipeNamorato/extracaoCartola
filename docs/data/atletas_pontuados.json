@@ -170,11 +170,11 @@
     "102667": {
       "scout": {
         "FC": 3,
-        "FF": 1
+        "FF": 2
       },
       "apelido": "Nathan Fogaça",
       "foto": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/clubes_2026/silhuetas/MIR/FORMATO.png",
-      "pontuacao": -0.1,
+      "pontuacao": 0.7,
       "posicao_id": 5,
       "clube_id": 2305,
       "entrou_em_campo": true
@@ -2135,12 +2135,10 @@
       "entrou_em_campo": true
     },
     "81005": {
-      "scout": {
-        "FF": 1
-      },
+      "scout": {},
       "apelido": "André Luis",
       "foto": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/clubes_2026/silhuetas/MIR/FORMATO.png",
-      "pontuacao": 0.8,
+      "pontuacao": 0,
       "posicao_id": 5,
       "clube_id": 2305,
       "entrou_em_campo": true
