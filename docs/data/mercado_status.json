@@ -1,6 +1,6 @@
 {
-  "rodada_atual": 7,
-  "status_mercado": 2,
+  "rodada_atual": 8,
+  "status_mercado": 1,
   "esquema_default_id": 4,
   "cartoleta_inicial": 100,
   "max_ligas_free": 1,
@@ -19,20 +19,20 @@
   "reativar": true,
   "exibe_sorteio_pro": false,
   "fechamento": {
-    "dia": 18,
+    "dia": 21,
     "mes": 3,
     "ano": 2026,
-    "hora": 18,
+    "hora": 15,
     "minuto": 59,
-    "timestamp": 1773871140
+    "timestamp": 1774119540
   },
   "limites_competicao": {},
-  "times_escalados": 1040870,
-  "mercado_pos_rodada": false,
+  "times_escalados": 32056,
+  "mercado_pos_rodada": true,
   "novo_mes_ranking": false,
   "degustacao_gatomestre": false,
   "bola_rolando": false,
-  "nome_rodada": "Rodada 7",
+  "nome_rodada": "Rodada 8",
   "limites_competicoes": {
     "pontos_corridos": {
       "free": {
