@@ -29,8 +29,8 @@ Alef Manga,REM,364,Atacante,7,Provável,8.58,6.73,-0.16,6,0.784,11,False,FLA,Fal
 Arias,PAL,275,Meia,7,Provável,15.69,6.6,-0.71,3,0.421,87,True,BOT,False
 Samuel Lino,FLA,262,Atacante,7,Provável,11.27,6.55,2.46,4,0.581,34,True,REM,False
 Sabino,SAO,276,Zagueiro,7,Provável,8.7,6.52,1.39,5,0.749,8,False,CAM,False
-Allan,PAL,275,Meia,7,Provável,13.29,6.48,0.09,6,0.488,67,True,BOT,False
 Walter Clar,CHA,315,Lateral,7,Provável,8.54,6.48,1.52,5,0.759,15,True,COR,False
+Allan,PAL,275,Meia,7,Provável,13.29,6.48,0.09,6,0.488,67,True,BOT,False
 John Kennedy,FLU,266,Atacante,7,Provável,8.64,6.47,-1.12,6,0.749,12,False,VAS,False
 Julimar,CAP,293,Atacante,7,Provável,7.07,6.38,-0.83,4,0.902,5,True,CRU,False
 Jair Ventura,VIT,287,Técnico,7,Provável,8.8,6.37,1.1,4,0.724,3,False,GRE,False
@@ -43,28 +43,28 @@ Hulk,CAM,282,Atacante,7,Provável,12.7,6.07,-1.43,6,0.478,59,True,SAO,False
 Marlon,GRE,284,Lateral,7,Provável,8.79,6.04,0.0,5,0.687,25,True,VIT,False
 Patrick de Paula,REM,364,Meia,7,Provável,7.64,6.02,0.0,5,0.788,11,False,FLA,False
 Barreal,SAN,277,Meia,7,Provável,12.01,5.96,-0.8,5,0.496,64,True,INT,False
-Renato Gaúcho,VAS,267,Técnico,7,Provável,10.53,5.89,0.15,2,0.559,13,True,FLU,False
 Fernando Seabra,CFC,294,Técnico,7,Provável,7.63,5.89,0.25,6,0.772,1,False,MIR,False
+Renato Gaúcho,VAS,267,Técnico,7,Provável,10.53,5.89,0.15,2,0.559,13,True,FLU,False
 Santos,CAP,293,Goleiro,7,Provável,10.29,5.85,0.54,4,0.569,9,True,CRU,False
-Everson,CAM,282,Goleiro,7,Provável,9.79,5.8,-2.12,6,0.592,7,True,SAO,False
 Vitinho,BOT,263,Lateral,7,Provável,10.21,5.8,0.17,4,0.568,43,False,PAL,False
+Everson,CAM,282,Goleiro,7,Provável,9.79,5.8,-2.12,6,0.592,7,True,SAO,False
 Cuello,CAM,282,Atacante,7,Provável,7.99,5.77,-1.47,6,0.722,14,True,SAO,False
 Gabriel,SAN,277,Atacante,7,Provável,10.36,5.75,1.98,2,0.555,41,True,INT,False
 Rogério Ceni,BAH,265,Técnico,7,Provável,10.77,5.74,0.1,5,0.533,15,True,RBB,False
 Renato Kayzer,VIT,287,Atacante,7,Provável,8.84,5.73,1.21,3,0.648,24,False,GRE,False
 Mendoza,CAP,293,Atacante,7,Provável,8.91,5.73,1.49,4,0.643,26,True,CRU,False
-Savarino,FLU,266,Meia,7,Provável,10.63,5.65,1.54,4,0.532,50,False,VAS,False
 Japa,CRU,283,Meia,7,Provável,5.76,5.65,1.83,2,0.981,5,False,CAP,False
+Savarino,FLU,266,Meia,7,Provável,10.63,5.65,1.54,4,0.532,50,False,VAS,False
 Emmanuel Martínez,VIT,287,Meia,7,Provável,7.35,5.6,1.19,2,0.762,17,False,GRE,False
 Jean Lucas,BAH,265,Meia,7,Provável,9.39,5.54,-0.95,5,0.59,41,True,RBB,False
-Léo Pereira,FLA,262,Zagueiro,7,Provável,12.28,5.53,2.7,4,0.45,49,True,REM,False
 Esquivel,CAP,293,Lateral,7,Provável,7.13,5.53,1.6,3,0.776,14,True,CRU,False
+Léo Pereira,FLA,262,Zagueiro,7,Provável,12.28,5.53,2.7,4,0.45,49,True,REM,False
 Gustavo Gómez,PAL,275,Zagueiro,7,Provável,11.39,5.52,0.57,6,0.485,45,True,BOT,False
 Odair Hellmann,CAP,293,Técnico,7,Provável,7.89,5.48,0.3,4,0.695,5,True,CRU,False
 Ignácio,FLU,266,Zagueiro,7,Provável,7.97,5.45,2.02,2,0.684,17,False,VAS,False
 Martín Anselmi,BOT,263,Técnico,7,Provável,8.42,5.43,-0.26,4,0.645,6,False,PAL,False
-Alex Sandro,FLA,262,Lateral,7,Provável,11.41,5.4,1.27,4,0.473,49,True,REM,False
 Samuel Xavier,FLU,266,Lateral,7,Provável,9.15,5.4,-0.6,5,0.59,40,False,VAS,False
+Alex Sandro,FLA,262,Lateral,7,Provável,11.41,5.4,1.27,4,0.473,49,True,REM,False
 Eduardo Domínguez,CAM,282,Técnico,7,Provável,10.85,5.35,-0.66,2,0.493,17,True,SAO,True
 Renan Lodi,CAM,282,Lateral,7,Provável,10.95,5.27,0.32,6,0.481,48,True,SAO,False
 Rossi,FLA,262,Goleiro,7,Provável,9.14,5.25,-0.11,4,0.574,8,True,REM,False
@@ -84,9 +84,9 @@ Luiz Gustavo,CAP,293,Meia,7,Provável,7.8,4.8,2.44,3,0.615,37,True,CRU,False
 Ronaldo,BAH,265,Goleiro,7,Provável,7.6,4.74,1.11,5,0.624,5,True,RBB,False
 Gilmar Dal Pozzo,CHA,315,Técnico,7,Provável,6.29,4.74,0.37,5,0.754,2,True,COR,False
 Fábio,FLU,266,Goleiro,7,Provável,9.37,4.7,-1.79,6,0.502,14,False,VAS,False
-Pedro Rocha,CFC,294,Atacante,7,Provável,8.04,4.67,1.51,6,0.581,34,False,MIR,False
-Kaiki Bruno,CRU,283,Lateral,7,Provável,11.3,4.67,1.64,6,0.413,53,False,CAP,False
 Murilo,PAL,275,Zagueiro,7,Provável,7.57,4.67,0.0,4,0.617,23,True,BOT,False
+Kaiki Bruno,CRU,283,Lateral,7,Provável,11.3,4.67,1.64,6,0.413,53,False,CAP,False
+Pedro Rocha,CFC,294,Atacante,7,Provável,8.04,4.67,1.51,6,0.581,34,False,MIR,False
 Vagner Mancini,RBB,280,Técnico,7,Provável,7.3,4.66,-0.15,6,0.638,7,False,BAH,False
 Picco,REM,364,Meia,7,Provável,6.79,4.64,-0.06,5,0.683,28,False,FLA,False
 Zé Ivaldo,SAN,277,Zagueiro,7,Provável,7.49,4.6,0.15,2,0.614,25,True,INT,False
@@ -116,9 +116,9 @@ Bruno Gomes,INT,285,Meia,7,Provável,6.72,4.03,-0.38,6,0.6,40,False,SAN,False
 Rodriguinho,RBB,280,Meia,7,Provável,5.73,4.0,-0.72,2,0.698,26,False,BAH,False
 Rafael Guanaes,MIR,2305,Técnico,7,Provável,6.8,3.98,-0.2,4,0.585,11,True,CFC,False
 Willian José,BAH,265,Atacante,7,Provável,10.31,3.96,0.42,5,0.384,73,True,RBB,False
+André,COR,264,Meia,7,Provável,5.93,3.95,-0.18,4,0.666,31,False,CHA,False
 Herrera,RBB,280,Atacante,7,Provável,6.12,3.95,0.84,4,0.645,25,False,BAH,False
 Carlos Miguel,PAL,275,Goleiro,7,Provável,7.78,3.95,0.87,6,0.508,13,True,BOT,False
-André,COR,264,Meia,7,Provável,5.93,3.95,-0.18,4,0.666,31,False,CHA,False
 Paulo Pezzolano,INT,285,Técnico,7,Provável,6.34,3.82,-0.1,6,0.603,9,False,SAN,False
 Marcos Antônio,SAO,276,Meia,7,Provável,7.5,3.77,-0.55,6,0.503,61,False,CAM,False
 Zé Ricardo,REM,364,Meia,7,Provável,5.21,3.73,1.16,6,0.716,24,False,FLA,False
@@ -133,8 +133,8 @@ Alan Franco,SAO,276,Zagueiro,7,Provável,5.99,3.33,-0.99,6,0.556,35,False,CAM,Fa
 Marllon,REM,364,Zagueiro,7,Provável,5.38,3.3,-0.5,6,0.613,26,False,FLA,False
 Pedro Henrique,RBB,280,Zagueiro,7,Provável,6.81,3.24,0.0,5,0.476,46,False,BAH,False
 Jajá,REM,364,Atacante,7,Provável,3.98,3.23,1.3,3,0.812,8,False,FLA,False
-Eduardo Doma,CHA,315,Zagueiro,7,Provável,3.98,3.2,0.25,5,0.804,5,True,COR,False
 Lavega,CFC,294,Atacante,7,Provável,4.57,3.2,-0.26,6,0.7,15,False,MIR,False
+Eduardo Doma,CHA,315,Zagueiro,7,Provável,3.98,3.2,0.25,5,0.804,5,True,COR,False
 Rafael Carvalheira,CHA,315,Meia,7,Provável,5.84,3.18,1.09,5,0.545,47,True,COR,False
 Marcelo Rangel,REM,364,Goleiro,7,Provável,4.85,3.15,-0.38,6,0.649,4,False,FLA,False
 Matheus Martins,BOT,263,Atacante,7,Provável,6.11,3.15,-0.05,4,0.516,50,False,PAL,False
@@ -173,8 +173,8 @@ Tiago Cóser,CFC,294,Zagueiro,7,Provável,3.0,2.1,0.43,5,0.7,12,False,MIR,False
 Júnior Santos,BOT,263,Atacante,7,Provável,5.29,2.0,0.29,1,0.378,74,False,PAL,False
 Felipe Jonatan,CFC,294,Lateral,7,Provável,5.21,2.0,0.0,1,0.384,60,False,MIR,True
 Weverton,GRE,284,Goleiro,7,Provável,5.71,1.98,-1.27,6,0.347,19,True,VIT,False
-Balbuena,GRE,284,Zagueiro,7,Provável,5.99,1.97,-0.83,3,0.329,59,True,VIT,False
 João Victor,MIR,2305,Zagueiro,7,Provável,4.94,1.97,-0.52,4,0.399,56,True,CFC,False
+Balbuena,GRE,284,Zagueiro,7,Provável,5.99,1.97,-0.83,3,0.329,59,True,VIT,False
 Victor Gabriel,INT,285,Zagueiro,7,Provável,3.82,1.9,-0.45,5,0.497,41,False,SAN,False
 Yuri Alberto,COR,264,Atacante,7,Provável,14.76,1.85,0.0,2,0.125,108,False,CHA,False
 Félix Torres,INT,285,Zagueiro,7,Provável,3.26,1.76,0.0,5,0.54,36,False,SAN,False
