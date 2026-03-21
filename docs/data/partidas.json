@@ -303,10 +303,10 @@
       },
       "local": "Cícero de Souza Marques",
       "status_transmissao_tr": "EM_ANDAMENTO",
-      "status_cronometro_tr": "INICIADO",
-      "periodo_tr": "SEGUNDO_TEMPO",
+      "status_cronometro_tr": "PAUSADO",
+      "periodo_tr": "FIM_DE_JOGO",
       "partida_data": "2026-03-21 16:00:00",
-      "inicio_cronometro_tr": "2026-03-21T20:12:24.427Z",
+      "inicio_cronometro_tr": "2026-03-21T21:04:53.792Z",
       "placar_oficial_visitante": 2,
       "placar_oficial_mandante": 1,
       "partida_id": 346589,
@@ -334,7 +334,7 @@
         "e"
       ],
       "transmissao": {
-        "label": "fique por dentro",
+        "label": "pré-jogo",
         "url": "https://ge.globo.com/rj/futebol/brasileirao-serie-a/jogo/21-03-2026/fluminense-atletico-mg.ghtml?utm_source=cartolafc"
       },
       "local": "Maracanã",

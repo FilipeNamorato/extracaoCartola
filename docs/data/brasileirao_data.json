@@ -174,25 +174,6 @@
     {
       "position": 10,
       "team": {
-        "id": 4286,
-        "name": "RB Bragantino",
-        "shortName": "Bragantino",
-        "tla": "RBB",
-        "crest": "https://crests.football-data.org/4286.png"
-      },
-      "playedGames": 8,
-      "form": null,
-      "won": 2,
-      "draw": 3,
-      "lost": 3,
-      "points": 9,
-      "goalsFor": 6,
-      "goalsAgainst": 9,
-      "goalDifference": -3
-    },
-    {
-      "position": 11,
-      "team": {
         "id": 1780,
         "name": "CR Vasco da Gama",
         "shortName": "Vasco da Gama",
@@ -210,7 +191,7 @@
       "goalDifference": -1
     },
     {
-      "position": 12,
+      "position": 11,
       "team": {
         "id": 1766,
         "name": "CA Mineiro",
@@ -227,6 +208,25 @@
       "goalsFor": 8,
       "goalsAgainst": 10,
       "goalDifference": -2
+    },
+    {
+      "position": 12,
+      "team": {
+        "id": 4286,
+        "name": "RB Bragantino",
+        "shortName": "Bragantino",
+        "tla": "RBB",
+        "crest": "https://crests.football-data.org/4286.png"
+      },
+      "playedGames": 8,
+      "form": null,
+      "won": 2,
+      "draw": 2,
+      "lost": 4,
+      "points": 8,
+      "goalsFor": 6,
+      "goalsAgainst": 10,
+      "goalDifference": -4
     },
     {
       "position": 13,
@@ -269,6 +269,25 @@
     {
       "position": 15,
       "team": {
+        "id": 1770,
+        "name": "Botafogo FR",
+        "shortName": "Botafogo",
+        "tla": "BOT",
+        "crest": "https://crests.football-data.org/1770.png"
+      },
+      "playedGames": 6,
+      "form": null,
+      "won": 2,
+      "draw": 0,
+      "lost": 4,
+      "points": 6,
+      "goalsFor": 10,
+      "goalsAgainst": 12,
+      "goalDifference": -2
+    },
+    {
+      "position": 16,
+      "team": {
         "id": 4364,
         "name": "Mirassol FC",
         "shortName": "Mirassol",
@@ -286,7 +305,7 @@
       "goalDifference": -1
     },
     {
-      "position": 16,
+      "position": 17,
       "team": {
         "id": 6685,
         "name": "Santos FC",
@@ -305,7 +324,7 @@
       "goalDifference": -3
     },
     {
-      "position": 17,
+      "position": 18,
       "team": {
         "id": 6684,
         "name": "SC Internacional",
@@ -322,25 +341,6 @@
       "goalsFor": 5,
       "goalsAgainst": 9,
       "goalDifference": -4
-    },
-    {
-      "position": 18,
-      "team": {
-        "id": 1770,
-        "name": "Botafogo FR",
-        "shortName": "Botafogo",
-        "tla": "BOT",
-        "crest": "https://crests.football-data.org/1770.png"
-      },
-      "playedGames": 6,
-      "form": null,
-      "won": 1,
-      "draw": 1,
-      "lost": 4,
-      "points": 4,
-      "goalsFor": 9,
-      "goalsAgainst": 12,
-      "goalDifference": -3
     },
     {
       "position": 19,
@@ -883,6 +883,7 @@
       "D",
       "D",
       "L",
+      "L",
       "L"
     ],
     "SC Internacional": [
@@ -1010,7 +1011,8 @@
       "L",
       "L",
       "L",
-      "L"
+      "L",
+      "W"
     ],
     "Cruzeiro EC": [
       "L",
@@ -1073,11 +1075,11 @@
     },
     "RB Bragantino": {
       "home": {
-        "gf": 3,
-        "ga": 3,
+        "gf": 4,
+        "ga": 5,
         "w": 1,
         "d": 1,
-        "l": 1
+        "l": 2
       },
       "away": {
         "gf": 2,
@@ -1320,9 +1322,9 @@
         "l": 1
       },
       "away": {
-        "gf": 4,
-        "ga": 8,
-        "w": 0,
+        "gf": 6,
+        "ga": 9,
+        "w": 1,
         "d": 0,
         "l": 3
       }
