@@ -21,6 +21,7 @@ def carregar_dados_mercado(caminho_csv: str) -> dict:
     with open(caminho_csv, newline="", encoding="utf-8-sig") as f:
         reader = csv.DictReader(f)
         row = next(reader)
+    print("CHEGUEI AQUI")
     return row
 
 
