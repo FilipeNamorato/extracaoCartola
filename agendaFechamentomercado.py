@@ -79,8 +79,8 @@ def criar_evento_fechamento(service, dt_fechamento: datetime.datetime, rodada: s
     evento = {
         "summary": summary,
         "description": (
-            f"Mercado do Cartola FC fecha neste horario.\n"
-            f"Rodada {rodada} - Faca sua escalacao antes do fechamento.\n\n"
+            f"Mercado do Cartola FC fecha {dt_fechamento.strftime('%H:%M do dia %d/%m/%Y')}.\n"
+            f"Rodada {rodada} - Faça sua escalacao antes do fechamento.\n\n"
             f"Lembrete automatico enviado pelo Google Calendar {HORAS_ANTES_LEMBRETE}h antes."
         ),
         "start": {
@@ -95,7 +95,7 @@ def criar_evento_fechamento(service, dt_fechamento: datetime.datetime, rodada: s
             "useDefault": False,
             "overrides": [
                 {"method": "email", "minutes": 24 * 60},   # 1 dia antes
-                {"method": "popup", "minutes": 3 * 60},    # 3 horas antes
+                {"method": "popup", "minutes": 4 * 60},    # 5 horas antes
                 {"method": "popup", "minutes": 60},         # 1 hora antes
 
             ],
