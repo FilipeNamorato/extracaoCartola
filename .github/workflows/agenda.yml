@@ -1,0 +1,36 @@
+name: Agendar Fechamento no Calendar
+
+on:
+  workflow_dispatch:
+  # Roda junto com a coleta de dados (logo apos atualizar mercado_status.csv)
+  schedule:
+    # Uma vez por dia de manha, apos a coleta das 08:00
+    - cron: "30 11 * * *"  # 08:30 horario de Brasilia (UTC-3)
+
+jobs:
+  agendar:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repositorio
+        uses: actions/checkout@v4
+
+      - name: Configurar Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Instalar dependencias
+        run: |
+          pip install \
+            google-auth \
+            google-auth-httplib2 \
+            google-api-python-client
+
+      - name: Agendar fechamento no Google Calendar
+        env:
+          GOOGLE_SERVICE_ACCOUNT_JSON: ${{ secrets.GOOGLE_SERVICE_ACCOUNT_JSON }}
+          GOOGLE_CALENDAR_ID: ${{ secrets.GOOGLE_CALENDAR_ID }}
+          HORAS_ANTES_LEMBRETE: "3"
+          MERCADO_STATUS_CSV: "docs/data/mercado_status.csv"
+        run: python agendar_fechamento.py
