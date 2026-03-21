@@ -130,7 +130,9 @@ def main():
 
     print(f"Lendo mercado status de: {caminho_csv}")
     row = carregar_dados_mercado(caminho_csv)
-
+    row = carregar_dados_mercado(caminho_csv)
+    print(f"Colunas encontradas: {list(row.keys())[:5]}")
+    print(f"Valor rodada_atual: {repr(row.get('rodada_atual'))}")
     status = str(row.get("status_mercado", "")).strip()
     rodada = str(row.get("rodada_atual", "?")).strip()
     game_over = str(row.get("game_over", "False")).strip()
