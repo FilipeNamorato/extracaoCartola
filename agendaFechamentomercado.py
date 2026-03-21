@@ -35,6 +35,14 @@ def construir_servico():
     credentials_json = os.environ.get("GOOGLE_SERVICE_ACCOUNT_JSON")
     if not credentials_json:
         raise EnvironmentError("Variavel GOOGLE_SERVICE_ACCOUNT_JSON nao definida.")
+    
+        
+    print(f"Primeiros 20 chars: {repr(credentials_json[:20])}")
+    print(f"Tamanho total: {len(credentials_json)}")
+
+    credentials_json = credentials_json.strip()  # remove espaços e quebras nas bordas
+
+
     info = json.loads(credentials_json)
     credentials = service_account.Credentials.from_service_account_info(
         info, scopes=SCOPES
