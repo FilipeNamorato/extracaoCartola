@@ -441,7 +441,7 @@
       },
       "playedMatches": 6,
       "goals": 5,
-      "assists": null,
+      "assists": 1,
       "penalties": null
     },
     {
@@ -594,7 +594,7 @@
         "venue": "Estadio Jornalista Mário Filho",
         "lastUpdated": "2024-07-29T17:24:37Z"
       },
-      "playedMatches": 7,
+      "playedMatches": 8,
       "goals": 3,
       "assists": 3,
       "penalties": null
@@ -811,7 +811,7 @@
         "venue": "Estadio Jornalista Mário Filho",
         "lastUpdated": "2024-07-29T17:24:37Z"
       },
-      "playedMatches": 6,
+      "playedMatches": 7,
       "goals": 3,
       "assists": null,
       "penalties": null
@@ -842,7 +842,7 @@
         "venue": "Estádio Raimundo Sampaio",
         "lastUpdated": "2022-12-28T10:32:33Z"
       },
-      "playedMatches": 7,
+      "playedMatches": 8,
       "goals": 2,
       "assists": 1,
       "penalties": null
