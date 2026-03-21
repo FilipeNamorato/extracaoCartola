@@ -135,9 +135,9 @@ def main():
         print("Temporada encerrada (game_over=True). Nada a fazer.")
         sys.exit(0)
 
-    if status != STATUS_MERCADO_ABERTO:
-        print(f"Mercado nao esta aberto (status={status}). Nada a fazer.")
-        sys.exit(0)
+   # if status != STATUS_MERCADO_ABERTO:
+    #    print(f"Mercado nao esta aberto (status={status}). Nada a fazer.")
+     #   sys.exit(0)
 
     dt_fechamento = extrair_fechamento(row)
     print(f"Fechamento previsto: {dt_fechamento.strftime('%d/%m/%Y %H:%M')}")
