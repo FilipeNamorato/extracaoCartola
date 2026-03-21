@@ -1,5 +1,5 @@
 ﻿abr_casa,abr_vis,odd_casa,odd_vis,odd_empate,prob_casa,prob_vis,forca_casa,forca_vis,commence_time
-RBB,BOT,1.83,4.0,3.45,0.503,0.23,favorito,zebra,2026-03-21T19:00:00Z
+RBB,BOT,1.89,4.0,3.3,0.489,0.231,favorito,zebra,2026-03-21T19:00:00Z
 FLU,CAM,1.63,5.5,3.55,0.57,0.169,favorito,zebra,2026-03-21T21:30:00Z
 SAO,PAL,2.6,2.8,2.9,0.354,0.329,zebra,zebra,2026-03-22T00:00:00Z
 CAP,CFC,1.96,3.95,3.3,0.478,0.237,favorito,zebra,2026-03-22T19:00:00Z
@@ -8,15 +8,15 @@ CRU,SAN,1.79,4.6,3.5,0.526,0.205,favorito,zebra,2026-03-22T19:00:00Z
 VAS,GRE,1.92,3.95,3.4,0.488,0.237,favorito,zebra,2026-03-22T19:00:00Z
 INT,CHA,1.43,6.75,4.3,0.647,0.137,favorito_forte,zebra,2026-03-22T21:30:00Z
 VIT,MIR,2.38,2.88,3.15,0.387,0.32,equilibrado,zebra,2026-03-22T21:30:00Z
-COR,FLA,3.55,2.16,3.15,0.265,0.436,zebra,equilibrado,2026-03-22T23:30:00Z
+COR,FLA,3.55,2.16,3.1,0.264,0.434,zebra,equilibrado,2026-03-22T23:30:00Z
 CAP,BOT,2.1,3.3,3.1,0.432,0.275,equilibrado,zebra,2026-03-29T21:30:00Z
 CHA,CAM,2.98,2.38,3.2,0.314,0.393,zebra,equilibrado,2026-04-01T20:00:00Z
 BAH,CAP,1.68,3.65,3.1,0.499,0.23,favorito,zebra,2026-04-01T20:00:00Z
 BOT,MIR,1.88,3.15,2.95,0.448,0.267,favorito,zebra,2026-04-01T20:00:00Z
 RBB,FLA,4.05,1.93,3.62,0.237,0.498,zebra,favorito,2026-04-01T20:00:00Z
 FLU,COR,1.72,3.9,3.05,0.499,0.22,favorito,zebra,2026-04-01T20:00:00Z
-CFC,VAS,2.39,3.13,3.29,0.402,0.307,equilibrado,zebra,2026-04-01T20:00:00Z
-CRU,VIT,1.73,5.2,3.69,0.555,0.185,favorito,zebra,2026-04-01T20:00:00Z
+CFC,VAS,2.4,3.13,3.27,0.4,0.307,equilibrado,zebra,2026-04-01T20:00:00Z
+CRU,VIT,1.72,5.25,3.73,0.559,0.183,favorito,zebra,2026-04-01T20:00:00Z
 PAL,GRE,1.4,5.1,3.6,0.601,0.165,favorito_forte,zebra,2026-04-01T20:00:00Z
 INT,SAO,2.42,2.88,3.2,0.385,0.324,equilibrado,zebra,2026-04-01T20:00:00Z
 SAN,REM,1.32,5.8,3.7,0.631,0.144,favorito_forte,zebra,2026-04-01T20:00:00Z
