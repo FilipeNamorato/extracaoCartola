@@ -34,3 +34,9 @@ jobs:
           HORAS_ANTES_LEMBRETE: "3"
           MERCADO_STATUS_CSV: "docs/data/mercado_status.csv"
         run: python agendaFechamentomercado.py
+
+      - name: Debug secret
+        env:
+          GOOGLE_SERVICE_ACCOUNT_JSON: ${{ secrets.GOOGLE_SERVICE_ACCOUNT_JSON }}
+        run: |
+          echo "Tamanho do JSON: ${#GOOGLE_SERVICE_ACCOUNT_JSON}"
