@@ -21,7 +21,6 @@ def carregar_dados_mercado(caminho_csv: str) -> dict:
     with open(caminho_csv, newline="", encoding="utf-8-sig") as f:
         reader = csv.DictReader(f)
         row = next(reader)
-    print("CHEGUEI AQUI")
     return row
 
 
@@ -37,10 +36,6 @@ def construir_servico():
     if not credentials_json:
         raise EnvironmentError("Variavel GOOGLE_SERVICE_ACCOUNT_JSON nao definida.")
     
-        
-    print(f"Primeiros 20 chars: {repr(credentials_json[:20])}")
-    print(f"Tamanho total: {len(credentials_json)}")
-
     credentials_json = credentials_json.strip()  # remove espaços e quebras nas bordas
 
 
@@ -132,8 +127,6 @@ def main():
     print(f"Lendo mercado status de: {caminho_csv}")
     row = carregar_dados_mercado(caminho_csv)
     
-    print(f"Colunas encontradas: {list(row.keys())[:5]}")
-    print(f"Valor rodada_atual: {repr(row.get('rodada_atual'))}")
     
     status = str(row.get("status_mercado", "")).strip()
     rodada = str(row.get("rodada_atual", "?")).strip()
@@ -145,17 +138,17 @@ def main():
         print("Temporada encerrada (game_over=True). Nada a fazer.")
         sys.exit(0)
 
-   # if status != STATUS_MERCADO_ABERTO:
-    #    print(f"Mercado nao esta aberto (status={status}). Nada a fazer.")
-     #   sys.exit(0)
+    if status != STATUS_MERCADO_ABERTO:
+        print(f"Mercado nao esta aberto (status={status}). Nada a fazer.")
+        sys.exit(0)
 
     dt_fechamento = extrair_fechamento(row)
     print(f"Fechamento previsto: {dt_fechamento.strftime('%d/%m/%Y %H:%M')}")
 
     agora = datetime.datetime.now(tz=ZoneInfo(TIMEZONE))
-    #if dt_fechamento < agora:
-    #    print("Data de fechamento ja passou. Nada a fazer.")
-    #    sys.exit(0)
+    if dt_fechamento < agora:
+        print("Data de fechamento ja passou. Nada a fazer.")
+        sys.exit(0)
 
     service = construir_servico()
 
