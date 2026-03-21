@@ -18,7 +18,7 @@ STATUS_MERCADO_ABERTO = "1"
 
 
 def carregar_dados_mercado(caminho_csv: str) -> dict:
-    with open(caminho_csv, newline="", encoding="utf-8") as f:
+    with open(caminho_csv, newline="", encoding="utf-8-sig") as f:
         reader = csv.DictReader(f)
         row = next(reader)
     return row
@@ -133,6 +133,7 @@ def main():
     row = carregar_dados_mercado(caminho_csv)
     print(f"Colunas encontradas: {list(row.keys())[:5]}")
     print(f"Valor rodada_atual: {repr(row.get('rodada_atual'))}")
+    
     status = str(row.get("status_mercado", "")).strip()
     rodada = str(row.get("rodada_atual", "?")).strip()
     game_over = str(row.get("game_over", "False")).strip()
