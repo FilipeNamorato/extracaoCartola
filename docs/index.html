@@ -289,7 +289,7 @@ footer a { color: var(--green); text-decoration: none; }
 .mini-stat .val.y { color: var(--yellow); }
 .mini-stat .val.r { color: var(--red); }
 
-/* Tabela do Brasileirão */
+/* Tabela do Brasileirão — desktop */
 #bra-table { min-width: 1020px; }
 #bra-table th { text-align: center; }
 #bra-table th:nth-child(2) { text-align: left; }
@@ -298,6 +298,84 @@ footer a { color: var(--green); text-decoration: none; }
 #bra-table td.pts-cell {
   font-family: var(--fh); font-size: 18px; letter-spacing: 1px;
   color: var(--text);
+}
+
+/* Colunas # e TIME fixas no scroll horizontal */
+#bra-table th:nth-child(1),
+#bra-table td:nth-child(1) {
+  position: sticky; left: 0; z-index: 2;
+  background: var(--s2);
+}
+#bra-table th:nth-child(2),
+#bra-table td:nth-child(2) {
+  position: sticky; left: 38px; z-index: 2;
+  background: var(--s1);
+  border-right: 1px solid var(--border);
+  min-width: 130px;
+}
+#bra-table tbody tr:hover td:nth-child(1),
+#bra-table tbody tr:hover td:nth-child(2) { background: var(--s2); }
+
+/* ── CARDS MOBILE (Brasileirão) ─────────────────────────────── */
+.bra-cards { display: none; flex-direction: column; gap: 10px; }
+
+.bra-card {
+  background: var(--s1); border: 1px solid var(--border);
+  border-radius: 10px; overflow: hidden;
+}
+.bra-card-header {
+  display: flex; align-items: center; gap: 10px;
+  padding: 12px 14px; border-bottom: 1px solid var(--border);
+}
+.bra-card-nome { font-weight: 600; font-size: 14px; flex: 1; }
+.bra-card-pts  {
+  font-family: var(--fh); font-size: 26px; letter-spacing: 1px;
+  color: var(--text); line-height: 1;
+}
+.bra-card-pts-label {
+  font-family: var(--fm); font-size: 9px; color: var(--muted);
+  letter-spacing: 1px; text-align: right;
+}
+.bra-card-grid {
+  display: grid; grid-template-columns: repeat(4, 1fr);
+  gap: 0;
+}
+.bra-card-stat {
+  padding: 10px 12px; border-right: 1px solid var(--border);
+  border-bottom: 1px solid var(--border);
+  display: flex; flex-direction: column; gap: 3px;
+}
+.bra-card-stat:nth-child(4n) { border-right: none; }
+.bra-card-stat:nth-last-child(-n+4) { border-bottom: none; }
+.bra-card-stat-label {
+  font-family: var(--fm); font-size: 8px; color: var(--muted);
+  text-transform: uppercase; letter-spacing: 1px;
+}
+.bra-card-stat-val {
+  font-family: var(--fm); font-size: 13px; font-weight: 600;
+  color: var(--text);
+}
+.bra-card-stat-val.g { color: var(--green); }
+.bra-card-stat-val.y { color: var(--yellow); }
+.bra-card-stat-val.r { color: var(--red); }
+.bra-card-forma {
+  padding: 10px 14px;
+  display: flex; align-items: center; justify-content: space-between;
+  border-top: 1px solid var(--border);
+}
+.bra-card-forma-label {
+  font-family: var(--fm); font-size: 9px; color: var(--muted);
+  letter-spacing: 1px; text-transform: uppercase;
+}
+
+/* Esconde tabela e mostra cards em mobile */
+@media (max-width: 768px) {
+  .bra-table-wrap  { display: none !important; }
+  .bra-cards       { display: flex; }
+  .bra-artilheiros { display: none; }
+
+  /* Em mobile os artilheiros ficam abaixo dos cards */
+  #tab-brasileirao > div:last-child { grid-template-columns: 1fr !important; }
 }
 
 /* Artilheiros mini-lista */
@@ -471,43 +549,51 @@ footer a { color: var(--green); text-decoration: none; }
 
     <div style="display:grid; grid-template-columns: 1fr 280px; gap: 20px; align-items: start;">
 
-      <!-- TABELA PRINCIPAL -->
+      <!-- TABELA PRINCIPAL (desktop) / CARDS (mobile) -->
       <div>
-        <div class="table-wrap">
-          <div class="table-scroll">
-            <table id="bra-table">
-              <thead>
-                <tr>
-                  <th data-tip="Posição na tabela">#</th>
-                  <th data-tip="Nome do clube">TIME</th>
-                  <th data-tip="Pontos">PTS</th>
-                  <th data-tip="Jogos disputados">J</th>
-                  <th data-tip="Vitórias" style="color:var(--green)">V</th>
-                  <th data-tip="Empates" style="color:var(--yellow)">E</th>
-                  <th data-tip="Derrotas" style="color:var(--red)">D</th>
-                  <th data-tip="Gols marcados pelo time">GM</th>
-                  <th data-tip="Gols sofridos pelo time">GS</th>
-                  <th data-tip="Saldo de gols">SG</th>
-                  <th data-tip="Aproveitamento em %">APROV</th>
-                  <th data-tip="Aproveitamento jogando em casa">CASA</th>
-                  <th data-tip="Aproveitamento jogando fora">FORA</th>
-                  <th data-tip="Últimos 5 jogos (mais recente à direita)">FORMA</th>
-                </tr>
-              </thead>
-              <tbody id="bra-tbody">
-                <tr><td colspan="14"><div class="loading"><div class="spinner"></div>carregando...</div></td></tr>
-              </tbody>
-            </table>
+        <!-- tabela desktop -->
+        <div class="bra-table-wrap">
+          <div class="table-wrap">
+            <div class="table-scroll">
+              <table id="bra-table">
+                <thead>
+                  <tr>
+                    <th data-tip="Posição na tabela">#</th>
+                    <th data-tip="Nome do clube">TIME</th>
+                    <th data-tip="Pontos">PTS</th>
+                    <th data-tip="Jogos disputados">J</th>
+                    <th data-tip="Vitórias" style="color:var(--green)">V</th>
+                    <th data-tip="Empates" style="color:var(--yellow)">E</th>
+                    <th data-tip="Derrotas" style="color:var(--red)">D</th>
+                    <th data-tip="Gols marcados pelo time">GP</th>
+                    <th data-tip="Gols sofridos pelo time">GC</th>
+                    <th data-tip="Saldo de gols">SG</th>
+                    <th data-tip="Aproveitamento em %">APROV</th>
+                    <th data-tip="Aproveitamento jogando em casa">CASA</th>
+                    <th data-tip="Aproveitamento jogando fora">FORA</th>
+                    <th data-tip="Últimos 5 jogos (mais recente à direita)">FORMA</th>
+                  </tr>
+                </thead>
+                <tbody id="bra-tbody">
+                  <tr><td colspan="14"><div class="loading"><div class="spinner"></div>carregando...</div></td></tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="table-footer">
+              <span id="bra-count">—</span>
+              <span>football-data.org · brasileirao_data.json</span>
+            </div>
           </div>
-          <div class="table-footer">
-            <span id="bra-count">—</span>
-            <span>football-data.org · brasileirao_data.json</span>
-          </div>
+        </div>
+
+        <!-- cards mobile -->
+        <div class="bra-cards" id="bra-cards">
+          <div class="loading"><div class="spinner"></div>carregando...</div>
         </div>
       </div>
 
       <!-- ARTILHEIROS -->
-      <div style="display:flex; flex-direction:column; gap:16px;">
+      <div class="bra-artilheiros" style="display:flex; flex-direction:column; gap:16px;">
         <div class="card">
           <div class="card-header">
             <div class="card-title">ARTILHEIROS</div>
@@ -934,6 +1020,97 @@ function zonaClass(pos) {
 // Separadores visuais entre zonas
 const ZONA_BREAKS = [1, 4, 6, 16];
 
+function renderBrasileiraoCards(tabela, hist, teamStats) {
+  const el = document.getElementById('bra-cards');
+  if (!tabela.length) { el.innerHTML = ''; return; }
+
+  el.innerHTML = tabela.map(e => {
+    const pos  = e.position;
+    const nome = e.team?.name || '—';
+    const pts  = e.points;
+    const j    = e.playedGames;
+    const w    = e.won;
+    const d    = e.draw;
+    const l    = e.lost;
+    const gf   = e.goalsFor;
+    const ga   = e.goalsAgainst;
+    const sg   = e.goalDifference;
+    const pct  = aprov(w, d, l);
+
+    const ts       = teamStats[nome] || {};
+    const h        = ts.home || {};
+    const a        = ts.away || {};
+    const casaPct  = aprov(h.w||0, h.d||0, h.l||0);
+    const foraPct  = aprov(a.w||0, a.d||0, a.l||0);
+    const historico = hist[nome] || [];
+
+    const sgCls  = sg > 0 ? 'g' : sg < 0 ? 'r' : '';
+    const sgFmt  = sg > 0 ? `+${sg}` : `${sg}`;
+    const aprovCls = pct >= 60 ? 'g' : pct >= 40 ? 'y' : 'r';
+
+    return `<div class="bra-card">
+      <div class="bra-card-header">
+        <span class="zona-badge ${zonaClass(pos)}">${pos}</span>
+        <span class="bra-card-nome">${nome}</span>
+        <div style="text-align:right">
+          <div class="bra-card-pts">${pts}</div>
+          <div class="bra-card-pts-label">PTS</div>
+        </div>
+      </div>
+      <div class="bra-card-grid">
+        <div class="bra-card-stat">
+          <div class="bra-card-stat-label">Jogos</div>
+          <div class="bra-card-stat-val">${j}</div>
+        </div>
+        <div class="bra-card-stat">
+          <div class="bra-card-stat-label">Vitórias</div>
+          <div class="bra-card-stat-val g">${w}</div>
+        </div>
+        <div class="bra-card-stat">
+          <div class="bra-card-stat-label">Empates</div>
+          <div class="bra-card-stat-val y">${d}</div>
+        </div>
+        <div class="bra-card-stat">
+          <div class="bra-card-stat-label">Derrotas</div>
+          <div class="bra-card-stat-val r">${l}</div>
+        </div>
+        <div class="bra-card-stat">
+          <div class="bra-card-stat-label">Gols marcados</div>
+          <div class="bra-card-stat-val">${gf}</div>
+        </div>
+        <div class="bra-card-stat">
+          <div class="bra-card-stat-label">Gols sofridos</div>
+          <div class="bra-card-stat-val">${ga}</div>
+        </div>
+        <div class="bra-card-stat">
+          <div class="bra-card-stat-label">Saldo</div>
+          <div class="bra-card-stat-val ${sgCls}">${sgFmt}</div>
+        </div>
+        <div class="bra-card-stat">
+          <div class="bra-card-stat-label">Aprov.</div>
+          <div class="bra-card-stat-val ${aprovCls}">${pct}%</div>
+        </div>
+        <div class="bra-card-stat">
+          <div class="bra-card-stat-label">Casa</div>
+          <div class="bra-card-stat-val ${casaPct >= 60 ? 'g' : casaPct >= 40 ? 'y' : 'r'}">${casaPct}%</div>
+        </div>
+        <div class="bra-card-stat">
+          <div class="bra-card-stat-label">Fora</div>
+          <div class="bra-card-stat-val ${foraPct >= 60 ? 'g' : foraPct >= 40 ? 'y' : 'r'}">${foraPct}%</div>
+        </div>
+        <div class="bra-card-stat" style="grid-column: span 2">
+          <div class="bra-card-stat-label">GP · GC · SG</div>
+          <div class="bra-card-stat-val" style="font-size:11px">${gf} · ${ga} · <span class="${sgCls}">${sgFmt}</span></div>
+        </div>
+      </div>
+      <div class="bra-card-forma">
+        <span class="bra-card-forma-label">Forma</span>
+        ${formaDots(historico)}
+      </div>
+    </div>`;
+  }).join('');
+}
+
 function renderBrasileiro(data) {
   const tbody   = document.getElementById('bra-tbody');
   const tabela  = data.tabela || [];
@@ -992,6 +1169,7 @@ function renderBrasileiro(data) {
   }).join('');
 
   document.getElementById('bra-count').textContent = `${tabela.length} clubes`;
+  renderBrasileiraoCards(tabela, hist, teamStats);
 }
 
 function renderScorers(scorers) {
@@ -1008,7 +1186,7 @@ function renderScorers(scorers) {
       </div>
       <div style="text-align:right">
         <div class="scorer-goals">${s.goals || 0}</div>
-        ${s.assists ? `<div class="scorer-assists">${s.assists} assistências</div>` : ''}
+        ${s.assists ? `<div class="scorer-assists">${s.assists} ast</div>` : ''}
       </div>
     </div>
   `).join('');
