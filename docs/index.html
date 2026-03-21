@@ -225,22 +225,94 @@ footer a { color: var(--green); text-decoration: none; }
 }
 .timer-bar.urgent { background: rgba(255,61,90,.06); border-bottom-color: rgba(255,61,90,.3); }
 .timer-bar.closed { background: rgba(90,116,145,.05); border-bottom-color: var(--border); }
-
-.timer-label {
-  font-family: var(--fm); font-size: 9px; letter-spacing: 3px;
-  text-transform: uppercase; color: var(--muted); margin-bottom: 4px;
-}
-.timer-digits {
-  font-family: var(--fh); font-size: 52px; letter-spacing: 6px;
-  color: var(--yellow); line-height: 1; transition: color .3s;
-}
+.timer-label { font-family: var(--fm); font-size: 9px; letter-spacing: 3px; text-transform: uppercase; color: var(--muted); margin-bottom: 4px; }
+.timer-digits { font-family: var(--fh); font-size: 52px; letter-spacing: 6px; color: var(--yellow); line-height: 1; transition: color .3s; }
 .timer-bar.urgent .timer-digits { color: var(--red); }
 .timer-bar.closed .timer-digits { color: var(--muted); font-size: 32px; letter-spacing: 4px; }
+.timer-sub { font-family: var(--fm); font-size: 9px; color: var(--muted); letter-spacing: 2px; margin-top: 5px; }
 
-.timer-sub {
-  font-family: var(--fm); font-size: 9px; color: var(--muted);
-  letter-spacing: 2px; margin-top: 5px;
+/* ── BRASILEIRÃO ───────────────────────────────────────────── */
+
+/* Zona badges (G1, G4, G6, rebaixamento) */
+.zona-badge {
+  display: inline-flex; align-items: center; justify-content: center;
+  width: 22px; height: 22px; border-radius: 50%;
+  font-family: var(--fm); font-size: 10px; font-weight: 600;
+  flex-shrink: 0;
 }
+.zona-g1  { background: rgba(0,230,118,.18);  color: var(--green);  border: 1px solid rgba(0,230,118,.4); }
+.zona-g4  { background: rgba(64,196,255,.15); color: var(--blue);   border: 1px solid rgba(64,196,255,.35); }
+.zona-g6  { background: rgba(255,214,0,.15);  color: var(--yellow); border: 1px solid rgba(255,214,0,.35); }
+.zona-rel { background: rgba(255,61,90,.15);  color: var(--red);    border: 1px solid rgba(255,61,90,.3); }
+.zona-neu { background: transparent; color: var(--muted); border: 1px solid var(--border); }
+
+/* Linha de separação de zonas */
+.zona-separator td { border-top: 1px dashed rgba(255,255,255,.07) !important; }
+
+/* Forma – bolinha por resultado */
+.form-dots { display: flex; gap: 4px; align-items: center; }
+.form-dot {
+  display: inline-flex; align-items: center; justify-content: center;
+  width: 20px; height: 20px; border-radius: 50%;
+  font-size: 11px; font-weight: 700; line-height: 1; flex-shrink: 0;
+  transition: transform .1s;
+}
+.form-dot:hover { transform: scale(1.25); }
+.form-dot.W { background: rgba(0,230,118,.18); color: var(--green);  border: 1px solid rgba(0,230,118,.4); }
+.form-dot.L { background: rgba(255,61,90,.18);  color: var(--red);   border: 1px solid rgba(255,61,90,.4); }
+.form-dot.D { background: rgba(255,214,0,.15);  color: var(--yellow);border: 1px solid rgba(255,214,0,.35); }
+
+/* Símbolo dentro da bolinha */
+.form-dot.W::before { content: '✓'; }
+.form-dot.L::before { content: '✗'; }
+.form-dot.D::before { content: '─'; }
+
+/* Barra de aproveitamento */
+.aprov-wrap { display: flex; align-items: center; gap: 8px; }
+.aprov-bar-outer {
+  width: 52px; height: 5px; border-radius: 3px;
+  background: var(--s3); overflow: hidden; flex-shrink: 0;
+}
+.aprov-bar-inner {
+  height: 100%; border-radius: 3px;
+  background: linear-gradient(90deg, var(--green2), var(--green));
+  transition: width .4s ease;
+}
+.aprov-bar-inner.mid { background: linear-gradient(90deg, #f9a825, var(--yellow)); }
+.aprov-bar-inner.low { background: linear-gradient(90deg, #c62828, var(--red)); }
+.aprov-val { font-family: var(--fm); font-size: 10px; color: var(--muted); flex-shrink: 0; }
+
+/* Mini stats casa/fora */
+.mini-stat { font-family: var(--fm); font-size: 10px; color: var(--muted); }
+.mini-stat .val { font-weight: 600; }
+.mini-stat .val.g { color: var(--green); }
+.mini-stat .val.y { color: var(--yellow); }
+.mini-stat .val.r { color: var(--red); }
+
+/* Tabela do Brasileirão */
+#bra-table { min-width: 1020px; }
+#bra-table th { text-align: center; }
+#bra-table th:nth-child(2) { text-align: left; }
+#bra-table td { text-align: center; }
+#bra-table td:nth-child(2) { text-align: left; }
+#bra-table td.pts-cell {
+  font-family: var(--fh); font-size: 18px; letter-spacing: 1px;
+  color: var(--text);
+}
+
+/* Artilheiros mini-lista */
+.scorer-row { display: flex; align-items: center; gap: 12px; padding: 8px 16px; border-bottom: 1px solid rgba(30,45,61,.4); transition: background .1s; }
+.scorer-row:last-child { border-bottom: none; }
+.scorer-row:hover { background: var(--s2); }
+.scorer-num { font-family: var(--fm); font-size: 10px; color: var(--muted); width: 20px; flex-shrink: 0; }
+.scorer-name { flex: 1; font-weight: 500; font-size: 13px; }
+.scorer-club { font-family: var(--fm); font-size: 10px; color: var(--muted); }
+.scorer-goals { font-family: var(--fh); font-size: 22px; letter-spacing: 1px; color: var(--green); line-height: 1; }
+.scorer-assists { font-family: var(--fm); font-size: 10px; color: var(--blue); }
+
+/* Legenda zona */
+.zona-legenda { display: flex; gap: 16px; flex-wrap: wrap; margin-bottom: 14px; }
+.zona-leg-item { display: flex; align-items: center; gap: 6px; font-family: var(--fm); font-size: 10px; color: var(--muted); }
 
 @media (max-width: 600px) {
   header, main, footer { padding-left: 16px; padding-right: 16px; }
@@ -292,6 +364,7 @@ footer a { color: var(--green); text-decoration: none; }
   <button class="nav-tab active" data-tab="destaques">Destaques</button>
   <button class="nav-tab" data-tab="atletas">Atletas</button>
   <button class="nav-tab" data-tab="confrontos">Confrontos</button>
+  <button class="nav-tab" data-tab="brasileirao">Brasileirão</button>
 </div>
 
 <main>
@@ -385,6 +458,71 @@ footer a { color: var(--green); text-decoration: none; }
     </div>
   </div>
 
+  <!-- TAB: BRASILEIRÃO ───────────────────────────────────── -->
+  <div class="tab-panel" id="tab-brasileirao">
+
+    <!-- Legenda de zonas -->
+    <div class="zona-legenda">
+      <div class="zona-leg-item"><span class="zona-badge zona-g1">1</span> Libertadores (G1)</div>
+      <div class="zona-leg-item"><span class="zona-badge zona-g4">4</span> Pré-Libertadores</div>
+      <div class="zona-leg-item"><span class="zona-badge zona-g6">6</span> Sul-Americana</div>
+      <div class="zona-leg-item"><span class="zona-badge zona-rel">Z</span> Rebaixamento</div>
+    </div>
+
+    <div style="display:grid; grid-template-columns: 1fr 280px; gap: 20px; align-items: start;">
+
+      <!-- TABELA PRINCIPAL -->
+      <div>
+        <div class="table-wrap">
+          <div class="table-scroll">
+            <table id="bra-table">
+              <thead>
+                <tr>
+                  <th data-tip="Posição na tabela">#</th>
+                  <th data-tip="Nome do clube">TIME</th>
+                  <th data-tip="Pontos">PTS</th>
+                  <th data-tip="Jogos disputados">J</th>
+                  <th data-tip="Vitórias" style="color:var(--green)">V</th>
+                  <th data-tip="Empates" style="color:var(--yellow)">E</th>
+                  <th data-tip="Derrotas" style="color:var(--red)">D</th>
+                  <th data-tip="Gols pró">GP</th>
+                  <th data-tip="Gols contra">GC</th>
+                  <th data-tip="Saldo de gols">SG</th>
+                  <th data-tip="Aproveitamento em %">APROV</th>
+                  <th data-tip="Aproveitamento jogando em casa">CASA</th>
+                  <th data-tip="Aproveitamento jogando fora">FORA</th>
+                  <th data-tip="Últimos 5 jogos (mais recente à direita)">FORMA</th>
+                </tr>
+              </thead>
+              <tbody id="bra-tbody">
+                <tr><td colspan="14"><div class="loading"><div class="spinner"></div>carregando...</div></td></tr>
+              </tbody>
+            </table>
+          </div>
+          <div class="table-footer">
+            <span id="bra-count">—</span>
+            <span>football-data.org · brasileirao_data.json</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- ARTILHEIROS -->
+      <div style="display:flex; flex-direction:column; gap:16px;">
+        <div class="card">
+          <div class="card-header">
+            <div class="card-title">ARTILHEIROS</div>
+            <div class="badge bg">GOLS</div>
+          </div>
+          <div id="bra-scorers">
+            <div class="loading"><div class="spinner"></div></div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+  <!-- ───────────────────────────────────────────────────── -->
+
 </main>
 
 <!-- MODAL LEGENDA -->
@@ -421,6 +559,7 @@ const CSV_ROD    = './data/rodadas.csv';
 const CSV_LOG    = './data/log.csv';
 const CSV_STATUS = './data/mercado_status.csv';
 const CSV_ODDS   = './data/odds.csv';
+const JSON_BRA   = './data/brasileirao_data.json';
 
 const STATUS_MAP = {
   '7': { l: 'Provável',   c: 's7' },
@@ -442,55 +581,39 @@ function iniciarTimer(timestamp) {
   const digits = document.getElementById('timer-digits');
   const label  = document.getElementById('timer-label');
   const sub    = document.getElementById('timer-sub');
-
   if (timerInterval) clearInterval(timerInterval);
-
   function tick() {
     const agora = Math.floor(Date.now() / 1000);
     const diff  = timestamp - agora;
-
     if (diff <= 0) {
-      bar.className      = 'timer-bar closed';
-      label.textContent  = 'mercado';
-      digits.textContent = 'FECHADO';
-      sub.textContent    = '';
-      clearInterval(timerInterval);
-      return;
+      bar.className = 'timer-bar closed'; label.textContent = 'mercado';
+      digits.textContent = 'FECHADO'; sub.textContent = '';
+      clearInterval(timerInterval); return;
     }
-
     const dias  = Math.floor(diff / 86400);
     const horas = Math.floor((diff % 86400) / 3600);
     const min   = Math.floor((diff % 3600) / 60);
     const seg   = diff % 60;
     const pad   = n => String(n).padStart(2, '0');
-
     if (dias > 0) {
       digits.textContent = `${dias}d ${pad(horas)}:${pad(min)}`;
-      sub.textContent    = 'dias · horas · minutos';
+      sub.textContent = 'dias · horas · minutos';
     } else {
       digits.textContent = `${pad(horas)}:${pad(min)}:${pad(seg)}`;
-      sub.textContent    = 'horas · minutos · segundos';
+      sub.textContent = 'horas · minutos · segundos';
     }
-
-    if (diff < 3600) {
-      bar.className     = 'timer-bar urgent';
-      label.textContent = 'atenção — fechamento em';
-    } else {
-      bar.className     = 'timer-bar';
-      label.textContent = 'fechamento do mercado em';
-    }
+    if (diff < 3600) { bar.className = 'timer-bar urgent'; label.textContent = 'atenção — fechamento em'; }
+    else             { bar.className = 'timer-bar';         label.textContent = 'fechamento do mercado em'; }
   }
-
-  tick();
-  timerInterval = setInterval(tick, 1000);
+  tick(); timerInterval = setInterval(tick, 1000);
 }
+
 // ── CSV PARSER ────────────────────────────────────────────────
 function parseCSV(txt) {
   const lines = txt.trim().split('\n');
   const heads = lines[0].split(',').map(h => h.trim().replace(/^"|"$/g,''));
   return lines.slice(1).map(line => {
-    const vals = [];
-    let cur = '', inQ = false;
+    const vals = []; let cur = '', inQ = false;
     for (let i = 0; i < line.length; i++) {
       const ch = line[i];
       if (ch === '"') { inQ = !inQ; continue; }
@@ -498,12 +621,9 @@ function parseCSV(txt) {
       cur += ch;
     }
     vals.push(cur);
-    const obj = {};
-    heads.forEach((h,i) => obj[h] = (vals[i]||'').trim());
-    return obj;
+    const obj = {}; heads.forEach((h,i) => obj[h] = (vals[i]||'').trim()); return obj;
   });
 }
-
 async function fetchCSV(url) {
   const r = await fetch(url + '?t=' + Date.now());
   if (!r.ok) throw new Error('HTTP ' + r.status);
@@ -526,35 +646,27 @@ function buildProbBar(odd) {
   const pCasa = parseFloat(odd.prob_casa || 0);
   const pVis  = parseFloat(odd.prob_vis  || 0);
   const pDraw = Math.max(0, 1 - pCasa - pVis);
-
   const pCasaPct = (pCasa * 100).toFixed(0);
   const pVisPct  = (pVis  * 100).toFixed(0);
   const pDrawPct = (pDraw * 100).toFixed(0);
-
   const wCasa = (pCasa * 100).toFixed(1);
   const wDraw = (pDraw * 100).toFixed(1);
   const wVis  = (pVis  * 100).toFixed(1);
-
   const oCasa   = parseFloat(odd.odd_casa   || 0).toFixed(2);
   const oVis    = parseFloat(odd.odd_vis    || 0).toFixed(2);
   const oEmpate = parseFloat(odd.odd_empate || 0).toFixed(2);
-
   const fCasa = odd.forca_casa || '';
   const fVis  = odd.forca_vis  || '';
-
   return `
     <div class="odd-row">
       <div style="text-align:left">
-        <div class="odd-val casa">${oCasa}</div>
-        <div class="odd-label">CASA</div>
+        <div class="odd-val casa">${oCasa}</div><div class="odd-label">CASA</div>
       </div>
       <div class="odd-empate">
-        <div class="odd-val">${oEmpate}</div>
-        <div class="odd-label">EMPATE</div>
+        <div class="odd-val">${oEmpate}</div><div class="odd-label">EMPATE</div>
       </div>
       <div style="text-align:right">
-        <div class="odd-val vis">${oVis}</div>
-        <div class="odd-label">VISIT</div>
+        <div class="odd-val vis">${oVis}</div><div class="odd-label">VISIT</div>
       </div>
     </div>
     <div class="prob-bar-wrap">
@@ -584,11 +696,9 @@ function renderStats() {
   const fora  = ALL.filter(a => ['3','5'].includes(a.status_id)).length;
   const mand  = ALL.filter(a => a.mandante === 'True').length;
   const arm   = ALL.filter(a => a.armadilha === 'True').length;
-
   const sorted = [...ALL].filter(a => +a.variacao !== 0).sort((a,b) => +b.variacao - +a.variacao);
   const alta  = sorted[0];
   const baixa = sorted[sorted.length-1];
-
   document.getElementById('s-total').textContent = total;
   document.getElementById('s-prov').textContent  = prov;
   document.getElementById('s-duv').textContent   = duv;
@@ -620,24 +730,20 @@ function renderCardList(id, items, valueFn, cls) {
 }
 
 function renderDestaques() {
-  const top8 = (arr) => arr.slice(0,8);
-
+  const top8 = arr => arr.slice(0,8);
   renderCardList('l-altas',
     top8([...ALL].filter(a=>+a.variacao>0).sort((a,b)=>+b.variacao-+a.variacao)),
     a => '+'+parseFloat(a.variacao).toFixed(2), 'up');
   document.getElementById('leg-altas').textContent = 'variação de preço na última rodada';
-
   renderCardList('l-baixas',
     top8([...ALL].filter(a=>+a.variacao<0).sort((a,b)=>+a.variacao-+b.variacao)),
     a => parseFloat(a.variacao).toFixed(2), 'down');
   document.getElementById('leg-baixas').textContent = 'variação de preço na última rodada';
-
   renderCardList('l-cb',
     top8([...ALL].filter(a=>+a.preco>0&&+a.media>0&&+a.jogos>=3)
       .sort((a,b)=>+b.custo_beneficio-+a.custo_beneficio)),
     a => parseFloat(a.custo_beneficio||0).toFixed(2), 'cb');
   document.getElementById('leg-cb').textContent = 'custo-benefício = média de pontos ÷ preço';
-
   renderCardList('l-arm',
     top8([...ALL].filter(a=>a.armadilha==='True').sort((a,b)=>+b.preco-+a.preco)),
     a => 'C$'+parseFloat(a.preco||0).toFixed(1), 'down');
@@ -648,12 +754,9 @@ function renderTopMandantes() {
   const grid = document.getElementById('top-mandantes-grid');
   const posicoes = ['Goleiro','Zagueiro','Lateral','Meia','Atacante'];
   const mandantes = ALL.filter(a => a.mandante === 'True' && a.status_id === '7');
-
   if (!mandantes.length) {
-    grid.innerHTML = '<div class="err">Sem dados de confronto disponíveis ainda.</div>';
-    return;
+    grid.innerHTML = '<div class="err">Sem dados de confronto disponíveis ainda.</div>'; return;
   }
-
   grid.innerHTML = posicoes.map(pos => {
     const lista = mandantes.filter(a=>a.posicao===pos).sort((a,b)=>+b.media-+a.media).slice(0,5);
     if (!lista.length) return '';
@@ -687,7 +790,6 @@ function getFiltered() {
     return true;
   });
 }
-
 function getSorted(data) {
   return [...data].sort((a,b) => {
     let va = a[sortCol]||'', vb = b[sortCol]||'';
@@ -698,14 +800,12 @@ function getSorted(data) {
     return 0;
   });
 }
-
 function renderTable() {
   const data = getSorted(getFiltered());
   const tbody = document.getElementById('table-body');
   if (!data.length) {
     tbody.innerHTML = '<tr><td colspan="12"><div class="err">Nenhum atleta encontrado</div></td></tr>';
-    document.getElementById('table-count').textContent = '0 atletas';
-    return;
+    document.getElementById('table-count').textContent = '0 atletas'; return;
   }
   tbody.innerHTML = data.map(a => {
     const st   = STATUS_MAP[a.status_id] || { l: a.status_id||'—', c: 's6' };
@@ -735,25 +835,17 @@ function renderTable() {
   document.getElementById('table-count').textContent = `${data.length} de ${ALL.length} atletas`;
 }
 
-// ── MAPA ID -> ABREVIAÇÃO ─────────────────────────────────────
 function buildMapaClubes() {
   const mapa = {};
-  ALL.forEach(a => {
-    if (a.clube_id && a.clube) mapa[String(a.clube_id)] = a.clube;
-  });
+  ALL.forEach(a => { if (a.clube_id && a.clube) mapa[String(a.clube_id)] = a.clube; });
   return mapa;
 }
 
 // ── CONFRONTOS ────────────────────────────────────────────────
 function renderConfrontos() {
   const grid = document.getElementById('confrontos-grid');
-  if (!PARTIDAS.length) {
-    grid.innerHTML = '<div class="err">Sem dados de partidas disponíveis.</div>';
-    return;
-  }
-
+  if (!PARTIDAS.length) { grid.innerHTML = '<div class="err">Sem dados de partidas disponíveis.</div>'; return; }
   const mapa = buildMapaClubes();
-
   grid.innerHTML = PARTIDAS.map(p => {
     const idCasa = String(p.clube_casa_id || '');
     const idVis  = String(p.clube_visitante_id || '');
@@ -762,56 +854,38 @@ function renderConfrontos() {
     const dtRaw  = (p.partida_data || '').substring(0,10);
     const dt     = dtRaw ? dtRaw.split('-').reverse().join('/') : '—';
     const local  = p.local || '—';
-
     const qtdCasa = ALL.filter(a => a.clube === casa && a.status_id === '7').length;
     const qtdVis  = ALL.filter(a => a.clube === vis  && a.status_id === '7').length;
-
     const valida    = String(p.valida).toLowerCase() === 'true';
     const validaTag = valida
       ? `<span class="jogo-tag bg">✓ válida</span>`
       : `<span class="jogo-tag" style="background:rgba(255,61,90,.1);color:var(--red);border:1px solid rgba(255,61,90,.2)">✗ não válida para o cartola</span>`;
-
     const placCasa = p.placar_oficial_mandante;
     const placVis  = p.placar_oficial_visitante;
     const temPlacar = placCasa !== '' && placCasa !== null && placCasa !== undefined
                    && placVis  !== '' && placVis  !== null && placVis  !== undefined;
-
     let bottomHTML = '';
     if (temPlacar) {
-      const pc = parseInt(placCasa);
-      const pv = parseInt(placVis);
+      const pc = parseInt(placCasa); const pv = parseInt(placVis);
       const corCasa = pc > pv ? 'var(--green)' : pc < pv ? 'var(--muted)' : 'var(--yellow)';
       const corVis  = pv > pc ? 'var(--blue)'  : pv < pc ? 'var(--muted)' : 'var(--yellow)';
-      bottomHTML = `
-        <div style="border-top: 1px solid var(--border); padding-top: 10px;">
-          <div style="display:flex; align-items:center; justify-content:center; gap:16px;">
-            <span style="font-family:var(--fh); font-size:42px; letter-spacing:2px; color:${corCasa}; line-height:1">${pc}</span>
-            <span style="font-family:var(--fm); font-size:11px; color:var(--muted)">×</span>
-            <span style="font-family:var(--fh); font-size:42px; letter-spacing:2px; color:${corVis}; line-height:1">${pv}</span>
-          </div>
-          <div style="text-align:center; font-family:var(--fm); font-size:9px; color:var(--muted); letter-spacing:2px; margin-top:4px">ENCERRADO</div>
+      bottomHTML = `<div style="border-top:1px solid var(--border);padding-top:10px">
+        <div style="display:flex;align-items:center;justify-content:center;gap:16px">
+          <span style="font-family:var(--fh);font-size:42px;letter-spacing:2px;color:${corCasa};line-height:1">${pc}</span>
+          <span style="font-family:var(--fm);font-size:11px;color:var(--muted)">×</span>
+          <span style="font-family:var(--fh);font-size:42px;letter-spacing:2px;color:${corVis};line-height:1">${pv}</span>
         </div>
-      `;
+        <div style="text-align:center;font-family:var(--fm);font-size:9px;color:var(--muted);letter-spacing:2px;margin-top:4px">ENCERRADO</div>
+      </div>`;
     } else {
       const odd = getOdds(casa, vis);
-      if (odd) {
-        bottomHTML = `
-          <div style="border-top: 1px solid var(--border); padding-top: 10px;">
-            ${buildProbBar(odd)}
-          </div>
-        `;
-      }
+      if (odd) bottomHTML = `<div style="border-top:1px solid var(--border);padding-top:10px">${buildProbBar(odd)}</div>`;
     }
-
     return `<div class="jogo-card">
       <div class="jogo-times">
-        <div class="time-bloco">
-          <div class="time-nome">${casa}</div>
-        </div>
+        <div class="time-bloco"><div class="time-nome">${casa}</div></div>
         <div class="jogo-sep">vs</div>
-        <div class="time-bloco vis">
-          <div class="time-nome">${vis}</div>
-        </div>
+        <div class="time-bloco vis"><div class="time-nome">${vis}</div></div>
       </div>
       <div class="jogo-meta">
         <span class="jogo-tag bg conf-home">🏠 ${casa}</span>
@@ -820,13 +894,140 @@ function renderConfrontos() {
         ${validaTag}
       </div>
       ${bottomHTML}
-      <div class="jogo-atletas">
-        Prováveis: <span>${qtdCasa} de ${casa}</span> · <span>${qtdVis} de ${vis}</span>
-      </div>
+      <div class="jogo-atletas">Prováveis: <span>${qtdCasa} de ${casa}</span> · <span>${qtdVis} de ${vis}</span></div>
     </div>`;
   }).join('');
 }
 
+// ── BRASILEIRÃO ───────────────────────────────────────────────
+
+function aprov(w, d, l) {
+  const t = w + d + l;
+  return t === 0 ? 0 : Math.round((w * 3 + d) / (t * 3) * 100);
+}
+
+function aprovBar(pct) {
+  const cls = pct >= 60 ? '' : pct >= 40 ? 'mid' : 'low';
+  return `<div class="aprov-wrap">
+    <div class="aprov-bar-outer">
+      <div class="aprov-bar-inner ${cls}" style="width:${pct}%"></div>
+    </div>
+    <span class="aprov-val">${pct}%</span>
+  </div>`;
+}
+
+function formaDots(hist) {
+  // hist é array de "W","L","D" - pegar os últimos 5
+  const ultimos = (hist || []).slice(-5);
+  if (!ultimos.length) return '<span style="color:var(--muted);font-family:var(--fm);font-size:10px">—</span>';
+  return `<div class="form-dots">${ultimos.map(r => `<span class="form-dot ${r}" data-tip="${r==='W'?'Vitória':r==='L'?'Derrota':'Empate'}"></span>`).join('')}</div>`;
+}
+
+function zonaClass(pos) {
+  if (pos === 1)           return 'zona-g1';
+  if (pos <= 4)            return 'zona-g4';
+  if (pos <= 6)            return 'zona-g6';
+  if (pos >= 17)           return 'zona-rel';
+  return 'zona-neu';
+}
+
+// Separadores visuais entre zonas
+const ZONA_BREAKS = [1, 4, 6, 16];
+
+function renderBrasileiro(data) {
+  const tbody   = document.getElementById('bra-tbody');
+  const tabela  = data.tabela || [];
+  const hist    = data.historico_times || {};
+  const teamStats = data.team_stats || {};
+
+  if (!tabela.length) {
+    tbody.innerHTML = `<tr><td colspan="14"><div class="err">Dados não encontrados em brasileirao_data.json</div></td></tr>`;
+    return;
+  }
+
+  tbody.innerHTML = tabela.map((e, i) => {
+    const pos  = e.position;
+    const nome = e.team?.name || '—';
+    const pts  = e.points;
+    const j    = e.playedGames;
+    const w    = e.won;
+    const d    = e.draw;
+    const l    = e.lost;
+    const gf   = e.goalsFor;
+    const ga   = e.goalsAgainst;
+    const sg   = e.goalDifference;
+
+    const pct  = aprov(w, d, l);
+
+    // aproveitamento casa/fora vindo do JSON (gerado pelo Python)
+    const ts   = teamStats[nome] || {};
+    const h    = ts.home || {};
+    const a    = ts.away || {};
+    const casaPct = aprov(h.w||0, h.d||0, h.l||0);
+    const foraPct = aprov(a.w||0, a.d||0, a.l||0);
+
+    const historico = hist[nome] || [];
+    const separatorClass = ZONA_BREAKS.includes(pos) ? 'zona-separator' : '';
+
+    const sgFmt = sg > 0 ? `<span style="color:var(--green)">+${sg}</span>`
+                : sg < 0 ? `<span style="color:var(--red)">${sg}</span>`
+                : `<span style="color:var(--muted)">0</span>`;
+
+    return `<tr class="${separatorClass}">
+      <td><span class="zona-badge ${zonaClass(pos)}">${pos}</span></td>
+      <td class="nm">${nome}</td>
+      <td class="pts-cell">${pts}</td>
+      <td class="mo">${j}</td>
+      <td class="tg">${w}</td>
+      <td class="mo" style="color:var(--yellow)">${d}</td>
+      <td class="tr">${l}</td>
+      <td class="mo">${gf}</td>
+      <td class="mo">${ga}</td>
+      <td class="mo">${sgFmt}</td>
+      <td>${aprovBar(pct)}</td>
+      <td>${casaPct > 0 ? aprovBar(casaPct) : '<span class="tm">—</span>'}</td>
+      <td>${foraPct > 0 ? aprovBar(foraPct) : '<span class="tm">—</span>'}</td>
+      <td>${formaDots(historico)}</td>
+    </tr>`;
+  }).join('');
+
+  document.getElementById('bra-count').textContent = `${tabela.length} clubes`;
+}
+
+function renderScorers(scorers) {
+  const el = document.getElementById('bra-scorers');
+  if (!scorers || !scorers.length) {
+    el.innerHTML = '<div class="err">Sem dados</div>'; return;
+  }
+  el.innerHTML = scorers.slice(0, 12).map((s, i) => `
+    <div class="scorer-row">
+      <span class="scorer-num">${i+1}</span>
+      <div style="flex:1;min-width:0">
+        <div class="scorer-name">${s.player?.name || '—'}</div>
+        <div class="scorer-club">${s.team?.name || '—'}</div>
+      </div>
+      <div style="text-align:right">
+        <div class="scorer-goals">${s.goals || 0}</div>
+        ${s.assists ? `<div class="scorer-assists">${s.assists} ast</div>` : ''}
+      </div>
+    </div>
+  `).join('');
+}
+
+async function loadBrasileiro() {
+  try {
+    const r = await fetch(JSON_BRA + '?t=' + Date.now());
+    if (!r.ok) throw new Error('HTTP ' + r.status);
+    const data = await r.json();
+    renderBrasileiro(data);
+    renderScorers(data.artilheiros);
+  } catch(e) {
+    document.getElementById('bra-tbody').innerHTML =
+      `<tr><td colspan="14"><div class="err">Erro ao carregar brasileirao_data.json: ${e.message}</div></td></tr>`;
+    document.getElementById('bra-scorers').innerHTML =
+      `<div class="err">—</div>`;
+  }
+}
 
 // ── LAST UPDATE + TIMER ───────────────────────────────────────
 async function fetchMeta() {
@@ -835,27 +1036,21 @@ async function fetchMeta() {
     const last = rows.filter(r => r.status === 'OK').pop();
     if (last) document.getElementById('last-update').textContent = last.timestamp;
   } catch(e) {}
-
   try {
     const rows = await fetchCSV(CSV_STATUS);
     if (rows.length) {
       const s = rows[0];
       const rodada = (s['rodada_atual'] || s[' rodada_atual'] || '').toString().trim();
       if (rodada) document.getElementById('rodada-pill').textContent = 'Rodada ' + rodada;
-
-      // Tenta pegar timestamp de fechamento
       let ts = null;
-      if (s['fechamento.timestamp']) {
-        ts = parseInt(s['fechamento.timestamp']);
-      } else if (s['fechamento']) {
+      if (s['fechamento.timestamp']) { ts = parseInt(s['fechamento.timestamp']); }
+      else if (s['fechamento']) {
         try { ts = JSON.parse(s['fechamento'].replace(/'/g, '"')).timestamp; } catch(e) {}
       }
       if (ts && !isNaN(ts)) iniciarTimer(ts);
       if (rodada) return;
     }
   } catch(e) {}
-
-  // Fallback rodada via partidas
   try {
     if (PARTIDAS.length) {
       const rodada = PARTIDAS[0].rodada || PARTIDAS[0].rodada_id || '';
@@ -873,10 +1068,10 @@ modalLeg.addEventListener('click', e => { if (e.target === modalLeg) modalLeg.st
 // ── TABS ──────────────────────────────────────────────────────
 document.querySelectorAll('.nav-tab').forEach(tab => {
   tab.addEventListener('click', () => {
-    document.querySelectorAll('.nav-tab').forEach(t=>t.classList.remove('active'));
-    document.querySelectorAll('.tab-panel').forEach(p=>p.classList.remove('active'));
+    document.querySelectorAll('.nav-tab').forEach(t => t.classList.remove('active'));
+    document.querySelectorAll('.tab-panel').forEach(p => p.classList.remove('active'));
     tab.classList.add('active');
-    document.getElementById('tab-'+tab.dataset.tab).classList.add('active');
+    document.getElementById('tab-' + tab.dataset.tab).classList.add('active');
   });
 });
 
@@ -885,7 +1080,7 @@ document.getElementById('filter-pos').addEventListener('click', e => {
   const btn = e.target.closest('[data-pos]');
   if (!btn) return;
   fPos = btn.dataset.pos;
-  document.querySelectorAll('[data-pos]').forEach(b=>b.classList.remove('active'));
+  document.querySelectorAll('[data-pos]').forEach(b => b.classList.remove('active'));
   btn.classList.add('active');
   renderTable();
 });
@@ -903,7 +1098,7 @@ document.querySelector('thead').addEventListener('click', e => {
   if (!th) return;
   const col = th.dataset.col;
   if (sortCol === col) sortAsc = !sortAsc; else { sortCol = col; sortAsc = false; }
-  document.querySelectorAll('th').forEach(t=>{ t.classList.remove('sorted','asc'); });
+  document.querySelectorAll('th').forEach(t => { t.classList.remove('sorted','asc'); });
   th.classList.add('sorted');
   if (sortAsc) th.classList.add('asc');
   renderTable();
@@ -912,21 +1107,17 @@ document.querySelector('thead').addEventListener('click', e => {
 // ── INIT ──────────────────────────────────────────────────────
 async function init() {
   try {
-    ALL = (await fetchCSV(CSV_ENR)).filter(a=>a.nome);
+    ALL = (await fetchCSV(CSV_ENR)).filter(a => a.nome);
   } catch(e) {
     try {
-      ALL = (await fetchCSV('./data/atletas_mercado.csv')).filter(a=>a.nome);
+      ALL = (await fetchCSV('./data/atletas_mercado.csv')).filter(a => a.nome);
     } catch(e2) {
       document.getElementById('table-body').innerHTML =
         `<tr><td colspan="12"><div class="err">Erro: ${e2.message}</div></td></tr>`;
-      return;
     }
   }
-
   try { PARTIDAS = await fetchCSV(CSV_PART); } catch(e) {}
-  try { ODDS = await fetchCSV(CSV_ODDS); } catch(e) {
-    console.warn('odds.csv não encontrado, confrontos sem odds.');
-  }
+  try { ODDS = await fetchCSV(CSV_ODDS); } catch(e) { console.warn('odds.csv não encontrado'); }
 
   renderStats();
   renderDestaques();
@@ -934,6 +1125,7 @@ async function init() {
   renderTable();
   renderConfrontos();
   fetchMeta();
+  loadBrasileiro();
 }
 
 init();

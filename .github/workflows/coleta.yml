@@ -34,11 +34,12 @@ jobs:
           python-version: "3.11"
 
       - name: Instalar dependencias
-        run: pip install requests pandas
+        run: pip install requests pandas google-auth google-auth-httplib2 google-api-python-client
 
       - name: Rodar extracao
         env:
           ODDS_API_KEY: ${{ secrets.ODDS_API_KEY }}
+          FOOTBALL_DATA_KEY: ${{ secrets.FOOTBALL_DATA_KEY }}
         run: python cartola_extractor.py
 
       - name: Commit e push
@@ -49,6 +50,14 @@ jobs:
           git diff --cached --quiet || git commit -m "dados: coleta automatica $(date -u '+%Y-%m-%d %H:%M UTC')"
           git pull --rebase origin main
           git push
+
+      - name: Agendar fechamento no Google Calendar
+        env:
+          GOOGLE_SERVICE_ACCOUNT_JSON: ${{ secrets.GOOGLE_SERVICE_ACCOUNT_JSON }}
+          GOOGLE_CALENDAR_ID: ${{ secrets.GOOGLE_CALENDAR_ID }}
+          HORAS_ANTES_LEMBRETE: "3"
+          MERCADO_STATUS_CSV: "docs/mercado_status.csv"
+        run: python agendar_fechamento.py
 
       - name: Trigger Deploy Pages
         uses: actions/github-script@v7

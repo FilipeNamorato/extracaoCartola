@@ -5,13 +5,17 @@ Extrai dados da API do Cartola FC, enriquece com colunas calculadas
 e salva em data/. Roda via GitHub Actions diariamente.
 
 Colunas extras geradas em atletas_enriquecido.csv:
-  - mandante      : True se o clube joga em casa nessa rodada
-  - adversario    : abreviação do adversário na rodada
-  - tendencia     : 'alta' | 'baixa' | 'estavel' com base na variação
+  - mandante        : True se o clube joga em casa nessa rodada
+  - adversario      : abreviação do adversário na rodada
+  - tendencia       : 'alta' | 'baixa' | 'estavel' com base na variação
   - custo_beneficio : media / preco
-  - cb_rank       : posição no ranking de custo-benefício dentro da posição
-  - armadilha     : True se preço acima da mediana mas média abaixo da mediana da posição
-  - status_label  : texto legível do status (Provável, Dúvida, etc.)
+  - cb_rank         : posição no ranking de custo-benefício dentro da posição
+  - armadilha       : True se preço acima da mediana mas média abaixo da mediana da posição
+  - status_label    : texto legível do status (Provável, Dúvida, etc.)
+
+Também coleta dados do Brasileirão via football-data.org e salva:
+  - brasileirao_data.json  : tabela, artilheiros, histórico e aproveitamento casa/fora
+  - brasileirao_tabela.csv : tabela completa planificada para análise externa
 """
 
 import json
@@ -20,6 +24,7 @@ import requests
 import pandas as pd
 from pathlib import Path
 from datetime import datetime, timezone, timedelta
+from collections import defaultdict
 
 BASE_URL = "https://api.cartola.globo.com"
 
@@ -46,6 +51,10 @@ STATUS_LABEL = {
 
 ODDS_API_KEY = os.environ.get("ODDS_API_KEY", "")
 ODDS_URL     = "https://api.the-odds-api.com/v4/sports/soccer_brazil_campeonato/odds"
+
+FOOTBALL_DATA_KEY = os.environ.get("FOOTBALL_DATA_KEY", "")
+FOOTBALL_DATA_URL = "https://api.football-data.org/v4"
+BRASILEIRAO_ID    = "BSA"
 
 # Mapa de nomes da Odds API → abreviações do Cartola
 NOMES_PARA_ABR = {
@@ -79,7 +88,7 @@ DATA_DIR.mkdir(parents=True, exist_ok=True)
 
 
 # ─────────────────────────────────────────────────────────────
-# REQUISIÇÃO
+# REQUISIÇÃO CARTOLA
 # ─────────────────────────────────────────────────────────────
 
 def get_json(endpoint_key: str) -> dict:
@@ -100,10 +109,10 @@ def get_odds() -> pd.DataFrame:
         return pd.DataFrame()
 
     resp = requests.get(ODDS_URL, params={
-        "apiKey":      ODDS_API_KEY,
-        "regions":     "eu",
-        "markets":     "h2h",
-        "oddsFormat":  "decimal",
+        "apiKey":     ODDS_API_KEY,
+        "regions":    "eu",
+        "markets":    "h2h",
+        "oddsFormat": "decimal",
     }, timeout=15)
     resp.raise_for_status()
     jogos = resp.json()
@@ -131,31 +140,205 @@ def get_odds() -> pd.DataFrame:
         if not odd_casa or not odd_vis:
             continue
 
-        # Probabilidades implícitas normalizadas
-        soma = (1/odd_casa) + (1/odd_vis) + (1/odd_empate if odd_empate else 0)
+        soma      = (1/odd_casa) + (1/odd_vis) + (1/odd_empate if odd_empate else 0)
         prob_casa = round((1/odd_casa) / soma, 3) if soma else None
         prob_vis  = round((1/odd_vis)  / soma, 3) if soma else None
 
         def classificar(odd):
-            if odd < 1.5:  return "favorito_forte"
-            if odd < 2.0:  return "favorito"
-            if odd < 2.5:  return "equilibrado"
+            if odd < 1.5: return "favorito_forte"
+            if odd < 2.0: return "favorito"
+            if odd < 2.5: return "equilibrado"
             return "zebra"
 
         rows.append({
-            "abr_casa":   abr_casa,
-            "abr_vis":    abr_vis,
-            "odd_casa":   odd_casa,
-            "odd_vis":    odd_vis,
-            "odd_empate": odd_empate,
-            "prob_casa":  prob_casa,
-            "prob_vis":   prob_vis,
-            "forca_casa": classificar(odd_casa),
-            "forca_vis":  classificar(odd_vis),
+            "abr_casa":      abr_casa,
+            "abr_vis":       abr_vis,
+            "odd_casa":      odd_casa,
+            "odd_vis":       odd_vis,
+            "odd_empate":    odd_empate,
+            "prob_casa":     prob_casa,
+            "prob_vis":      prob_vis,
+            "forca_casa":    classificar(odd_casa),
+            "forca_vis":     classificar(odd_vis),
             "commence_time": jogo.get("commence_time"),
         })
 
     return pd.DataFrame(rows)
+
+
+# ─────────────────────────────────────────────────────────────
+# FOOTBALL-DATA.ORG — BRASILEIRÃO
+# ─────────────────────────────────────────────────────────────
+
+def _fd_get(path: str, params: dict = None) -> dict:
+    url  = f"{FOOTBALL_DATA_URL}{path}"
+    resp = requests.get(
+        url,
+        headers={"X-Auth-Token": FOOTBALL_DATA_KEY},
+        params=params or {},
+        timeout=15,
+    )
+    resp.raise_for_status()
+    return resp.json()
+
+
+def _aprov(w: int, d: int, l: int) -> float:
+    total = w + d + l
+    return round((w * 3 + d) / (total * 3) * 100, 1) if total else 0.0
+
+
+def build_team_history(matches: list) -> dict:
+    """
+    Para cada time, monta o histórico cronológico de resultados:
+    W = vitória, L = derrota, D = empate.
+    """
+    history = defaultdict(list)
+    finished = sorted(
+        [m for m in matches if m.get("status") == "FINISHED"],
+        key=lambda m: m.get("utcDate", ""),
+    )
+    for match in finished:
+        home = match["homeTeam"]["name"]
+        away = match["awayTeam"]["name"]
+        gh   = match["score"]["fullTime"].get("home")
+        ga   = match["score"]["fullTime"].get("away")
+        if gh is None or ga is None:
+            continue
+        if gh > ga:
+            history[home].append("W")
+            history[away].append("L")
+        elif gh < ga:
+            history[home].append("L")
+            history[away].append("W")
+        else:
+            history[home].append("D")
+            history[away].append("D")
+    return dict(history)
+
+
+def build_team_stats(matches: list) -> dict:
+    """
+    Aproveitamento separado por mando de campo: gols, vitórias, empates, derrotas.
+    """
+    stats = defaultdict(lambda: {
+        "home": {"gf": 0, "ga": 0, "w": 0, "d": 0, "l": 0},
+        "away": {"gf": 0, "ga": 0, "w": 0, "d": 0, "l": 0},
+    })
+    for match in matches:
+        if match.get("status") != "FINISHED":
+            continue
+        home = match["homeTeam"]["name"]
+        away = match["awayTeam"]["name"]
+        gh   = match["score"]["fullTime"].get("home")
+        ga   = match["score"]["fullTime"].get("away")
+        if gh is None or ga is None:
+            continue
+
+        stats[home]["home"]["gf"] += gh
+        stats[home]["home"]["ga"] += ga
+        stats[away]["away"]["gf"] += ga
+        stats[away]["away"]["ga"] += gh
+
+        if gh > ga:
+            stats[home]["home"]["w"] += 1
+            stats[away]["away"]["l"] += 1
+        elif gh < ga:
+            stats[home]["home"]["l"] += 1
+            stats[away]["away"]["w"] += 1
+        else:
+            stats[home]["home"]["d"] += 1
+            stats[away]["away"]["d"] += 1
+
+    return {k: dict(v) for k, v in stats.items()}
+
+
+def build_tabela_csv(tabela: list, history: dict, team_stats: dict) -> pd.DataFrame:
+    """
+    Monta DataFrame plano da tabela do Brasileirão para análise e CSV.
+
+    Colunas:
+      posicao, time, pts, j, v, e, d, gp, gc, sg, aprov_pct,
+      casa_v, casa_e, casa_d, casa_gp, casa_gc, casa_aprov_pct,
+      fora_v, fora_e, fora_d, fora_gp, fora_gc, fora_aprov_pct,
+      forma (últimos 5 resultados separados por vírgula, ex: W,L,W,D,W)
+    """
+    rows = []
+    for entry in tabela:
+        nome = entry.get("team", {}).get("name", "")
+        w    = entry.get("won",  0)
+        d    = entry.get("draw", 0)
+        l    = entry.get("lost", 0)
+
+        ts = team_stats.get(nome, {})
+        h  = ts.get("home", {})
+        a  = ts.get("away", {})
+
+        hist  = history.get(nome, [])
+        forma = ",".join(hist[-5:]) if hist else ""
+
+        rows.append({
+            "posicao":        entry.get("position"),
+            "time":           nome,
+            "pts":            entry.get("points"),
+            "j":              entry.get("playedGames"),
+            "v":              w,
+            "e":              d,
+            "d":              l,
+            "gp":             entry.get("goalsFor"),
+            "gc":             entry.get("goalsAgainst"),
+            "sg":             entry.get("goalDifference"),
+            "aprov_pct":      _aprov(w, d, l),
+            "casa_v":         h.get("w", 0),
+            "casa_e":         h.get("d", 0),
+            "casa_d":         h.get("l", 0),
+            "casa_gp":        h.get("gf", 0),
+            "casa_gc":        h.get("ga", 0),
+            "casa_aprov_pct": _aprov(h.get("w", 0), h.get("d", 0), h.get("l", 0)),
+            "fora_v":         a.get("w", 0),
+            "fora_e":         a.get("d", 0),
+            "fora_d":         a.get("l", 0),
+            "fora_gp":        a.get("gf", 0),
+            "fora_gc":        a.get("ga", 0),
+            "fora_aprov_pct": _aprov(a.get("w", 0), a.get("d", 0), a.get("l", 0)),
+            "forma":          forma,
+        })
+    return pd.DataFrame(rows)
+
+
+def get_brasileirao_data() -> dict:
+    """
+    Coleta tabela, partidas e artilheiros do Brasileirão via football-data.org.
+    Retorna dicionário pronto para serializar como brasileirao_data.json.
+    Também salva brasileirao_tabela.csv com dados planificados para análise.
+    """
+    if not FOOTBALL_DATA_KEY:
+        print("  SKIP — FOOTBALL_DATA_KEY não definida")
+        return {}
+
+    standings_raw = _fd_get(f"/competitions/{BRASILEIRAO_ID}/standings")
+    tables        = {t["type"]: t["table"] for t in standings_raw.get("standings", [])}
+    tabela_total  = tables.get("TOTAL", [])
+
+    matches_raw = _fd_get(f"/competitions/{BRASILEIRAO_ID}/matches")
+    matches     = matches_raw.get("matches", [])
+
+    scorers_raw = _fd_get(f"/competitions/{BRASILEIRAO_ID}/scorers", {"limit": 15})
+    scorers     = scorers_raw.get("scorers", [])
+
+    history    = build_team_history(matches)
+    team_stats = build_team_stats(matches)
+
+    # CSV plano para análise externa
+    df_tabela = build_tabela_csv(tabela_total, history, team_stats)
+    df_tabela.to_csv(DATA_DIR / "brasileirao_tabela.csv", index=False, encoding="utf-8-sig")
+    print(f"  brasileirao_tabela.csv salvo — {len(df_tabela)} times")
+
+    return {
+        "tabela":          tabela_total,
+        "artilheiros":     scorers,
+        "historico_times": history,
+        "team_stats":      team_stats,
+    }
 
 
 # ─────────────────────────────────────────────────────────────
@@ -164,7 +347,7 @@ def get_odds() -> pd.DataFrame:
 
 def normalizar_mercado(raw: dict) -> pd.DataFrame:
     atletas  = raw.get("atletas", [])
-    clubes   = {int(k): v.get("abreviacao", k) for k, v in raw.get("clubes", {}).items()}
+    clubes   = {int(k): v.get("abreviacao", k) for k, v in raw.get("clubes",   {}).items()}
     posicoes = {int(k): v.get("nome", k)        for k, v in raw.get("posicoes", {}).items()}
 
     rows = []
@@ -229,11 +412,9 @@ def enriquecer(df_mercado: pd.DataFrame, df_partidas: pd.DataFrame) -> pd.DataFr
 
     # ── Mandante / adversário ────────────────────────────────
     mapa_confronto = {}
-
     if not df_partidas.empty:
-        col_casa     = next((c for c in df_partidas.columns if "casa_id" in c), None)
-        col_vis      = next((c for c in df_partidas.columns if "visitante_id" in c), None)
-        # mapa clube_id → abreviação a partir do próprio df_mercado
+        col_casa = next((c for c in df_partidas.columns if "casa_id"      in c), None)
+        col_vis  = next((c for c in df_partidas.columns if "visitante_id" in c), None)
         mapa_abr = {}
         if not df_mercado.empty:
             for _, row in df_mercado.iterrows():
@@ -242,11 +423,10 @@ def enriquecer(df_mercado: pd.DataFrame, df_partidas: pd.DataFrame) -> pd.DataFr
 
         for _, p in df_partidas.iterrows():
             try:
-                id_casa = int(p[col_casa]) if col_casa else None
-                id_vis  = int(p[col_vis])  if col_vis  else None
+                id_casa  = int(p[col_casa]) if col_casa else None
+                id_vis   = int(p[col_vis])  if col_vis  else None
                 abr_casa = mapa_abr.get(id_casa, str(id_casa))
                 abr_vis  = mapa_abr.get(id_vis,  str(id_vis))
-
                 if id_casa:
                     mapa_confronto[id_casa] = {"mandante": True,  "adversario": abr_vis}
                 if id_vis:
@@ -260,7 +440,7 @@ def enriquecer(df_mercado: pd.DataFrame, df_partidas: pd.DataFrame) -> pd.DataFr
         except Exception:
             return default
 
-    df["mandante"]   = df["clube_id"].apply(lambda x: get_confronto(x, "mandante", None))
+    df["mandante"]   = df["clube_id"].apply(lambda x: get_confronto(x, "mandante",  None))
     df["adversario"] = df["clube_id"].apply(lambda x: get_confronto(x, "adversario", "—"))
 
     # ── Tendência ────────────────────────────────────────────
@@ -282,7 +462,6 @@ def enriquecer(df_mercado: pd.DataFrame, df_partidas: pd.DataFrame) -> pd.DataFr
     df["custo_beneficio"] = df.apply(
         lambda r: round(r["media"] / r["preco"], 3) if r["preco"] > 0 else 0, axis=1
     )
-
     df["cb_rank"] = (
         df[df["preco"] > 0]
         .groupby("posicao")["custo_beneficio"]
@@ -390,7 +569,7 @@ try:
     with open(DATA_DIR / "mercado_status.json", "w", encoding="utf-8") as f:
         json.dump(raw_status, f, ensure_ascii=False, indent=2)
     pd.DataFrame([raw_status]).to_csv(DATA_DIR / "mercado_status.csv", index=False, encoding="utf-8-sig")
-    print(f"  OK")
+    print("  OK")
     log.append({"endpoint": "status", "registros": 1, "status": "OK", "erro": ""})
 except Exception as e:
     print(f"  ERRO: {e}")
@@ -465,7 +644,7 @@ try:
                 "nome", "clube", "clube_id", "posicao", "status_id", "status_label",
                 "preco", "media", "variacao", "jogos",
                 "custo_beneficio", "cb_rank",
-                "mandante", "adversario", "armadilha"
+                "mandante", "adversario", "armadilha",
             ]
             cols_enxuto = [c for c in cols_enxuto if c in df_enriquecido.columns]
 
@@ -478,26 +657,35 @@ try:
             df_enxuto.to_csv(DATA_DIR / "atletas_escalacao.csv", index=False, encoding="utf-8-sig")
             print(f"  OK — {len(df_enxuto)} atletas no enxuto (de {len(df_enriquecido)} total)")
             log.append({"endpoint": "escalacao", "registros": len(df_enxuto), "status": "OK", "erro": ""})
-
         except Exception as e:
             print(f"  ERRO no enxuto: {e}")
             log.append({"endpoint": "escalacao", "registros": 0, "status": "ERRO", "erro": str(e)})
 
-
         print(f"  OK — {len(df_enriquecido)} atletas enriquecidos")
         log.append({"endpoint": "enriquecido", "registros": len(df_enriquecido), "status": "OK", "erro": ""})
-        # quantos prováveis foram cortados por não ter jogo válido
-        df_enxuto = df_enriquecido[
-            (df_enriquecido["status_id"].astype(str).isin(["7", "2"])) &
-            (df_enriquecido["preco"] > 0) &
-            (df_enriquecido["clube_id"].astype(str).isin(times_validos))
-        ][cols_enxuto].sort_values(["posicao","media"], ascending=[True,False])
     else:
         print("  SKIP — mercado vazio")
 
 except Exception as e:
     print(f"  ERRO no enriquecimento: {e}")
     log.append({"endpoint": "enriquecido", "registros": 0, "status": "ERRO", "erro": str(e)})
+
+# ── Brasileirão ──────────────────────────────────────────────
+print("Extraindo tabela do Brasileirão...")
+try:
+    bra_data = get_brasileirao_data()
+    if bra_data:
+        with open(DATA_DIR / "brasileirao_data.json", "w", encoding="utf-8") as f:
+            json.dump(bra_data, f, ensure_ascii=False, indent=2)
+        n_times = len(bra_data.get("tabela", []))
+        print(f"  OK — {n_times} times · brasileirao_data.json + brasileirao_tabela.csv")
+        log.append({"endpoint": "brasileirao", "registros": n_times, "status": "OK", "erro": ""})
+    else:
+        print("  SKIP — FOOTBALL_DATA_KEY não definida ou sem dados")
+        log.append({"endpoint": "brasileirao", "registros": 0, "status": "SKIP", "erro": "chave ausente"})
+except Exception as e:
+    print(f"  ERRO: {e}")
+    log.append({"endpoint": "brasileirao", "registros": 0, "status": "ERRO", "erro": str(e)})
 
 # ── Log ──────────────────────────────────────────────────────
 ts = datetime.now(BRT).strftime("%d/%m/%Y %H:%M")
