@@ -1,263 +1,267 @@
-﻿atleta_id,nome,clube_id,clube,posicao_id,posicao,status_id,preco,variacao,media,jogos,pontos_rodada,scout_A,scout_CA,scout_DS,scout_FC,scout_FD,scout_FF,scout_FS,scout_G,scout_I,scout_DE,scout_GS,scout_SG,scout_FT,scout_PC,scout_PP,scout_PS,scout_CV,scout_V,scout_DP,scout_GC,mandante,adversario,tendencia,custo_beneficio,cb_rank,armadilha,status_label
-89274,Andreas Pereira,275,PAL,4,Meia,7,16.17,2.12,8.06,7,12.8,7.0,1.0,8.0,9.0,1.0,3.0,3.0,1.0,,,,,,,,,,,,,False,SAO,alta,0.498,61,False,Provável
-126471,Barreal,277,SAN,4,Meia,7,11.41,-0.6,5.27,6,1.8,,1.0,10.0,9.0,3.0,6.0,8.0,1.0,1.0,,,,,,,,,,,,False,CRU,baixa,0.462,75,False,Provável
-89837,Lucho Acosta,266,FLU,4,Meia,7,13.96,1.19,9.25,7,11.5,3.0,1.0,11.0,8.0,3.0,5.0,10.0,3.0,,,,,,,,,,,,,True,CAM,alta,0.663,26,False,Provável
-99552,Rossi,262,FLA,1,Goleiro,7,9.23,0.09,5.46,5,6.3,,,,,,,2.0,,,11.0,3.0,3.0,,,,,,,,,False,COR,estavel,0.592,8,False,Provável
-112709,Kaiki Bruno,283,CRU,2,Lateral,7,10.83,-0.47,4.9,7,6.3,2.0,1.0,14.0,10.0,1.0,2.0,9.0,,,,,,,,,,,,,,True,SAN,estavel,0.452,56,False,Provável
-130843,Arthur Dias,293,CAP,3,Zagueiro,7,4.99,-0.01,3.04,5,1.7,,2.0,8.0,4.0,,,3.0,,1.0,,,1.0,,,,,,,,,True,CFC,estavel,0.609,21,False,Provável
-97900,Vitão,262,FLA,3,Zagueiro,7,10.65,0.0,6.5,1,0.0,,,1.0,,,,,,,,,1.0,,,,,,,,,False,COR,estavel,0.61,20,False,Provável
-78850,Reinaldo,2305,MIR,2,Lateral,2,9.75,0.0,0.23,4,0.0,,2.0,1.0,3.0,,1.0,3.0,,,,,,,,,,,,,,False,VIT,estavel,0.024,76,True,Dúvida
-39148,Hulk,282,CAM,5,Atacante,7,12.99,0.29,5.76,7,3.9,2.0,,4.0,5.0,3.0,5.0,21.0,1.0,3.0,,,,,,,,,,,,False,FLU,estavel,0.443,64,False,Provável
-80287,Luciano,276,SAO,5,Atacante,7,15.09,-0.4,6.02,6,2.0,1.0,2.0,5.0,6.0,4.0,6.0,10.0,2.0,2.0,,,,,,1.0,1.0,,,,,True,PAL,estavel,0.399,71,False,Provável
-100652,Yuri Alberto,264,COR,5,Atacante,7,13.78,-0.98,1.63,3,1.2,,1.0,,3.0,3.0,2.0,4.0,,4.0,,,,,,,,,,,,True,FLA,baixa,0.118,111,False,Provável
-103445,Kaio Jorge,283,CRU,5,Atacante,2,12.66,0.0,4.42,4,0.0,,,,2.0,3.0,7.0,3.0,1.0,4.0,,,,,,,,,,,,True,SAN,estavel,0.349,83,False,Dúvida
-86292,Bolasie,315,CHA,5,Atacante,7,3.82,-0.63,0.96,5,-0.3,,1.0,1.0,6.0,,2.0,7.0,,,,,,,,,1.0,,,,,False,INT,baixa,0.251,95,False,Provável
-106104,Enamorado,284,GRE,5,Atacante,7,7.45,0.63,3.3,6,4.3,1.0,1.0,4.0,5.0,3.0,4.0,9.0,,,,,,,,,,,,,,False,VAS,alta,0.443,64,False,Provável
-114802,Vitor Roque,275,PAL,5,Atacante,7,18.59,-3.12,9.86,5,2.1,,1.0,7.0,6.0,3.0,4.0,14.0,3.0,2.0,,,,1.0,,,1.0,,,,,False,SAO,baixa,0.53,41,False,Provável
-94583,Pedro,262,FLA,5,Atacante,7,16.21,-2.81,7.56,5,0.0,1.0,,8.0,4.0,1.0,1.0,8.0,2.0,,,,,,,,,,,,,False,COR,baixa,0.466,56,False,Provável
-118655,Saldivia,267,VAS,3,Zagueiro,7,5.26,-0.18,1.65,4,2.0,,1.0,4.0,4.0,,1.0,4.0,,,,,,,,,,,,,,True,GRE,estavel,0.314,68,True,Provável
-101908,Willian Machado,2305,MIR,3,Zagueiro,7,4.53,-0.71,2.48,5,0.2,,1.0,6.0,3.0,1.0,2.0,5.0,,,,,,,,,,,,,,False,VIT,baixa,0.547,34,False,Provável
-131516,JP Chermont,294,CFC,2,Lateral,2,6.5,0.15,6.67,4,6.5,1.0,,4.0,1.0,,,2.0,,,,,3.0,,,,,,,,,False,CAP,estavel,1.026,7,False,Dúvida
-126182,Paulinho,285,INT,4,Meia,7,3.8,0.0,2.12,6,0.0,,3.0,8.0,10.0,1.0,2.0,8.0,,1.0,,,,,,,,,,,,True,CHA,estavel,0.558,45,False,Provável
-132412,Román Gómez,265,BAH,2,Lateral,7,8.87,0.0,12.5,1,0.0,,,5.0,,,,,,,,,1.0,,,,,,,,,False,REM,estavel,1.409,2,False,Provável
-51413,Walter,2305,MIR,1,Goleiro,7,5.56,-0.07,3.02,5,2.9,,,,,,,,,,17.0,7.0,,,,,,,,,,False,VIT,estavel,0.543,11,False,Provável
-93988,Breno Lopes,294,CFC,5,Atacante,7,8.73,0.19,4.81,7,2.5,,1.0,3.0,6.0,2.0,2.0,9.0,3.0,5.0,,,,,,,,,,,,False,CAP,estavel,0.551,38,False,Provável
-130048,Noriega,284,GRE,3,Zagueiro,7,8.42,1.3,5.63,6,6.7,1.0,1.0,10.0,11.0,,2.0,7.0,1.0,,,,1.0,,,,,,,,,False,VAS,alta,0.669,17,False,Provável
-106302,Preciado,282,CAM,2,Lateral,7,8.65,1.53,4.64,5,10.6,,1.0,7.0,8.0,,2.0,9.0,,,,,2.0,,,,,,,,,False,FLU,alta,0.536,48,False,Provável
-70666,Marllon,364,REM,3,Zagueiro,7,5.74,0.36,3.26,7,3.0,,1.0,14.0,5.0,,1.0,7.0,,,,,,,,,,,,,,True,BAH,estavel,0.568,30,False,Provável
-116034,Victor Hugo,282,CAM,4,Meia,7,6.89,0.06,4.5,7,1.5,1.0,,5.0,,1.0,1.0,2.0,2.0,,,,,,,,,,,,,False,FLU,estavel,0.653,27,False,Provável
-106708,Igor Formiga,2305,MIR,2,Lateral,7,6.31,-1.02,3.58,5,0.0,,,6.0,4.0,,2.0,1.0,1.0,,,,,,,,,,,,,False,VIT,baixa,0.567,44,False,Provável
-69208,Gabriel Paulista,264,COR,3,Zagueiro,7,10.24,0.0,6.0,4,0.0,,,5.0,4.0,,4.0,3.0,1.0,,,,1.0,,,,,,,,,True,FLA,estavel,0.586,28,False,Provável
-89256,Gerson,283,CRU,4,Meia,7,8.11,0.0,2.32,6,0.0,,2.0,7.0,6.0,2.0,,10.0,,2.0,,,,,,,,,,,,True,SAN,estavel,0.286,127,False,Provável
-105157,Villagra,285,INT,4,Meia,7,6.75,0.2,0.95,2,1.9,,,1.0,3.0,,1.0,1.0,,,,,,,,,,,,,,True,CHA,estavel,0.141,151,True,Provável
-103388,Emmanuel Martínez,287,VIT,4,Meia,7,6.71,-0.64,4.23,3,1.5,,,6.0,7.0,,1.0,10.0,,,,,,,,,,,,,,True,MIR,baixa,0.63,29,False,Provável
-71536,Luiz Gustavo,293,CAP,4,Meia,7,6.47,-1.33,3.95,4,1.4,,1.0,5.0,4.0,,,5.0,1.0,,,,,,,,,,,,,True,CFC,baixa,0.611,33,False,Provável
-113125,Picco,364,REM,4,Meia,7,6.87,0.08,4.32,6,2.7,,1.0,12.0,9.0,1.0,3.0,,1.0,,,,,,,,,,,,,True,BAH,estavel,0.629,30,False,Provável
-142265,Dell,265,BAH,5,Atacante,2,2.2,0.0,0.97,3,0.0,,,2.0,2.0,1.0,1.0,3.0,,,,,,,,,,1.0,,,,False,REM,estavel,0.441,67,False,Dúvida
-95362,Cassierra,282,CAM,5,Atacante,2,6.69,-0.76,0.7,4,0.7,,,,1.0,,2.0,3.0,,,,,,,,,,,,,,False,FLU,baixa,0.105,112,True,Dúvida
-87552,Vitor Bueno,364,REM,4,Meia,7,6.91,-0.1,3.3,6,2.0,,,2.0,5.0,3.0,4.0,7.0,1.0,,,,,,,,,,,,,True,BAH,estavel,0.478,68,False,Provável
-90370,Matheus Pereira,264,COR,4,Meia,7,4.87,-0.34,1.4,3,1.0,,,2.0,3.0,,2.0,1.0,,,,,,,,,,,,,,True,FLA,estavel,0.287,126,True,Provável
-107093,Luciano Juba,265,BAH,2,Lateral,7,11.92,2.05,8.1,6,13.5,,1.0,7.0,3.0,3.0,3.0,6.0,2.0,,,,3.0,,,,,,,,,False,REM,alta,0.68,20,False,Provável
-94930,Lucas Paquetá,262,FLA,4,Meia,2,15.18,-1.67,5.22,4,2.2,,1.0,9.0,9.0,2.0,4.0,11.0,,,,,,,,,,,,,,False,COR,baixa,0.344,113,False,Dúvida
-101715,Alerrandro,285,INT,5,Atacante,2,6.94,1.21,2.35,6,8.0,,,4.0,1.0,1.0,5.0,7.0,,3.0,,,,,,,,,,,,True,CHA,alta,0.339,85,False,Dúvida
-116065,Cuiabano,267,VAS,2,Lateral,7,13.73,1.13,9.93,4,12.4,2.0,,11.0,5.0,3.0,2.0,3.0,1.0,,,,,,,,,,,,,True,GRE,alta,0.723,17,False,Provável
-99815,Arias,275,PAL,4,Meia,7,17.93,2.24,9.27,4,17.3,,1.0,15.0,3.0,2.0,4.0,6.0,1.0,1.0,,,,,,,,,,,,False,SAO,alta,0.517,56,False,Provável
-97899,Matheus Bahia,285,INT,2,Lateral,7,6.05,-0.93,0.55,2,-0.6,,,1.0,3.0,,,1.0,,,,,,,,,,,,,,True,CHA,baixa,0.091,75,True,Provável
-126189,Tomás Pérez,282,CAM,4,Meia,7,5.36,0.94,2.5,3,5.9,,1.0,5.0,5.0,1.0,1.0,1.0,,,,,,,,,,,,,,False,FLU,alta,0.466,74,False,Provável
-92747,Eduardo Domínguez,282,CAM,6,Técnico,7,11.88,1.03,6.3,3,8.2,,,,,,,,,,,,,,,,,,2.0,,,False,FLU,alta,0.53,14,False,Provável
-101807,Oliva,277,SAN,4,Meia,7,7.5,0.27,5.45,2,3.9,,,7.0,3.0,,1.0,1.0,,,,,,,,,,,,,,False,CRU,estavel,0.727,19,False,Provável
-132553,Jemmes,266,FLU,3,Zagueiro,7,6.77,-0.39,4.1,6,-0.3,,1.0,10.0,3.0,,,3.0,,,,,2.0,,,,,,,,,True,CAM,estavel,0.606,22,False,Provável
-105048,Jajá,364,REM,5,Atacante,7,4.17,0.19,3.42,4,4.0,,1.0,5.0,2.0,1.0,4.0,7.0,,1.0,,,,,,,,,,,,True,BAH,estavel,0.82,5,False,Provável
-93368,Lucas Veríssimo,277,SAN,3,Zagueiro,2,8.0,0.0,0.0,0,0.0,,,,,,,,,,,,,,,,,,,,,False,CRU,estavel,0.0,76,True,Dúvida
-41929,Renato Gaúcho,267,VAS,6,Técnico,7,11.14,0.61,6.27,3,7.04,,,,,,,,,,,,,,,,,,2.0,,,True,GRE,alta,0.563,10,False,Provável
-88963,Leonardo Jardim,262,FLA,6,Técnico,7,15.25,0.49,10.07,3,9.36,,,,,,,,,,,,,,,,,,3.0,,,False,COR,estavel,0.66,5,False,Provável
-79437,Roger Machado,276,SAO,6,Técnico,7,11.62,-0.78,5.69,3,2.22,,,,,,,,,,,,,,,,,,2.0,,,True,PAL,baixa,0.49,16,False,Provável
-124424,Rodrigo Castillo,266,FLU,5,Atacante,2,6.82,-0.88,1.47,3,0.0,,,1.0,,1.0,1.0,2.0,,1.0,,,,,,,,,,,,True,CAM,baixa,0.216,100,False,Dúvida
-100804,Tchamba,364,REM,3,Zagueiro,7,5.34,0.94,2.27,3,5.4,,,5.0,4.0,,,1.0,,,,,,,,,,,,,,True,BAH,alta,0.425,58,False,Provável
-37457,Léo Condé,364,REM,6,Técnico,7,7.01,-0.2,2.58,3,2.47,,,,,,,,,,,,,,,,,,,,,True,BAH,estavel,0.368,18,False,Provável
-91971,Wesley Carvalho,283,CRU,6,Técnico,7,9.6,0.31,2.75,1,2.75,,,,,,,,,,,,,,,,,,,,,True,SAN,estavel,0.286,19,True,Provável
-109573,Martinelli,266,FLU,4,Meia,7,5.98,0.17,1.8,7,2.8,,1.0,4.0,8.0,4.0,4.0,4.0,,,,,,,,,,,,,,True,CAM,estavel,0.301,122,False,Provável
-106593,Villalba,283,CRU,3,Zagueiro,7,6.92,-0.81,0.9,4,0.4,,,2.0,4.0,,1.0,2.0,,,,,,,,,,,,,,True,SAN,baixa,0.13,73,True,Provável
-101254,Alef Manga,364,REM,5,Atacante,7,8.87,0.29,6.31,7,3.8,2.0,,4.0,3.0,4.0,9.0,4.0,2.0,9.0,,,,,,,,,,,,True,BAH,estavel,0.711,13,False,Provável
-69012,Santos,293,CAP,1,Goleiro,7,8.93,-1.36,4.74,5,0.3,,,,,,,,,,19.0,6.0,1.0,,,,,,,,,True,CFC,baixa,0.531,12,False,Provável
-104502,Christian,283,CRU,4,Meia,2,7.91,-0.94,4.39,7,3.4,,,9.0,7.0,2.0,4.0,12.0,1.0,3.0,,,,,,,,,,,,True,SAN,baixa,0.555,48,False,Dúvida
-97810,Erick,287,VIT,5,Atacante,7,8.48,-1.92,5.02,5,0.2,2.0,1.0,1.0,2.0,2.0,3.0,5.0,1.0,1.0,,,,,,,,,,,,True,MIR,baixa,0.592,33,False,Provável
-124661,Iván Román,282,CAM,3,Zagueiro,7,10.4,3.62,8.2,3,15.8,,1.0,6.0,9.0,,1.0,1.0,1.0,,,,2.0,,,,,,,,,False,FLU,alta,0.788,6,False,Provável
-68685,Alan Patrick,285,INT,4,Meia,7,7.22,0.0,3.88,6,0.0,,,3.0,4.0,1.0,6.0,12.0,1.0,,,,,,,,,,,,,True,CHA,estavel,0.537,50,False,Provável
-104758,Enzo Díaz,276,SAO,2,Lateral,7,9.63,-0.55,5.82,5,1.6,1.0,2.0,12.0,10.0,,2.0,9.0,,,,,1.0,,,,,,,,,True,PAL,baixa,0.604,40,False,Provável
-103056,Gabriel Brazão,277,SAN,1,Goleiro,7,5.42,0.74,1.2,6,5.8,,2.0,,,1.0,,1.0,,,15.0,11.0,,,1.0,,,,,,,False,CRU,alta,0.221,22,False,Provável
-105949,Rochet,285,INT,1,Goleiro,7,5.87,-0.52,2.49,7,0.3,,,2.0,,,,,,,18.0,9.0,,,,,,,,,,True,CHA,baixa,0.424,19,False,Provável
-68928,Rafael,276,SAO,1,Goleiro,7,8.59,0.11,4.55,7,2.9,,,,,,,,,,16.0,4.0,3.0,,,,,,,,,True,PAL,estavel,0.53,13,False,Provável
-87008,Léo Jardim,267,VAS,1,Goleiro,7,6.14,-0.15,1.33,7,1.9,,,,,,,1.0,,,16.0,12.0,,,,,,,,,,True,GRE,estavel,0.217,23,False,Provável
-100898,Vitinho,263,BOT,2,Lateral,7,10.31,0.1,5.82,5,5.9,,,14.0,4.0,,1.0,7.0,,,,,1.0,,,,,,,,,False,RBB,estavel,0.565,45,False,Provável
-37656,Fábio,266,FLU,1,Goleiro,7,9.38,0.01,4.16,7,0.9,,1.0,,,,,3.0,,,22.0,9.0,2.0,,1.0,,,,,,,True,CAM,estavel,0.443,18,False,Provável
-101727,Matheuzinho,264,COR,2,Lateral,7,10.5,-0.52,4.58,5,4.7,,1.0,8.0,7.0,,2.0,5.0,,1.0,,,2.0,,,,,,,,,True,FLA,baixa,0.436,58,False,Provável
-96591,Renan Lodi,282,CAM,2,Lateral,7,11.43,0.48,5.72,7,8.4,1.0,2.0,13.0,13.0,,3.0,19.0,,5.0,,,2.0,,,,,,,,,False,FLU,estavel,0.5,53,False,Provável
-90768,Fabrício Bruno,283,CRU,3,Zagueiro,7,6.55,-0.3,1.29,7,0.5,,2.0,4.0,3.0,1.0,4.0,3.0,,,,,,,,,,,,,,True,SAN,estavel,0.197,71,True,Provável
+﻿atleta_id,nome,clube_id,clube,posicao_id,posicao,status_id,preco,variacao,media,jogos,pontos_rodada,scout_A,scout_DS,scout_FC,scout_FD,scout_FF,scout_FS,scout_G,scout_CA,scout_DE,scout_GS,scout_SG,scout_I,scout_FT,scout_PC,scout_PP,scout_PS,scout_CV,scout_V,scout_DP,scout_GC,mandante,adversario,tendencia,custo_beneficio,cb_rank,armadilha,status_label
+89274,Andreas Pereira,275,PAL,4,Meia,7,16.17,2.12,8.06,7,12.8,7.0,8.0,9.0,1.0,3.0,3.0,1.0,1.0,,,,,,,,,,,,,False,SAO,alta,0.498,61,False,Provável
+99552,Rossi,262,FLA,1,Goleiro,7,9.23,0.09,5.46,5,6.3,,,,,,2.0,,,11.0,3.0,3.0,,,,,,,,,,False,COR,estavel,0.592,8,False,Provável
+89837,Lucho Acosta,266,FLU,4,Meia,7,13.96,1.19,9.25,7,11.5,3.0,11.0,8.0,3.0,5.0,10.0,3.0,1.0,,,,,,,,,,,,,True,CAM,alta,0.663,26,False,Provável
+126471,Barreal,277,SAN,4,Meia,7,11.41,-0.6,5.27,6,1.8,,10.0,9.0,3.0,6.0,8.0,1.0,1.0,,,,1.0,,,,,,,,,False,CRU,baixa,0.462,75,False,Provável
+130843,Arthur Dias,293,CAP,3,Zagueiro,7,4.99,-0.01,3.04,5,1.7,,8.0,4.0,,,3.0,,2.0,,,1.0,1.0,,,,,,,,,True,CFC,estavel,0.609,21,False,Provável
+112709,Kaiki Bruno,283,CRU,2,Lateral,7,10.83,-0.47,4.9,7,6.3,2.0,14.0,10.0,1.0,2.0,9.0,,1.0,,,,,,,,,,,,,True,SAN,estavel,0.452,56,False,Provável
+97900,Vitão,262,FLA,3,Zagueiro,7,10.65,0.0,6.5,1,0.0,,1.0,,,,,,,,,1.0,,,,,,,,,,False,COR,estavel,0.61,20,False,Provável
+80287,Luciano,276,SAO,5,Atacante,7,15.09,-0.4,6.02,6,2.0,1.0,5.0,6.0,4.0,6.0,10.0,2.0,2.0,,,,2.0,,,1.0,1.0,,,,,True,PAL,estavel,0.399,71,False,Provável
+100652,Yuri Alberto,264,COR,5,Atacante,7,13.78,-0.98,1.63,3,1.2,,,3.0,3.0,2.0,4.0,,1.0,,,,4.0,,,,,,,,,True,FLA,baixa,0.118,111,False,Provável
+39148,Hulk,282,CAM,5,Atacante,7,12.99,0.29,5.76,7,3.9,2.0,4.0,5.0,3.0,5.0,21.0,1.0,,,,,3.0,,,,,,,,,False,FLU,estavel,0.443,64,False,Provável
+78850,Reinaldo,2305,MIR,2,Lateral,7,9.75,0.0,0.23,4,0.0,,1.0,3.0,,1.0,3.0,,2.0,,,,,,,,,,,,,False,VIT,estavel,0.024,76,True,Provável
+90370,Matheus Pereira,264,COR,4,Meia,7,4.87,-0.34,1.4,3,1.0,,2.0,3.0,,2.0,1.0,,,,,,,,,,,,,,,True,FLA,estavel,0.287,126,True,Provável
 42411,Cuca,277,SAN,6,Técnico,7,8.19,0.0,0.0,0,0.0,,,,,,,,,,,,,,,,,,,,,False,CRU,estavel,0.0,20,False,Provável
-91101,Ronaldo,265,BAH,1,Goleiro,7,8.43,0.83,5.43,6,8.9,,2.0,,,,,1.0,,,17.0,3.0,3.0,,,,,,,,,False,REM,alta,0.644,5,False,Provável
-99274,Alexander Barboza,263,BOT,3,Zagueiro,7,9.92,0.0,4.6,4,0.0,2.0,2.0,7.0,7.0,,,,,,,,1.0,,,,,1.0,,,,False,RBB,estavel,0.464,52,False,Provável
-113397,Cristian Olivera,265,BAH,5,Atacante,7,8.37,1.25,5.13,6,8.4,,1.0,8.0,6.0,4.0,2.0,15.0,1.0,3.0,,,,,,,,,,,,False,REM,alta,0.613,28,False,Provável
-68996,Willian José,265,BAH,5,Atacante,2,10.17,-0.14,4.17,6,5.2,1.0,,2.0,5.0,3.0,3.0,1.0,2.0,,,,,,,1.0,,,,,,False,REM,estavel,0.41,69,False,Dúvida
-109401,Erick Pulga,265,BAH,5,Atacante,7,7.56,0.14,2.83,6,4.1,,1.0,7.0,6.0,2.0,2.0,9.0,,2.0,,,,,,,1.0,,,,,False,REM,estavel,0.374,78,False,Provável
-61987,Alex Sandro,262,FLA,2,Lateral,2,11.2,-0.21,5.92,5,8.0,,,8.0,4.0,,1.0,6.0,,,,,3.0,,,,,,,,,False,COR,estavel,0.529,50,False,Dúvida
-98022,Erick,265,BAH,4,Meia,7,6.98,2.12,3.62,6,11.1,,1.0,4.0,12.0,1.0,2.0,7.0,1.0,,,,,2.0,,,,,,,,False,REM,alta,0.519,55,False,Provável
-105436,Carrascal,262,FLA,4,Meia,2,10.54,-1.68,4.86,5,1.0,,,5.0,1.0,2.0,4.0,7.0,1.0,,,,,,,,,,,,,False,COR,baixa,0.461,76,False,Dúvida
-98517,Jean Lucas,265,BAH,4,Meia,7,10.27,0.88,5.98,6,8.2,1.0,1.0,6.0,7.0,2.0,4.0,7.0,2.0,1.0,,,,,,,,,,,,False,REM,alta,0.582,42,False,Provável
-91772,David Duarte,265,BAH,3,Zagueiro,2,5.01,0.0,2.6,2,0.0,,,4.0,2.0,,,,,2.0,,,,,,,,,,,,False,REM,estavel,0.519,39,False,Dúvida
-105990,Santiago Mingo,265,BAH,3,Zagueiro,7,5.33,0.3,2.63,6,5.0,,1.0,1.0,4.0,,,3.0,,,,,3.0,,,,,,,,,False,REM,estavel,0.493,43,False,Provável
-105373,Gabriel Xavier,265,BAH,3,Zagueiro,2,7.65,0.12,5.13,4,5.0,,,3.0,1.0,,1.0,1.0,,,,,3.0,,,,,,,,,False,REM,estavel,0.671,16,False,Dúvida
-106323,Caio Alexandre,265,BAH,4,Meia,7,5.54,0.21,1.65,4,4.4,,1.0,4.0,3.0,,,5.0,,,,,,,,,,,,,,False,REM,estavel,0.298,124,False,Provável
+87552,Vitor Bueno,364,REM,4,Meia,7,6.91,-0.1,3.3,6,2.0,,2.0,5.0,3.0,4.0,7.0,1.0,,,,,,,,,,,,,,True,BAH,estavel,0.478,68,False,Provável
+145404,Arthur,275,PAL,2,Lateral,2,2.33,-0.05,2.4,4,2.9,,2.0,2.0,1.0,,2.0,,,,,1.0,,,,,,,,,,False,SAO,estavel,1.03,6,False,Dúvida
+94930,Lucas Paquetá,262,FLA,4,Meia,2,15.18,-1.67,5.22,4,2.2,,9.0,9.0,2.0,4.0,11.0,,1.0,,,,,,,,,,,,,False,COR,baixa,0.344,113,False,Dúvida
+107093,Luciano Juba,265,BAH,2,Lateral,7,11.92,2.05,8.1,6,13.5,,7.0,3.0,3.0,3.0,6.0,2.0,1.0,,,3.0,,,,,,,,,,False,REM,alta,0.68,20,False,Provável
+101715,Alerrandro,285,INT,5,Atacante,2,6.94,1.21,2.35,6,8.0,,4.0,1.0,1.0,5.0,7.0,,,,,,3.0,,,,,,,,,True,CHA,alta,0.339,85,False,Dúvida
+116065,Cuiabano,267,VAS,2,Lateral,7,13.73,1.13,9.93,4,12.4,2.0,11.0,5.0,3.0,2.0,3.0,1.0,,,,,,,,,,,,,,True,GRE,alta,0.723,17,False,Provável
+132553,Jemmes,266,FLU,3,Zagueiro,7,6.77,-0.39,4.1,6,-0.3,,10.0,3.0,,,3.0,,1.0,,,2.0,,,,,,,,,,True,CAM,estavel,0.606,22,False,Provável
+99815,Arias,275,PAL,4,Meia,7,17.93,2.24,9.27,4,17.3,,15.0,3.0,2.0,4.0,6.0,1.0,1.0,,,,1.0,,,,,,,,,False,SAO,alta,0.517,56,False,Provável
+126189,Tomás Pérez,282,CAM,4,Meia,7,5.36,0.94,2.5,3,5.9,,5.0,5.0,1.0,1.0,1.0,,1.0,,,,,,,,,,,,,False,FLU,alta,0.466,74,False,Provável
+97899,Matheus Bahia,285,INT,2,Lateral,7,6.05,-0.93,0.55,2,-0.6,,1.0,3.0,,,1.0,,,,,,,,,,,,,,,True,CHA,baixa,0.091,75,True,Provável
+105048,Jajá,364,REM,5,Atacante,7,4.17,0.19,3.42,4,4.0,,5.0,2.0,1.0,4.0,7.0,,1.0,,,,1.0,,,,,,,,,True,BAH,estavel,0.82,5,False,Provável
+93368,Lucas Veríssimo,277,SAN,3,Zagueiro,2,8.0,0.0,0.0,0,0.0,,,,,,,,,,,,,,,,,,,,,False,CRU,estavel,0.0,76,True,Dúvida
+92747,Eduardo Domínguez,282,CAM,6,Técnico,7,11.88,1.03,6.3,3,8.2,,,,,,,,,,,,,,,,,,2.0,,,False,FLU,alta,0.53,14,False,Provável
+71898,Gabriel Pires,2305,MIR,4,Meia,7,5.73,0.9,2.8,2,4.8,,,3.0,2.0,2.0,5.0,,,,,,,,,,,,,,,False,VIT,alta,0.489,63,False,Provável
+109573,Martinelli,266,FLU,4,Meia,7,5.98,0.17,1.8,7,2.8,,4.0,8.0,4.0,4.0,4.0,,1.0,,,,,,,,,,,,,True,CAM,estavel,0.301,122,False,Provável
+101807,Oliva,277,SAN,4,Meia,7,7.5,0.27,5.45,2,3.9,,7.0,3.0,,1.0,1.0,,,,,,,,,,,,,,,False,CRU,estavel,0.727,19,False,Provável
+41929,Renato Gaúcho,267,VAS,6,Técnico,7,11.14,0.61,6.27,3,7.04,,,,,,,,,,,,,,,,,,2.0,,,True,GRE,alta,0.563,10,False,Provável
+124424,Rodrigo Castillo,266,FLU,5,Atacante,2,6.82,-0.88,1.47,3,0.0,,1.0,,1.0,1.0,2.0,,,,,,1.0,,,,,,,,,True,CAM,baixa,0.216,100,False,Dúvida
+88963,Leonardo Jardim,262,FLA,6,Técnico,7,15.25,0.49,10.07,3,9.36,,,,,,,,,,,,,,,,,,3.0,,,False,COR,estavel,0.66,5,False,Provável
+100804,Tchamba,364,REM,3,Zagueiro,7,5.34,0.94,2.27,3,5.4,,5.0,4.0,,,1.0,,,,,,,,,,,,,,,True,BAH,alta,0.425,58,False,Provável
+79437,Roger Machado,276,SAO,6,Técnico,7,11.62,-0.78,5.69,3,2.22,,,,,,,,,,,,,,,,,,2.0,,,True,PAL,baixa,0.49,16,False,Provável
+37457,Léo Condé,364,REM,6,Técnico,7,7.01,-0.2,2.58,3,2.47,,,,,,,,,,,,,,,,,,,,,True,BAH,estavel,0.368,18,False,Provável
+51413,Walter,2305,MIR,1,Goleiro,7,5.56,-0.07,3.02,5,2.9,,,,,,,,,17.0,7.0,,,,,,,,,,,False,VIT,estavel,0.543,11,False,Provável
+101254,Alef Manga,364,REM,5,Atacante,7,8.87,0.29,6.31,7,3.8,2.0,4.0,3.0,4.0,9.0,4.0,2.0,,,,,9.0,,,,,,,,,True,BAH,estavel,0.711,13,False,Provável
+91971,Wesley Carvalho,283,CRU,6,Técnico,7,9.6,0.31,2.75,1,2.75,,,,,,,,,,,,,,,,,,,,,True,SAN,estavel,0.286,19,True,Provável
+106593,Villalba,283,CRU,3,Zagueiro,7,6.92,-0.81,0.9,4,0.4,,2.0,4.0,,1.0,2.0,,,,,,,,,,,,,,,True,SAN,baixa,0.13,73,True,Provável
+104502,Christian,283,CRU,4,Meia,2,7.91,-0.94,4.39,7,3.4,,9.0,7.0,2.0,4.0,12.0,1.0,,,,,3.0,,,,,,,,,True,SAN,baixa,0.555,48,False,Dúvida
+97810,Erick,287,VIT,5,Atacante,7,8.48,-1.92,5.02,5,0.2,2.0,1.0,2.0,2.0,3.0,5.0,1.0,1.0,,,,1.0,,,,,,,,,True,MIR,baixa,0.592,33,False,Provável
+69012,Santos,293,CAP,1,Goleiro,7,8.93,-1.36,4.74,5,0.3,,,,,,,,,19.0,6.0,1.0,,,,,,,,,,True,CFC,baixa,0.531,12,False,Provável
+104758,Enzo Díaz,276,SAO,2,Lateral,7,9.63,-0.55,5.82,5,1.6,1.0,12.0,10.0,,2.0,9.0,,2.0,,,1.0,,,,,,,,,,True,PAL,baixa,0.604,40,False,Provável
+103056,Gabriel Brazão,277,SAN,1,Goleiro,7,5.42,0.74,1.2,6,5.8,,,,1.0,,1.0,,2.0,15.0,11.0,,,,1.0,,,,,,,False,CRU,alta,0.221,22,False,Provável
+68685,Alan Patrick,285,INT,4,Meia,7,7.22,0.0,3.88,6,0.0,,3.0,4.0,1.0,6.0,12.0,1.0,,,,,,,,,,,,,,True,CHA,estavel,0.537,50,False,Provável
+87008,Léo Jardim,267,VAS,1,Goleiro,7,6.14,-0.15,1.33,7,1.9,,,,,,1.0,,,16.0,12.0,,,,,,,,,,,True,GRE,estavel,0.217,23,False,Provável
+101727,Matheuzinho,264,COR,2,Lateral,7,10.5,-0.52,4.58,5,4.7,,8.0,7.0,,2.0,5.0,,1.0,,,2.0,1.0,,,,,,,,,True,FLA,baixa,0.436,58,False,Provável
+72294,Everson,282,CAM,1,Goleiro,7,11.19,1.4,6.24,7,8.9,1.0,,,,,2.0,,,29.0,10.0,2.0,,,,,,,,,,False,FLU,alta,0.558,10,False,Provável
+105949,Rochet,285,INT,1,Goleiro,7,5.87,-0.52,2.49,7,0.3,,2.0,,,,,,,18.0,9.0,,,,,,,,,,,True,CHA,baixa,0.424,19,False,Provável
+68928,Rafael,276,SAO,1,Goleiro,7,8.59,0.11,4.55,7,2.9,,,,,,,,,16.0,4.0,3.0,,,,,,,,,,True,PAL,estavel,0.53,13,False,Provável
+100898,Vitinho,263,BOT,2,Lateral,7,10.31,0.1,5.82,5,5.9,,14.0,4.0,,1.0,7.0,,,,,1.0,,,,,,,,,,False,RBB,estavel,0.565,45,False,Provável
+91101,Ronaldo,265,BAH,1,Goleiro,7,8.43,0.83,5.43,6,8.9,,,,,,1.0,,2.0,17.0,3.0,3.0,,,,,,,,,,False,REM,alta,0.644,5,False,Provável
+96591,Renan Lodi,282,CAM,2,Lateral,7,11.43,0.48,5.72,7,8.4,1.0,13.0,13.0,,3.0,19.0,,2.0,,,2.0,5.0,,,,,,,,,False,FLU,estavel,0.5,53,False,Provável
+37656,Fábio,266,FLU,1,Goleiro,7,9.38,0.01,4.16,7,0.9,,,,,,3.0,,1.0,22.0,9.0,2.0,,,1.0,,,,,,,True,CAM,estavel,0.443,18,False,Provável
+90768,Fabrício Bruno,283,CRU,3,Zagueiro,7,6.55,-0.3,1.29,7,0.5,,4.0,3.0,1.0,4.0,3.0,,2.0,,,,,,,,,,,,,True,SAN,estavel,0.197,71,True,Provável
+68996,Willian José,265,BAH,5,Atacante,2,10.17,-0.14,4.17,6,5.2,1.0,2.0,5.0,3.0,3.0,1.0,2.0,,,,,,,,1.0,,,,,,False,REM,estavel,0.41,69,False,Dúvida
+113397,Cristian Olivera,265,BAH,5,Atacante,7,8.37,1.25,5.13,6,8.4,,8.0,6.0,4.0,2.0,15.0,1.0,1.0,,,,3.0,,,,,,,,,False,REM,alta,0.613,28,False,Provável
+99274,Alexander Barboza,263,BOT,3,Zagueiro,2,9.92,0.0,4.6,4,0.0,2.0,7.0,7.0,,,,,2.0,,,1.0,,,,,,1.0,,,,False,RBB,estavel,0.464,52,False,Dúvida
+61987,Alex Sandro,262,FLA,2,Lateral,2,11.2,-0.21,5.92,5,8.0,,8.0,4.0,,1.0,6.0,,,,,3.0,,,,,,,,,,False,COR,estavel,0.529,50,False,Dúvida
+109401,Erick Pulga,265,BAH,5,Atacante,7,7.56,0.14,2.83,6,4.1,,7.0,6.0,2.0,2.0,9.0,,1.0,,,,2.0,,,,1.0,,,,,False,REM,estavel,0.374,78,False,Provável
+98022,Erick,265,BAH,4,Meia,7,6.98,2.12,3.62,6,11.1,,4.0,12.0,1.0,2.0,7.0,1.0,1.0,,,,,2.0,,,,,,,,False,REM,alta,0.519,55,False,Provável
+98517,Jean Lucas,265,BAH,4,Meia,7,10.27,0.88,5.98,6,8.2,1.0,6.0,7.0,2.0,4.0,7.0,2.0,1.0,,,,1.0,,,,,,,,,False,REM,alta,0.582,42,False,Provável
+105436,Carrascal,262,FLA,4,Meia,2,10.54,-1.68,4.86,5,1.0,,5.0,1.0,2.0,4.0,7.0,1.0,,,,,,,,,,,,,,False,COR,baixa,0.461,76,False,Dúvida
+105990,Santiago Mingo,265,BAH,3,Zagueiro,7,5.33,0.3,2.63,6,5.0,,1.0,4.0,,,3.0,,1.0,,,3.0,,,,,,,,,,False,REM,estavel,0.493,43,False,Provável
+105373,Gabriel Xavier,265,BAH,3,Zagueiro,2,7.65,0.12,5.13,4,5.0,,3.0,1.0,,1.0,1.0,,,,,3.0,,,,,,,,,,False,REM,estavel,0.671,16,False,Dúvida
+106323,Caio Alexandre,265,BAH,4,Meia,7,5.54,0.21,1.65,4,4.4,,4.0,3.0,,,5.0,,1.0,,,,,,,,,,,,,False,REM,estavel,0.298,124,False,Provável
+91772,David Duarte,265,BAH,3,Zagueiro,2,5.01,0.0,2.6,2,0.0,,4.0,2.0,,,,,,,,,2.0,,,,,,,,,False,REM,estavel,0.519,39,False,Dúvida
 97341,Rogério Ceni,265,BAH,6,Técnico,7,11.39,0.62,6.13,6,8.07,,,,,,,,,,,,,,,,,,4.0,,,False,REM,alta,0.538,13,False,Provável
-123360,Cauly,276,SAO,4,Meia,7,7.06,0.06,2.98,4,2.7,,,2.0,6.0,1.0,,3.0,1.0,,,,,,,,,,,,,True,PAL,estavel,0.422,88,False,Provável
+123360,Cauly,276,SAO,4,Meia,7,7.06,0.06,2.98,4,2.7,,2.0,6.0,1.0,,3.0,1.0,,,,,,,,,,,,,,True,PAL,estavel,0.422,88,False,Provável
 117965,Martín Anselmi,263,BOT,6,Técnico,7,8.57,0.15,5.15,5,4.05,,,,,,,,,,,,,,,,,,1.0,,,False,RBB,estavel,0.601,8,False,Provável
-72493,Alex Telles,263,BOT,2,Lateral,7,10.47,1.11,3.94,5,9.4,,1.0,11.0,7.0,,1.0,3.0,,,,,1.0,,1.0,,,,,,,False,RBB,alta,0.376,62,False,Provável
-107231,Danilo,263,BOT,4,Meia,7,16.17,1.22,10.38,5,11.2,,,5.0,4.0,,2.0,2.0,5.0,,,,,1.0,,,,,,,,False,RBB,alta,0.642,28,False,Provável
-105214,Santi Rodríguez,263,BOT,4,Meia,7,7.58,0.22,2.63,3,2.2,,,4.0,2.0,,,5.0,,,,,,,,,,,,,,False,RBB,estavel,0.347,111,False,Provável
-111831,Matheus Martins,263,BOT,5,Atacante,7,5.7,-0.41,2.72,5,1.0,,,1.0,2.0,2.0,1.0,3.0,1.0,,,,,,,,,,,,,False,RBB,estavel,0.477,54,False,Provável
-104191,Raul,263,BOT,1,Goleiro,7,4.05,0.99,2.7,2,4.5,,,,,,,,,,8.0,5.0,,,,,,,,,,False,RBB,alta,0.667,4,False,Provável
-98672,Savarino,266,FLU,4,Meia,7,8.8,-1.83,4.6,5,0.4,2.0,1.0,1.0,4.0,2.0,4.0,5.0,,4.0,,,,2.0,,,,,,,,True,CAM,baixa,0.523,54,False,Provável
-142890,Montoro,263,BOT,4,Meia,7,9.07,0.62,4.18,4,4.5,2.0,1.0,2.0,6.0,1.0,1.0,9.0,,,,,,,,,,,,,,False,RBB,alta,0.461,76,False,Provável
+98280,Bastos,263,BOT,3,Zagueiro,2,4.83,-0.55,-0.05,2,0.0,,,2.0,,,1.0,,,,,,,,,,,,,,,False,RBB,baixa,-0.01,117,False,Dúvida
+72493,Alex Telles,263,BOT,2,Lateral,7,10.47,1.11,3.94,5,9.4,,11.0,7.0,,1.0,3.0,,1.0,,,1.0,,,1.0,,,,,,,False,RBB,alta,0.376,62,False,Provável
+105214,Santi Rodríguez,263,BOT,4,Meia,7,7.58,0.22,2.63,3,2.2,,4.0,2.0,,,5.0,,,,,,,,,,,,,,,False,RBB,estavel,0.347,111,False,Provável
+107231,Danilo,263,BOT,4,Meia,7,16.17,1.22,10.38,5,11.2,,5.0,4.0,,2.0,2.0,5.0,,,,,,1.0,,,,,,,,False,RBB,alta,0.642,28,False,Provável
+69140,Allan,263,BOT,4,Meia,7,4.99,0.0,1.72,4,0.0,,5.0,4.0,,2.0,4.0,,3.0,,,,,,,,,,,,,False,RBB,estavel,0.345,112,False,Provável
+111831,Matheus Martins,263,BOT,5,Atacante,7,5.7,-0.41,2.72,5,1.0,,1.0,2.0,2.0,1.0,3.0,1.0,,,,,,,,,,,,,,False,RBB,estavel,0.477,54,False,Provável
+104191,Raul,263,BOT,1,Goleiro,7,4.05,0.99,2.7,2,4.5,,,,,,,,,8.0,5.0,,,,,,,,,,,False,RBB,alta,0.667,4,False,Provável
+98672,Savarino,266,FLU,4,Meia,7,8.8,-1.83,4.6,5,0.4,2.0,1.0,4.0,2.0,4.0,5.0,,1.0,,,,4.0,2.0,,,,,,,,True,CAM,baixa,0.523,54,False,Provável
+142890,Montoro,263,BOT,4,Meia,7,9.07,0.62,4.18,4,4.5,2.0,2.0,6.0,1.0,1.0,9.0,,1.0,,,,,,,,,,,,,False,RBB,alta,0.461,76,False,Provável
 39850,Vagner Mancini,280,RBB,6,Técnico,7,7.47,0.17,4.55,7,3.9,,,,,,,,,,,,,,,,,,2.0,,,True,BOT,estavel,0.609,6,False,Provável
-69140,Allan,263,BOT,4,Meia,7,4.99,0.0,1.72,4,0.0,,3.0,5.0,4.0,,2.0,4.0,,,,,,,,,,,,,,False,RBB,estavel,0.345,112,False,Provável
-78605,Gabriel,280,RBB,4,Meia,7,4.39,0.0,1.54,5,0.0,,4.0,5.0,5.0,2.0,1.0,5.0,,,,,,,,,,,,,,True,BOT,estavel,0.351,108,False,Provável
-70360,Eduardo Sasha,280,RBB,5,Atacante,7,5.4,0.13,1.92,6,1.7,,,2.0,1.0,4.0,2.0,5.0,,1.0,,,,,,,,,,,,True,BOT,estavel,0.356,81,False,Provável
-93882,Cleiton,280,RBB,1,Goleiro,7,6.75,0.0,3.32,6,0.0,,1.0,,,,,,,,13.0,6.0,2.0,,,,,,,,,True,BOT,estavel,0.492,16,False,Provável
-94968,Juninho Capixaba,280,RBB,2,Lateral,7,13.58,0.0,9.17,6,0.0,1.0,3.0,14.0,12.0,1.0,3.0,6.0,2.0,,,,2.0,1.0,,,,,,,,True,BOT,estavel,0.675,22,False,Provável
-110715,Andrés Hurtado,280,RBB,2,Lateral,7,4.88,0.0,3.25,6,0.0,,2.0,5.0,3.0,1.0,4.0,1.0,,,,,2.0,,,,,,,,,True,BOT,estavel,0.666,27,False,Provável
-111246,Alix Vinicius,280,RBB,3,Zagueiro,7,5.04,-0.05,1.78,5,3.2,,1.0,4.0,13.0,,1.0,,,,,,2.0,,,,,1.0,,,,True,BOT,estavel,0.353,65,True,Provável
-110750,Gustavo Marques,280,RBB,3,Zagueiro,7,6.87,0.0,5.38,5,0.0,,,8.0,4.0,1.0,3.0,5.0,,,,,2.0,,,,,,,,,True,BOT,estavel,0.783,7,False,Provável
-113157,Nathan Mendes,287,VIT,2,Lateral,7,5.12,-0.8,3.6,4,1.7,,2.0,7.0,7.0,,,6.0,,,,,1.0,,,,,,,,,True,MIR,baixa,0.703,18,False,Provável
-112886,Lucas Barbosa,280,RBB,5,Atacante,7,7.39,0.0,3.75,6,0.0,,3.0,12.0,20.0,4.0,3.0,13.0,,2.0,,,,,,,,,,,,True,BOT,estavel,0.507,46,False,Provável
-122394,Gustavinho,280,RBB,4,Meia,7,7.39,0.0,5.05,6,0.0,,,12.0,11.0,4.0,1.0,4.0,1.0,,,,,,,,,,,,,True,BOT,estavel,0.683,24,False,Provável
-124239,Henry Mosquera,280,RBB,5,Atacante,7,4.32,-0.56,2.57,7,-0.6,,1.0,3.0,7.0,5.0,9.0,7.0,,1.0,,,,,,,,,,,,True,BOT,baixa,0.595,32,False,Provável
-39656,Alan Franco,282,CAM,4,Meia,7,6.4,1.17,3.27,7,7.9,1.0,1.0,11.0,9.0,2.0,1.0,4.0,,1.0,,,,,,,,,,,,False,FLU,alta,0.511,57,False,Provável
-91607,Rony,277,SAN,5,Atacante,7,5.81,-0.75,2.1,5,1.0,,2.0,5.0,8.0,1.0,1.0,11.0,,1.0,,,,,,,,,,,,False,CRU,baixa,0.361,80,False,Provável
-100842,Ruan,282,CAM,3,Zagueiro,7,5.05,0.0,2.87,6,0.0,,3.0,4.0,7.0,,1.0,5.0,1.0,,,,1.0,,,,,,,,,False,FLU,estavel,0.568,30,False,Provável
-98909,Cuello,282,CAM,5,Atacante,2,8.42,0.43,5.53,7,4.1,,,13.0,9.0,1.0,5.0,7.0,1.0,8.0,,,,2.0,,,,,,,,False,FLU,estavel,0.657,22,False,Dúvida
-72460,Bernard,282,CAM,4,Meia,2,3.83,-0.29,0.6,4,0.0,,,2.0,2.0,,,,,,,,,,,,,,,,,False,FLU,estavel,0.157,148,False,Dúvida
-72294,Everson,282,CAM,1,Goleiro,7,11.19,1.4,6.24,7,8.9,1.0,,,,,,2.0,,,29.0,10.0,2.0,,,,,,,,,False,FLU,alta,0.558,10,False,Provável
-78248,Gustavo Henrique,264,COR,3,Zagueiro,7,9.95,0.0,4.6,4,0.0,,2.0,7.0,4.0,2.0,4.0,3.0,,,,,1.0,,1.0,,,,,,,True,FLA,estavel,0.462,53,False,Provável
-101002,Júnior Santos,263,BOT,5,Atacante,7,4.85,-0.44,1.25,2,0.5,,,1.0,,,,2.0,,,,,,,,,,,,,,False,RBB,estavel,0.258,92,False,Provável
-68920,Dudu,282,CAM,5,Atacante,2,6.49,-0.31,2.46,7,0.0,,,2.0,1.0,2.0,2.0,5.0,1.0,,,,,,,,,,,,,False,FLU,estavel,0.379,77,False,Dúvida
-85048,Memphis Depay,264,COR,5,Atacante,7,11.38,0.0,2.64,5,0.0,,,1.0,3.0,1.0,2.0,4.0,1.0,2.0,,,,,,,,,,,,True,FLA,estavel,0.232,96,False,Provável
-97642,Félix Torres,285,INT,3,Zagueiro,7,3.12,-0.14,1.63,6,1.0,,1.0,7.0,5.0,,1.0,2.0,,,,,,,,,,,,,,True,CHA,estavel,0.522,38,False,Provável
-105531,Matheus Bidu,264,COR,2,Lateral,7,11.32,0.0,7.6,4,0.0,,1.0,7.0,5.0,1.0,1.0,15.0,1.0,1.0,,,1.0,,,,,,,,,True,FLA,estavel,0.671,24,False,Provável
-95556,Raniele,264,COR,4,Meia,7,7.27,-1.2,3.46,5,-0.3,,2.0,11.0,9.0,,2.0,8.0,,1.0,,,,,,,,,,,,True,FLA,baixa,0.476,69,False,Provável
-101574,Hugo Souza,264,COR,1,Goleiro,7,11.21,1.32,5.4,6,10.2,,1.0,,,,,,,,18.0,6.0,2.0,,1.0,,,,,1.0,,True,FLA,alta,0.482,17,False,Provável
-102340,Cacá,287,VIT,3,Zagueiro,7,5.92,-0.8,3.33,3,0.8,,,3.0,1.0,,1.0,,,,,,1.0,,,,,,,,,True,MIR,baixa,0.562,32,False,Provável
-117910,Breno Bidon,264,COR,4,Meia,7,9.91,-0.71,4.1,5,2.0,,1.0,4.0,6.0,,1.0,11.0,1.0,,,,,1.0,,,,,,,,True,FLA,baixa,0.414,90,False,Provável
-79701,Lucas Silva,283,CRU,4,Meia,7,4.35,-0.34,0.53,7,0.0,,2.0,3.0,2.0,,1.0,2.0,,,,,,,,,,,,,,True,SAN,estavel,0.122,155,False,Provável
-145744,André,264,COR,4,Meia,7,5.92,-0.01,3.7,5,2.7,,,8.0,1.0,1.0,2.0,8.0,,,,,,,,,,,,,,True,FLA,estavel,0.625,31,False,Provável
-89275,William,283,CRU,2,Lateral,7,7.93,-1.44,2.32,5,0.4,,,9.0,8.0,1.0,1.0,3.0,,,,,,,,,,1.0,,,,True,SAN,baixa,0.293,67,True,Provável
-96610,Matheus Pereira,283,CRU,4,Meia,7,14.86,0.0,6.13,6,0.0,,3.0,4.0,15.0,3.0,9.0,21.0,2.0,,,,,,,,1.0,,,,,True,SAN,estavel,0.413,91,False,Provável
-100742,Matheus Henrique,283,CRU,4,Meia,7,5.31,-0.91,1.97,7,-1.0,,1.0,6.0,3.0,,4.0,9.0,,,,,,,1.0,,,,,,,True,SAN,baixa,0.371,100,False,Provável
-111690,Matheus Cunha,283,CRU,1,Goleiro,7,2.28,-0.08,0.17,3,0.6,,,,,,,,,,5.0,6.0,,,,,,,,,,True,SAN,estavel,0.075,25,False,Provável
-132264,Arroyo,283,CRU,5,Atacante,2,4.53,0.02,1.18,6,2.6,,1.0,2.0,7.0,3.0,2.0,4.0,,,,,,,,,,,,,,True,SAN,estavel,0.26,91,False,Dúvida
-131967,Villarreal,283,CRU,5,Atacante,2,9.08,1.46,7.43,3,10.1,,,1.0,1.0,1.0,3.0,3.0,2.0,,,,,,,,,,,,,True,SAN,alta,0.818,6,False,Dúvida
-92854,Borré,285,INT,5,Atacante,2,7.34,0.29,3.41,7,3.8,,,4.0,12.0,6.0,5.0,6.0,1.0,7.0,,,,,,,,,,,,True,CHA,estavel,0.465,58,False,Dúvida
-84735,Jorginho,262,FLA,4,Meia,7,9.35,-1.58,1.15,4,0.0,,1.0,6.0,3.0,,,1.0,,,,,,,,,,1.0,,,,False,COR,baixa,0.123,154,True,Provável
-87863,Arrascaeta,262,FLA,4,Meia,2,18.51,-0.54,6.63,4,8.0,1.0,,3.0,4.0,1.0,5.0,4.0,1.0,,,,,1.0,,,,,,,,False,COR,baixa,0.358,104,False,Dúvida
-82627,Luiz Araújo,262,FLA,5,Atacante,2,11.57,3.73,5.77,3,17.6,1.0,,2.0,2.0,,,4.0,1.0,1.0,,,,,,,,,,,,False,COR,alta,0.499,49,False,Dúvida
-142004,Amuzu,284,GRE,5,Atacante,7,9.08,1.7,5.95,6,11.5,2.0,,6.0,5.0,4.0,3.0,6.0,1.0,,,,,,,,,,,,,False,VAS,alta,0.655,24,False,Provável
-88393,Ayrton Lucas,262,FLA,2,Lateral,2,10.25,0.74,6.05,2,6.2,,,2.0,3.0,,,,,,,,2.0,,,,,,,,,False,COR,alta,0.59,41,False,Dúvida
-84816,Varela,262,FLA,2,Lateral,7,8.64,-0.3,5.42,5,5.8,1.0,1.0,4.0,2.0,,1.0,2.0,,1.0,,,3.0,,,,1.0,,,,,False,COR,estavel,0.627,36,False,Provável
-97867,Léo Ortiz,262,FLA,3,Zagueiro,7,11.72,1.31,6.26,5,13.0,,,4.0,4.0,,,1.0,1.0,,,,3.0,1.0,,,,,,,,False,COR,alta,0.534,37,False,Provável
-98873,Samuel Lino,262,FLA,5,Atacante,7,11.35,0.08,7.32,5,10.4,1.0,1.0,8.0,4.0,,3.0,7.0,2.0,1.0,,,,,,,,,,,,False,COR,estavel,0.645,26,False,Provável
-115914,Evertton Araújo,262,FLA,4,Meia,7,3.45,0.0,0.93,3,0.0,,,,3.0,,4.0,1.0,,,,,,,,,,,,,,False,COR,estavel,0.27,132,False,Provável
-73384,Samuel Xavier,266,FLU,2,Lateral,7,8.91,-0.24,5.03,6,3.2,,1.0,11.0,5.0,,1.0,11.0,,1.0,,,2.0,,,,,,,,,True,CAM,estavel,0.565,45,False,Provável
-78445,Renê,266,FLU,2,Lateral,2,10.43,-0.95,8.24,5,3.5,2.0,,12.0,5.0,2.0,1.0,3.0,,,,,2.0,,,,,,,,,True,CAM,baixa,0.79,10,False,Dúvida
-99366,Luis Zubeldía,266,FLU,6,Técnico,7,10.2,-0.16,6.16,7,5.07,,,,,,,,,,,,,,,,,,4.0,,,True,CAM,estavel,0.604,7,False,Provável
-78117,Everaldo,265,BAH,5,Atacante,2,4.11,0.04,1.38,4,1.7,,,3.0,3.0,,,4.0,,1.0,,,,,,,,,,,,False,REM,estavel,0.336,86,False,Dúvida
-102928,Canobbio,266,FLU,5,Atacante,7,12.17,1.94,8.33,6,16.2,,1.0,11.0,10.0,3.0,5.0,6.0,3.0,1.0,,,,2.0,,,,1.0,,,,True,CAM,alta,0.684,15,False,Provável
-103523,Ignácio,266,FLU,3,Zagueiro,7,6.57,-1.4,3.53,3,-0.3,,1.0,5.0,5.0,,2.0,2.0,,,,,,1.0,,,,,,,,True,CAM,baixa,0.537,36,False,Provável
-110759,John Kennedy,266,FLU,5,Atacante,2,8.39,-0.25,5.89,7,2.4,,,7.0,9.0,11.0,3.0,4.0,2.0,2.0,,,,,,,,,,,,True,CAM,estavel,0.702,14,False,Dúvida
-116447,Hércules,266,FLU,4,Meia,7,8.04,0.64,4.86,5,9.6,,1.0,6.0,8.0,1.0,2.0,,2.0,1.0,,,,,,,,,,,,True,CAM,alta,0.604,35,False,Provável
-87228,Guilherme Arana,266,FLU,2,Lateral,2,9.64,0.0,4.4,4,0.0,,1.0,3.0,3.0,1.0,1.0,,1.0,,,,1.0,,,,,,,,,True,CAM,estavel,0.456,55,False,Dúvida
-87887,Balbuena,284,GRE,3,Zagueiro,7,7.5,1.51,3.6,4,8.5,,,6.0,,,,1.0,,1.0,,,1.0,,,,,,,,,False,VAS,alta,0.48,49,False,Provável
-88037,Luís Castro,284,GRE,6,Técnico,7,10.24,0.98,5.21,7,7.61,,,,,,,,,,,,,,,,,,3.0,,,False,VAS,alta,0.509,15,True,Provável
-90532,Arthur Melo,284,GRE,4,Meia,7,9.87,0.0,5.2,3,0.0,,,8.0,3.0,,,9.0,,,,,,,,,,,,,,False,VAS,estavel,0.527,53,False,Provável
-91908,Pavón,284,GRE,5,Atacante,7,5.72,0.48,2.96,7,4.2,,1.0,11.0,4.0,2.0,,2.0,,,,,,1.0,,,,,,,,False,VAS,estavel,0.517,44,False,Provável
-105563,Carlos Vinícius,284,GRE,5,Atacante,7,15.72,-0.76,7.17,7,-0.3,,1.0,2.0,8.0,3.0,3.0,4.0,5.0,4.0,,,,1.0,,,,,,,,False,VAS,baixa,0.456,59,False,Provável
-102318,Caio Paulista,284,GRE,2,Lateral,7,6.86,1.67,4.27,3,8.8,,,4.0,,,1.0,2.0,,,,,1.0,,,,,,,,,False,VAS,alta,0.622,37,False,Provável
-109966,Monsalve,284,GRE,4,Meia,7,3.09,-0.29,0.07,4,0.2,,1.0,,5.0,,1.0,4.0,,,,,,,,,,,,,,False,VAS,estavel,0.023,163,False,Provável
-125467,Viery,284,GRE,3,Zagueiro,7,3.82,1.17,1.87,4,5.3,,1.0,3.0,8.0,,,5.0,,1.0,,,1.0,,1.0,,,,,,,False,VAS,alta,0.49,45,False,Provável
+78605,Gabriel,280,RBB,4,Meia,7,4.39,0.0,1.54,5,0.0,,5.0,5.0,2.0,1.0,5.0,,4.0,,,,,,,,,,,,,True,BOT,estavel,0.351,108,False,Provável
+93882,Cleiton,280,RBB,1,Goleiro,7,6.75,0.0,3.32,6,0.0,,,,,,,,1.0,13.0,6.0,2.0,,,,,,,,,,True,BOT,estavel,0.492,16,False,Provável
+70360,Eduardo Sasha,280,RBB,5,Atacante,7,5.4,0.13,1.92,6,1.7,,2.0,1.0,4.0,2.0,5.0,,,,,,1.0,,,,,,,,,True,BOT,estavel,0.356,81,False,Provável
+94968,Juninho Capixaba,280,RBB,2,Lateral,7,13.58,0.0,9.17,6,0.0,1.0,14.0,12.0,1.0,3.0,6.0,2.0,3.0,,,2.0,,1.0,,,,,,,,True,BOT,estavel,0.675,22,False,Provável
+111246,Alix Vinicius,280,RBB,3,Zagueiro,7,5.04,-0.05,1.78,5,3.2,,4.0,13.0,,1.0,,,1.0,,,2.0,,,,,,1.0,,,,True,BOT,estavel,0.353,65,True,Provável
+124239,Henry Mosquera,280,RBB,5,Atacante,7,4.32,-0.56,2.57,7,-0.6,,3.0,7.0,5.0,9.0,7.0,,1.0,,,,1.0,,,,,,,,,True,BOT,baixa,0.595,32,False,Provável
+110715,Andrés Hurtado,280,RBB,2,Lateral,7,4.88,0.0,3.25,6,0.0,,5.0,3.0,1.0,4.0,1.0,,2.0,,,2.0,,,,,,,,,,True,BOT,estavel,0.666,27,False,Provável
+122394,Gustavinho,280,RBB,4,Meia,7,7.39,0.0,5.05,6,0.0,,12.0,11.0,4.0,1.0,4.0,1.0,,,,,,,,,,,,,,True,BOT,estavel,0.683,24,False,Provável
+113157,Nathan Mendes,287,VIT,2,Lateral,7,5.12,-0.8,3.6,4,1.7,,7.0,7.0,,,6.0,,2.0,,,1.0,,,,,,,,,,True,MIR,baixa,0.703,18,False,Provável
+110750,Gustavo Marques,280,RBB,3,Zagueiro,7,6.87,0.0,5.38,5,0.0,,8.0,4.0,1.0,3.0,5.0,,,,,2.0,,,,,,,,,,True,BOT,estavel,0.783,7,False,Provável
+112886,Lucas Barbosa,280,RBB,5,Atacante,7,7.39,0.0,3.75,6,0.0,,12.0,20.0,4.0,3.0,13.0,,3.0,,,,2.0,,,,,,,,,True,BOT,estavel,0.507,46,False,Provável
 40990,Dorival Júnior,264,COR,6,Técnico,7,10.77,0.21,5.16,6,5.39,,,,,,,,,,,,,,,,,,1.0,,,True,FLA,estavel,0.479,17,True,Provável
-72951,Mercado,285,INT,3,Zagueiro,2,4.9,0.0,2.2,4,0.0,,2.0,6.0,4.0,1.0,1.0,2.0,,,,,,,,,,,,,,True,CHA,estavel,0.449,55,False,Dúvida
-101960,Vitinho,285,INT,5,Atacante,7,6.57,0.27,3.35,7,3.2,1.0,2.0,6.0,9.0,5.0,4.0,12.0,,1.0,,,,,1.0,,,,,,,True,CHA,estavel,0.51,45,False,Provável
-106202,Bruno Gomes,285,INT,4,Meia,7,6.35,-0.37,3.41,7,-0.3,,,11.0,5.0,,3.0,7.0,,,,,,1.0,,,,,,,,True,CHA,estavel,0.537,50,False,Provável
-107989,Carbonero,285,INT,5,Atacante,7,9.52,1.17,5.23,7,8.3,1.0,1.0,3.0,3.0,6.0,10.0,12.0,1.0,2.0,,,,,,,,,,,,True,CHA,alta,0.549,39,False,Provável
-111466,Victor Gabriel,285,INT,3,Zagueiro,2,3.67,-0.15,1.58,6,0.0,,2.0,9.0,10.0,,,2.0,,,,,,,,,,,,,,True,CHA,estavel,0.431,56,False,Dúvida
+91607,Rony,277,SAN,5,Atacante,7,5.81,-0.75,2.1,5,1.0,,5.0,8.0,1.0,1.0,11.0,,2.0,,,,1.0,,,,,,,,,False,CRU,baixa,0.361,80,False,Provável
+100842,Ruan,282,CAM,3,Zagueiro,7,5.05,0.0,2.87,6,0.0,,4.0,7.0,,1.0,5.0,1.0,3.0,,,1.0,,,,,,,,,,False,FLU,estavel,0.568,30,False,Provável
+39656,Alan Franco,282,CAM,4,Meia,7,6.4,1.17,3.27,7,7.9,1.0,11.0,9.0,2.0,1.0,4.0,,1.0,,,,1.0,,,,,,,,,False,FLU,alta,0.511,57,False,Provável
+68920,Dudu,282,CAM,5,Atacante,2,6.49,-0.31,2.46,7,0.0,,2.0,1.0,2.0,2.0,5.0,1.0,,,,,,,,,,,,,,False,FLU,estavel,0.379,77,False,Dúvida
+109966,Monsalve,284,GRE,4,Meia,7,3.09,-0.29,0.07,4,0.2,,,5.0,,1.0,4.0,,1.0,,,,,,,,,,,,,False,VAS,estavel,0.023,163,False,Provável
+124661,Iván Román,282,CAM,3,Zagueiro,7,10.4,3.62,8.2,3,15.8,,6.0,9.0,,1.0,1.0,1.0,1.0,,,2.0,,,,,,,,,,False,FLU,alta,0.788,6,False,Provável
+72460,Bernard,282,CAM,4,Meia,2,3.83,-0.29,0.6,4,0.0,,2.0,2.0,,,,,,,,,,,,,,,,,,False,FLU,estavel,0.157,148,False,Dúvida
+98909,Cuello,282,CAM,5,Atacante,2,8.42,0.43,5.53,7,4.1,,13.0,9.0,1.0,5.0,7.0,1.0,,,,,8.0,2.0,,,,,,,,False,FLU,estavel,0.657,22,False,Dúvida
+101002,Júnior Santos,263,BOT,5,Atacante,7,4.85,-0.44,1.25,2,0.5,,1.0,,,,2.0,,,,,,,,,,,,,,,False,RBB,estavel,0.258,92,False,Provável
+78248,Gustavo Henrique,264,COR,3,Zagueiro,7,9.95,0.0,4.6,4,0.0,,7.0,4.0,2.0,4.0,3.0,,2.0,,,1.0,,,1.0,,,,,,,True,FLA,estavel,0.462,53,False,Provável
+97642,Félix Torres,285,INT,3,Zagueiro,7,3.12,-0.14,1.63,6,1.0,,7.0,5.0,,1.0,2.0,,1.0,,,,,,,,,,,,,True,CHA,estavel,0.522,38,False,Provável
+101574,Hugo Souza,264,COR,1,Goleiro,7,11.21,1.32,5.4,6,10.2,,,,,,,,1.0,18.0,6.0,2.0,,,1.0,,,,,1.0,,True,FLA,alta,0.482,17,False,Provável
+85048,Memphis Depay,264,COR,5,Atacante,7,11.38,0.0,2.64,5,0.0,,1.0,3.0,1.0,2.0,4.0,1.0,,,,,2.0,,,,,,,,,True,FLA,estavel,0.232,96,False,Provável
+105531,Matheus Bidu,264,COR,2,Lateral,7,11.32,0.0,7.6,4,0.0,,7.0,5.0,1.0,1.0,15.0,1.0,1.0,,,1.0,1.0,,,,,,,,,True,FLA,estavel,0.671,24,False,Provável
+95556,Raniele,264,COR,4,Meia,7,7.27,-1.2,3.46,5,-0.3,,11.0,9.0,,2.0,8.0,,2.0,,,,1.0,,,,,,,,,True,FLA,baixa,0.476,69,False,Provável
+102340,Cacá,287,VIT,3,Zagueiro,7,5.92,-0.8,3.33,3,0.8,,3.0,1.0,,1.0,,,,,,1.0,,,,,,,,,,True,MIR,baixa,0.562,32,False,Provável
+117910,Breno Bidon,264,COR,4,Meia,7,9.91,-0.71,4.1,5,2.0,,4.0,6.0,,1.0,11.0,1.0,1.0,,,,,1.0,,,,,,,,True,FLA,baixa,0.414,90,False,Provável
+79701,Lucas Silva,283,CRU,4,Meia,7,4.35,-0.34,0.53,7,0.0,,3.0,2.0,,1.0,2.0,,2.0,,,,,,,,,,,,,True,SAN,estavel,0.122,155,False,Provável
+96610,Matheus Pereira,283,CRU,4,Meia,7,14.86,0.0,6.13,6,0.0,,4.0,15.0,3.0,9.0,21.0,2.0,3.0,,,,,,,,1.0,,,,,True,SAN,estavel,0.413,91,False,Provável
+145744,André,264,COR,4,Meia,7,5.92,-0.01,3.7,5,2.7,,8.0,1.0,1.0,2.0,8.0,,,,,,,,,,,,,,,True,FLA,estavel,0.625,31,False,Provável
+89275,William,283,CRU,2,Lateral,7,7.93,-1.44,2.32,5,0.4,,9.0,8.0,1.0,1.0,3.0,,,,,,,,,,,1.0,,,,True,SAN,baixa,0.293,67,True,Provável
+100742,Matheus Henrique,283,CRU,4,Meia,7,5.31,-0.91,1.97,7,-1.0,,6.0,3.0,,4.0,9.0,,1.0,,,,,,1.0,,,,,,,True,SAN,baixa,0.371,100,False,Provável
+132264,Arroyo,283,CRU,5,Atacante,2,4.53,0.02,1.18,6,2.6,,2.0,7.0,3.0,2.0,4.0,,1.0,,,,,,,,,,,,,True,SAN,estavel,0.26,91,False,Dúvida
+131967,Villarreal,283,CRU,5,Atacante,2,9.08,1.46,7.43,3,10.1,,1.0,1.0,1.0,3.0,3.0,2.0,,,,,,,,,,,,,,True,SAN,alta,0.818,6,False,Dúvida
+82627,Luiz Araújo,262,FLA,5,Atacante,2,11.57,3.73,5.77,3,17.6,1.0,2.0,2.0,,,4.0,1.0,,,,,1.0,,,,,,,,,False,COR,alta,0.499,49,False,Dúvida
+92854,Borré,285,INT,5,Atacante,2,7.34,0.29,3.41,7,3.8,,4.0,12.0,6.0,5.0,6.0,1.0,,,,,7.0,,,,,,,,,True,CHA,estavel,0.465,58,False,Dúvida
+87863,Arrascaeta,262,FLA,4,Meia,2,18.51,-0.54,6.63,4,8.0,1.0,3.0,4.0,1.0,5.0,4.0,1.0,,,,,,1.0,,,,,,,,False,COR,baixa,0.358,104,False,Dúvida
+84735,Jorginho,262,FLA,4,Meia,7,9.35,-1.58,1.15,4,0.0,,6.0,3.0,,,1.0,,1.0,,,,,,,,,1.0,,,,False,COR,baixa,0.123,154,True,Provável
+88393,Ayrton Lucas,262,FLA,2,Lateral,2,10.25,0.74,6.05,2,6.2,,2.0,3.0,,,,,,,,2.0,,,,,,,,,,False,COR,alta,0.59,41,False,Dúvida
+98873,Samuel Lino,262,FLA,5,Atacante,7,11.35,0.08,7.32,5,10.4,1.0,8.0,4.0,,3.0,7.0,2.0,1.0,,,,1.0,,,,,,,,,False,COR,estavel,0.645,26,False,Provável
+84816,Varela,262,FLA,2,Lateral,7,8.64,-0.3,5.42,5,5.8,1.0,4.0,2.0,,1.0,2.0,,1.0,,,3.0,1.0,,,,1.0,,,,,False,COR,estavel,0.627,36,False,Provável
+97867,Léo Ortiz,262,FLA,3,Zagueiro,7,11.72,1.31,6.26,5,13.0,,4.0,4.0,,,1.0,1.0,,,,3.0,,1.0,,,,,,,,False,COR,alta,0.534,37,False,Provável
+115914,Evertton Araújo,262,FLA,4,Meia,7,3.45,0.0,0.93,3,0.0,,,3.0,,4.0,1.0,,,,,,,,,,,,,,,False,COR,estavel,0.27,132,False,Provável
+99366,Luis Zubeldía,266,FLU,6,Técnico,7,10.2,-0.16,6.16,7,5.07,,,,,,,,,,,,,,,,,,4.0,,,True,CAM,estavel,0.604,7,False,Provável
+78117,Everaldo,265,BAH,5,Atacante,2,4.11,0.04,1.38,4,1.7,,3.0,3.0,,,4.0,,,,,,1.0,,,,,,,,,False,REM,estavel,0.336,86,False,Dúvida
+73384,Samuel Xavier,266,FLU,2,Lateral,7,8.91,-0.24,5.03,6,3.2,,11.0,5.0,,1.0,11.0,,1.0,,,2.0,1.0,,,,,,,,,True,CAM,estavel,0.565,45,False,Provável
+78445,Renê,266,FLU,2,Lateral,2,10.43,-0.95,8.24,5,3.5,2.0,12.0,5.0,2.0,1.0,3.0,,,,,2.0,,,,,,,,,,True,CAM,baixa,0.79,10,False,Dúvida
+87228,Guilherme Arana,266,FLU,2,Lateral,2,9.64,0.0,4.4,4,0.0,,3.0,3.0,1.0,1.0,,1.0,1.0,,,1.0,,,,,,,,,,True,CAM,estavel,0.456,55,False,Dúvida
+72951,Mercado,285,INT,3,Zagueiro,2,4.9,0.0,2.2,4,0.0,,6.0,4.0,1.0,1.0,2.0,,2.0,,,,,,,,,,,,,True,CHA,estavel,0.449,55,False,Dúvida
+102928,Canobbio,266,FLU,5,Atacante,7,12.17,1.94,8.33,6,16.2,,11.0,10.0,3.0,5.0,6.0,3.0,1.0,,,,1.0,2.0,,,,1.0,,,,True,CAM,alta,0.684,15,False,Provável
+103523,Ignácio,266,FLU,3,Zagueiro,7,6.57,-1.4,3.53,3,-0.3,,5.0,5.0,,2.0,2.0,,1.0,,,,,1.0,,,,,,,,True,CAM,baixa,0.537,36,False,Provável
+110759,John Kennedy,266,FLU,5,Atacante,2,8.39,-0.25,5.89,7,2.4,,7.0,9.0,11.0,3.0,4.0,2.0,,,,,2.0,,,,,,,,,True,CAM,estavel,0.702,14,False,Dúvida
+116447,Hércules,266,FLU,4,Meia,7,8.04,0.64,4.86,5,9.6,,6.0,8.0,1.0,2.0,,2.0,1.0,,,,1.0,,,,,,,,,True,CAM,alta,0.604,35,False,Provável
+90532,Arthur Melo,284,GRE,4,Meia,7,9.87,0.0,5.2,3,0.0,,8.0,3.0,,,9.0,,,,,,,,,,,,,,,False,VAS,estavel,0.527,53,False,Provável
+87887,Balbuena,284,GRE,3,Zagueiro,7,7.5,1.51,3.6,4,8.5,,6.0,,,,1.0,,,,,1.0,1.0,,,,,,,,,False,VAS,alta,0.48,49,False,Provável
+88037,Luís Castro,284,GRE,6,Técnico,7,10.24,0.98,5.21,7,7.61,,,,,,,,,,,,,,,,,,3.0,,,False,VAS,alta,0.509,15,True,Provável
+91908,Pavón,284,GRE,5,Atacante,7,5.72,0.48,2.96,7,4.2,,11.0,4.0,2.0,,2.0,,1.0,,,,,1.0,,,,,,,,False,VAS,estavel,0.517,44,False,Provável
+105563,Carlos Vinícius,284,GRE,5,Atacante,7,15.72,-0.76,7.17,7,-0.3,,2.0,8.0,3.0,3.0,4.0,5.0,1.0,,,,4.0,1.0,,,,,,,,False,VAS,baixa,0.456,59,False,Provável
+102318,Caio Paulista,284,GRE,2,Lateral,7,6.86,1.67,4.27,3,8.8,,4.0,,,1.0,2.0,,,,,1.0,,,,,,,,,,False,VAS,alta,0.622,37,False,Provável
+125467,Viery,284,GRE,3,Zagueiro,7,3.82,1.17,1.87,4,5.3,,3.0,8.0,,,5.0,,1.0,,,1.0,1.0,,1.0,,,,,,,False,VAS,alta,0.49,45,False,Provável
+142004,Amuzu,284,GRE,5,Atacante,7,9.08,1.7,5.95,6,11.5,2.0,6.0,5.0,4.0,3.0,6.0,1.0,,,,,,,,,,,,,,False,VAS,alta,0.655,24,False,Provável
+111690,Matheus Cunha,283,CRU,1,Goleiro,7,2.28,-0.08,0.17,3,0.6,,,,,,,,,5.0,6.0,,,,,,,,,,,True,SAN,estavel,0.075,25,False,Provável
+101960,Vitinho,285,INT,5,Atacante,7,6.57,0.27,3.35,7,3.2,1.0,6.0,9.0,5.0,4.0,12.0,,2.0,,,,1.0,,1.0,,,,,,,True,CHA,estavel,0.51,45,False,Provável
+106202,Bruno Gomes,285,INT,4,Meia,7,6.35,-0.37,3.41,7,-0.3,,11.0,5.0,,3.0,7.0,,,,,,,1.0,,,,,,,,True,CHA,estavel,0.537,50,False,Provável
+107989,Carbonero,285,INT,5,Atacante,7,9.52,1.17,5.23,7,8.3,1.0,3.0,3.0,6.0,10.0,12.0,1.0,1.0,,,,2.0,,,,,,,,,True,CHA,alta,0.549,39,False,Provável
+111466,Victor Gabriel,285,INT,3,Zagueiro,2,3.67,-0.15,1.58,6,0.0,,9.0,10.0,,,2.0,,2.0,,,,,,,,,,,,,True,CHA,estavel,0.431,56,False,Dúvida
 115479,Paulo Pezzolano,285,INT,6,Técnico,7,6.57,0.23,3.81,7,3.75,,,,,,,,,,,,,,,,,,1.0,,,True,CHA,estavel,0.58,9,False,Provável
-71631,Weverton,284,GRE,1,Goleiro,7,7.67,1.96,3.13,7,10.0,1.0,1.0,,,,,,,,13.0,10.0,1.0,,1.0,,,,,1.0,,False,VAS,alta,0.408,20,False,Provável
-71684,Gustavo Gómez,275,PAL,3,Zagueiro,7,11.02,-0.37,5.22,7,3.4,1.0,,5.0,6.0,,5.0,2.0,2.0,2.0,,,1.0,,,,,,,,,False,SAO,estavel,0.474,51,False,Provável
-97653,Murilo,275,PAL,3,Zagueiro,7,7.96,0.39,4.82,5,5.4,1.0,,8.0,7.0,1.0,,,1.0,,,,,,,,,,,,,False,SAO,estavel,0.606,22,False,Provável
-93790,Marlon Freitas,275,PAL,4,Meia,7,5.54,-0.45,1.84,7,-0.3,1.0,1.0,7.0,9.0,1.0,,,,1.0,,,,,,,,,,,,False,SAO,estavel,0.332,115,False,Provável
-102130,Piquerez,275,PAL,2,Lateral,7,11.1,0.0,6.44,5,0.0,1.0,,8.0,1.0,2.0,2.0,7.0,,,,,1.0,1.0,,,,,,,,False,SAO,estavel,0.58,42,False,Provável
-104084,Carlos Miguel,275,PAL,1,Goleiro,7,7.02,-0.76,3.61,7,1.6,,1.0,,,,,4.0,,,21.0,8.0,1.0,,,,,,,,,False,SAO,baixa,0.514,14,False,Provável
-105175,Khellven,275,PAL,2,Lateral,7,5.35,0.0,2.16,5,0.0,,1.0,10.0,9.0,,,5.0,,,,,,,,,,,,,1.0,False,SAO,estavel,0.404,59,True,Provável
-105647,Maurício,275,PAL,4,Meia,7,7.39,-0.55,3.95,6,2.4,1.0,1.0,4.0,6.0,1.0,5.0,5.0,1.0,2.0,,,,,,,,,,,,False,SAO,baixa,0.535,52,False,Provável
+71631,Weverton,284,GRE,1,Goleiro,7,7.67,1.96,3.13,7,10.0,1.0,,,,,,,1.0,13.0,10.0,1.0,,,1.0,,,,,1.0,,False,VAS,alta,0.408,20,False,Provável
+84674,Lucas Evangelista,275,PAL,4,Meia,2,5.39,-0.37,1.5,5,1.5,1.0,1.0,,,,2.0,,,,,,,,,,,,,,,False,SAO,estavel,0.278,129,False,Dúvida
+71684,Gustavo Gómez,275,PAL,3,Zagueiro,2,11.02,-0.37,5.22,7,3.4,1.0,5.0,6.0,,5.0,2.0,2.0,,,,1.0,2.0,,,,,,,,,False,SAO,estavel,0.474,51,False,Dúvida
+97653,Murilo,275,PAL,3,Zagueiro,7,7.96,0.39,4.82,5,5.4,1.0,8.0,7.0,1.0,,,1.0,,,,,,,,,,,,,,False,SAO,estavel,0.606,22,False,Provável
+93790,Marlon Freitas,275,PAL,4,Meia,2,5.54,-0.45,1.84,7,-0.3,1.0,7.0,9.0,1.0,,,,1.0,,,,1.0,,,,,,,,,False,SAO,estavel,0.332,115,False,Dúvida
+104085,Bruno Fuchs,275,PAL,3,Zagueiro,2,8.1,0.0,2.95,2,0.0,,1.0,2.0,,,,,,,,1.0,,,,,,,,,,False,SAO,estavel,0.364,62,False,Dúvida
+104084,Carlos Miguel,275,PAL,1,Goleiro,7,7.02,-0.76,3.61,7,1.6,,,,,,4.0,,1.0,21.0,8.0,1.0,,,,,,,,,,False,SAO,baixa,0.514,14,False,Provável
+102130,Piquerez,275,PAL,2,Lateral,2,11.1,0.0,6.44,5,0.0,1.0,8.0,1.0,2.0,2.0,7.0,,,,,1.0,,1.0,,,,,,,,False,SAO,estavel,0.58,42,False,Dúvida
+105175,Khellven,275,PAL,2,Lateral,7,5.35,0.0,2.16,5,0.0,,10.0,9.0,,,5.0,,1.0,,,,,,,,,,,,1.0,False,SAO,estavel,0.404,59,True,Provável
+105647,Maurício,275,PAL,4,Meia,7,7.39,-0.55,3.95,6,2.4,1.0,4.0,6.0,1.0,5.0,5.0,1.0,1.0,,,,2.0,,,,,,,,,False,SAO,baixa,0.535,52,False,Provável
+108683,Emiliano Martínez,275,PAL,4,Meia,2,4.52,0.0,0.0,1,0.0,,,,,,,,,,,,,,,,,,,,,False,SAO,estavel,0.0,166,False,Dúvida
 110506,Abel Ferreira,275,PAL,6,Técnico,7,12.51,0.33,6.91,7,7.91,,,,,,,,,,,,,,,,,,5.0,,,False,SAO,estavel,0.552,11,False,Provável
-113103,Flaco López,275,PAL,5,Atacante,7,14.82,-0.85,6.9,7,5.6,,,8.0,13.0,4.0,5.0,16.0,3.0,6.0,,,,,,,,,,,,False,SAO,baixa,0.466,56,False,Provável
-82775,Lucas Ramon,276,SAO,2,Lateral,7,11.42,0.0,8.9,3,0.0,1.0,,5.0,1.0,1.0,1.0,5.0,,,,,2.0,,,,,,,,,True,PAL,estavel,0.779,12,False,Provável
-92696,Renato Kayzer,287,VIT,5,Atacante,7,7.39,-1.45,4.12,4,-0.7,,1.0,,8.0,1.0,2.0,3.0,2.0,4.0,,,,,,,,,,,,True,MIR,baixa,0.558,37,False,Provável
-87742,Neto Moura,2305,MIR,4,Meia,7,4.27,1.17,1.28,4,5.8,,2.0,3.0,5.0,1.0,3.0,1.0,,,,,,,,,,,,,,False,VIT,alta,0.3,123,False,Provável
-97321,Alesson,2305,MIR,5,Atacante,7,8.11,0.02,4.22,5,2.8,1.0,,6.0,3.0,2.0,1.0,4.0,,2.0,,,,1.0,,,,,,,,False,VIT,estavel,0.52,43,False,Provável
-97460,João Victor,2305,MIR,3,Zagueiro,7,4.46,-0.48,1.58,5,0.0,1.0,,2.0,2.0,,,1.0,,,,,,,,,,,,,,False,VIT,estavel,0.354,64,False,Provável
-97520,Shaylon,2305,MIR,4,Meia,7,3.95,-0.45,-0.15,2,0.0,,,,1.0,,,,,,,,,,,,,,,,,False,VIT,estavel,-0.038,223,False,Provável
-98384,Negueba,2305,MIR,5,Atacante,7,8.4,-0.62,6.06,5,1.7,,2.0,10.0,2.0,2.0,5.0,7.0,1.0,,,,,,,,,,,,,False,VIT,baixa,0.721,11,False,Provável
+113103,Flaco López,275,PAL,5,Atacante,7,14.82,-0.85,6.9,7,5.6,,8.0,13.0,4.0,5.0,16.0,3.0,,,,,6.0,,,,,,,,,False,SAO,baixa,0.466,56,False,Provável
+111832,Jefté,275,PAL,2,Lateral,2,2.89,0.0,-0.3,2,0.0,,,2.0,,,,,,,,,,,,,,,,,,False,SAO,estavel,-0.104,110,False,Dúvida
+82775,Lucas Ramon,276,SAO,2,Lateral,7,11.42,0.0,8.9,3,0.0,1.0,5.0,1.0,1.0,1.0,5.0,,,,,2.0,,,,,,,,,,True,PAL,estavel,0.779,12,False,Provável
+87742,Neto Moura,2305,MIR,4,Meia,7,4.27,1.17,1.28,4,5.8,,3.0,5.0,1.0,3.0,1.0,,2.0,,,,,,,,,,,,,False,VIT,alta,0.3,123,False,Provável
+83263,Yuri Lara,2305,MIR,4,Meia,7,4.65,0.0,2.2,3,0.0,,5.0,2.0,1.0,,3.0,,,,,,,,,,,1.0,,,,False,VIT,estavel,0.473,71,False,Provável
+97321,Alesson,2305,MIR,5,Atacante,7,8.11,0.02,4.22,5,2.8,1.0,6.0,3.0,2.0,1.0,4.0,,,,,,2.0,1.0,,,,,,,,False,VIT,estavel,0.52,43,False,Provável
 104027,Rafael Guanaes,2305,MIR,6,Técnico,7,6.57,-0.23,3.62,5,2.17,,,,,,,,,,,,,,,,,,1.0,,,False,VIT,estavel,0.551,12,False,Provável
-102667,Nathan Fogaça,2305,MIR,5,Atacante,2,5.49,-0.32,4.26,5,0.7,,1.0,,10.0,2.0,5.0,,2.0,1.0,,,,1.0,,,,,,,,False,VIT,estavel,0.776,9,False,Dúvida
-84847,Luan Peres,277,SAN,3,Zagueiro,7,3.1,0.0,0.42,5,0.0,,,3.0,8.0,,,6.0,,,,,,,,,,1.0,,,,False,CRU,estavel,0.135,72,False,Provável
-87470,Thaciano,277,SAN,4,Meia,7,7.11,-0.62,3.28,4,0.0,,,1.0,1.0,,2.0,5.0,1.0,2.0,,,,,,,,,,,,False,CRU,baixa,0.461,76,False,Provável
-95466,Igor Vinícius,277,SAN,2,Lateral,7,8.83,-0.53,5.72,4,3.9,1.0,2.0,12.0,6.0,1.0,,5.0,,,,,,,,,,,,,,False,CRU,baixa,0.648,31,False,Provável
-108469,Adonis Frías,277,SAN,3,Zagueiro,2,4.69,-0.41,1.53,4,2.0,,1.0,4.0,2.0,1.0,,1.0,,,,,,,,,,,,,,False,CRU,estavel,0.326,66,False,Dúvida
-102975,Escobar,277,SAN,2,Lateral,7,7.82,0.85,5.05,2,4.9,,2.0,7.0,2.0,,1.0,3.0,,1.0,,,,,,,,,,,,False,CRU,alta,0.646,33,False,Provável
-141754,Gabriel Bontempo,277,SAN,4,Meia,7,3.76,0.0,1.6,5,0.0,,1.0,5.0,4.0,1.0,,3.0,,,,,,,,,,,,,,False,CRU,estavel,0.426,86,False,Provável
-84042,Tiquinho Soares,2305,MIR,5,Atacante,2,6.98,0.19,2.15,2,3.1,,,1.0,2.0,2.0,,2.0,,,,,,,,,,,,,,False,VIT,estavel,0.308,87,False,Dúvida
-102256,Rollheiser,277,SAN,4,Meia,7,4.85,-0.56,0.24,5,0.0,,1.0,,1.0,1.0,1.0,1.0,,,,,,,,,,,,,,False,CRU,baixa,0.049,161,True,Provável
-85403,Danielzinho,276,SAO,4,Meia,7,7.89,-0.61,4.4,6,1.7,1.0,,4.0,5.0,,3.0,11.0,1.0,,,,,,,,1.0,,,,,True,PAL,baixa,0.558,45,False,Provável
-89840,Calleri,276,SAO,5,Atacante,7,12.93,-0.75,7.27,7,3.6,,1.0,7.0,12.0,3.0,4.0,13.0,4.0,3.0,,,,,,,,,,,,True,PAL,baixa,0.562,35,False,Provável
-99889,Alan Franco,276,SAO,3,Zagueiro,7,5.71,-0.28,2.81,7,-0.3,,2.0,5.0,7.0,,1.0,1.0,,,,,3.0,,,,,,,,,True,PAL,estavel,0.492,44,False,Provável
-104075,Sabino,276,SAO,3,Zagueiro,7,7.37,-1.33,5.58,6,0.9,,,10.0,11.0,,1.0,6.0,1.0,,,,2.0,,,,,,,,,True,PAL,baixa,0.757,9,False,Provável
-106294,Marcos Antônio,276,SAO,4,Meia,7,6.71,-0.79,3.15,7,-0.6,1.0,,10.0,7.0,1.0,,6.0,,1.0,,,,,,,,,,,,True,PAL,baixa,0.469,73,False,Provável
-105300,Ferraresi,263,BOT,3,Zagueiro,7,7.12,-0.12,3.03,4,3.2,,,5.0,3.0,,,1.0,,,,,1.0,,,,,,,,,False,RBB,estavel,0.426,57,False,Provável
-107873,Bobadilla,276,SAO,4,Meia,7,8.99,0.19,4.32,7,3.7,1.0,1.0,12.0,7.0,4.0,2.0,2.0,,1.0,,,,1.0,,,,,,,,True,PAL,estavel,0.481,65,False,Provável
-71123,Thiago Mendes,267,VAS,4,Meia,7,8.11,0.25,4.75,6,7.7,,4.0,7.0,7.0,,2.0,13.0,2.0,,,,,,,,,,,,,True,GRE,estavel,0.586,40,False,Provável
-118563,Rodriguinho,280,RBB,4,Meia,7,6.05,0.32,3.63,3,2.9,,2.0,3.0,5.0,,,4.0,1.0,1.0,,,,,,,,,,,,True,BOT,estavel,0.6,36,False,Provável
-86410,Victor Luis,2305,MIR,2,Lateral,2,3.73,-0.39,0.75,2,0.2,,1.0,1.0,1.0,,1.0,1.0,,,,,,,,,,,,,,False,VIT,estavel,0.201,72,False,Dúvida
-86686,Tchê Tchê,267,VAS,4,Meia,7,3.92,-0.53,0.4,4,0.4,,1.0,,1.0,1.0,1.0,2.0,,1.0,,,,,,,,,,,,True,GRE,baixa,0.102,157,False,Provável
-90309,David,267,VAS,5,Atacante,7,3.9,-0.27,1.5,5,0.7,1.0,,,1.0,1.0,1.0,2.0,,2.0,,,,,,,,,,,,True,GRE,estavel,0.385,75,False,Provável
-101594,Hugo Moura,267,VAS,4,Meia,2,3.24,-0.56,1.2,4,0.0,,,2.0,,,1.0,2.0,,,,,,,,,,,,,,True,GRE,baixa,0.37,101,False,Dúvida
-116706,Andrés Gómez,267,VAS,5,Atacante,7,12.8,1.1,8.17,7,10.0,2.0,2.0,19.0,11.0,8.0,7.0,12.0,,2.0,,,,1.0,,,,,,,,True,GRE,alta,0.638,27,False,Provável
-99213,Puma Rodríguez,267,VAS,2,Lateral,2,7.07,-0.99,4.78,5,0.5,2.0,1.0,1.0,2.0,2.0,4.0,1.0,1.0,1.0,,,,,,,,,,,,True,GRE,baixa,0.676,21,False,Dúvida
-117330,Robert Renan,267,VAS,3,Zagueiro,7,5.25,-0.06,1.7,7,1.5,,,8.0,8.0,,1.0,3.0,,,,,,,,,,,,,,True,GRE,estavel,0.324,67,True,Provável
-122485,Barros,267,VAS,4,Meia,2,11.94,0.0,9.32,6,0.0,,1.0,17.0,11.0,,4.0,21.0,3.0,,,,,,,,,1.0,,,,True,GRE,estavel,0.781,11,False,Dúvida
-142279,Nuno Moreira,267,VAS,4,Meia,7,6.63,1.85,2.5,7,9.7,,1.0,4.0,4.0,2.0,1.0,5.0,1.0,,,,,,,,,,,,,True,GRE,alta,0.377,98,False,Provável
+98384,Negueba,2305,MIR,5,Atacante,7,8.4,-0.62,6.06,5,1.7,,10.0,2.0,2.0,5.0,7.0,1.0,2.0,,,,,,,,,,,,,False,VIT,baixa,0.721,11,False,Provável
+97460,João Victor,2305,MIR,3,Zagueiro,7,4.46,-0.48,1.58,5,0.0,1.0,2.0,2.0,,,1.0,,,,,,,,,,,,,,,False,VIT,estavel,0.354,64,False,Provável
+87470,Thaciano,277,SAN,4,Meia,7,7.11,-0.62,3.28,4,0.0,,1.0,1.0,,2.0,5.0,1.0,,,,,2.0,,,,,,,,,False,CRU,baixa,0.461,76,False,Provável
+84042,Tiquinho Soares,2305,MIR,5,Atacante,7,6.98,0.19,2.15,2,3.1,,1.0,2.0,2.0,,2.0,,,,,,,,,,,,,,,False,VIT,estavel,0.308,87,False,Provável
+84847,Luan Peres,277,SAN,3,Zagueiro,7,3.1,0.0,0.42,5,0.0,,3.0,8.0,,,6.0,,,,,,,,,,,1.0,,,,False,CRU,estavel,0.135,72,False,Provável
+102975,Escobar,277,SAN,2,Lateral,7,7.82,0.85,5.05,2,4.9,,7.0,2.0,,1.0,3.0,,2.0,,,,1.0,,,,,,,,,False,CRU,alta,0.646,33,False,Provável
+108469,Adonis Frías,277,SAN,3,Zagueiro,2,4.69,-0.41,1.53,4,2.0,,4.0,2.0,1.0,,1.0,,1.0,,,,,,,,,,,,,False,CRU,estavel,0.326,66,False,Dúvida
+102256,Rollheiser,277,SAN,4,Meia,7,4.85,-0.56,0.24,5,0.0,,,1.0,1.0,1.0,1.0,,1.0,,,,,,,,,,,,,False,CRU,baixa,0.049,161,True,Provável
+95466,Igor Vinícius,277,SAN,2,Lateral,7,8.83,-0.53,5.72,4,3.9,1.0,12.0,6.0,1.0,,5.0,,2.0,,,,,,,,,,,,,False,CRU,baixa,0.648,31,False,Provável
+141754,Gabriel Bontempo,277,SAN,4,Meia,7,3.76,0.0,1.6,5,0.0,,5.0,4.0,1.0,,3.0,,1.0,,,,,,,,,,,,,False,CRU,estavel,0.426,86,False,Provável
+96793,Camutanga,287,VIT,3,Zagueiro,2,6.23,-1.37,3.45,4,-1.5,,2.0,,1.0,2.0,2.0,,,,,2.0,,,,,,,,,1.0,True,MIR,baixa,0.554,33,False,Dúvida
+85403,Danielzinho,276,SAO,4,Meia,7,7.89,-0.61,4.4,6,1.7,1.0,4.0,5.0,,3.0,11.0,1.0,,,,,,,,,1.0,,,,,True,PAL,baixa,0.558,45,False,Provável
+106294,Marcos Antônio,276,SAO,4,Meia,7,6.71,-0.79,3.15,7,-0.6,1.0,10.0,7.0,1.0,,6.0,,,,,,1.0,,,,,,,,,True,PAL,baixa,0.469,73,False,Provável
+99889,Alan Franco,276,SAO,3,Zagueiro,7,5.71,-0.28,2.81,7,-0.3,,5.0,7.0,,1.0,1.0,,2.0,,,3.0,,,,,,,,,,True,PAL,estavel,0.492,44,False,Provável
+89840,Calleri,276,SAO,5,Atacante,7,12.93,-0.75,7.27,7,3.6,,7.0,12.0,3.0,4.0,13.0,4.0,1.0,,,,3.0,,,,,,,,,True,PAL,baixa,0.562,35,False,Provável
+104075,Sabino,276,SAO,3,Zagueiro,7,7.37,-1.33,5.58,6,0.9,,10.0,11.0,,1.0,6.0,1.0,,,,2.0,,,,,,,,,,True,PAL,baixa,0.757,9,False,Provável
+107873,Bobadilla,276,SAO,4,Meia,7,8.99,0.19,4.32,7,3.7,1.0,12.0,7.0,4.0,2.0,2.0,,1.0,,,,1.0,1.0,,,,,,,,True,PAL,estavel,0.481,65,False,Provável
+105300,Ferraresi,263,BOT,3,Zagueiro,7,7.12,-0.12,3.03,4,3.2,,5.0,3.0,,,1.0,,,,,1.0,,,,,,,,,,False,RBB,estavel,0.426,57,False,Provável
+71123,Thiago Mendes,267,VAS,4,Meia,7,8.11,0.25,4.75,6,7.7,,7.0,7.0,,2.0,13.0,2.0,4.0,,,,,,,,,,,,,True,GRE,estavel,0.586,40,False,Provável
+118563,Rodriguinho,280,RBB,4,Meia,7,6.05,0.32,3.63,3,2.9,,3.0,5.0,,,4.0,1.0,2.0,,,,1.0,,,,,,,,,True,BOT,estavel,0.6,36,False,Provável
+86686,Tchê Tchê,267,VAS,4,Meia,7,3.92,-0.53,0.4,4,0.4,,,1.0,1.0,1.0,2.0,,1.0,,,,1.0,,,,,,,,,True,GRE,baixa,0.102,157,False,Provável
+101594,Hugo Moura,267,VAS,4,Meia,2,3.24,-0.56,1.2,4,0.0,,2.0,,,1.0,2.0,,,,,,,,,,,,,,,True,GRE,baixa,0.37,101,False,Dúvida
+93716,Paulo Henrique,267,VAS,2,Lateral,2,8.55,-0.46,3.84,5,1.7,1.0,7.0,6.0,1.0,1.0,9.0,,1.0,,,,,,,,,,,,,True,GRE,estavel,0.449,57,False,Dúvida
+90309,David,267,VAS,5,Atacante,7,3.9,-0.27,1.5,5,0.7,1.0,,1.0,1.0,1.0,2.0,,,,,,2.0,,,,,,,,,True,GRE,estavel,0.385,75,False,Provável
+116706,Andrés Gómez,267,VAS,5,Atacante,7,12.8,1.1,8.17,7,10.0,2.0,19.0,11.0,8.0,7.0,12.0,,2.0,,,,2.0,1.0,,,,,,,,True,GRE,alta,0.638,27,False,Provável
+117330,Robert Renan,267,VAS,3,Zagueiro,7,5.25,-0.06,1.7,7,1.5,,8.0,8.0,,1.0,3.0,,,,,,,,,,,,,,,True,GRE,estavel,0.324,67,True,Provável
+122485,Barros,267,VAS,4,Meia,2,11.94,0.0,9.32,6,0.0,,17.0,11.0,,4.0,21.0,3.0,1.0,,,,,,,,,1.0,,,,True,GRE,estavel,0.781,11,False,Dúvida
+142279,Nuno Moreira,267,VAS,4,Meia,7,6.63,1.85,2.5,7,9.7,,4.0,4.0,2.0,1.0,5.0,1.0,1.0,,,,,,,,,,,,,True,GRE,alta,0.377,98,False,Provável
+99213,Puma Rodríguez,267,VAS,2,Lateral,2,7.07,-0.99,4.78,5,0.5,2.0,1.0,2.0,2.0,4.0,1.0,1.0,1.0,,,,1.0,,,,,,,,,True,GRE,baixa,0.676,21,False,Dúvida
 92180,Jair Ventura,287,VIT,6,Técnico,7,7.74,-1.06,5.39,5,1.48,,,,,,,,,,,,,,,,,,2.0,,,True,MIR,baixa,0.696,3,False,Provável
-90703,Matheuzinho,287,VIT,4,Meia,7,5.33,-0.26,2.36,5,1.8,,,2.0,,2.0,3.0,8.0,,,,,,,,,,,,,,True,MIR,estavel,0.443,83,False,Provável
-96793,Camutanga,287,VIT,3,Zagueiro,2,6.23,-1.37,3.45,4,-1.5,,,2.0,,1.0,2.0,2.0,,,,,2.0,,,,,,,,1.0,True,MIR,baixa,0.554,33,False,Dúvida
-99440,Baralhas,287,VIT,4,Meia,7,8.94,-1.91,6.36,5,0.1,1.0,1.0,11.0,13.0,,4.0,8.0,1.0,,,,,,,,,,,,,True,MIR,baixa,0.711,22,False,Provável
-93716,Paulo Henrique,267,VAS,2,Lateral,2,8.55,-0.46,3.84,5,1.7,1.0,1.0,7.0,6.0,1.0,1.0,9.0,,,,,,,,,,,,,,True,GRE,estavel,0.449,57,False,Dúvida
-101597,Ramon,287,VIT,2,Lateral,7,8.19,-0.61,6.26,5,2.9,,1.0,9.0,10.0,,1.0,6.0,1.0,,,,2.0,,,,,,,,,True,MIR,baixa,0.764,13,False,Provável
-83263,Yuri Lara,2305,MIR,4,Meia,7,4.65,0.0,2.2,3,0.0,,,5.0,2.0,1.0,,3.0,,,,,,,,,,1.0,,,,False,VIT,estavel,0.473,71,False,Provável
-90588,Caíque,287,VIT,4,Meia,7,4.49,0.09,1.58,5,2.4,,1.0,5.0,8.0,,1.0,6.0,,,,,,,,,,,,,,True,MIR,estavel,0.352,106,False,Provável
-104118,Lucas Arcanjo,287,VIT,1,Goleiro,7,8.8,-0.33,7.53,3,3.2,,1.0,,,,,,,,12.0,3.0,1.0,,1.0,,,,,1.0,,True,MIR,estavel,0.856,2,False,Provável
-90031,Mendoza,293,CAP,5,Atacante,7,9.69,0.78,6.58,5,10.0,,,4.0,3.0,1.0,2.0,2.0,3.0,,,,,,,,,,,,,True,CFC,alta,0.679,16,False,Provável
-130620,Edenílson,287,VIT,4,Meia,2,3.83,0.0,2.9,1,0.0,,,2.0,2.0,,,1.0,,,,,,,,,,,,,,True,MIR,estavel,0.757,14,False,Dúvida
-102796,Julimar,293,CAP,5,Atacante,7,6.5,-0.57,5.06,5,-0.2,,1.0,5.0,6.0,1.0,3.0,2.0,2.0,,,,,,,,,,,,,True,CFC,baixa,0.778,8,False,Provável
+122138,João Vitor,315,CHA,4,Meia,7,3.11,-0.56,1.85,4,0.6,,4.0,5.0,,3.0,1.0,,,,,,,,,,,,,,,False,INT,baixa,0.595,38,False,Provável
+90703,Matheuzinho,287,VIT,4,Meia,7,5.33,-0.26,2.36,5,1.8,,2.0,,2.0,3.0,8.0,,,,,,,,,,,,,,,True,MIR,estavel,0.443,83,False,Provável
+92696,Renato Kayzer,287,VIT,5,Atacante,7,7.39,-1.45,4.12,4,-0.7,,,8.0,1.0,2.0,3.0,2.0,1.0,,,,4.0,,,,,,,,,True,MIR,baixa,0.558,37,False,Provável
+90588,Caíque,287,VIT,4,Meia,7,4.49,0.09,1.58,5,2.4,,5.0,8.0,,1.0,6.0,,1.0,,,,,,,,,,,,,True,MIR,estavel,0.352,106,False,Provável
+130620,Edenílson,287,VIT,4,Meia,2,3.83,0.0,2.9,1,0.0,,2.0,2.0,,,1.0,,,,,,,,,,,,,,,True,MIR,estavel,0.757,14,False,Dúvida
+104118,Lucas Arcanjo,287,VIT,1,Goleiro,7,8.8,-0.33,7.53,3,3.2,,,,,,,,1.0,12.0,3.0,1.0,,,1.0,,,,,1.0,,True,MIR,estavel,0.856,2,False,Provável
+99440,Baralhas,287,VIT,4,Meia,7,8.94,-1.91,6.36,5,0.1,1.0,11.0,13.0,,4.0,8.0,1.0,1.0,,,,,,,,,,,,,True,MIR,baixa,0.711,22,False,Provável
+101597,Ramon,287,VIT,2,Lateral,7,8.19,-0.61,6.26,5,2.9,,9.0,10.0,,1.0,6.0,1.0,1.0,,,2.0,,,,,,,,,,True,MIR,baixa,0.764,13,False,Provável
+110668,Esquivel,293,CAP,2,Lateral,7,5.77,-1.36,4.02,4,-0.5,2.0,3.0,10.0,,2.0,6.0,,,,,,,,,,,,,,,True,CFC,baixa,0.697,19,False,Provável
+113113,Benavídez,293,CAP,2,Lateral,7,6.48,0.23,4.2,5,3.7,1.0,6.0,4.0,,1.0,5.0,,,,,1.0,1.0,,,,,,,,,True,CFC,estavel,0.648,31,False,Provável
 92273,Odair Hellmann,293,CAP,6,Técnico,7,7.95,0.06,5.28,5,4.47,,,,,,,,,,,,,,,,,,3.0,,,True,CFC,estavel,0.664,4,False,Provável
-110668,Esquivel,293,CAP,2,Lateral,7,5.77,-1.36,4.02,4,-0.5,2.0,,3.0,10.0,,2.0,6.0,,,,,,,,,,,,,,True,CFC,baixa,0.697,19,False,Provável
-113113,Benavídez,293,CAP,2,Lateral,7,6.48,0.23,4.2,5,3.7,1.0,,6.0,4.0,,1.0,5.0,,1.0,,,1.0,,,,,,,,,True,CFC,estavel,0.648,31,False,Provável
-125746,Dudu,293,CAP,4,Meia,2,0.8,0.05,0.25,4,0.5,,,,,,,2.0,,,,,,,,,,,,,,True,CFC,estavel,0.312,120,False,Dúvida
-123869,Aguirre,293,CAP,3,Zagueiro,7,5.97,0.95,3.52,4,5.7,,,2.0,1.0,2.0,,2.0,,,,,1.0,1.0,,,,,,,,True,CFC,alta,0.59,27,False,Provável
-125926,Zapelli,293,CAP,4,Meia,2,6.33,0.0,3.23,4,0.0,1.0,1.0,6.0,5.0,,3.0,4.0,,,,,,,,,,1.0,,,,True,CFC,estavel,0.51,58,False,Dúvida
-143193,Viveros,293,CAP,5,Atacante,7,11.97,1.94,7.76,5,11.2,1.0,1.0,1.0,15.0,4.0,6.0,21.0,2.0,3.0,,,,,,,2.0,,,,,True,CFC,alta,0.648,25,False,Provável
-131832,Portilla,293,CAP,4,Meia,7,2.9,0.38,0.4,5,3.1,,1.0,3.0,10.0,,,3.0,,,,,,,,,,,,,,True,CFC,estavel,0.138,152,False,Provável
-71227,Maicon,294,CFC,3,Zagueiro,7,5.2,0.29,3.1,7,5.0,,,4.0,1.0,,,2.0,,,,,3.0,,,,,,,,,False,CAP,estavel,0.596,26,False,Provável
-84626,Josué,294,CFC,4,Meia,7,4.94,-0.26,2.85,6,0.5,2.0,1.0,4.0,5.0,1.0,3.0,6.0,,,,,,,,,,1.0,,,,False,CAP,estavel,0.577,43,False,Provável
-84339,Bruno Melo,294,CFC,2,Lateral,7,6.31,0.28,4.58,6,6.5,1.0,1.0,5.0,2.0,,1.0,2.0,,2.0,,,3.0,,,,,,,,,False,CAP,estavel,0.726,16,False,Provável
-97878,Jacy,294,CFC,3,Zagueiro,7,6.29,1.08,4.98,6,12.2,,1.0,8.0,2.0,,,3.0,1.0,,,,2.0,,,,,,,,,False,CAP,alta,0.792,5,False,Provável
-101405,Wallisson,294,CFC,4,Meia,7,5.15,-0.4,3.7,5,1.2,,1.0,13.0,9.0,,1.0,4.0,,1.0,,,,,,,,,,,,False,CAP,estavel,0.718,21,False,Provável
-90302,Pedro Rocha,294,CFC,5,Atacante,7,8.04,0.0,4.9,7,6.3,,1.0,3.0,12.0,4.0,11.0,11.0,2.0,7.0,,,,,,,,,,,,False,CAP,estavel,0.609,30,False,Provável
-104811,Sebastián Gómez,294,CFC,4,Meia,7,3.59,-0.67,1.82,5,0.5,,1.0,4.0,7.0,2.0,1.0,6.0,,,,,,,,,,,,,,False,CAP,baixa,0.507,59,False,Provável
-110708,Pedro Rangel,294,CFC,1,Goleiro,7,7.25,2.08,6.35,4,12.0,,,,,,,2.0,,,8.0,1.0,3.0,,,,,,,,,False,CAP,alta,0.876,1,False,Provável
-123648,Lucas Ronier,294,CFC,5,Atacante,7,10.34,-0.4,8.93,7,2.0,3.0,2.0,17.0,6.0,1.0,7.0,16.0,1.0,,,,,1.0,,,,,,,,False,CAP,estavel,0.864,3,False,Provável
+102796,Julimar,293,CAP,5,Atacante,7,6.5,-0.57,5.06,5,-0.2,,5.0,6.0,1.0,3.0,2.0,2.0,1.0,,,,,,,,,,,,,True,CFC,baixa,0.778,8,False,Provável
+90031,Mendoza,293,CAP,5,Atacante,7,9.69,0.78,6.58,5,10.0,,4.0,3.0,1.0,2.0,2.0,3.0,,,,,,,,,,,,,,True,CFC,alta,0.679,16,False,Provável
+125746,Dudu,293,CAP,4,Meia,2,0.8,0.05,0.25,4,0.5,,,,,,2.0,,,,,,,,,,,,,,,True,CFC,estavel,0.312,120,False,Dúvida
+125926,Zapelli,293,CAP,4,Meia,2,6.33,0.0,3.23,4,0.0,1.0,6.0,5.0,,3.0,4.0,,1.0,,,,,,,,,1.0,,,,True,CFC,estavel,0.51,58,False,Dúvida
+123869,Aguirre,293,CAP,3,Zagueiro,7,5.97,0.95,3.52,4,5.7,,2.0,1.0,2.0,,2.0,,,,,1.0,,1.0,,,,,,,,True,CFC,alta,0.59,27,False,Provável
+131832,Portilla,293,CAP,4,Meia,7,2.9,0.38,0.4,5,3.1,,3.0,10.0,,,3.0,,1.0,,,,,,,,,,,,,True,CFC,estavel,0.138,152,False,Provável
+71227,Maicon,294,CFC,3,Zagueiro,7,5.2,0.29,3.1,7,5.0,,4.0,1.0,,,2.0,,,,,3.0,,,,,,,,,,False,CAP,estavel,0.596,26,False,Provável
+84339,Bruno Melo,294,CFC,2,Lateral,7,6.31,0.28,4.58,6,6.5,1.0,5.0,2.0,,1.0,2.0,,1.0,,,3.0,2.0,,,,,,,,,False,CAP,estavel,0.726,16,False,Provável
+143193,Viveros,293,CAP,5,Atacante,7,11.97,1.94,7.76,5,11.2,1.0,1.0,15.0,4.0,6.0,21.0,2.0,1.0,,,,3.0,,,,2.0,,,,,True,CFC,alta,0.648,25,False,Provável
+84626,Josué,294,CFC,4,Meia,7,4.94,-0.26,2.85,6,0.5,2.0,4.0,5.0,1.0,3.0,6.0,,1.0,,,,,,,,,1.0,,,,False,CAP,estavel,0.577,43,False,Provável
+97878,Jacy,294,CFC,3,Zagueiro,7,6.29,1.08,4.98,6,12.2,,8.0,2.0,,,3.0,1.0,1.0,,,2.0,,,,,,,,,,False,CAP,alta,0.792,5,False,Provável
+82628,Tinga,294,CFC,2,Lateral,2,5.55,0.0,3.17,4,0.0,,8.0,1.0,,,2.0,,,,,,,,,,,,,,,False,CAP,estavel,0.571,43,False,Dúvida
+101405,Wallisson,294,CFC,4,Meia,7,5.15,-0.4,3.7,5,1.2,,13.0,9.0,,1.0,4.0,,1.0,,,,1.0,,,,,,,,,False,CAP,estavel,0.718,21,False,Provável
+104811,Sebastián Gómez,294,CFC,4,Meia,7,3.59,-0.67,1.82,5,0.5,,4.0,7.0,2.0,1.0,6.0,,1.0,,,,,,,,,,,,,False,CAP,baixa,0.507,59,False,Provável
+90302,Pedro Rocha,294,CFC,5,Atacante,7,8.04,0.0,4.9,7,6.3,,3.0,12.0,4.0,11.0,11.0,2.0,1.0,,,,7.0,,,,,,,,,False,CAP,estavel,0.609,30,False,Provável
+110708,Pedro Rangel,294,CFC,1,Goleiro,7,7.25,2.08,6.35,4,12.0,,,,,,2.0,,,8.0,1.0,3.0,,,,,,,,,,False,CAP,alta,0.876,1,False,Provável
+123648,Lucas Ronier,294,CFC,5,Atacante,7,10.34,-0.4,8.93,7,2.0,3.0,17.0,6.0,1.0,7.0,16.0,1.0,2.0,,,,,1.0,,,,,,,,False,CAP,estavel,0.864,3,False,Provável
 126977,Fernando Seabra,294,CFC,6,Técnico,7,8.15,0.52,6.16,7,7.77,,,,,,,,,,,,,,,,,,4.0,,,False,CAP,alta,0.756,1,False,Provável
-82628,Tinga,294,CFC,2,Lateral,2,5.55,0.0,3.17,4,0.0,,,8.0,1.0,,,2.0,,,,,,,,,,,,,,False,CAP,estavel,0.571,43,False,Dúvida
-82730,Marcelo Rangel,364,REM,1,Goleiro,7,3.87,-0.98,2.27,7,-3.0,,,,,,,,,,23.0,14.0,,,,,,,,,,True,BAH,baixa,0.587,9,False,Provável
-102911,Zé Ricardo,364,REM,4,Meia,7,4.52,-0.69,3.4,7,1.4,,1.0,15.0,10.0,1.0,2.0,5.0,,,,,,,,,,,,,,True,BAH,baixa,0.752,15,False,Provável
-97795,Marcelinho,364,REM,2,Lateral,7,2.49,0.17,0.88,4,2.3,,,1.0,1.0,,1.0,3.0,,,,,,,,,,,,,,True,BAH,estavel,0.353,63,False,Provável
-107172,Patrick de Paula,364,REM,4,Meia,7,7.36,-0.28,5.48,6,2.8,2.0,4.0,8.0,8.0,3.0,9.0,13.0,,,,,,,,,,,,,,True,BAH,estavel,0.745,16,False,Provável
-122441,Kayky Almeida,364,REM,3,Zagueiro,7,2.81,0.55,1.82,6,3.0,,1.0,7.0,5.0,2.0,,1.0,,,,,,,,,,,,,,True,BAH,alta,0.648,18,False,Provável
-71043,Léo Vieira,315,CHA,1,Goleiro,7,7.19,1.9,5.7,6,11.5,,1.0,,,,,3.0,,,29.0,9.0,1.0,,,,,,,,,False,INT,alta,0.793,3,False,Provável
+82730,Marcelo Rangel,364,REM,1,Goleiro,7,3.87,-0.98,2.27,7,-3.0,,,,,,,,,23.0,14.0,,,,,,,,,,,True,BAH,baixa,0.587,9,False,Provável
+102911,Zé Ricardo,364,REM,4,Meia,7,4.52,-0.69,3.4,7,1.4,,15.0,10.0,1.0,2.0,5.0,,1.0,,,,,,,,,,,,,True,BAH,baixa,0.752,15,False,Provável
+97795,Marcelinho,364,REM,2,Lateral,7,2.49,0.17,0.88,4,2.3,,1.0,1.0,,1.0,3.0,,,,,,,,,,,,,,,True,BAH,estavel,0.353,63,False,Provável
+107172,Patrick de Paula,364,REM,4,Meia,7,7.36,-0.28,5.48,6,2.8,2.0,8.0,8.0,3.0,9.0,13.0,,4.0,,,,,,,,,,,,,True,BAH,estavel,0.745,16,False,Provável
+122441,Kayky Almeida,364,REM,3,Zagueiro,7,2.81,0.55,1.82,6,3.0,,7.0,5.0,2.0,,1.0,,1.0,,,,,,,,,,,,,True,BAH,alta,0.648,18,False,Provável
+71043,Léo Vieira,315,CHA,1,Goleiro,7,7.19,1.9,5.7,6,11.5,,,,,,3.0,,1.0,29.0,9.0,1.0,,,,,,,,,,False,INT,alta,0.793,3,False,Provável
+68938,Giovanni Augusto,315,CHA,4,Meia,7,3.41,-0.85,1.1,5,-0.8,,3.0,5.0,,,7.0,,1.0,,,,,,,,,,,,,False,INT,baixa,0.323,118,False,Provável
 73481,Gilmar Dal Pozzo,315,CHA,6,Técnico,7,6.59,0.3,4.71,6,4.57,,,,,,,,,,,,,,,,,,1.0,,,False,INT,estavel,0.715,2,False,Provável
-95332,Marcinho,315,CHA,5,Atacante,7,3.26,-0.48,2.0,6,0.7,,,4.0,2.0,1.0,4.0,5.0,,3.0,,,,,,,,,,,,False,INT,estavel,0.613,28,False,Provável
-104470,Everton,315,CHA,2,Lateral,7,4.93,0.75,3.3,6,4.9,1.0,2.0,5.0,7.0,1.0,4.0,4.0,,,,,1.0,,,,,,,,,False,INT,alta,0.669,25,False,Provável
-101393,Eduardo Doma,315,CHA,3,Zagueiro,7,4.57,0.59,3.4,6,4.4,,1.0,5.0,4.0,,2.0,1.0,1.0,,,,1.0,,,,,,,,,False,INT,alta,0.744,11,False,Provável
-95620,Bruno Leonardo,315,CHA,3,Zagueiro,7,3.92,0.77,2.34,5,5.0,,,3.0,,1.0,,2.0,,,,,1.0,,,,,,,,,False,INT,alta,0.597,25,False,Provável
-68938,Giovanni Augusto,315,CHA,4,Meia,7,3.41,-0.85,1.1,5,-0.8,,1.0,3.0,5.0,,,7.0,,,,,,,,,,,,,,False,INT,baixa,0.323,118,False,Provável
-104519,Camilo,315,CHA,4,Meia,7,4.94,0.18,2.96,5,3.3,,2.0,10.0,9.0,1.0,1.0,5.0,,,,,,,,,,,,,,False,INT,estavel,0.599,37,False,Provável
-105664,Walter Clar,315,CHA,2,Lateral,7,8.94,0.4,6.68,6,7.7,1.0,,3.0,3.0,1.0,1.0,1.0,3.0,,,,1.0,,,,,,,,,False,INT,estavel,0.747,14,False,Provável
-122138,João Vitor,315,CHA,4,Meia,7,3.11,-0.56,1.85,4,0.6,,,4.0,5.0,,3.0,1.0,,,,,,,,,,,,,,False,INT,baixa,0.595,38,False,Provável
-109336,Rafael Carvalheira,315,CHA,4,Meia,7,5.28,-0.56,2.9,6,1.5,,1.0,7.0,8.0,,1.0,3.0,1.0,,,,,,,,,,,,,False,INT,baixa,0.549,49,False,Provável
+104470,Everton,315,CHA,2,Lateral,7,4.93,0.75,3.3,6,4.9,1.0,5.0,7.0,1.0,4.0,4.0,,2.0,,,1.0,,,,,,,,,,False,INT,alta,0.669,25,False,Provável
+95332,Marcinho,315,CHA,5,Atacante,7,3.26,-0.48,2.0,6,0.7,,4.0,2.0,1.0,4.0,5.0,,,,,,3.0,,,,,,,,,False,INT,estavel,0.613,28,False,Provável
+101393,Eduardo Doma,315,CHA,3,Zagueiro,7,4.57,0.59,3.4,6,4.4,,5.0,4.0,,2.0,1.0,1.0,1.0,,,1.0,,,,,,,,,,False,INT,alta,0.744,11,False,Provável
+95620,Bruno Leonardo,315,CHA,3,Zagueiro,7,3.92,0.77,2.34,5,5.0,,3.0,,1.0,,2.0,,,,,1.0,,,,,,,,,,False,INT,alta,0.597,25,False,Provável
+104519,Camilo,315,CHA,4,Meia,7,4.94,0.18,2.96,5,3.3,,10.0,9.0,1.0,1.0,5.0,,2.0,,,,,,,,,,,,,False,INT,estavel,0.599,37,False,Provável
+105664,Walter Clar,315,CHA,2,Lateral,7,8.94,0.4,6.68,6,7.7,1.0,3.0,3.0,1.0,1.0,1.0,3.0,,,,1.0,,,,,,,,,,False,INT,estavel,0.747,14,False,Provável
+103445,Kaio Jorge,283,CRU,5,Atacante,2,12.66,0.0,4.42,4,0.0,,,2.0,3.0,7.0,3.0,1.0,,,,,4.0,,,,,,,,,True,SAN,estavel,0.349,83,False,Dúvida
+86292,Bolasie,315,CHA,5,Atacante,7,3.82,-0.63,0.96,5,-0.3,,1.0,6.0,,2.0,7.0,,1.0,,,,,,,,1.0,,,,,False,INT,baixa,0.251,95,False,Provável
+109336,Rafael Carvalheira,315,CHA,4,Meia,7,5.28,-0.56,2.9,6,1.5,,7.0,8.0,,1.0,3.0,1.0,1.0,,,,,,,,,,,,,False,INT,baixa,0.549,49,False,Provável
+114802,Vitor Roque,275,PAL,5,Atacante,7,18.59,-3.12,9.86,5,2.1,,7.0,6.0,3.0,4.0,14.0,3.0,1.0,,,,2.0,1.0,,,1.0,,,,,False,SAO,baixa,0.53,41,False,Provável
+94583,Pedro,262,FLA,5,Atacante,7,16.21,-2.81,7.56,5,0.0,1.0,8.0,4.0,1.0,1.0,8.0,2.0,,,,,,,,,,,,,,False,COR,baixa,0.466,56,False,Provável
+118655,Saldivia,267,VAS,3,Zagueiro,7,5.26,-0.18,1.65,4,2.0,,4.0,4.0,,1.0,4.0,,1.0,,,,,,,,,,,,,True,GRE,estavel,0.314,68,True,Provável
+101908,Willian Machado,2305,MIR,3,Zagueiro,7,4.53,-0.71,2.48,5,0.2,,6.0,3.0,1.0,2.0,5.0,,1.0,,,,,,,,,,,,,False,VIT,baixa,0.547,34,False,Provável
+106104,Enamorado,284,GRE,5,Atacante,7,7.45,0.63,3.3,6,4.3,1.0,4.0,5.0,3.0,4.0,9.0,,1.0,,,,,,,,,,,,,False,VAS,alta,0.443,64,False,Provável
+126182,Paulinho,285,INT,4,Meia,7,3.8,0.0,2.12,6,0.0,,8.0,10.0,1.0,2.0,8.0,,3.0,,,,1.0,,,,,,,,,True,CHA,estavel,0.558,45,False,Provável
+132412,Román Gómez,265,BAH,2,Lateral,7,8.87,0.0,12.5,1,0.0,,5.0,,,,,,,,,1.0,,,,,,,,,,False,REM,estavel,1.409,2,False,Provável
+131516,JP Chermont,294,CFC,2,Lateral,2,6.5,0.15,6.67,4,6.5,1.0,4.0,1.0,,,2.0,,,,,3.0,,,,,,,,,,False,CAP,estavel,1.026,7,False,Dúvida
+93988,Breno Lopes,294,CFC,5,Atacante,7,8.73,0.19,4.81,7,2.5,,3.0,6.0,2.0,2.0,9.0,3.0,1.0,,,,5.0,,,,,,,,,False,CAP,estavel,0.551,38,False,Provável
+106302,Preciado,282,CAM,2,Lateral,7,8.65,1.53,4.64,5,10.6,,7.0,8.0,,2.0,9.0,,1.0,,,2.0,,,,,,,,,,False,FLU,alta,0.536,48,False,Provável
+130048,Noriega,284,GRE,3,Zagueiro,7,8.42,1.3,5.63,6,6.7,1.0,10.0,11.0,,2.0,7.0,1.0,1.0,,,1.0,,,,,,,,,,False,VAS,alta,0.669,17,False,Provável
+116034,Victor Hugo,282,CAM,4,Meia,7,6.89,0.06,4.5,7,1.5,1.0,5.0,,1.0,1.0,2.0,2.0,,,,,,,,,,,,,,False,FLU,estavel,0.653,27,False,Provável
+106708,Igor Formiga,2305,MIR,2,Lateral,7,6.31,-1.02,3.58,5,0.0,,6.0,4.0,,2.0,1.0,1.0,,,,,,,,,,,,,,False,VIT,baixa,0.567,44,False,Provável
+70666,Marllon,364,REM,3,Zagueiro,7,5.74,0.36,3.26,7,3.0,,14.0,5.0,,1.0,7.0,,1.0,,,,,,,,,,,,,True,BAH,estavel,0.568,30,False,Provável
+69208,Gabriel Paulista,264,COR,3,Zagueiro,7,10.24,0.0,6.0,4,0.0,,5.0,4.0,,4.0,3.0,1.0,,,,1.0,,,,,,,,,,True,FLA,estavel,0.586,28,False,Provável
+89256,Gerson,283,CRU,4,Meia,7,8.11,0.0,2.32,6,0.0,,7.0,6.0,2.0,,10.0,,2.0,,,,2.0,,,,,,,,,True,SAN,estavel,0.286,127,False,Provável
+105157,Villagra,285,INT,4,Meia,7,6.75,0.2,0.95,2,1.9,,1.0,3.0,,1.0,1.0,,,,,,,,,,,,,,,True,CHA,estavel,0.141,151,True,Provável
+103388,Emmanuel Martínez,287,VIT,4,Meia,7,6.71,-0.64,4.23,3,1.5,,6.0,7.0,,1.0,10.0,,,,,,,,,,,,,,,True,MIR,baixa,0.63,29,False,Provável
+95362,Cassierra,282,CAM,5,Atacante,2,6.69,-0.76,0.7,4,0.7,,,1.0,,2.0,3.0,,,,,,,,,,,,,,,False,FLU,baixa,0.105,112,True,Dúvida
+142265,Dell,265,BAH,5,Atacante,2,2.2,0.0,0.97,3,0.0,,2.0,2.0,1.0,1.0,3.0,,,,,,,,,,,1.0,,,,False,REM,estavel,0.441,67,False,Dúvida
+113125,Picco,364,REM,4,Meia,7,6.87,0.08,4.32,6,2.7,,12.0,9.0,1.0,3.0,,1.0,1.0,,,,,,,,,,,,,True,BAH,estavel,0.629,30,False,Provável
+71536,Luiz Gustavo,293,CAP,4,Meia,7,6.47,-1.33,3.95,4,1.4,,5.0,4.0,,,5.0,1.0,1.0,,,,,,,,,,,,,True,CFC,baixa,0.611,33,False,Provável
