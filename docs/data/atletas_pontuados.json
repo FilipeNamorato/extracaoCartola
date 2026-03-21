@@ -1,5 +1,16 @@
 {
   "atletas": {
+    "100898": {
+      "scout": {
+        "FC": 1
+      },
+      "apelido": "Vitinho",
+      "foto": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/clubes_2026/silhuetas/BOT/FORMATO.png",
+      "pontuacao": -0.3,
+      "posicao_id": 2,
+      "clube_id": 263,
+      "entrou_em_campo": true
+    },
     "101002": {
       "scout": {},
       "apelido": "Júnior Santos",
@@ -20,12 +31,12 @@
     },
     "104191": {
       "scout": {
-        "DE": 2,
+        "DE": 3,
         "GS": 1
       },
       "apelido": "Raul",
       "foto": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/clubes_2026/silhuetas/BOT/FORMATO.png",
-      "pontuacao": 1.6,
+      "pontuacao": 2.9,
       "posicao_id": 1,
       "clube_id": 263,
       "entrou_em_campo": true
@@ -55,10 +66,13 @@
       "entrou_em_campo": true
     },
     "107231": {
-      "scout": {},
+      "scout": {
+        "FC": 1,
+        "FS": 1
+      },
       "apelido": "Danilo",
       "foto": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/clubes_2026/silhuetas/BOT/FORMATO.png",
-      "pontuacao": 0,
+      "pontuacao": 0.2,
       "posicao_id": 4,
       "clube_id": 263,
       "entrou_em_campo": true
@@ -73,10 +87,12 @@
       "entrou_em_campo": false
     },
     "110715": {
-      "scout": {},
+      "scout": {
+        "FS": 1
+      },
       "apelido": "Andrés Hurtado",
       "foto": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/clubes_2026/silhuetas/RBB/FORMATO.png",
-      "pontuacao": 0,
+      "pontuacao": 0.5,
       "posicao_id": 2,
       "clube_id": 280,
       "entrou_em_campo": true
@@ -105,11 +121,12 @@
     },
     "111831": {
       "scout": {
-        "DS": 3
+        "DS": 3,
+        "FF": 1
       },
       "apelido": "Matheus Martins",
       "foto": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/clubes_2026/silhuetas/BOT/FORMATO.png",
-      "pontuacao": 4.5,
+      "pontuacao": 5.3,
       "posicao_id": 5,
       "clube_id": 263,
       "entrou_em_campo": true
@@ -140,18 +157,19 @@
       "scout": {},
       "apelido": "Martín Anselmi",
       "foto": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/clubes_2026/silhuetas/BOT/FORMATO.png",
-      "pontuacao": 2.74,
+      "pontuacao": 2.83,
       "posicao_id": 6,
       "clube_id": 263,
       "entrou_em_campo": true
     },
     "118563": {
       "scout": {
-        "DS": 1
+        "DS": 2,
+        "FC": 1
       },
       "apelido": "Rodriguinho",
       "foto": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/clubes_2026/silhuetas/RBB/FORMATO.png",
-      "pontuacao": 1.5,
+      "pontuacao": 2.7,
       "posicao_id": 4,
       "clube_id": 280,
       "entrou_em_campo": true
@@ -188,14 +206,23 @@
       "clube_id": 294,
       "entrou_em_campo": false
     },
+    "142877": {
+      "scout": {},
+      "apelido": "Villalba",
+      "foto": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/clubes_2026/silhuetas/BOT/FORMATO.png",
+      "pontuacao": 0,
+      "posicao_id": 5,
+      "clube_id": 263,
+      "entrou_em_campo": true
+    },
     "142890": {
       "scout": {
-        "DS": 1,
+        "FS": 1,
         "FT": 1
       },
       "apelido": "Montoro",
       "foto": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/clubes_2026/silhuetas/BOT/FORMATO.png",
-      "pontuacao": 4.5,
+      "pontuacao": 3.5,
       "posicao_id": 4,
       "clube_id": 263,
       "entrou_em_campo": true
@@ -213,7 +240,7 @@
       "scout": {},
       "apelido": "Vagner Mancini",
       "foto": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/clubes_2026/silhuetas/RBB/FORMATO.png",
-      "pontuacao": 2.47,
+      "pontuacao": 2.57,
       "posicao_id": 6,
       "clube_id": 280,
       "entrou_em_campo": true
@@ -247,11 +274,13 @@
     },
     "70360": {
       "scout": {
-        "DS": 2
+        "DS": 1,
+        "FF": 1,
+        "I": 1
       },
       "apelido": "Eduardo Sasha",
       "foto": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/clubes_2026/silhuetas/RBB/FORMATO.png",
-      "pontuacao": 3,
+      "pontuacao": 2.2,
       "posicao_id": 5,
       "clube_id": 280,
       "entrou_em_campo": true
@@ -368,11 +397,12 @@
     "94067": {
       "scout": {
         "DS": 1,
-        "FC": 1
+        "FC": 2,
+        "FS": 1
       },
       "apelido": "Matheus Fernandes",
       "foto": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/clubes_2026/silhuetas/RBB/FORMATO.png",
-      "pontuacao": 1.2,
+      "pontuacao": 1.4,
       "posicao_id": 4,
       "clube_id": 280,
       "entrou_em_campo": true
@@ -751,5 +781,5 @@
     }
   },
   "rodada": 8,
-  "total_atletas": 42
+  "total_atletas": 44
 }
