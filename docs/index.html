@@ -1186,7 +1186,7 @@ function renderScorers(scorers) {
       </div>
       <div style="text-align:right">
         <div class="scorer-goals">${s.goals || 0}</div>
-        ${s.assists ? `<div class="scorer-assists">${s.assists} ast</div>` : ''}
+        ${s.assists ? `<div class="scorer-assists">${s.assists} ${s.assists === 1 ? 'assistência' : 'assistências'}</div>` : ''}
       </div>
     </div>
   `).join('');
