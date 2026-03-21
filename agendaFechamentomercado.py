@@ -143,9 +143,9 @@ def main():
     print(f"Fechamento previsto: {dt_fechamento.strftime('%d/%m/%Y %H:%M')}")
 
     agora = datetime.datetime.now(tz=ZoneInfo(TIMEZONE))
-    if dt_fechamento < agora:
-        print("Data de fechamento ja passou. Nada a fazer.")
-        sys.exit(0)
+    #if dt_fechamento < agora:
+    #    print("Data de fechamento ja passou. Nada a fazer.")
+    #    sys.exit(0)
 
     service = construir_servico()
 
