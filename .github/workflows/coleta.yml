@@ -57,7 +57,7 @@ jobs:
           GOOGLE_CALENDAR_ID: ${{ secrets.GOOGLE_CALENDAR_ID }}
           HORAS_ANTES_LEMBRETE: "3"
           MERCADO_STATUS_CSV: "docs/data/mercado_status.csv"
-        run: python agendar_fechamento.py
+        run: python agendaFechamentomercado.py
 
       - name: Trigger Deploy Pages
         uses: actions/github-script@v7
