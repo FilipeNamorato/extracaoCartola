@@ -90,9 +90,12 @@ def criar_evento_fechamento(service, dt_fechamento: datetime.datetime, rodada: s
         "reminders": {
             "useDefault": False,
             "overrides": [
-                {"method": "email", "minutes": HORAS_ANTES_LEMBRETE * 60},
-                {"method": "popup", "minutes": HORAS_ANTES_LEMBRETE * 60},
-                {"method": "popup", "minutes": 30},
+                {"method": "email", "minutes": 24 * 60},      # 1 dia antes
+                {"method": "popup", "minutes": 24 * 60},      # 1 dia antes
+                {"method": "email", "minutes": 3 * 60},       # 3 horas antes
+                {"method": "popup", "minutes": 3 * 60},       # 3 horas antes
+                {"method": "email", "minutes": 60},            # 1 hora antes
+                {"method": "popup", "minutes": 60},            # 1 hora antes
             ],
         },
         "colorId": "11",
