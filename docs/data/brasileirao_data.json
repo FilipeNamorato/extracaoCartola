@@ -66,14 +66,14 @@
         "tla": "BAH",
         "crest": "https://crests.football-data.org/1777.png"
       },
-      "playedGames": 6,
+      "playedGames": 7,
       "form": null,
       "won": 4,
-      "draw": 2,
+      "draw": 3,
       "lost": 0,
-      "points": 14,
-      "goalsFor": 8,
-      "goalsAgainst": 3,
+      "points": 15,
+      "goalsFor": 9,
+      "goalsAgainst": 4,
       "goalDifference": 5
     },
     {
@@ -98,11 +98,11 @@
     {
       "position": 6,
       "team": {
-        "id": 4241,
-        "name": "Coritiba FBC",
-        "shortName": "Coritiba",
-        "tla": "COR",
-        "crest": "https://crests.football-data.org/4241.png"
+        "id": 1768,
+        "name": "CA Paranaense",
+        "shortName": "Paranaense",
+        "tla": "CAP",
+        "crest": "https://crests.football-data.org/1768.png"
       },
       "playedGames": 7,
       "form": null,
@@ -111,11 +111,30 @@
       "lost": 2,
       "points": 13,
       "goalsFor": 9,
-      "goalsAgainst": 6,
-      "goalDifference": 3
+      "goalsAgainst": 7,
+      "goalDifference": 2
     },
     {
-      "position": 7,
+      "position": 6,
+      "team": {
+        "id": 4241,
+        "name": "Coritiba FBC",
+        "shortName": "Coritiba",
+        "tla": "COR",
+        "crest": "https://crests.football-data.org/4241.png"
+      },
+      "playedGames": 8,
+      "form": null,
+      "won": 4,
+      "draw": 1,
+      "lost": 3,
+      "points": 13,
+      "goalsFor": 9,
+      "goalsAgainst": 7,
+      "goalDifference": 2
+    },
+    {
+      "position": 8,
       "team": {
         "id": 1767,
         "name": "Grêmio FBPA",
@@ -123,37 +142,37 @@
         "tla": "FBP",
         "crest": "https://crests.football-data.org/1767.png"
       },
-      "playedGames": 7,
+      "playedGames": 8,
       "form": null,
       "won": 3,
       "draw": 2,
-      "lost": 2,
+      "lost": 3,
       "points": 11,
-      "goalsFor": 12,
-      "goalsAgainst": 10,
-      "goalDifference": 2
-    },
-    {
-      "position": 8,
-      "team": {
-        "id": 1768,
-        "name": "CA Paranaense",
-        "shortName": "Paranaense",
-        "tla": "CAP",
-        "crest": "https://crests.football-data.org/1768.png"
-      },
-      "playedGames": 6,
-      "form": null,
-      "won": 3,
-      "draw": 1,
-      "lost": 2,
-      "points": 10,
-      "goalsFor": 8,
-      "goalsAgainst": 7,
+      "goalsFor": 13,
+      "goalsAgainst": 12,
       "goalDifference": 1
     },
     {
       "position": 9,
+      "team": {
+        "id": 1780,
+        "name": "CR Vasco da Gama",
+        "shortName": "Vasco da Gama",
+        "tla": "VAS",
+        "crest": "https://crests.football-data.org/1780.png"
+      },
+      "playedGames": 8,
+      "form": null,
+      "won": 3,
+      "draw": 2,
+      "lost": 3,
+      "points": 11,
+      "goalsFor": 13,
+      "goalsAgainst": 13,
+      "goalDifference": 0
+    },
+    {
+      "position": 10,
       "team": {
         "id": 1779,
         "name": "SC Corinthians Paulista",
@@ -170,25 +189,6 @@
       "goalsFor": 6,
       "goalsAgainst": 6,
       "goalDifference": 0
-    },
-    {
-      "position": 10,
-      "team": {
-        "id": 1780,
-        "name": "CR Vasco da Gama",
-        "shortName": "Vasco da Gama",
-        "tla": "VAS",
-        "crest": "https://crests.football-data.org/1780.png"
-      },
-      "playedGames": 7,
-      "form": null,
-      "won": 2,
-      "draw": 2,
-      "lost": 3,
-      "points": 8,
-      "goalsFor": 11,
-      "goalsAgainst": 12,
-      "goalDifference": -1
     },
     {
       "position": 11,
@@ -269,6 +269,25 @@
     {
       "position": 15,
       "team": {
+        "id": 6685,
+        "name": "Santos FC",
+        "shortName": "Santos",
+        "tla": "SAN",
+        "crest": "https://crests.football-data.org/6685.png"
+      },
+      "playedGames": 8,
+      "form": null,
+      "won": 1,
+      "draw": 4,
+      "lost": 3,
+      "points": 7,
+      "goalsFor": 10,
+      "goalsAgainst": 13,
+      "goalDifference": -3
+    },
+    {
+      "position": 16,
+      "team": {
         "id": 1770,
         "name": "Botafogo FR",
         "shortName": "Botafogo",
@@ -286,7 +305,7 @@
       "goalDifference": -2
     },
     {
-      "position": 16,
+      "position": 17,
       "team": {
         "id": 4364,
         "name": "Mirassol FC",
@@ -303,25 +322,6 @@
       "goalsFor": 8,
       "goalsAgainst": 9,
       "goalDifference": -1
-    },
-    {
-      "position": 17,
-      "team": {
-        "id": 6685,
-        "name": "Santos FC",
-        "shortName": "Santos",
-        "tla": "SAN",
-        "crest": "https://crests.football-data.org/6685.png"
-      },
-      "playedGames": 7,
-      "form": null,
-      "won": 1,
-      "draw": 3,
-      "lost": 3,
-      "points": 6,
-      "goalsFor": 10,
-      "goalsAgainst": 13,
-      "goalDifference": -3
     },
     {
       "position": 18,
@@ -351,12 +351,12 @@
         "tla": "CRU",
         "crest": "https://crests.football-data.org/1771.png"
       },
-      "playedGames": 7,
+      "playedGames": 8,
       "form": null,
       "won": 0,
-      "draw": 3,
+      "draw": 4,
       "lost": 4,
-      "points": 3,
+      "points": 4,
       "goalsFor": 8,
       "goalsAgainst": 16,
       "goalDifference": -8
@@ -370,14 +370,14 @@
         "tla": "CRE",
         "crest": "https://crests.football-data.org/4287.png"
       },
-      "playedGames": 7,
+      "playedGames": 8,
       "form": null,
       "won": 0,
-      "draw": 3,
+      "draw": 4,
       "lost": 4,
-      "points": 3,
-      "goalsFor": 6,
-      "goalsAgainst": 14,
+      "points": 4,
+      "goalsFor": 7,
+      "goalsAgainst": 15,
       "goalDifference": -8
     }
   ],
@@ -409,7 +409,7 @@
         "lastUpdated": "2023-02-18T08:42:52Z"
       },
       "playedMatches": 8,
-      "goals": 5,
+      "goals": 6,
       "assists": null,
       "penalties": 1
     },
@@ -694,6 +694,37 @@
     },
     {
       "player": {
+        "id": 192070,
+        "name": "Kevin Viveros",
+        "firstName": "Kevin",
+        "lastName": "Viveros",
+        "dateOfBirth": "2000-04-26",
+        "nationality": "Colombia",
+        "section": "Offence",
+        "position": null,
+        "shirtNumber": null,
+        "lastUpdated": "2023-08-22T11:53:03Z"
+      },
+      "team": {
+        "id": 1768,
+        "name": "CA Paranaense",
+        "shortName": "Paranaense",
+        "tla": "CAP",
+        "crest": "https://crests.football-data.org/1768.png",
+        "address": "Estrada do Ganchinho 1451, Umbará Curitiba, PR 81930-160",
+        "website": "http://www.atleticoparanaense.com",
+        "founded": 1924,
+        "clubColors": "Black / White / Red",
+        "venue": "Estádio Joaquim Américo Guimarães",
+        "lastUpdated": "2022-04-06T13:14:06Z"
+      },
+      "playedMatches": 7,
+      "goals": 3,
+      "assists": 1,
+      "penalties": 1
+    },
+    {
+      "player": {
         "id": 8491,
         "name": "Neymar",
         "firstName": "",
@@ -813,37 +844,6 @@
       },
       "playedMatches": 7,
       "goals": 3,
-      "assists": 1,
-      "penalties": null
-    },
-    {
-      "player": {
-        "id": 178854,
-        "name": "Victor Hugo Gomes",
-        "firstName": "",
-        "lastName": "Victor Hugo",
-        "dateOfBirth": "2004-05-11",
-        "nationality": "Brazil",
-        "section": "Midfield",
-        "position": null,
-        "shirtNumber": null,
-        "lastUpdated": "2023-07-30T23:15:48Z"
-      },
-      "team": {
-        "id": 1766,
-        "name": "CA Mineiro",
-        "shortName": "Mineiro",
-        "tla": "CAM",
-        "crest": "https://crests.football-data.org/1766.png",
-        "address": "Av. Olegário Maciel 1516, Lourdes Belo Horizonte, MG 30180-111",
-        "website": "http://www.atletico.com.br",
-        "founded": 1908,
-        "clubColors": "Black / White",
-        "venue": "Estádio Raimundo Sampaio",
-        "lastUpdated": "2022-12-28T10:32:33Z"
-      },
-      "playedMatches": 8,
-      "goals": 2,
       "assists": 1,
       "penalties": null
     }
