@@ -9,15 +9,15 @@
         "tla": "PAL",
         "crest": "https://crests.football-data.org/1769.png"
       },
-      "playedGames": 7,
+      "playedGames": 8,
       "form": null,
-      "won": 5,
+      "won": 6,
       "draw": 1,
       "lost": 1,
-      "points": 16,
-      "goalsFor": 16,
+      "points": 19,
+      "goalsFor": 17,
       "goalsAgainst": 8,
-      "goalDifference": 8
+      "goalDifference": 9
     },
     {
       "position": 2,
@@ -28,15 +28,15 @@
         "tla": "PAU",
         "crest": "https://crests.football-data.org/1776.png"
       },
-      "playedGames": 7,
+      "playedGames": 8,
       "form": null,
       "won": 5,
       "draw": 1,
-      "lost": 1,
+      "lost": 2,
       "points": 16,
       "goalsFor": 10,
-      "goalsAgainst": 4,
-      "goalDifference": 6
+      "goalsAgainst": 5,
+      "goalDifference": 5
     },
     {
       "position": 3,
@@ -503,7 +503,7 @@
       },
       "playedMatches": 8,
       "goals": 3,
-      "assists": 1,
+      "assists": 2,
       "penalties": null
     },
     {
@@ -856,7 +856,8 @@
       "L",
       "W",
       "L",
-      "W"
+      "W",
+      "L"
     ],
     "SE Palmeiras": [
       "D",
@@ -927,7 +928,8 @@
       "L",
       "W",
       "W",
-      "L"
+      "L",
+      "W"
     ],
     "Grêmio FBPA": [
       "L",
@@ -1035,10 +1037,10 @@
       },
       "away": {
         "gf": 1,
-        "ga": 5,
+        "ga": 6,
         "w": 0,
         "d": 0,
-        "l": 3
+        "l": 4
       }
     },
     "SE Palmeiras": {
@@ -1155,9 +1157,9 @@
     },
     "Fluminense FC": {
       "home": {
-        "gf": 6,
+        "gf": 7,
         "ga": 3,
-        "w": 3,
+        "w": 4,
         "d": 0,
         "l": 0
       },
