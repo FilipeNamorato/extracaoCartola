@@ -1124,7 +1124,7 @@
     "89837": {
       "scout": {
         "CA": 1,
-        "DS": 2,
+        "DS": 1,
         "FC": 1,
         "FD": 1,
         "FF": 2,
@@ -1132,7 +1132,7 @@
       },
       "apelido": "Lucho Acosta",
       "foto": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/clubes_2026/silhuetas/FLU/FORMATO.png",
-      "pontuacao": 5,
+      "pontuacao": 3.5,
       "posicao_id": 4,
       "clube_id": 266,
       "entrou_em_campo": true
@@ -1358,7 +1358,7 @@
       },
       "apelido": "Luis Zubeldía",
       "foto": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/clubes_2026/silhuetas/FLU/FORMATO.png",
-      "pontuacao": 7.48,
+      "pontuacao": 7.35,
       "posicao_id": 6,
       "clube_id": 266,
       "entrou_em_campo": true
