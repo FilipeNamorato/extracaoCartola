@@ -302,11 +302,11 @@
         "url": "https://ge.globo.com/sp/vale-do-paraiba-regiao/futebol/brasileirao-serie-a/jogo/21-03-2026/bragantino-botafogo.ghtml?utm_source=cartolafc"
       },
       "local": "Cícero de Souza Marques",
-      "status_transmissao_tr": "ENCERRADA",
-      "status_cronometro_tr": "PAUSADO",
-      "periodo_tr": "POS_JOGO",
+      "status_transmissao_tr": "",
+      "status_cronometro_tr": "",
+      "periodo_tr": "",
       "partida_data": "2026-03-21 16:00:00",
-      "inicio_cronometro_tr": "2026-03-21T21:17:55.991Z",
+      "inicio_cronometro_tr": "",
       "placar_oficial_visitante": 2,
       "placar_oficial_mandante": 1,
       "partida_id": 346589,
@@ -338,11 +338,11 @@
         "url": "https://ge.globo.com/rj/futebol/brasileirao-serie-a/jogo/21-03-2026/fluminense-atletico-mg.ghtml?utm_source=cartolafc"
       },
       "local": "Maracanã",
-      "status_transmissao_tr": "ENCERRADA",
-      "status_cronometro_tr": "PAUSADO",
-      "periodo_tr": "POS_JOGO",
+      "status_transmissao_tr": "",
+      "status_cronometro_tr": "",
+      "periodo_tr": "",
       "partida_data": "2026-03-21 18:30:00",
-      "inicio_cronometro_tr": "2026-03-21T23:49:19.992Z",
+      "inicio_cronometro_tr": "",
       "placar_oficial_visitante": 0,
       "placar_oficial_mandante": 1,
       "partida_id": 346585,
@@ -374,11 +374,11 @@
         "url": "https://ge.globo.com/sp/futebol/brasileirao-serie-a/jogo/21-03-2026/sao-paulo-palmeiras.ghtml?utm_source=cartolafc"
       },
       "local": "Morumbis",
-      "status_transmissao_tr": "ENCERRADA",
-      "status_cronometro_tr": "PAUSADO",
-      "periodo_tr": "POS_JOGO",
+      "status_transmissao_tr": "",
+      "status_cronometro_tr": "",
+      "periodo_tr": "",
       "partida_data": "2026-03-21 21:00:00",
-      "inicio_cronometro_tr": "2026-03-22T02:16:30.735Z",
+      "inicio_cronometro_tr": "",
       "placar_oficial_visitante": 1,
       "placar_oficial_mandante": 0,
       "partida_id": 346587,
@@ -396,25 +396,25 @@
         "e",
         "e",
         "v",
-        "e"
+        "d"
       ],
       "aproveitamento_mandante": [
         "d",
         "v",
         "e",
         "v",
-        "e"
+        "v"
       ],
       "transmissao": {
         "label": "saiba como foi",
         "url": "https://ge.globo.com/rj/futebol/brasileirao-serie-a/jogo/22-03-2026/vasco-gremio.ghtml?utm_source=cartolafc"
       },
       "local": "São Januário",
-      "status_transmissao_tr": "ENCERRADA",
-      "status_cronometro_tr": "PAUSADO",
-      "periodo_tr": "POS_JOGO",
+      "status_transmissao_tr": "",
+      "status_cronometro_tr": "",
+      "periodo_tr": "",
       "partida_data": "2026-03-22 16:00:00",
-      "inicio_cronometro_tr": "2026-03-22T21:04:55.730Z",
+      "inicio_cronometro_tr": "",
       "placar_oficial_visitante": 1,
       "placar_oficial_mandante": 2,
       "partida_id": 346586,
@@ -446,11 +446,11 @@
         "url": "https://ge.globo.com/mg/futebol/brasileirao-serie-a/jogo/22-03-2026/cruzeiro-santos.ghtml?utm_source=cartolafc"
       },
       "local": "Mineirão",
-      "status_transmissao_tr": "ENCERRADA",
-      "status_cronometro_tr": "PAUSADO",
-      "periodo_tr": "POS_JOGO",
+      "status_transmissao_tr": "",
+      "status_cronometro_tr": "",
+      "periodo_tr": "",
       "partida_data": "2026-03-22 16:00:00",
-      "inicio_cronometro_tr": "2026-03-22T21:13:07.486Z",
+      "inicio_cronometro_tr": "",
       "placar_oficial_visitante": 0,
       "placar_oficial_mandante": 0,
       "partida_id": 346590,
@@ -468,25 +468,25 @@
         "v",
         "v",
         "v",
-        "e"
+        "d"
       ],
       "aproveitamento_mandante": [
         "d",
         "e",
         "d",
         "v",
-        "e"
+        "v"
       ],
       "transmissao": {
         "label": "saiba como foi",
         "url": "https://ge.globo.com/pr/futebol/brasileirao-serie-a/jogo/22-03-2026/atletico-pr-coritiba.ghtml?utm_source=cartolafc"
       },
       "local": "Arena da Baixada",
-      "status_transmissao_tr": "ENCERRADA",
-      "status_cronometro_tr": "PAUSADO",
-      "periodo_tr": "POS_JOGO",
+      "status_transmissao_tr": "",
+      "status_cronometro_tr": "",
+      "periodo_tr": "",
       "partida_data": "2026-03-22 16:00:00",
-      "inicio_cronometro_tr": "2026-03-22T21:05:00.289Z",
+      "inicio_cronometro_tr": "",
       "placar_oficial_visitante": 0,
       "placar_oficial_mandante": 2,
       "partida_id": 346592,
@@ -504,29 +504,29 @@
         "e",
         "v",
         "v",
-        "e"
+        "d"
       ],
       "aproveitamento_mandante": [
         "e",
         "d",
         "d",
         "d",
-        "e"
+        "v"
       ],
       "transmissao": {
         "label": "saiba como foi",
         "url": "https://ge.globo.com/pa/futebol/brasileirao-serie-a/jogo/22-03-2026/remo-bahia.ghtml?utm_source=cartolafc"
       },
       "local": "Mangueirão",
-      "status_transmissao_tr": "ENCERRADA",
-      "status_cronometro_tr": "PAUSADO",
-      "periodo_tr": "POS_JOGO",
+      "status_transmissao_tr": "",
+      "status_cronometro_tr": "",
+      "periodo_tr": "",
       "partida_data": "2026-03-22 16:00:00",
-      "inicio_cronometro_tr": "2026-03-22T21:12:25.130Z",
+      "inicio_cronometro_tr": "",
       "placar_oficial_visitante": 1,
       "placar_oficial_mandante": 4,
       "partida_id": 346594,
-      "clube_visitante_posicao": 4,
+      "clube_visitante_posicao": 5,
       "clube_visitante_id": 265,
       "clube_casa_posicao": 19,
       "clube_casa_id": 364,
@@ -540,25 +540,25 @@
         "d",
         "e",
         "e",
-        "e"
+        "d"
       ],
       "aproveitamento_mandante": [
         "e",
         "d",
         "d",
         "v",
-        "e"
+        "v"
       ],
       "transmissao": {
-        "label": "ao vivo",
+        "label": "saiba como foi",
         "url": "https://ge.globo.com/rs/futebol/brasileirao-serie-a/jogo/22-03-2026/internacional-chapecoense.ghtml?utm_source=cartolafc"
       },
       "local": "Beira-Rio",
-      "status_transmissao_tr": "EM_ANDAMENTO",
-      "status_cronometro_tr": "INICIADO",
-      "periodo_tr": "SEGUNDO_TEMPO",
+      "status_transmissao_tr": "",
+      "status_cronometro_tr": "",
+      "periodo_tr": "",
       "partida_data": "2026-03-22 18:30:00",
-      "inicio_cronometro_tr": "2026-03-22T22:37:19.001Z",
+      "inicio_cronometro_tr": "",
       "placar_oficial_visitante": 0,
       "placar_oficial_mandante": 2,
       "partida_id": 346591,
@@ -576,25 +576,25 @@
         "e",
         "d",
         "d",
-        "e"
+        "d"
       ],
       "aproveitamento_mandante": [
         "d",
         "e",
         "v",
         "d",
-        "e"
+        "v"
       ],
       "transmissao": {
-        "label": "ao vivo",
+        "label": "saiba como foi",
         "url": "https://ge.globo.com/ba/futebol/brasileirao-serie-a/jogo/22-03-2026/vitoria-mirassol.ghtml?utm_source=cartolafc"
       },
       "local": "Barradão",
-      "status_transmissao_tr": "EM_ANDAMENTO",
-      "status_cronometro_tr": "INICIADO",
-      "periodo_tr": "SEGUNDO_TEMPO",
+      "status_transmissao_tr": "",
+      "status_cronometro_tr": "",
+      "periodo_tr": "",
       "partida_data": "2026-03-22 18:30:00",
-      "inicio_cronometro_tr": "2026-03-22T22:42:19.539Z",
+      "inicio_cronometro_tr": "",
       "placar_oficial_visitante": 0,
       "placar_oficial_mandante": 1,
       "partida_id": 346593,
@@ -622,19 +622,19 @@
         "e"
       ],
       "transmissao": {
-        "label": "ao vivo",
+        "label": "saiba como foi",
         "url": "https://ge.globo.com/sp/futebol/brasileirao-serie-a/jogo/22-03-2026/corinthians-flamengo.ghtml?utm_source=cartolafc"
       },
       "local": "Neo Química Arena",
-      "status_transmissao_tr": "EM_ANDAMENTO",
-      "status_cronometro_tr": "PAUSADO",
-      "periodo_tr": "PRE_JOGO",
+      "status_transmissao_tr": "",
+      "status_cronometro_tr": "",
+      "periodo_tr": "",
       "partida_data": "2026-03-22 20:30:00",
-      "inicio_cronometro_tr": "2026-03-22T22:00:02.571Z",
-      "placar_oficial_visitante": null,
-      "placar_oficial_mandante": null,
+      "inicio_cronometro_tr": "",
+      "placar_oficial_visitante": 1,
+      "placar_oficial_mandante": 1,
       "partida_id": 346588,
-      "clube_visitante_posicao": 5,
+      "clube_visitante_posicao": 4,
       "clube_visitante_id": 262,
       "clube_casa_posicao": 11,
       "clube_casa_id": 264,

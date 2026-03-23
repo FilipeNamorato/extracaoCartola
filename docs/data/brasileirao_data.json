@@ -60,6 +60,25 @@
     {
       "position": 4,
       "team": {
+        "id": 1783,
+        "name": "CR Flamengo",
+        "shortName": "Flamengo",
+        "tla": "FLA",
+        "crest": "https://crests.football-data.org/1783.png"
+      },
+      "playedGames": 7,
+      "form": null,
+      "won": 4,
+      "draw": 2,
+      "lost": 1,
+      "points": 14,
+      "goalsFor": 13,
+      "goalsAgainst": 5,
+      "goalDifference": 8
+    },
+    {
+      "position": 5,
+      "team": {
         "id": 1777,
         "name": "EC Bahia",
         "shortName": "Bahia",
@@ -75,25 +94,6 @@
       "goalsFor": 9,
       "goalsAgainst": 7,
       "goalDifference": 2
-    },
-    {
-      "position": 5,
-      "team": {
-        "id": 1783,
-        "name": "CR Flamengo",
-        "shortName": "Flamengo",
-        "tla": "FLA",
-        "crest": "https://crests.football-data.org/1783.png"
-      },
-      "playedGames": 6,
-      "form": null,
-      "won": 4,
-      "draw": 1,
-      "lost": 1,
-      "points": 13,
-      "goalsFor": 12,
-      "goalsAgainst": 4,
-      "goalDifference": 8
     },
     {
       "position": 6,
@@ -199,14 +199,14 @@
         "tla": "COR",
         "crest": "https://crests.football-data.org/1779.png"
       },
-      "playedGames": 7,
+      "playedGames": 8,
       "form": null,
       "won": 2,
-      "draw": 3,
+      "draw": 4,
       "lost": 2,
-      "points": 9,
-      "goalsFor": 6,
-      "goalsAgainst": 6,
+      "points": 10,
+      "goalsFor": 7,
+      "goalsAgainst": 7,
       "goalDifference": 0
     },
     {
@@ -866,6 +866,7 @@
       "W",
       "L",
       "W",
+      "W",
       "W"
     ],
     "Coritiba FBC": [
@@ -895,6 +896,7 @@
       "D",
       "L",
       "L",
+      "W",
       "W"
     ],
     "CA Paranaense": [
@@ -912,7 +914,8 @@
       "L",
       "D",
       "W",
-      "L"
+      "L",
+      "W"
     ],
     "Clube do Remo": [
       "L",
@@ -950,7 +953,8 @@
       "D",
       "L",
       "D",
-      "D"
+      "D",
+      "L"
     ],
     "Santos FC": [
       "L",
@@ -968,6 +972,7 @@
       "W",
       "D",
       "L",
+      "D",
       "D",
       "D"
     ],
@@ -987,6 +992,7 @@
       "W",
       "W",
       "W",
+      "L",
       "L"
     ],
     "CR Flamengo": [
@@ -995,13 +1001,15 @@
       "W",
       "W",
       "W",
-      "W"
+      "W",
+      "D"
     ],
     "Mirassol FC": [
       "W",
       "D",
       "D",
       "D",
+      "L",
       "L",
       "L"
     ],
@@ -1060,9 +1068,9 @@
         "l": 0
       },
       "away": {
-        "gf": 6,
+        "gf": 7,
         "ga": 5,
-        "w": 1,
+        "w": 2,
         "d": 1,
         "l": 1
       }
@@ -1101,9 +1109,9 @@
     },
     "SC Internacional": {
       "home": {
-        "gf": 1,
+        "gf": 3,
         "ga": 5,
-        "w": 0,
+        "w": 1,
         "d": 0,
         "l": 3
       },
@@ -1133,9 +1141,9 @@
     },
     "EC Vitória": {
       "home": {
-        "gf": 5,
+        "gf": 6,
         "ga": 2,
-        "w": 2,
+        "w": 3,
         "d": 0,
         "l": 1
       },
@@ -1205,10 +1213,10 @@
       },
       "away": {
         "gf": 1,
-        "ga": 3,
+        "ga": 5,
         "w": 0,
         "d": 1,
-        "l": 1
+        "l": 2
       }
     },
     "Santos FC": {
@@ -1229,10 +1237,10 @@
     },
     "SC Corinthians Paulista": {
       "home": {
-        "gf": 3,
-        "ga": 4,
+        "gf": 4,
+        "ga": 5,
         "w": 1,
-        "d": 0,
+        "d": 1,
         "l": 2
       },
       "away": {
@@ -1262,10 +1270,10 @@
     "São Paulo FC": {
       "home": {
         "gf": 6,
-        "ga": 1,
+        "ga": 2,
         "w": 3,
         "d": 0,
-        "l": 0
+        "l": 1
       },
       "away": {
         "gf": 4,
@@ -1284,10 +1292,10 @@
         "l": 0
       },
       "away": {
-        "gf": 6,
-        "ga": 3,
+        "gf": 7,
+        "ga": 4,
         "w": 2,
-        "d": 0,
+        "d": 1,
         "l": 1
       }
     },
@@ -1301,10 +1309,10 @@
       },
       "away": {
         "gf": 2,
-        "ga": 3,
+        "ga": 4,
         "w": 0,
         "d": 1,
-        "l": 1
+        "l": 2
       }
     },
     "CR Vasco da Gama": {
