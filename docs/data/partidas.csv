@@ -1,11 +1,11 @@
 ﻿aproveitamento_visitante,aproveitamento_mandante,local,status_transmissao_tr,status_cronometro_tr,periodo_tr,partida_data,inicio_cronometro_tr,placar_oficial_visitante,placar_oficial_mandante,partida_id,clube_visitante_posicao,clube_visitante_id,clube_casa_posicao,clube_casa_id,timestamp,campeonato_id,valida,transmissao.label,transmissao.url,odd_casa,odd_vis,odd_empate,prob_casa,prob_vis,forca_casa,forca_vis
-"['e', 'e', 'd', 'd', 'd']","['d', 'd', 'd', 'd', 'v']",Nilton Santos (Engenhão),,,,2026-04-01 19:30:00,,,,346596,18,2305,17,263,1775082600,26,True,,,1.9,3.35,3.0,0.443,0.26,favorito,zebra
-"['v', 'v', 'v', 'd', 'd']","['e', 'd', 'd', 'v', 'v']",Beira-Rio,,,,2026-04-01 19:30:00,,,,346601,2,276,12,285,1775082600,26,True,,,2.38,2.8,2.88,0.394,0.297,equilibrado,zebra
+"['e', 'e', 'd', 'd', 'd']","['d', 'd', 'd', 'd', 'v']",Nilton Santos (Engenhão),,,,2026-04-01 19:30:00,,,,346596,18,2305,17,263,1775082600,26,True,,,1.9,3.35,3.0,0.443,0.255,favorito,zebra
+"['v', 'v', 'v', 'd', 'd']","['e', 'd', 'd', 'v', 'v']",Beira-Rio,,,,2026-04-01 19:30:00,,,,346601,2,276,12,285,1775082600,26,True,,,2.38,2.9,2.88,0.394,0.29,equilibrado,zebra
 "['d', 'e', 'v', 'd', 'v']","['e', 'd', 'e', 'd', 'e']",Mineirão,,,,2026-04-01 20:00:00,,,,346600,10,287,20,283,1775084400,26,True,,,1.61,,3.95,0.597,,favorito,
-"['d', 'e', 'd', 'v', 'v']","['v', 'e', 'v', 'v', 'd']",Casa de Apostas Arena Fonte Nova,,,,2026-04-01 20:00:00,,,,346603,6,293,5,265,1775084400,26,True,fique por dentro,https://ge.globo.com/ba/futebol/brasileirao-serie-a/jogo/01-04-2026/bahia-atletico-pr.ghtml?utm_source=cartolafc,2.85,3.6,3.1,0.305,0.253,zebra,zebra
-"['d', 'v', 'e', 'v', 'v']","['d', 'v', 'v', 'v', 'd']",Couto Pereira,,,,2026-04-01 20:30:00,,,,346602,9,267,7,294,1775086200,26,True,,,2.7,2.75,2.8,0.308,0.304,zebra,zebra
-"['e', 'd', 'e', 'e', 'e']","['d', 'v', 'v', 'd', 'v']",Maracanã,,,,2026-04-01 21:30:00,,,,346595,11,264,3,266,1775089800,26,True,,,1.97,3.2,3.31,0.488,0.261,favorito,zebra
+"['d', 'e', 'd', 'v', 'v']","['v', 'e', 'v', 'v', 'd']",Casa de Apostas Arena Fonte Nova,,,,2026-04-01 20:00:00,,,,346603,6,293,5,265,1775084400,26,True,fique por dentro,https://ge.globo.com/ba/futebol/brasileirao-serie-a/jogo/01-04-2026/bahia-atletico-pr.ghtml?utm_source=cartolafc,2.8,3.6,3.0,0.303,0.253,zebra,zebra
+"['d', 'v', 'e', 'v', 'v']","['d', 'v', 'v', 'v', 'd']",Couto Pereira,,,,2026-04-01 20:30:00,,,,346602,9,267,7,294,1775086200,26,True,,,2.75,2.75,2.8,0.304,0.304,zebra,zebra
+"['e', 'd', 'e', 'e', 'e']","['d', 'v', 'v', 'd', 'v']",Maracanã,,,,2026-04-01 21:30:00,,,,346595,11,264,3,266,1775089800,26,True,,,1.75,3.2,2.95,0.488,0.26,favorito,zebra
 "['e', 'd', 'd', 'd', 'v']","['v', 'e', 'e', 'd', 'e']",Vila Belmiro,,,,2026-04-02 19:00:00,,,,346597,19,364,16,277,1775167200,26,True,,,1.51,,4.22,0.628,,favorito,
-"['d', 'v', 'd', 'v', 'd']","['e', 'd', 'e', 'e', 'd']",Arena Condá,,,,2026-04-02 19:00:00,,,,346604,13,282,15,315,1775167200,26,True,,,2.05,3.9,3.0,0.407,0.223,equilibrado,zebra
-"['v', 'e', 'e', 'v', 'd']","['v', 'd', 'v', 'v', 'v']",Arena Barueri,,,,2026-04-02 21:30:00,,,,346598,8,284,1,275,1775176200,26,True,,,1.55,6.0,4.2,0.613,0.145,favorito,zebra
+"['d', 'v', 'd', 'v', 'd']","['e', 'd', 'e', 'e', 'd']",Arena Condá,,,,2026-04-02 19:00:00,,,,346604,13,282,15,315,1775167200,26,True,,,2.05,3.95,3.0,0.407,0.217,equilibrado,zebra
+"['v', 'e', 'e', 'v', 'd']","['v', 'd', 'v', 'v', 'v']",Arena Barueri,,,,2026-04-02 21:30:00,,,,346598,8,284,1,275,1775176200,26,True,,,1.55,6.2,4.2,0.613,0.138,favorito,zebra
 "['v', 'v', 'v', 'v', 'e']","['e', 'e', 'd', 'd', 'd']",Cícero de Souza Marques,,,,2026-04-02 21:30:00,,,,346599,4,262,14,280,1775176200,26,True,,,4.52,6.75,3.44,0.21,0.129,zebra,zebra
