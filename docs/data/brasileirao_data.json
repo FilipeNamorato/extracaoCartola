@@ -60,6 +60,25 @@
     {
       "position": 4,
       "team": {
+        "id": 1768,
+        "name": "CA Paranaense",
+        "shortName": "Paranaense",
+        "tla": "CAP",
+        "crest": "https://crests.football-data.org/1768.png"
+      },
+      "playedGames": 8,
+      "form": null,
+      "won": 5,
+      "draw": 1,
+      "lost": 2,
+      "points": 16,
+      "goalsFor": 12,
+      "goalsAgainst": 8,
+      "goalDifference": 4
+    },
+    {
+      "position": 5,
+      "team": {
         "id": 1783,
         "name": "CR Flamengo",
         "shortName": "Flamengo",
@@ -77,7 +96,7 @@
       "goalDifference": 8
     },
     {
-      "position": 5,
+      "position": 6,
       "team": {
         "id": 1777,
         "name": "EC Bahia",
@@ -94,25 +113,6 @@
       "goalsFor": 9,
       "goalsAgainst": 7,
       "goalDifference": 2
-    },
-    {
-      "position": 6,
-      "team": {
-        "id": 1768,
-        "name": "CA Paranaense",
-        "shortName": "Paranaense",
-        "tla": "CAP",
-        "crest": "https://crests.football-data.org/1768.png"
-      },
-      "playedGames": 7,
-      "form": null,
-      "won": 4,
-      "draw": 1,
-      "lost": 2,
-      "points": 13,
-      "goalsFor": 10,
-      "goalsAgainst": 7,
-      "goalDifference": 3
     },
     {
       "position": 7,
@@ -313,15 +313,15 @@
         "tla": "BOT",
         "crest": "https://crests.football-data.org/1770.png"
       },
-      "playedGames": 6,
+      "playedGames": 7,
       "form": null,
       "won": 2,
       "draw": 0,
-      "lost": 4,
+      "lost": 5,
       "points": 6,
-      "goalsFor": 10,
-      "goalsAgainst": 12,
-      "goalDifference": -2
+      "goalsFor": 11,
+      "goalsAgainst": 14,
+      "goalDifference": -3
     },
     {
       "position": 18,
@@ -443,6 +443,37 @@
       "goals": 5,
       "assists": 1,
       "penalties": null
+    },
+    {
+      "player": {
+        "id": 192070,
+        "name": "Kevin Viveros",
+        "firstName": "Kevin",
+        "lastName": "Viveros",
+        "dateOfBirth": "2000-04-26",
+        "nationality": "Colombia",
+        "section": "Offence",
+        "position": null,
+        "shirtNumber": null,
+        "lastUpdated": "2023-08-22T11:53:03Z"
+      },
+      "team": {
+        "id": 1768,
+        "name": "CA Paranaense",
+        "shortName": "Paranaense",
+        "tla": "CAP",
+        "crest": "https://crests.football-data.org/1768.png",
+        "address": "Estrada do Ganchinho 1451, Umbará Curitiba, PR 81930-160",
+        "website": "http://www.atleticoparanaense.com",
+        "founded": 1924,
+        "clubColors": "Black / White / Red",
+        "venue": "Estádio Joaquim Américo Guimarães",
+        "lastUpdated": "2022-04-06T13:14:06Z"
+      },
+      "playedMatches": 8,
+      "goals": 5,
+      "assists": 1,
+      "penalties": 1
     },
     {
       "player": {
@@ -691,37 +722,6 @@
       "goals": 3,
       "assists": 1,
       "penalties": null
-    },
-    {
-      "player": {
-        "id": 192070,
-        "name": "Kevin Viveros",
-        "firstName": "Kevin",
-        "lastName": "Viveros",
-        "dateOfBirth": "2000-04-26",
-        "nationality": "Colombia",
-        "section": "Offence",
-        "position": null,
-        "shirtNumber": null,
-        "lastUpdated": "2023-08-22T11:53:03Z"
-      },
-      "team": {
-        "id": 1768,
-        "name": "CA Paranaense",
-        "shortName": "Paranaense",
-        "tla": "CAP",
-        "crest": "https://crests.football-data.org/1768.png",
-        "address": "Estrada do Ganchinho 1451, Umbará Curitiba, PR 81930-160",
-        "website": "http://www.atleticoparanaense.com",
-        "founded": 1924,
-        "clubColors": "Black / White / Red",
-        "venue": "Estádio Joaquim Américo Guimarães",
-        "lastUpdated": "2022-04-06T13:14:06Z"
-      },
-      "playedMatches": 8,
-      "goals": 3,
-      "assists": 1,
-      "penalties": 1
     },
     {
       "player": {
