@@ -22,6 +22,25 @@
     {
       "position": 2,
       "team": {
+        "id": 1768,
+        "name": "CA Paranaense",
+        "shortName": "Paranaense",
+        "tla": "CAP",
+        "crest": "https://crests.football-data.org/1768.png"
+      },
+      "playedGames": 8,
+      "form": null,
+      "won": 5,
+      "draw": 1,
+      "lost": 2,
+      "points": 16,
+      "goalsFor": 14,
+      "goalsAgainst": 8,
+      "goalDifference": 6
+    },
+    {
+      "position": 3,
+      "team": {
         "id": 1776,
         "name": "São Paulo FC",
         "shortName": "São Paulo",
@@ -39,7 +58,7 @@
       "goalDifference": 5
     },
     {
-      "position": 3,
+      "position": 4,
       "team": {
         "id": 1765,
         "name": "Fluminense FC",
@@ -55,25 +74,6 @@
       "points": 16,
       "goalsFor": 13,
       "goalsAgainst": 9,
-      "goalDifference": 4
-    },
-    {
-      "position": 4,
-      "team": {
-        "id": 1768,
-        "name": "CA Paranaense",
-        "shortName": "Paranaense",
-        "tla": "CAP",
-        "crest": "https://crests.football-data.org/1768.png"
-      },
-      "playedGames": 8,
-      "form": null,
-      "won": 5,
-      "draw": 1,
-      "lost": 2,
-      "points": 16,
-      "goalsFor": 12,
-      "goalsAgainst": 8,
       "goalDifference": 4
     },
     {
@@ -320,8 +320,8 @@
       "lost": 5,
       "points": 6,
       "goalsFor": 11,
-      "goalsAgainst": 14,
-      "goalDifference": -3
+      "goalsAgainst": 16,
+      "goalDifference": -5
     },
     {
       "position": 18,
@@ -906,6 +906,7 @@
       "D",
       "L",
       "W",
+      "W",
       "W"
     ],
     "EC Vitória": [
@@ -1029,7 +1030,8 @@
       "L",
       "L",
       "L",
-      "W"
+      "W",
+      "L"
     ],
     "Cruzeiro EC": [
       "L",
@@ -1125,9 +1127,9 @@
     },
     "CA Paranaense": {
       "home": {
-        "gf": 6,
-        "ga": 3,
-        "w": 3,
+        "gf": 10,
+        "ga": 4,
+        "w": 4,
         "d": 0,
         "l": 1
       },
@@ -1340,11 +1342,11 @@
         "l": 1
       },
       "away": {
-        "gf": 6,
-        "ga": 9,
+        "gf": 7,
+        "ga": 13,
         "w": 1,
         "d": 0,
-        "l": 3
+        "l": 4
       }
     },
     "Cruzeiro EC": {
