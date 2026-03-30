@@ -1830,3 +1830,12 @@
 30/03/2026 17:42,escalacao,267,OK,
 30/03/2026 17:42,enriquecido,267,OK,
 30/03/2026 17:42,brasileirao,20,OK,
+30/03/2026 19:01,mercado,734,OK,
+30/03/2026 19:01,pontuados,0,ERRO,Expecting value: line 1 column 1 (char 0)
+30/03/2026 19:01,partidas,10,OK,
+30/03/2026 19:01,rodadas,38,OK,
+30/03/2026 19:01,status,1,OK,
+30/03/2026 19:01,odds,20,OK,
+30/03/2026 19:01,escalacao,268,OK,
+30/03/2026 19:01,enriquecido,268,OK,
+30/03/2026 19:01,brasileirao,20,OK,
