@@ -1983,3 +1983,12 @@
 01/04/2026 11:27,escalacao,266,OK,
 01/04/2026 11:27,enriquecido,266,OK,
 01/04/2026 11:27,brasileirao,20,OK,
+01/04/2026 13:34,mercado,733,OK,
+01/04/2026 13:34,pontuados,0,ERRO,Expecting value: line 1 column 1 (char 0)
+01/04/2026 13:34,partidas,10,OK,
+01/04/2026 13:34,rodadas,38,OK,
+01/04/2026 13:34,status,1,OK,
+01/04/2026 13:34,odds,20,OK,
+01/04/2026 13:34,escalacao,266,OK,
+01/04/2026 13:34,enriquecido,266,OK,
+01/04/2026 13:34,brasileirao,20,OK,
