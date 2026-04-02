@@ -1964,14 +1964,14 @@
     },
     "86686": {
       "scout": {
-        "DS": 2,
+        "DS": 1,
         "FC": 2,
         "FF": 1,
         "G": 1
       },
       "apelido": "Tchê Tchê",
       "foto": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/clubes_2026/silhuetas/VAS/FORMATO.png",
-      "pontuacao": 11.2,
+      "pontuacao": 9.7,
       "posicao_id": 4,
       "clube_id": 267,
       "entrou_em_campo": true
@@ -2288,12 +2288,12 @@
       "scout": {
         "A": 1,
         "CA": 1,
-        "DS": 1,
+        "DS": 2,
         "FC": 1
       },
       "apelido": "Paulo Henrique",
       "foto": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/clubes_2026/silhuetas/VAS/FORMATO.png",
-      "pontuacao": 5.2,
+      "pontuacao": 6.7,
       "posicao_id": 2,
       "clube_id": 267,
       "entrou_em_campo": true
