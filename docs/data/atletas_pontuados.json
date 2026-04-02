@@ -102,12 +102,11 @@
     "101708": {
       "scout": {
         "FC": 1,
-        "G": 1,
         "I": 1
       },
       "apelido": "Felipe Jonatan",
       "foto": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/clubes_2026/silhuetas/CFC/FORMATO.png",
-      "pontuacao": 7.6,
+      "pontuacao": -0.4,
       "posicao_id": 2,
       "clube_id": 294,
       "entrou_em_campo": true
@@ -926,11 +925,12 @@
     "118655": {
       "scout": {
         "DS": 3,
-        "FS": 1
+        "FS": 1,
+        "GC": 1
       },
       "apelido": "Saldivia",
       "foto": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/clubes_2026/silhuetas/VAS/FORMATO.png",
-      "pontuacao": 5,
+      "pontuacao": 2,
       "posicao_id": 3,
       "clube_id": 267,
       "entrou_em_campo": true
@@ -1076,7 +1076,7 @@
       "scout": {},
       "apelido": "Fernando Seabra",
       "foto": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/clubes_2026/silhuetas/CFC/FORMATO.png",
-      "pontuacao": 3.35,
+      "pontuacao": 2.76,
       "posicao_id": 6,
       "clube_id": 294,
       "entrou_em_campo": true
@@ -1424,7 +1424,7 @@
       "scout": {},
       "apelido": "Renato Gaúcho",
       "foto": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/clubes_2026/silhuetas/VAS/FORMATO.png",
-      "pontuacao": 4.26,
+      "pontuacao": 3.99,
       "posicao_id": 6,
       "clube_id": 267,
       "entrou_em_campo": true
@@ -2439,14 +2439,14 @@
     },
     "97878": {
       "scout": {
-        "DS": 1,
+        "DS": 2,
         "FC": 1,
         "FF": 1,
         "FS": 1
       },
       "apelido": "Jacy",
       "foto": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/clubes_2026/silhuetas/CFC/FORMATO.png",
-      "pontuacao": 2.5,
+      "pontuacao": 4,
       "posicao_id": 3,
       "clube_id": 294,
       "entrou_em_campo": true
