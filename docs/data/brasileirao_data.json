@@ -174,6 +174,25 @@
     {
       "position": 10,
       "team": {
+        "id": 1766,
+        "name": "CA Mineiro",
+        "shortName": "Mineiro",
+        "tla": "CAM",
+        "crest": "https://crests.football-data.org/1766.png"
+      },
+      "playedGames": 9,
+      "form": null,
+      "won": 3,
+      "draw": 2,
+      "lost": 4,
+      "points": 11,
+      "goalsFor": 11,
+      "goalsAgainst": 11,
+      "goalDifference": 0
+    },
+    {
+      "position": 11,
+      "team": {
         "id": 1782,
         "name": "EC Vitória",
         "shortName": "Vitória",
@@ -191,7 +210,26 @@
       "goalDifference": -5
     },
     {
-      "position": 11,
+      "position": 12,
+      "team": {
+        "id": 6685,
+        "name": "Santos FC",
+        "shortName": "Santos",
+        "tla": "SAN",
+        "crest": "https://crests.football-data.org/6685.png"
+      },
+      "playedGames": 9,
+      "form": null,
+      "won": 2,
+      "draw": 4,
+      "lost": 3,
+      "points": 10,
+      "goalsFor": 11,
+      "goalsAgainst": 13,
+      "goalDifference": -2
+    },
+    {
+      "position": 13,
       "team": {
         "id": 1779,
         "name": "SC Corinthians Paulista",
@@ -210,7 +248,7 @@
       "goalDifference": -2
     },
     {
-      "position": 12,
+      "position": 14,
       "team": {
         "id": 1770,
         "name": "Botafogo FR",
@@ -229,7 +267,7 @@
       "goalDifference": -4
     },
     {
-      "position": 13,
+      "position": 15,
       "team": {
         "id": 6684,
         "name": "SC Internacional",
@@ -248,26 +286,7 @@
       "goalDifference": -2
     },
     {
-      "position": 14,
-      "team": {
-        "id": 1766,
-        "name": "CA Mineiro",
-        "shortName": "Mineiro",
-        "tla": "CAM",
-        "crest": "https://crests.football-data.org/1766.png"
-      },
-      "playedGames": 8,
-      "form": null,
-      "won": 2,
-      "draw": 2,
-      "lost": 4,
-      "points": 8,
-      "goalsFor": 8,
-      "goalsAgainst": 11,
-      "goalDifference": -3
-    },
-    {
-      "position": 15,
+      "position": 16,
       "team": {
         "id": 4286,
         "name": "RB Bragantino",
@@ -286,45 +305,7 @@
       "goalDifference": -4
     },
     {
-      "position": 16,
-      "team": {
-        "id": 1772,
-        "name": "Chapecoense AF",
-        "shortName": "Chapecoense",
-        "tla": "CHA",
-        "crest": "https://crests.football-data.org/1772_large.png"
-      },
-      "playedGames": 7,
-      "form": null,
-      "won": 1,
-      "draw": 4,
-      "lost": 2,
-      "points": 7,
-      "goalsFor": 9,
-      "goalsAgainst": 11,
-      "goalDifference": -2
-    },
-    {
       "position": 17,
-      "team": {
-        "id": 6685,
-        "name": "Santos FC",
-        "shortName": "Santos",
-        "tla": "SAN",
-        "crest": "https://crests.football-data.org/6685.png"
-      },
-      "playedGames": 8,
-      "form": null,
-      "won": 1,
-      "draw": 4,
-      "lost": 3,
-      "points": 7,
-      "goalsFor": 10,
-      "goalsAgainst": 13,
-      "goalDifference": -3
-    },
-    {
-      "position": 18,
       "team": {
         "id": 1771,
         "name": "Cruzeiro EC",
@@ -340,6 +321,25 @@
       "points": 7,
       "goalsFor": 11,
       "goalsAgainst": 16,
+      "goalDifference": -5
+    },
+    {
+      "position": 18,
+      "team": {
+        "id": 1772,
+        "name": "Chapecoense AF",
+        "shortName": "Chapecoense",
+        "tla": "CHA",
+        "crest": "https://crests.football-data.org/1772_large.png"
+      },
+      "playedGames": 8,
+      "form": null,
+      "won": 1,
+      "draw": 4,
+      "lost": 3,
+      "points": 7,
+      "goalsFor": 9,
+      "goalsAgainst": 14,
       "goalDifference": -5
     },
     {
@@ -370,15 +370,15 @@
         "tla": "CRE",
         "crest": "https://crests.football-data.org/4287.png"
       },
-      "playedGames": 8,
+      "playedGames": 9,
       "form": null,
       "won": 1,
       "draw": 3,
-      "lost": 4,
+      "lost": 5,
       "points": 6,
       "goalsFor": 10,
-      "goalsAgainst": 15,
-      "goalDifference": -5
+      "goalsAgainst": 16,
+      "goalDifference": -6
     }
   ],
   "artilheiros": [
@@ -844,7 +844,7 @@
       },
       "playedMatches": 4,
       "goals": 3,
-      "assists": 1,
+      "assists": 2,
       "penalties": 1
     }
   ],
