@@ -22,6 +22,25 @@
     {
       "position": 2,
       "team": {
+        "id": 1765,
+        "name": "Fluminense FC",
+        "shortName": "Fluminense",
+        "tla": "FLU",
+        "crest": "https://crests.football-data.org/1765.png"
+      },
+      "playedGames": 9,
+      "form": null,
+      "won": 6,
+      "draw": 1,
+      "lost": 2,
+      "points": 19,
+      "goalsFor": 16,
+      "goalsAgainst": 10,
+      "goalDifference": 6
+    },
+    {
+      "position": 3,
+      "team": {
         "id": 1777,
         "name": "EC Bahia",
         "shortName": "Bahia",
@@ -34,12 +53,31 @@
       "draw": 2,
       "lost": 1,
       "points": 17,
-      "goalsFor": 10,
+      "goalsFor": 12,
       "goalsAgainst": 7,
-      "goalDifference": 3
+      "goalDifference": 5
     },
     {
-      "position": 3,
+      "position": 4,
+      "team": {
+        "id": 1776,
+        "name": "São Paulo FC",
+        "shortName": "São Paulo",
+        "tla": "PAU",
+        "crest": "https://crests.football-data.org/1776.png"
+      },
+      "playedGames": 9,
+      "form": null,
+      "won": 5,
+      "draw": 2,
+      "lost": 2,
+      "points": 17,
+      "goalsFor": 11,
+      "goalsAgainst": 6,
+      "goalDifference": 5
+    },
+    {
+      "position": 5,
       "team": {
         "id": 1768,
         "name": "CA Paranaense",
@@ -54,46 +92,8 @@
       "lost": 3,
       "points": 16,
       "goalsFor": 14,
-      "goalsAgainst": 9,
-      "goalDifference": 5
-    },
-    {
-      "position": 4,
-      "team": {
-        "id": 1765,
-        "name": "Fluminense FC",
-        "shortName": "Fluminense",
-        "tla": "FLU",
-        "crest": "https://crests.football-data.org/1765.png"
-      },
-      "playedGames": 8,
-      "form": null,
-      "won": 5,
-      "draw": 1,
-      "lost": 2,
-      "points": 16,
-      "goalsFor": 13,
-      "goalsAgainst": 9,
-      "goalDifference": 4
-    },
-    {
-      "position": 5,
-      "team": {
-        "id": 1776,
-        "name": "São Paulo FC",
-        "shortName": "São Paulo",
-        "tla": "PAU",
-        "crest": "https://crests.football-data.org/1776.png"
-      },
-      "playedGames": 9,
-      "form": null,
-      "won": 5,
-      "draw": 1,
-      "lost": 3,
-      "points": 16,
-      "goalsFor": 10,
-      "goalsAgainst": 6,
-      "goalDifference": 4
+      "goalsAgainst": 11,
+      "goalDifference": 3
     },
     {
       "position": 6,
@@ -129,8 +129,8 @@
       "draw": 2,
       "lost": 3,
       "points": 14,
-      "goalsFor": 9,
-      "goalsAgainst": 8,
+      "goalsFor": 10,
+      "goalsAgainst": 9,
       "goalDifference": 1
     },
     {
@@ -148,8 +148,8 @@
       "draw": 3,
       "lost": 3,
       "points": 12,
-      "goalsFor": 13,
-      "goalsAgainst": 13,
+      "goalsFor": 14,
+      "goalsAgainst": 14,
       "goalDifference": 0
     },
     {
@@ -174,25 +174,6 @@
     {
       "position": 10,
       "team": {
-        "id": 6684,
-        "name": "SC Internacional",
-        "shortName": "Internacional",
-        "tla": "SCI",
-        "crest": "https://crests.football-data.org/6684.png"
-      },
-      "playedGames": 9,
-      "form": null,
-      "won": 3,
-      "draw": 2,
-      "lost": 4,
-      "points": 11,
-      "goalsFor": 8,
-      "goalsAgainst": 9,
-      "goalDifference": -1
-    },
-    {
-      "position": 11,
-      "team": {
         "id": 1782,
         "name": "EC Vitória",
         "shortName": "Vitória",
@@ -202,15 +183,15 @@
       "playedGames": 8,
       "form": null,
       "won": 3,
-      "draw": 2,
-      "lost": 3,
-      "points": 11,
+      "draw": 1,
+      "lost": 4,
+      "points": 10,
       "goalsFor": 8,
-      "goalsAgainst": 10,
-      "goalDifference": -2
+      "goalsAgainst": 13,
+      "goalDifference": -5
     },
     {
-      "position": 12,
+      "position": 11,
       "team": {
         "id": 1779,
         "name": "SC Corinthians Paulista",
@@ -218,18 +199,18 @@
         "tla": "COR",
         "crest": "https://crests.football-data.org/1779.png"
       },
-      "playedGames": 8,
+      "playedGames": 9,
       "form": null,
       "won": 2,
       "draw": 4,
-      "lost": 2,
+      "lost": 3,
       "points": 10,
-      "goalsFor": 7,
-      "goalsAgainst": 7,
-      "goalDifference": 0
+      "goalsFor": 8,
+      "goalsAgainst": 10,
+      "goalDifference": -2
     },
     {
-      "position": 13,
+      "position": 12,
       "team": {
         "id": 1770,
         "name": "Botafogo FR",
@@ -243,9 +224,28 @@
       "draw": 0,
       "lost": 5,
       "points": 9,
-      "goalsFor": 13,
-      "goalsAgainst": 17,
+      "goalsFor": 14,
+      "goalsAgainst": 18,
       "goalDifference": -4
+    },
+    {
+      "position": 13,
+      "team": {
+        "id": 6684,
+        "name": "SC Internacional",
+        "shortName": "Internacional",
+        "tla": "SCI",
+        "crest": "https://crests.football-data.org/6684.png"
+      },
+      "playedGames": 9,
+      "form": null,
+      "won": 2,
+      "draw": 3,
+      "lost": 4,
+      "points": 9,
+      "goalsFor": 8,
+      "goalsAgainst": 10,
+      "goalDifference": -2
     },
     {
       "position": 14,
@@ -326,6 +326,25 @@
     {
       "position": 18,
       "team": {
+        "id": 1771,
+        "name": "Cruzeiro EC",
+        "shortName": "Cruzeiro",
+        "tla": "CRU",
+        "crest": "https://crests.football-data.org/1771.png"
+      },
+      "playedGames": 9,
+      "form": null,
+      "won": 1,
+      "draw": 4,
+      "lost": 4,
+      "points": 7,
+      "goalsFor": 11,
+      "goalsAgainst": 16,
+      "goalDifference": -5
+    },
+    {
+      "position": 19,
+      "team": {
         "id": 4364,
         "name": "Mirassol FC",
         "shortName": "Mirassol",
@@ -338,12 +357,12 @@
       "draw": 3,
       "lost": 4,
       "points": 6,
-      "goalsFor": 9,
-      "goalsAgainst": 12,
+      "goalsFor": 10,
+      "goalsAgainst": 13,
       "goalDifference": -3
     },
     {
-      "position": 19,
+      "position": 20,
       "team": {
         "id": 4287,
         "name": "Clube do Remo",
@@ -360,25 +379,6 @@
       "goalsFor": 10,
       "goalsAgainst": 15,
       "goalDifference": -5
-    },
-    {
-      "position": 20,
-      "team": {
-        "id": 1771,
-        "name": "Cruzeiro EC",
-        "shortName": "Cruzeiro",
-        "tla": "CRU",
-        "crest": "https://crests.football-data.org/1771.png"
-      },
-      "playedGames": 9,
-      "form": null,
-      "won": 0,
-      "draw": 5,
-      "lost": 4,
-      "points": 5,
-      "goalsFor": 8,
-      "goalsAgainst": 16,
-      "goalDifference": -8
     }
   ],
   "artilheiros": [
@@ -446,6 +446,37 @@
     },
     {
       "player": {
+        "id": 3137,
+        "name": "Jonathan Calleri",
+        "firstName": "Jonathan",
+        "lastName": "Calleri",
+        "dateOfBirth": "1993-09-23",
+        "nationality": "Argentina",
+        "section": "Offence",
+        "position": null,
+        "shirtNumber": null,
+        "lastUpdated": "2023-07-30T23:15:46Z"
+      },
+      "team": {
+        "id": 1776,
+        "name": "São Paulo FC",
+        "shortName": "São Paulo",
+        "tla": "PAU",
+        "crest": "https://crests.football-data.org/1776.png",
+        "address": "null São Paulo, SP null",
+        "website": "http://www.saopaulofc.net",
+        "founded": 1930,
+        "clubColors": "White / Red / Black",
+        "venue": "Estádio do Morumbi",
+        "lastUpdated": "2023-02-18T08:43:44Z"
+      },
+      "playedMatches": 9,
+      "goals": 5,
+      "assists": null,
+      "penalties": null
+    },
+    {
+      "player": {
         "id": 192070,
         "name": "Kevin Viveros",
         "firstName": "Kevin",
@@ -474,37 +505,6 @@
       "goals": 5,
       "assists": 1,
       "penalties": 1
-    },
-    {
-      "player": {
-        "id": 3137,
-        "name": "Jonathan Calleri",
-        "firstName": "Jonathan",
-        "lastName": "Calleri",
-        "dateOfBirth": "1993-09-23",
-        "nationality": "Argentina",
-        "section": "Offence",
-        "position": null,
-        "shirtNumber": null,
-        "lastUpdated": "2023-07-30T23:15:46Z"
-      },
-      "team": {
-        "id": 1776,
-        "name": "São Paulo FC",
-        "shortName": "São Paulo",
-        "tla": "PAU",
-        "crest": "https://crests.football-data.org/1776.png",
-        "address": "null São Paulo, SP null",
-        "website": "http://www.saopaulofc.net",
-        "founded": 1930,
-        "clubColors": "White / Red / Black",
-        "venue": "Estádio do Morumbi",
-        "lastUpdated": "2023-02-18T08:43:44Z"
-      },
-      "playedMatches": 9,
-      "goals": 4,
-      "assists": null,
-      "penalties": null
     },
     {
       "player": {
@@ -625,7 +625,7 @@
         "venue": "Estadio Jornalista Mário Filho",
         "lastUpdated": "2024-07-29T17:24:37Z"
       },
-      "playedMatches": 8,
+      "playedMatches": 9,
       "goals": 3,
       "assists": 3,
       "penalties": null
@@ -663,6 +663,37 @@
     },
     {
       "player": {
+        "id": 181603,
+        "name": "Igor Formiga",
+        "firstName": "",
+        "lastName": "Igor Formiga",
+        "dateOfBirth": "1999-01-08",
+        "nationality": "Brazil",
+        "section": "Defence",
+        "position": null,
+        "shirtNumber": null,
+        "lastUpdated": "2023-07-30T19:37:09Z"
+      },
+      "team": {
+        "id": 4364,
+        "name": "Mirassol FC",
+        "shortName": "Mirassol",
+        "tla": "MIR",
+        "crest": "https://crests.football-data.org/4364.png",
+        "address": "null Mirassol, SP null",
+        "website": "http://www.mirassolfc.com.br",
+        "founded": 1925,
+        "clubColors": "Green / Yellow",
+        "venue": "Estádio José Maria de Campos Maia",
+        "lastUpdated": "2023-07-31T08:47:23Z"
+      },
+      "playedMatches": 8,
+      "goals": 3,
+      "assists": null,
+      "penalties": null
+    },
+    {
+      "player": {
         "id": 274216,
         "name": "Allan",
         "firstName": "",
@@ -688,6 +719,37 @@
         "lastUpdated": "2022-04-06T13:14:55Z"
       },
       "playedMatches": 8,
+      "goals": 3,
+      "assists": null,
+      "penalties": null
+    },
+    {
+      "player": {
+        "id": 157533,
+        "name": "John Kennedy",
+        "firstName": "",
+        "lastName": "John Kennedy",
+        "dateOfBirth": "2002-05-18",
+        "nationality": "Brazil",
+        "section": "Centre-Forward",
+        "position": null,
+        "shirtNumber": null,
+        "lastUpdated": "2025-02-08T15:38:40Z"
+      },
+      "team": {
+        "id": 1765,
+        "name": "Fluminense FC",
+        "shortName": "Fluminense",
+        "tla": "FLU",
+        "crest": "https://crests.football-data.org/1765.png",
+        "address": "Rua Álvaro Chaves 41, Bairro Laranjeiras Rio de Janeiro, RJ 22231-220",
+        "website": "http://www.fluminense.com.br",
+        "founded": 1902,
+        "clubColors": "Maroon / Green / White",
+        "venue": "Estadio Jornalista Mário Filho",
+        "lastUpdated": "2024-07-29T17:24:37Z"
+      },
+      "playedMatches": 9,
       "goals": 3,
       "assists": null,
       "penalties": null
@@ -725,6 +787,37 @@
     },
     {
       "player": {
+        "id": 140873,
+        "name": "Luciano Juba",
+        "firstName": "",
+        "lastName": "Luciano Juba",
+        "dateOfBirth": "1999-08-29",
+        "nationality": "Brazil",
+        "section": "Defence",
+        "position": null,
+        "shirtNumber": null,
+        "lastUpdated": "2023-07-31T10:01:14Z"
+      },
+      "team": {
+        "id": 1777,
+        "name": "EC Bahia",
+        "shortName": "Bahia",
+        "tla": "BAH",
+        "crest": "https://crests.football-data.org/1777.png",
+        "address": "Rua Antônio Fernandes S/N, Jardim das Margaridas Salvador, BA 41502-590",
+        "website": "http://www.esporteclubebahia.com.br",
+        "founded": 1931,
+        "clubColors": "Blue / White / Red",
+        "venue": "Estádio Governador Roberto Santos",
+        "lastUpdated": "2024-10-28T10:09:10Z"
+      },
+      "playedMatches": 8,
+      "goals": 3,
+      "assists": 1,
+      "penalties": null
+    },
+    {
+      "player": {
         "id": 8491,
         "name": "Neymar",
         "firstName": "",
@@ -753,99 +846,6 @@
       "goals": 3,
       "assists": 1,
       "penalties": 1
-    },
-    {
-      "player": {
-        "id": 203341,
-        "name": "Cauan Lucas",
-        "firstName": "",
-        "lastName": "Cauan Barros",
-        "dateOfBirth": "2004-05-06",
-        "nationality": "Brazil",
-        "section": "Midfield",
-        "position": null,
-        "shirtNumber": null,
-        "lastUpdated": "2025-08-10T09:42:09Z"
-      },
-      "team": {
-        "id": 1780,
-        "name": "CR Vasco da Gama",
-        "shortName": "Vasco da Gama",
-        "tla": "VAS",
-        "crest": "https://crests.football-data.org/1780.png",
-        "address": "Rua Gen. Almério de Moura 131, Bairro Vasco da Gama Rio de Janeiro, RJ 20921-060",
-        "website": "http://www.vasco.com.br",
-        "founded": 1898,
-        "clubColors": "Black / White",
-        "venue": "Estádio Club de Regatas Vasco da Gama",
-        "lastUpdated": "2023-02-18T08:43:37Z"
-      },
-      "playedMatches": 8,
-      "goals": 3,
-      "assists": null,
-      "penalties": null
-    },
-    {
-      "player": {
-        "id": 1327,
-        "name": "Gabriel Barbosa",
-        "firstName": "",
-        "lastName": "Gabriel Barbosa",
-        "dateOfBirth": "1996-08-30",
-        "nationality": "Brazil",
-        "section": "Offence",
-        "position": null,
-        "shirtNumber": null,
-        "lastUpdated": "2023-07-30T23:15:48Z"
-      },
-      "team": {
-        "id": 6685,
-        "name": "Santos FC",
-        "shortName": "Santos",
-        "tla": "SAN",
-        "crest": "https://crests.football-data.org/6685.png",
-        "address": "Rua Princesa Isabel S/N, Vila Belmiro Santos, SP 11075-501",
-        "website": "http://santosfc.com.br",
-        "founded": 1912,
-        "clubColors": "Black / White",
-        "venue": "Estádio Urbano Caldeira",
-        "lastUpdated": "2023-02-18T08:43:18Z"
-      },
-      "playedMatches": 5,
-      "goals": 3,
-      "assists": null,
-      "penalties": 1
-    },
-    {
-      "player": {
-        "id": 28614,
-        "name": "Agustín Canobbio",
-        "firstName": "Agustín",
-        "lastName": "Canobbio",
-        "dateOfBirth": "1998-10-01",
-        "nationality": "Uruguay",
-        "section": "Midfield",
-        "position": null,
-        "shirtNumber": 19,
-        "lastUpdated": "2024-06-11T22:59:38Z"
-      },
-      "team": {
-        "id": 1765,
-        "name": "Fluminense FC",
-        "shortName": "Fluminense",
-        "tla": "FLU",
-        "crest": "https://crests.football-data.org/1765.png",
-        "address": "Rua Álvaro Chaves 41, Bairro Laranjeiras Rio de Janeiro, RJ 22231-220",
-        "website": "http://www.fluminense.com.br",
-        "founded": 1902,
-        "clubColors": "Maroon / Green / White",
-        "venue": "Estadio Jornalista Mário Filho",
-        "lastUpdated": "2024-07-29T17:24:37Z"
-      },
-      "playedMatches": 7,
-      "goals": 3,
-      "assists": 1,
-      "penalties": null
     }
   ],
   "historico_times": {
@@ -877,7 +877,8 @@
       "W",
       "W",
       "W",
-      "L"
+      "L",
+      "D"
     ],
     "RB Bragantino": [
       "W",
@@ -897,7 +898,8 @@
       "L",
       "L",
       "W",
-      "W"
+      "W",
+      "D"
     ],
     "CA Paranaense": [
       "W",
@@ -936,6 +938,7 @@
       "W",
       "W",
       "L",
+      "W",
       "W"
     ],
     "Grêmio FBPA": [
@@ -975,7 +978,8 @@
       "L",
       "D",
       "D",
-      "D"
+      "D",
+      "L"
     ],
     "EC Bahia": [
       "W",
@@ -994,7 +998,8 @@
       "W",
       "W",
       "L",
-      "L"
+      "L",
+      "D"
     ],
     "CR Flamengo": [
       "L",
@@ -1012,6 +1017,7 @@
       "D",
       "L",
       "L",
+      "L",
       "L"
     ],
     "CR Vasco da Gama": [
@@ -1022,7 +1028,8 @@
       "W",
       "D",
       "W",
-      "W"
+      "W",
+      "D"
     ],
     "Botafogo FR": [
       "W",
@@ -1031,7 +1038,8 @@
       "L",
       "L",
       "W",
-      "L"
+      "L",
+      "W"
     ],
     "Cruzeiro EC": [
       "L",
@@ -1079,10 +1087,10 @@
     },
     "Coritiba FBC": {
       "home": {
-        "gf": 1,
-        "ga": 2,
+        "gf": 2,
+        "ga": 3,
         "w": 1,
-        "d": 0,
+        "d": 1,
         "l": 2
       },
       "away": {
@@ -1111,10 +1119,10 @@
     },
     "SC Internacional": {
       "home": {
-        "gf": 3,
-        "ga": 5,
+        "gf": 4,
+        "ga": 6,
         "w": 1,
-        "d": 0,
+        "d": 1,
         "l": 3
       },
       "away": {
@@ -1175,9 +1183,9 @@
     },
     "Fluminense FC": {
       "home": {
-        "gf": 7,
-        "ga": 3,
-        "w": 4,
+        "gf": 10,
+        "ga": 4,
+        "w": 5,
         "d": 0,
         "l": 0
       },
@@ -1246,11 +1254,11 @@
         "l": 2
       },
       "away": {
-        "gf": 3,
-        "ga": 2,
+        "gf": 4,
+        "ga": 5,
         "w": 1,
         "d": 3,
-        "l": 0
+        "l": 1
       }
     },
     "EC Bahia": {
@@ -1278,10 +1286,10 @@
         "l": 1
       },
       "away": {
-        "gf": 4,
-        "ga": 3,
+        "gf": 5,
+        "ga": 4,
         "w": 2,
-        "d": 1,
+        "d": 2,
         "l": 1
       }
     },
@@ -1310,11 +1318,11 @@
         "l": 1
       },
       "away": {
-        "gf": 2,
-        "ga": 4,
+        "gf": 4,
+        "ga": 7,
         "w": 0,
         "d": 1,
-        "l": 2
+        "l": 3
       }
     },
     "CR Vasco da Gama": {
@@ -1326,18 +1334,18 @@
         "l": 1
       },
       "away": {
-        "gf": 5,
-        "ga": 7,
+        "gf": 6,
+        "ga": 8,
         "w": 0,
-        "d": 1,
+        "d": 2,
         "l": 2
       }
     },
     "Botafogo FR": {
       "home": {
-        "gf": 4,
-        "ga": 3,
-        "w": 1,
+        "gf": 7,
+        "ga": 5,
+        "w": 2,
         "d": 0,
         "l": 1
       },
