@@ -594,14 +594,13 @@
         "A": 1,
         "DS": 4,
         "FC": 2,
-        "FD": 1,
         "FS": 1,
         "I": 1,
         "SG": 1
       },
       "apelido": "Sant Anna",
       "foto": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/clubes_2026/silhuetas/RBB/FORMATO.png",
-      "pontuacao": 17,
+      "pontuacao": 15.8,
       "posicao_id": 2,
       "clube_id": 280,
       "entrou_em_campo": true
@@ -1148,11 +1147,12 @@
     "111309": {
       "scout": {
         "A": 1,
+        "CA": 1,
         "FC": 2
       },
       "apelido": "Gustavo Martins",
       "foto": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/clubes_2026/silhuetas/GRE/FORMATO.png",
-      "pontuacao": 4.4,
+      "pontuacao": 3.4,
       "posicao_id": 3,
       "clube_id": 284,
       "entrou_em_campo": true
@@ -1607,12 +1607,13 @@
       "scout": {
         "CA": 1,
         "DS": 1,
+        "FD": 1,
         "FF": 1,
         "FS": 1
       },
       "apelido": "Herrera",
       "foto": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/clubes_2026/silhuetas/RBB/FORMATO.png",
-      "pontuacao": 1.8,
+      "pontuacao": 3,
       "posicao_id": 5,
       "clube_id": 280,
       "entrou_em_campo": true
@@ -3080,11 +3081,11 @@
       "scout": {
         "FD": 1,
         "FF": 1,
-        "FS": 1
+        "FS": 2
       },
       "apelido": "Keno",
       "foto": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/clubes_2026/silhuetas/CFC/FORMATO.png",
-      "pontuacao": 2.5,
+      "pontuacao": 3,
       "posicao_id": 5,
       "clube_id": 294,
       "entrou_em_campo": true
@@ -3198,7 +3199,7 @@
       "scout": {},
       "apelido": "Luís Castro",
       "foto": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/clubes_2026/silhuetas/GRE/FORMATO.png",
-      "pontuacao": 3.43,
+      "pontuacao": 3.34,
       "posicao_id": 6,
       "clube_id": 284,
       "entrou_em_campo": true
@@ -3953,12 +3954,11 @@
       "scout": {
         "DS": 2,
         "FC": 1,
-        "FF": 1,
-        "FS": 1
+        "FF": 1
       },
       "apelido": "Jacy",
       "foto": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/clubes_2026/silhuetas/CFC/FORMATO.png",
-      "pontuacao": 4,
+      "pontuacao": 3.5,
       "posicao_id": 3,
       "clube_id": 294,
       "entrou_em_campo": true
