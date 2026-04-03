@@ -1,6 +1,6 @@
 {
-  "rodada_atual": 9,
-  "status_mercado": 4,
+  "rodada_atual": 10,
+  "status_mercado": 1,
   "esquema_default_id": 4,
   "cartoleta_inicial": 100,
   "max_ligas_free": 1,
@@ -19,20 +19,20 @@
   "reativar": true,
   "exibe_sorteio_pro": false,
   "fechamento": {
-    "dia": 1,
+    "dia": 4,
     "mes": 4,
     "ano": 2026,
-    "hora": 19,
+    "hora": 18,
     "minuto": 29,
-    "timestamp": 1775082540
+    "timestamp": 1775338140
   },
   "limites_competicao": {},
-  "times_escalados": 1027814,
-  "mercado_pos_rodada": false,
-  "novo_mes_ranking": true,
+  "times_escalados": 29250,
+  "mercado_pos_rodada": true,
+  "novo_mes_ranking": false,
   "degustacao_gatomestre": false,
   "bola_rolando": false,
-  "nome_rodada": "Rodada 9",
+  "nome_rodada": "Rodada 10",
   "limites_competicoes": {
     "pontos_corridos": {
       "free": {
