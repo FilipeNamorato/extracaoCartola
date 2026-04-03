@@ -9,15 +9,15 @@
         "tla": "PAL",
         "crest": "https://crests.football-data.org/1769.png"
       },
-      "playedGames": 8,
+      "playedGames": 9,
       "form": null,
-      "won": 6,
+      "won": 7,
       "draw": 1,
       "lost": 1,
-      "points": 19,
-      "goalsFor": 17,
-      "goalsAgainst": 8,
-      "goalDifference": 9
+      "points": 22,
+      "goalsFor": 19,
+      "goalsAgainst": 9,
+      "goalDifference": 10
     },
     {
       "position": 2,
@@ -104,15 +104,15 @@
         "tla": "FLA",
         "crest": "https://crests.football-data.org/1783.png"
       },
-      "playedGames": 7,
+      "playedGames": 8,
       "form": null,
       "won": 4,
       "draw": 2,
-      "lost": 1,
+      "lost": 2,
       "points": 14,
       "goalsFor": 13,
-      "goalsAgainst": 5,
-      "goalDifference": 8
+      "goalsAgainst": 8,
+      "goalDifference": 5
     },
     {
       "position": 7,
@@ -155,25 +155,6 @@
     {
       "position": 9,
       "team": {
-        "id": 1767,
-        "name": "Grêmio FBPA",
-        "shortName": "Grêmio",
-        "tla": "FBP",
-        "crest": "https://crests.football-data.org/1767.png"
-      },
-      "playedGames": 8,
-      "form": null,
-      "won": 3,
-      "draw": 2,
-      "lost": 3,
-      "points": 11,
-      "goalsFor": 13,
-      "goalsAgainst": 12,
-      "goalDifference": 1
-    },
-    {
-      "position": 10,
-      "team": {
         "id": 1766,
         "name": "CA Mineiro",
         "shortName": "Mineiro",
@@ -186,12 +167,50 @@
       "draw": 2,
       "lost": 4,
       "points": 11,
-      "goalsFor": 11,
+      "goalsFor": 12,
       "goalsAgainst": 11,
+      "goalDifference": 1
+    },
+    {
+      "position": 10,
+      "team": {
+        "id": 1767,
+        "name": "Grêmio FBPA",
+        "shortName": "Grêmio",
+        "tla": "FBP",
+        "crest": "https://crests.football-data.org/1767.png"
+      },
+      "playedGames": 9,
+      "form": null,
+      "won": 3,
+      "draw": 2,
+      "lost": 4,
+      "points": 11,
+      "goalsFor": 14,
+      "goalsAgainst": 14,
       "goalDifference": 0
     },
     {
       "position": 11,
+      "team": {
+        "id": 4286,
+        "name": "RB Bragantino",
+        "shortName": "Bragantino",
+        "tla": "RBB",
+        "crest": "https://crests.football-data.org/4286.png"
+      },
+      "playedGames": 9,
+      "form": null,
+      "won": 3,
+      "draw": 2,
+      "lost": 4,
+      "points": 11,
+      "goalsFor": 9,
+      "goalsAgainst": 10,
+      "goalDifference": -1
+    },
+    {
+      "position": 12,
       "team": {
         "id": 1782,
         "name": "EC Vitória",
@@ -210,7 +229,7 @@
       "goalDifference": -5
     },
     {
-      "position": 12,
+      "position": 13,
       "team": {
         "id": 6685,
         "name": "Santos FC",
@@ -224,12 +243,12 @@
       "draw": 4,
       "lost": 3,
       "points": 10,
-      "goalsFor": 11,
+      "goalsFor": 12,
       "goalsAgainst": 13,
-      "goalDifference": -2
+      "goalDifference": -1
     },
     {
-      "position": 13,
+      "position": 14,
       "team": {
         "id": 1779,
         "name": "SC Corinthians Paulista",
@@ -248,7 +267,7 @@
       "goalDifference": -2
     },
     {
-      "position": 14,
+      "position": 15,
       "team": {
         "id": 1770,
         "name": "Botafogo FR",
@@ -267,7 +286,7 @@
       "goalDifference": -4
     },
     {
-      "position": 15,
+      "position": 16,
       "team": {
         "id": 6684,
         "name": "SC Internacional",
@@ -284,25 +303,6 @@
       "goalsFor": 8,
       "goalsAgainst": 10,
       "goalDifference": -2
-    },
-    {
-      "position": 16,
-      "team": {
-        "id": 4286,
-        "name": "RB Bragantino",
-        "shortName": "Bragantino",
-        "tla": "RBB",
-        "crest": "https://crests.football-data.org/4286.png"
-      },
-      "playedGames": 8,
-      "form": null,
-      "won": 2,
-      "draw": 2,
-      "lost": 4,
-      "points": 8,
-      "goalsFor": 6,
-      "goalsAgainst": 10,
-      "goalDifference": -4
     },
     {
       "position": 17,
@@ -339,8 +339,8 @@
       "lost": 3,
       "points": 7,
       "goalsFor": 9,
-      "goalsAgainst": 14,
-      "goalDifference": -5
+      "goalsAgainst": 15,
+      "goalDifference": -6
     },
     {
       "position": 19,
@@ -377,8 +377,8 @@
       "lost": 5,
       "points": 6,
       "goalsFor": 10,
-      "goalsAgainst": 16,
-      "goalDifference": -6
+      "goalsAgainst": 17,
+      "goalDifference": -7
     }
   ],
   "artilheiros": [
@@ -408,8 +408,8 @@
         "venue": "Arena do Grêmio",
         "lastUpdated": "2023-02-18T08:42:52Z"
       },
-      "playedMatches": 8,
-      "goals": 6,
+      "playedMatches": 9,
+      "goals": 7,
       "assists": null,
       "penalties": 1
     },
@@ -532,7 +532,7 @@
         "venue": "Allianz Parque",
         "lastUpdated": "2022-04-06T13:14:55Z"
       },
-      "playedMatches": 8,
+      "playedMatches": 9,
       "goals": 3,
       "assists": 2,
       "penalties": null
@@ -718,7 +718,7 @@
         "venue": "Allianz Parque",
         "lastUpdated": "2022-04-06T13:14:55Z"
       },
-      "playedMatches": 8,
+      "playedMatches": 9,
       "goals": 3,
       "assists": null,
       "penalties": null
@@ -857,7 +857,8 @@
       "W",
       "L",
       "W",
-      "L"
+      "L",
+      "W"
     ],
     "SE Palmeiras": [
       "D",
@@ -865,6 +866,7 @@
       "W",
       "W",
       "L",
+      "W",
       "W",
       "W",
       "W"
@@ -888,7 +890,8 @@
       "D",
       "L",
       "L",
-      "L"
+      "L",
+      "W"
     ],
     "SC Internacional": [
       "L",
@@ -909,7 +912,8 @@
       "L",
       "W",
       "W",
-      "W"
+      "W",
+      "L"
     ],
     "EC Vitória": [
       "W",
@@ -918,7 +922,8 @@
       "D",
       "W",
       "L",
-      "W"
+      "W",
+      "L"
     ],
     "Clube do Remo": [
       "L",
@@ -928,7 +933,8 @@
       "L",
       "L",
       "L",
-      "W"
+      "W",
+      "L"
     ],
     "Fluminense FC": [
       "W",
@@ -949,6 +955,7 @@
       "D",
       "D",
       "W",
+      "L",
       "L"
     ],
     "Chapecoense AF": [
@@ -958,6 +965,7 @@
       "L",
       "D",
       "D",
+      "L",
       "L"
     ],
     "Santos FC": [
@@ -968,7 +976,8 @@
       "D",
       "D",
       "L",
-      "D"
+      "D",
+      "W"
     ],
     "SC Corinthians Paulista": [
       "L",
@@ -988,7 +997,8 @@
       "D",
       "W",
       "W",
-      "L"
+      "L",
+      "W"
     ],
     "São Paulo FC": [
       "W",
@@ -1008,7 +1018,8 @@
       "W",
       "W",
       "W",
-      "D"
+      "D",
+      "L"
     ],
     "Mirassol FC": [
       "W",
@@ -1049,7 +1060,8 @@
       "L",
       "D",
       "L",
-      "D"
+      "D",
+      "W"
     ]
   },
   "team_stats": {
@@ -1062,18 +1074,18 @@
         "l": 0
       },
       "away": {
-        "gf": 1,
+        "gf": 5,
         "ga": 6,
-        "w": 0,
+        "w": 1,
         "d": 0,
         "l": 4
       }
     },
     "SE Palmeiras": {
       "home": {
-        "gf": 10,
-        "ga": 3,
-        "w": 4,
+        "gf": 12,
+        "ga": 4,
+        "w": 5,
         "d": 0,
         "l": 0
       },
@@ -1103,9 +1115,9 @@
     },
     "RB Bragantino": {
       "home": {
-        "gf": 4,
+        "gf": 8,
         "ga": 5,
-        "w": 1,
+        "w": 2,
         "d": 1,
         "l": 2
       },
@@ -1143,10 +1155,10 @@
       },
       "away": {
         "gf": 4,
-        "ga": 4,
+        "ga": 7,
         "w": 1,
         "d": 1,
-        "l": 1
+        "l": 2
       }
     },
     "EC Vitória": {
@@ -1159,10 +1171,10 @@
       },
       "away": {
         "gf": 2,
-        "ga": 8,
+        "ga": 11,
         "w": 0,
         "d": 1,
-        "l": 2
+        "l": 3
       }
     },
     "Clube do Remo": {
@@ -1175,10 +1187,10 @@
       },
       "away": {
         "gf": 3,
-        "ga": 9,
+        "ga": 11,
         "w": 0,
         "d": 1,
-        "l": 3
+        "l": 4
       }
     },
     "Fluminense FC": {
@@ -1206,20 +1218,20 @@
         "l": 0
       },
       "away": {
-        "gf": 3,
-        "ga": 7,
+        "gf": 4,
+        "ga": 9,
         "w": 0,
         "d": 1,
-        "l": 3
+        "l": 4
       }
     },
     "Chapecoense AF": {
       "home": {
         "gf": 8,
-        "ga": 6,
+        "ga": 10,
         "w": 1,
         "d": 3,
-        "l": 0
+        "l": 1
       },
       "away": {
         "gf": 1,
@@ -1231,9 +1243,9 @@
     },
     "Santos FC": {
       "home": {
-        "gf": 5,
+        "gf": 7,
         "ga": 5,
-        "w": 1,
+        "w": 2,
         "d": 2,
         "l": 1
       },
@@ -1263,9 +1275,9 @@
     },
     "EC Bahia": {
       "home": {
-        "gf": 4,
+        "gf": 7,
         "ga": 2,
-        "w": 1,
+        "w": 2,
         "d": 2,
         "l": 0
       },
@@ -1303,10 +1315,10 @@
       },
       "away": {
         "gf": 7,
-        "ga": 4,
+        "ga": 8,
         "w": 2,
         "d": 1,
-        "l": 1
+        "l": 2
       }
     },
     "Mirassol FC": {
@@ -1359,9 +1371,9 @@
     },
     "Cruzeiro EC": {
       "home": {
-        "gf": 5,
+        "gf": 8,
         "ga": 6,
-        "w": 0,
+        "w": 1,
         "d": 3,
         "l": 1
       },
