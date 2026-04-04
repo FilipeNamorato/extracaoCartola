@@ -125,30 +125,52 @@ POSICOES_DEFESA = {"Zagueiro", "Lateral", "Goleiro"}
 # ─────────────────────────────────────────────────────────────
 # HELPERS DE MAPEAMENTO
 # ─────────────────────────────────────────────────────────────
+# ── HELPERS DE MAPEAMENTO ─────────────────────────────────────
+
+import unicodedata
+
+def normalizar_nome(nome: str) -> str:
+    """Remove acentos e padroniza para comparação tolerante."""
+    return unicodedata.normalize("NFKD", nome).encode("ascii", "ignore").decode("ascii").lower().strip()
+
+# Pré-computa o índice normalizado uma vez
+_NOMES_NORM = {normalizar_nome(k): v for k, v in NOMES_PARA_ABR.items()}
 
 def get_nomes_por_abr(abr: str) -> list:
-    """Retorna todos os nomes completos mapeados para uma abreviação."""
     return [nome for nome, a in NOMES_PARA_ABR.items() if a == abr]
-
 
 def get_tabela_row(abr: str, tabela_idx: pd.DataFrame):
     """
-    Busca a linha da tabela do Brasileirão para uma abreviação.
-    Tenta todos os nomes mapeados para tolerar variações de acentuação.
+    Busca tolerante: tenta match exato primeiro, depois normalizado.
+    Loga miss para facilitar diagnóstico.
     """
     for nome in get_nomes_por_abr(abr):
         if nome in tabela_idx.index:
             return tabela_idx.loc[nome]
+    
+    # Fallback: match normalizado contra o índice real do football-data
+    abr_norm = normalizar_nome(abr)
+    for idx_nome in tabela_idx.index:
+        if normalizar_nome(idx_nome) in [normalizar_nome(n) for n in get_nomes_por_abr(abr)]:
+            return tabela_idx.loc[idx_nome]
+    
+    # Log para detectar mapeamentos quebrados
+    if abr and abr != "—":
+        print(f"  [WARN] get_tabela_row: sem match para abr='{abr}' | nomes tentados={get_nomes_por_abr(abr)}")
     return None
 
 
 def get_momentum_time(abr: str, momentum: dict) -> dict:
-    """Busca o dicionário de momentum para uma abreviação."""
+    """Busca tolerante com fallback normalizado."""
     for nome in get_nomes_por_abr(abr):
         if nome in momentum:
             return momentum[nome]
+    # Fallback normalizado
+    abr_norm_nomes = [normalizar_nome(n) for n in get_nomes_por_abr(abr)]
+    for k in momentum:
+        if normalizar_nome(k) in abr_norm_nomes:
+            return momentum[k]
     return {}
-
 
 # ─────────────────────────────────────────────────────────────
 # REQUISIÇÃO CARTOLA
@@ -905,10 +927,11 @@ def enriquecer_com_confronto(
     # 2. Função matemática de Z-Score Seguro
     def z_score_seguro(x):
         std = x.std()
-        # Epsilon: Se o desvio for zero ou minúsculo, trava em 0.05 para impedir a explosão matemática
-        if pd.isna(std) or std < 0.05:
-            std = 0.05
-        return (x - x.mean()) / std
+        if pd.isna(std) or std < 1e-6:
+            # Sem variância real dentro do grupo: retorna 0 (mediano para todos)
+            return pd.Series(0.0, index=x.index)
+        # Clipa em 3 desvios para evitar outliers extremos
+        return ((x - x.mean()) / std).clip(-3.0, 3.0)
 
     # 3. Calcula o Z-Score apenas na máscara válida e já clipa os excessos (-3 a +3)
     df["score_confronto_z"] = np.nan
@@ -1036,7 +1059,20 @@ print("Gerando CSV enriquecido...")
 try:
     df_mercado  = dados_brutos.get("mercado", pd.DataFrame())
     df_partidas = dados_brutos.get("partidas", pd.DataFrame())
-
+    # ── DIAGNÓSTICO DE MAPEAMENTO ────────────────────────────────
+    if not df_tabela_bra.empty:
+        times_cartola = set(dados_brutos["mercado"]["clube"].dropna().unique())
+        times_fd = set(df_tabela_bra["time"].dropna().unique())
+        
+        sem_match = []
+        for abr in times_cartola:
+            nomes = get_nomes_por_abr(abr)
+            if not any(n in times_fd for n in nomes):
+                sem_match.append(abr)
+        
+        if sem_match:
+            print(f"  [WARN] Times sem match no football-data: {sem_match}")
+            print(f"  Times disponíveis no football-data: {sorted(times_fd)}")
     if not df_mercado.empty:
         df_enriquecido = enriquecer(df_mercado, df_partidas)
         df_enriquecido = enriquecer_com_confronto(df_enriquecido, df_tabela_bra, momentum_bra)
