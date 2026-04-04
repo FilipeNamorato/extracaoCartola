@@ -42,6 +42,16 @@ body::before {
     repeating-linear-gradient(90deg, transparent, transparent 39px, rgba(255,255,255,.012) 40px);
   pointer-events: none; z-index: 0;
 }
+.card-leg { 
+  padding: 10px 18px; 
+  font-family: var(--fm); 
+  font-size: 9px; 
+  color: var(--muted); 
+  border-top: 1px solid rgba(30,45,61,.5); 
+  letter-spacing: .5px; 
+  text-transform: uppercase; 
+  text-align: center;
+}
 
 /* HEADER */
 header {
@@ -591,8 +601,10 @@ footer a { color: var(--green); text-decoration: none; }
     <div style="display:grid; grid-template-columns: 1fr 280px; gap: 20px; align-items: start;">
 
       <div>
-        <!-- tabela desktop -->
-        <div class="bra-table-wrap">
+    <div style="display:grid; grid-template-columns: 1fr 280px; gap: 20px; align-items: start;">
+
+      <div>
+        <div class="bra-table-wrap">        
           <div class="table-wrap">
             <div class="table-scroll">
               <table id="bra-table">
