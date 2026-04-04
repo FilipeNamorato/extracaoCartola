@@ -284,17 +284,17 @@
   "partidas": [
     {
       "aproveitamento_visitante": [
-        "d",
         "e",
         "d",
         "e",
-        "v"
+        "v",
+        "e"
       ],
       "aproveitamento_mandante": [
         "v",
-        "v",
         "d",
         "d",
+        "e",
         "e"
       ],
       "transmissao": {
@@ -321,16 +321,16 @@
     {
       "aproveitamento_visitante": [
         "v",
-        "v",
         "d",
         "v",
-        "v"
+        "v",
+        "e"
       ],
       "aproveitamento_mandante": [
         "v",
         "v",
-        "v",
         "d",
+        "e",
         "e"
       ],
       "transmissao": {
@@ -357,16 +357,16 @@
     {
       "aproveitamento_visitante": [
         "d",
-        "d",
         "v",
         "d",
-        "v"
+        "v",
+        "e"
       ],
       "aproveitamento_mandante": [
-        "v",
         "e",
         "v",
         "v",
+        "e",
         "e"
       ],
       "transmissao": {
