@@ -881,28 +881,47 @@ def enriquecer_com_confronto(
     # forma_score_time       : já é 0-1
     # adv_em_queda           : inverso do momentum ofensivo do adversário
 
+    # ── Score composto dinâmico por posição ──────────────────
     oc       = df["oportunidade_confronto"].fillna(0.5)
     vm       = ((df["vantagem_mando"].fillna(0).clip(-50, 50) + 50) / 100)
     tof_norm = ((df["time_momentum_of"].fillna(1.0).clip(0.3, 2.0) - 0.3) / 1.7)
     fs       = df["forma_score_time"].fillna(0.5)
     adv_norm = ((df["adv_momentum_of"].fillna(1.0).clip(0.3, 2.0) - 0.3) / 1.7)
 
-    df["score_confronto"] = (
-        0.30 * oc                +   # oportunidade posicional
-        0.25 * vm                +   # vantagem estrutural de aproveitamento
-        0.20 * tof_norm          +   # momentum ofensivo do time
-        0.15 * fs                +   # forma ponderada recente
-        0.10 * (1 - adv_norm)        # adversário em queda = menor ameaça
-    ).round(4)
+    def calcular_score(row):
+        # Defesa: Foco em não tomar gol (Vantagem de Mando e Queda do Adversário)
+        if row["posicao"] in ["Zagueiro", "Lateral", "Goleiro"]:
+            return (0.40 * row["oc"] + 0.30 * row["vm"] + 0.10 * row["tof_norm"] + 0.10 * row["fs"] + 0.10 * (1 - row["adv_norm"]))
+        # Ataque: Foco em Momentum Ofensivo e Oportunidade
+        else:
+            return (0.35 * row["oc"] + 0.15 * row["vm"] + 0.30 * row["tof_norm"] + 0.15 * row["fs"] + 0.05 * (1 - row["adv_norm"]))
 
-    # Z-score por posição: facilita comparação entre jogadores do mesmo papel
-    df["score_confronto_z"] = (
-        df.groupby("posicao")["score_confronto"]
-        .transform(
-            lambda x: ((x - x.mean()) / x.std()).round(3) if x.std() > 0 else pd.Series(0.0, index=x.index)
-        )
-        .fillna(0)
+    df_temp = pd.DataFrame({'posicao': df['posicao'], 'oc': oc, 'vm': vm, 'tof_norm': tof_norm, 'fs': fs, 'adv_norm': adv_norm})
+    df["score_confronto"] = df_temp.apply(calcular_score, axis=1).round(4)
+
+    # 1. Isolar apenas quem vai jogar (não usar os nulos na estatística)
+    mask_validos = (df["adversario"] != "—") & (df["adversario"].notna())
+
+    # 2. Função matemática de Z-Score Seguro
+    def z_score_seguro(x):
+        std = x.std()
+        # Epsilon: Se o desvio for zero ou minúsculo, trava em 0.05 para impedir a explosão matemática
+        if pd.isna(std) or std < 0.05:
+            std = 0.05
+        return (x - x.mean()) / std
+
+    # 3. Calcula o Z-Score apenas na máscara válida e já clipa os excessos (-3 a +3)
+    df["score_confronto_z"] = np.nan
+    df.loc[mask_validos, "score_confronto_z"] = (
+        df[mask_validos].groupby("posicao")["score_confronto"]
+        .transform(z_score_seguro)
+        .round(3)
+        .clip(lower=-3.0, upper=3.0)
     )
+
+    # 4. Transformação UX: Z-Score para "Nota Cartola" (0 a 100)
+    # Z=0 (Mediano) vira Nota 50. Z=+3 (Excelente) vira Nota 95. Z=-3 (Fogueira) vira Nota 5.
+    df["score_confronto_100"] = (50 + (df["score_confronto_z"] * 15)).round(1).clip(0, 100)
 
     return df
 
@@ -1064,7 +1083,7 @@ try:
                 # Momentum do adversário
                 "adv_momentum_of", "adv_momentum_def",
                 # Score final
-                "score_confronto_z",
+                "score_confronto_100",
             ]
             cols_enxuto = [c for c in cols_enxuto if c in df_enriquecido.columns]
 

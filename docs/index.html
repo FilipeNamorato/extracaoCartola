@@ -559,7 +559,7 @@ footer a { color: var(--green); text-decoration: none; }
               <th data-col="tendencia" data-tip="Tendência de preço baseada na variação">TEND</th>
               <th data-col="status_id" data-tip="Status no Cartola">STATUS</th>
               <th data-col="armadilha_label" data-tip="Avaliação regressão linear: valor_oculto, valor_bom, neutro, armadilha_leve, armadilha_forte">LABEL</th>
-              <th data-col="score_confronto_z" data-tip="Score de confronto z-normalizado por posição: combina oportunidade posicional (30%), vantagem de mando (25%), momentum ofensivo do time (20%), forma recente (15%) e fraqueza do adversário (10%)">SCORE ↕</th>
+              <th data-col="score_confronto_100" data-tip="Score de confronto z-normalizado por posição: combina oportunidade posicional (30%), vantagem de mando (25%), momentum ofensivo do time (20%), forma recente (15%) e fraqueza do adversário (10%)">SCORE ↕</th>
             </tr>
           </thead>
           <tbody id="table-body">
@@ -599,12 +599,8 @@ footer a { color: var(--green); text-decoration: none; }
     </div>
 
     <div style="display:grid; grid-template-columns: 1fr 280px; gap: 20px; align-items: start;">
-
-      <div>
-    <div style="display:grid; grid-template-columns: 1fr 280px; gap: 20px; align-items: start;">
-
-      <div>
-        <div class="bra-table-wrap">        
+      <div style="min-width: 0;">
+        <div class="bra-table-wrap">  
           <div class="table-wrap">
             <div class="table-scroll">
               <table id="bra-table">
@@ -748,7 +744,7 @@ const ABR_TO_NOME = {
 // ── STATE ─────────────────────────────────────────────────────
 let ALL = [], PARTIDAS = [], ODDS = [], TABELA_BRA = [], TABELA_IDX = {};
 let fPos = 'all', fText = '', fMand = false, fArm = false, fValor = false;
-let sortCol = 'score_confronto_z', sortAsc = false;
+let sortCol = 'score_confronto_100', sortAsc = false;
 let timerInterval = null;
 
 // ── TIMER ─────────────────────────────────────────────────────
@@ -836,11 +832,15 @@ function armadilhaHtml(label) {
   return `<span class="al-badge ${m.cls}">${m.text}</span>`;
 }
 
-function scoreZHtml(z) {
-  const val = parseFloat(z || 0);
+function score100Html(nota) {
+  const val = parseFloat(nota);
   if (isNaN(val)) return '<span class="tm">—</span>';
-  const cls = val > 1 ? 'tg' : val < -1 ? 'tr' : 'tm';
-  return `<span class="${cls}">${val > 0 ? '+' : ''}${val.toFixed(2)}</span>`;
+  
+  let cls = 'tm'; // Neutro (entre 40 e 60)
+  if (val >= 60) cls = 'tg'; // Verde (Confronto favorável)
+  if (val <= 40) cls = 'tr'; // Vermelho (Fogueira)
+  
+  return `<span class="${cls}" style="font-weight:600;">${val.toFixed(1)}</span>`;
 }
 
 function opcHtml(opc, vm) {
@@ -1052,7 +1052,7 @@ function renderTopConfrontos() {
   grid.innerHTML = posicoes.map(pos => {
     const lista = elegiveis
       .filter(a => a.posicao === pos)
-      .sort((a, b) => parseFloat(b.score_confronto_z || 0) - parseFloat(a.score_confronto_z || 0))
+      .sort((a, b) => parseFloat(b.score_confronto_100 || 0) - parseFloat(a.score_confronto_100 || 0))
       .slice(0, 5);
 
     if (!lista.length) return '';
@@ -1060,7 +1060,7 @@ function renderTopConfrontos() {
     const itens = lista.map((a, i) => {
       const isMand = a.mandante === 'True';
       const adv = a.adversario && a.adversario !== '—' ? a.adversario : null;
-      const score = parseFloat(a.score_confronto_z || 0);
+      const score = parseFloat(a.score_confronto_100 || 0);
       const scoreCls = score > 1 ? 'tg' : score < -1 ? 'tr' : 'tm';
       const opc = parseFloat(a.oportunidade_confronto);
       const opcPct = !isNaN(opc) ? Math.round(opc * 100) : null;
@@ -1146,7 +1146,7 @@ function renderTable() {
       <td><span class="tend-badge tend-${tend}">${tend}</span></td>
       <td><span class="sbadge ${st.c}">${st.l}</span></td>
       <td>${armadilhaHtml(label)}</td>
-      <td>${scoreZHtml(a.score_confronto_z)}</td>
+      <td>${score100Html(a.score_confronto_100)}</td>
     </tr>`;
   }).join('');
   document.getElementById('table-count').textContent = `${data.length} de ${ALL.length} atletas`;
