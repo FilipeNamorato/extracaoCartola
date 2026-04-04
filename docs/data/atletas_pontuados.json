@@ -1,0 +1,729 @@
+{
+  "atletas": {
+    "100742": {
+      "scout": {},
+      "apelido": "Matheus Henrique",
+      "foto": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/clubes_2026/silhuetas/CRU/FORMATO.png",
+      "pontuacao": 0,
+      "posicao_id": 4,
+      "clube_id": 283,
+      "entrou_em_campo": true
+    },
+    "101290": {
+      "scout": {},
+      "apelido": "Ferreira",
+      "foto": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/clubes_2026/silhuetas/SAO/FORMATO.png",
+      "pontuacao": 0,
+      "posicao_id": 5,
+      "clube_id": 276,
+      "entrou_em_campo": true
+    },
+    "103445": {
+      "scout": {},
+      "apelido": "Kaio Jorge",
+      "foto": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/clubes_2026/silhuetas/CRU/FORMATO.png",
+      "pontuacao": 0,
+      "posicao_id": 5,
+      "clube_id": 283,
+      "entrou_em_campo": true
+    },
+    "104027": {
+      "scout": null,
+      "apelido": "Rafael Guanaes",
+      "foto": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/clubes_2026/silhuetas/MIR/FORMATO.png",
+      "pontuacao": 0,
+      "posicao_id": 6,
+      "clube_id": 2305,
+      "entrou_em_campo": false
+    },
+    "104075": {
+      "scout": {
+        "FC": 1,
+        "SG": 1
+      },
+      "apelido": "Sabino",
+      "foto": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/clubes_2026/silhuetas/SAO/FORMATO.png",
+      "pontuacao": 4.7,
+      "posicao_id": 3,
+      "clube_id": 276,
+      "entrou_em_campo": true
+    },
+    "104502": {
+      "scout": {},
+      "apelido": "Christian",
+      "foto": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/clubes_2026/silhuetas/CRU/FORMATO.png",
+      "pontuacao": 0,
+      "posicao_id": 4,
+      "clube_id": 283,
+      "entrou_em_campo": true
+    },
+    "106294": {
+      "scout": {},
+      "apelido": "Marcos Antônio",
+      "foto": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/clubes_2026/silhuetas/SAO/FORMATO.png",
+      "pontuacao": 0,
+      "posicao_id": 4,
+      "clube_id": 276,
+      "entrou_em_campo": true
+    },
+    "106593": {
+      "scout": {
+        "PC": 1
+      },
+      "apelido": "Villalba",
+      "foto": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/clubes_2026/silhuetas/CRU/FORMATO.png",
+      "pontuacao": -1,
+      "posicao_id": 3,
+      "clube_id": 283,
+      "entrou_em_campo": true
+    },
+    "107873": {
+      "scout": {},
+      "apelido": "Bobadilla",
+      "foto": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/clubes_2026/silhuetas/SAO/FORMATO.png",
+      "pontuacao": 0,
+      "posicao_id": 4,
+      "clube_id": 276,
+      "entrou_em_campo": true
+    },
+    "110506": {
+      "scout": null,
+      "apelido": "Abel Ferreira",
+      "foto": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/clubes_2026/silhuetas/PAL/FORMATO.png",
+      "pontuacao": 0,
+      "posicao_id": 6,
+      "clube_id": 275,
+      "entrou_em_campo": false
+    },
+    "111690": {
+      "scout": {
+        "DE": 1,
+        "GS": 1
+      },
+      "apelido": "Matheus Cunha",
+      "foto": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/clubes_2026/silhuetas/CRU/FORMATO.png",
+      "pontuacao": 0.3,
+      "posicao_id": 1,
+      "clube_id": 283,
+      "entrou_em_campo": true
+    },
+    "112709": {
+      "scout": {
+        "FC": 1
+      },
+      "apelido": "Kaiki Bruno",
+      "foto": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/clubes_2026/silhuetas/CRU/FORMATO.png",
+      "pontuacao": -0.3,
+      "posicao_id": 2,
+      "clube_id": 283,
+      "entrou_em_campo": true
+    },
+    "115479": {
+      "scout": null,
+      "apelido": "Paulo Pezzolano",
+      "foto": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/clubes_2026/silhuetas/INT/FORMATO.png",
+      "pontuacao": 0,
+      "posicao_id": 6,
+      "clube_id": 285,
+      "entrou_em_campo": false
+    },
+    "126977": {
+      "scout": null,
+      "apelido": "Fernando Seabra",
+      "foto": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/clubes_2026/silhuetas/CFC/FORMATO.png",
+      "pontuacao": 0,
+      "posicao_id": 6,
+      "clube_id": 294,
+      "entrou_em_campo": false
+    },
+    "127273": {
+      "scout": {},
+      "apelido": "Artur Jorge",
+      "foto": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/clubes_2026/silhuetas/CRU/FORMATO.png",
+      "pontuacao": 0,
+      "posicao_id": 6,
+      "clube_id": 283,
+      "entrou_em_campo": true
+    },
+    "132264": {
+      "scout": {
+        "FS": 1
+      },
+      "apelido": "Arroyo",
+      "foto": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/clubes_2026/silhuetas/CRU/FORMATO.png",
+      "pontuacao": 0.5,
+      "posicao_id": 5,
+      "clube_id": 283,
+      "entrou_em_campo": true
+    },
+    "147850": {
+      "scout": null,
+      "apelido": "Rodrigo Bellão",
+      "foto": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/clubes_2026/silhuetas/BOT/FORMATO.png",
+      "pontuacao": 0,
+      "posicao_id": 6,
+      "clube_id": 263,
+      "entrou_em_campo": false
+    },
+    "37457": {
+      "scout": null,
+      "apelido": "Léo Condé",
+      "foto": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/clubes_2026/silhuetas/REM/FORMATO.png",
+      "pontuacao": 0,
+      "posicao_id": 6,
+      "clube_id": 364,
+      "entrou_em_campo": false
+    },
+    "39850": {
+      "scout": null,
+      "apelido": "Vagner Mancini",
+      "foto": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/clubes_2026/silhuetas/RBB/FORMATO.png",
+      "pontuacao": 0,
+      "posicao_id": 6,
+      "clube_id": 280,
+      "entrou_em_campo": false
+    },
+    "40990": {
+      "scout": null,
+      "apelido": "Dorival Júnior",
+      "foto": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/clubes_2026/silhuetas/COR/FORMATO.png",
+      "pontuacao": 0,
+      "posicao_id": 6,
+      "clube_id": 264,
+      "entrou_em_campo": false
+    },
+    "41929": {
+      "scout": null,
+      "apelido": "Renato Gaúcho",
+      "foto": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/clubes_2026/silhuetas/VAS/FORMATO.png",
+      "pontuacao": 0,
+      "posicao_id": 6,
+      "clube_id": 267,
+      "entrou_em_campo": false
+    },
+    "42411": {
+      "scout": null,
+      "apelido": "Cuca",
+      "foto": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/clubes_2026/silhuetas/SAN/FORMATO.png",
+      "pontuacao": 0,
+      "posicao_id": 6,
+      "clube_id": 277,
+      "entrou_em_campo": false
+    },
+    "63008": {
+      "scout": {
+        "SG": 1
+      },
+      "apelido": "Rafael Tolói",
+      "foto": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/clubes_2026/silhuetas/SAO/FORMATO.png",
+      "pontuacao": 5,
+      "posicao_id": 3,
+      "clube_id": 276,
+      "entrou_em_campo": true
+    },
+    "68928": {
+      "scout": {
+        "SG": 1
+      },
+      "apelido": "Rafael",
+      "foto": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/clubes_2026/silhuetas/SAO/FORMATO.png",
+      "pontuacao": 5,
+      "posicao_id": 1,
+      "clube_id": 276,
+      "entrou_em_campo": true
+    },
+    "79437": {
+      "scout": {
+        "V": 1
+      },
+      "apelido": "Roger Machado",
+      "foto": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/clubes_2026/silhuetas/SAO/FORMATO.png",
+      "pontuacao": 3.46,
+      "posicao_id": 6,
+      "clube_id": 276,
+      "entrou_em_campo": true
+    },
+    "80287": {
+      "scout": {
+        "FC": 1
+      },
+      "apelido": "Luciano",
+      "foto": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/clubes_2026/silhuetas/SAO/FORMATO.png",
+      "pontuacao": -0.3,
+      "posicao_id": 5,
+      "clube_id": 276,
+      "entrou_em_campo": true
+    },
+    "80570": {
+      "scout": {
+        "SG": 1
+      },
+      "apelido": "Wendell",
+      "foto": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/clubes_2026/silhuetas/SAO/FORMATO.png",
+      "pontuacao": 5,
+      "posicao_id": 2,
+      "clube_id": 276,
+      "entrou_em_campo": true
+    },
+    "82775": {
+      "scout": {
+        "SG": 1
+      },
+      "apelido": "Lucas Ramon",
+      "foto": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/clubes_2026/silhuetas/SAO/FORMATO.png",
+      "pontuacao": 5,
+      "posicao_id": 2,
+      "clube_id": 276,
+      "entrou_em_campo": true
+    },
+    "88037": {
+      "scout": null,
+      "apelido": "Luís Castro",
+      "foto": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/clubes_2026/silhuetas/GRE/FORMATO.png",
+      "pontuacao": 0,
+      "posicao_id": 6,
+      "clube_id": 284,
+      "entrou_em_campo": false
+    },
+    "88717": {
+      "scout": null,
+      "apelido": "Celso Rodrigues",
+      "foto": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/clubes_2026/silhuetas/CHA/FORMATO.png",
+      "pontuacao": 0,
+      "posicao_id": 6,
+      "clube_id": 315,
+      "entrou_em_campo": false
+    },
+    "88963": {
+      "scout": null,
+      "apelido": "Leonardo Jardim",
+      "foto": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/clubes_2026/silhuetas/FLA/FORMATO.png",
+      "pontuacao": 0,
+      "posicao_id": 6,
+      "clube_id": 262,
+      "entrou_em_campo": false
+    },
+    "89256": {
+      "scout": {},
+      "apelido": "Gerson",
+      "foto": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/clubes_2026/silhuetas/CRU/FORMATO.png",
+      "pontuacao": 0,
+      "posicao_id": 4,
+      "clube_id": 283,
+      "entrou_em_campo": true
+    },
+    "89275": {
+      "scout": {},
+      "apelido": "William",
+      "foto": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/clubes_2026/silhuetas/CRU/FORMATO.png",
+      "pontuacao": 0,
+      "posicao_id": 2,
+      "clube_id": 283,
+      "entrou_em_campo": true
+    },
+    "89840": {
+      "scout": {
+        "FD": 1
+      },
+      "apelido": "Calleri",
+      "foto": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/clubes_2026/silhuetas/SAO/FORMATO.png",
+      "pontuacao": 1.2,
+      "posicao_id": 5,
+      "clube_id": 276,
+      "entrou_em_campo": true
+    },
+    "90768": {
+      "scout": {
+        "FS": 1
+      },
+      "apelido": "Fabrício Bruno",
+      "foto": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/clubes_2026/silhuetas/CRU/FORMATO.png",
+      "pontuacao": 0.5,
+      "posicao_id": 3,
+      "clube_id": 283,
+      "entrou_em_campo": true
+    },
+    "92180": {
+      "scout": null,
+      "apelido": "Jair Ventura",
+      "foto": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/clubes_2026/silhuetas/VIT/FORMATO.png",
+      "pontuacao": 0,
+      "posicao_id": 6,
+      "clube_id": 287,
+      "entrou_em_campo": false
+    },
+    "92273": {
+      "scout": null,
+      "apelido": "Odair Hellmann",
+      "foto": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/clubes_2026/silhuetas/CAP/FORMATO.png",
+      "pontuacao": 0,
+      "posicao_id": 6,
+      "clube_id": 293,
+      "entrou_em_campo": false
+    },
+    "92747": {
+      "scout": null,
+      "apelido": "Eduardo Domínguez",
+      "foto": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/clubes_2026/silhuetas/CAM/FORMATO.png",
+      "pontuacao": 0,
+      "posicao_id": 6,
+      "clube_id": 282,
+      "entrou_em_campo": false
+    },
+    "95799": {
+      "scout": {
+        "FS": 1,
+        "PS": 1
+      },
+      "apelido": "Artur",
+      "foto": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/clubes_2026/silhuetas/SAO/FORMATO.png",
+      "pontuacao": 1.5,
+      "posicao_id": 5,
+      "clube_id": 276,
+      "entrou_em_campo": true
+    },
+    "96610": {
+      "scout": {},
+      "apelido": "Matheus Pereira",
+      "foto": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/clubes_2026/silhuetas/CRU/FORMATO.png",
+      "pontuacao": 0,
+      "posicao_id": 4,
+      "clube_id": 283,
+      "entrou_em_campo": true
+    },
+    "97341": {
+      "scout": null,
+      "apelido": "Rogério Ceni",
+      "foto": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/clubes_2026/silhuetas/BAH/FORMATO.png",
+      "pontuacao": 0,
+      "posicao_id": 6,
+      "clube_id": 265,
+      "entrou_em_campo": false
+    },
+    "99366": {
+      "scout": null,
+      "apelido": "Luis Zubeldía",
+      "foto": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/clubes_2026/silhuetas/FLU/FORMATO.png",
+      "pontuacao": 0,
+      "posicao_id": 6,
+      "clube_id": 266,
+      "entrou_em_campo": false
+    }
+  },
+  "clubes": {
+    "2305": {
+      "escudos": {
+        "60x60": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/clubes_2026/escudos/MIR/60x60.png",
+        "45x45": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/clubes_2026/escudos/MIR/45x45.png",
+        "30x30": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/clubes_2026/escudos/MIR/30x30.png"
+      },
+      "nome": "MIR",
+      "abreviacao": "MIR",
+      "slug": "mirassol",
+      "apelido": "Mirassol",
+      "nome_fantasia": "Mirassol",
+      "id": 2305,
+      "url_editoria": "https://ge.globo.com/sp/tem-esporte/futebol/times/mirassol/"
+    },
+    "262": {
+      "escudos": {
+        "60x60": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/clubes_2026/escudos/FLA/60x60.png",
+        "45x45": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/clubes_2026/escudos/FLA/45x45.png",
+        "30x30": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/clubes_2026/escudos/FLA/30x30.png"
+      },
+      "nome": "FLA",
+      "abreviacao": "FLA",
+      "slug": "flamengo",
+      "apelido": "Mengão",
+      "nome_fantasia": "Flamengo",
+      "id": 262,
+      "url_editoria": "https://ge.globo.com/futebol/times/flamengo/"
+    },
+    "263": {
+      "escudos": {
+        "60x60": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/clubes_2026/escudos/BOT/60x60.png",
+        "45x45": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/clubes_2026/escudos/BOT/45x45.png",
+        "30x30": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/clubes_2026/escudos/BOT/30x30.png"
+      },
+      "nome": "BOT",
+      "abreviacao": "BOT",
+      "slug": "botafogo",
+      "apelido": "Glorioso",
+      "nome_fantasia": "Botafogo",
+      "id": 263,
+      "url_editoria": "https://ge.globo.com/futebol/times/botafogo/"
+    },
+    "264": {
+      "escudos": {
+        "60x60": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/clubes_2026/escudos/COR/60x60.png",
+        "45x45": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/clubes_2026/escudos/COR/45x45.png",
+        "30x30": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/clubes_2026/escudos/COR/30x30.png"
+      },
+      "nome": "COR",
+      "abreviacao": "COR",
+      "slug": "corinthians",
+      "apelido": "Timão",
+      "nome_fantasia": "Corinthians",
+      "id": 264,
+      "url_editoria": "https://ge.globo.com/futebol/times/corinthians/"
+    },
+    "265": {
+      "escudos": {
+        "60x60": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/clubes_2026/escudos/BAH/60x60.png",
+        "45x45": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/clubes_2026/escudos/BAH/45x45.png",
+        "30x30": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/clubes_2026/escudos/BAH/30x30.png"
+      },
+      "nome": "BAH",
+      "abreviacao": "BAH",
+      "slug": "bahia",
+      "apelido": "Tricolor de Aço",
+      "nome_fantasia": "Bahia",
+      "id": 265,
+      "url_editoria": "https://ge.globo.com/ba/futebol/times/bahia/"
+    },
+    "266": {
+      "escudos": {
+        "60x60": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/clubes_2026/escudos/FLU/60x60.png",
+        "45x45": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/clubes_2026/escudos/FLU/45x45.png",
+        "30x30": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/clubes_2026/escudos/FLU/30x30.png"
+      },
+      "nome": "FLU",
+      "abreviacao": "FLU",
+      "slug": "fluminense",
+      "apelido": "Tricolor",
+      "nome_fantasia": "Fluminense",
+      "id": 266,
+      "url_editoria": "https://ge.globo.com/futebol/times/fluminense/"
+    },
+    "267": {
+      "escudos": {
+        "60x60": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/clubes_2026/escudos/VAS/60x60.png",
+        "45x45": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/clubes_2026/escudos/VAS/45x45.png",
+        "30x30": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/clubes_2026/escudos/VAS/30x30.png"
+      },
+      "nome": "VAS",
+      "abreviacao": "VAS",
+      "slug": "vasco",
+      "apelido": "Gigante da Colina",
+      "nome_fantasia": "Vasco",
+      "id": 267,
+      "url_editoria": "https://ge.globo.com/futebol/times/vasco/"
+    },
+    "275": {
+      "escudos": {
+        "60x60": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/clubes_2026/escudos/PAL/60x60.png",
+        "45x45": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/clubes_2026/escudos/PAL/45x45.png",
+        "30x30": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/clubes_2026/escudos/PAL/30x30.png"
+      },
+      "nome": "PAL",
+      "abreviacao": "PAL",
+      "slug": "palmeiras",
+      "apelido": "Verdão",
+      "nome_fantasia": "Palmeiras",
+      "id": 275,
+      "url_editoria": "https://ge.globo.com/futebol/times/palmeiras/"
+    },
+    "276": {
+      "escudos": {
+        "60x60": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/clubes_2026/escudos/SAO/60x60.png",
+        "45x45": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/clubes_2026/escudos/SAO/45x45.png",
+        "30x30": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/clubes_2026/escudos/SAO/30x30.png"
+      },
+      "nome": "SAO",
+      "abreviacao": "SAO",
+      "slug": "sao-paulo",
+      "apelido": "Tricolor",
+      "nome_fantasia": "São Paulo",
+      "id": 276,
+      "url_editoria": "https://ge.globo.com/futebol/times/sao-paulo/"
+    },
+    "277": {
+      "escudos": {
+        "60x60": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/clubes_2026/escudos/SAN/60x60.png",
+        "45x45": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/clubes_2026/escudos/SAN/45x45.png",
+        "30x30": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/clubes_2026/escudos/SAN/30x30.png"
+      },
+      "nome": "SAN",
+      "abreviacao": "SAN",
+      "slug": "santos",
+      "apelido": "Peixe",
+      "nome_fantasia": "Santos",
+      "id": 277,
+      "url_editoria": "https://ge.globo.com/sp/santos-e-regiao/futebol/times/santos/"
+    },
+    "280": {
+      "escudos": {
+        "60x60": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/clubes_2026/escudos/RBB/60x60.png",
+        "45x45": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/clubes_2026/escudos/RBB/45x45.png",
+        "30x30": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/clubes_2026/escudos/RBB/30x30.png"
+      },
+      "nome": "RBB",
+      "abreviacao": "RBB",
+      "slug": "bragantino",
+      "apelido": "Massa Bruta",
+      "nome_fantasia": "Bragantino",
+      "id": 280,
+      "url_editoria": "https://ge.globo.com/sp/vale-do-paraiba-regiao/futebol/times/bragantino/"
+    },
+    "282": {
+      "escudos": {
+        "60x60": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/clubes_2026/escudos/CAM/60x60.png",
+        "45x45": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/clubes_2026/escudos/CAM/45x45.png",
+        "30x30": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/clubes_2026/escudos/CAM/30x30.png"
+      },
+      "nome": "CAM",
+      "abreviacao": "CAM",
+      "slug": "atletico-mg",
+      "apelido": "Galo",
+      "nome_fantasia": "Atlético-MG",
+      "id": 282,
+      "url_editoria": "https://ge.globo.com/futebol/times/atletico-mg/"
+    },
+    "283": {
+      "escudos": {
+        "60x60": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/clubes_2026/escudos/CRU/60x60.png",
+        "45x45": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/clubes_2026/escudos/CRU/45x45.png",
+        "30x30": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/clubes_2026/escudos/CRU/30x30.png"
+      },
+      "nome": "CRU",
+      "abreviacao": "CRU",
+      "slug": "cruzeiro",
+      "apelido": "Raposa",
+      "nome_fantasia": "Cruzeiro",
+      "id": 283,
+      "url_editoria": "https://ge.globo.com/futebol/times/cruzeiro/"
+    },
+    "284": {
+      "escudos": {
+        "60x60": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/clubes_2026/escudos/GRE/60x60.png",
+        "45x45": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/clubes_2026/escudos/GRE/45x45.png",
+        "30x30": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/clubes_2026/escudos/GRE/30x30.png"
+      },
+      "nome": "GRE",
+      "abreviacao": "GRE",
+      "slug": "gremio",
+      "apelido": "Imortal",
+      "nome_fantasia": "Grêmio",
+      "id": 284,
+      "url_editoria": "https://ge.globo.com/rs/futebol/times/gremio/"
+    },
+    "285": {
+      "escudos": {
+        "60x60": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/clubes_2026/escudos/INT/60x60.png",
+        "45x45": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/clubes_2026/escudos/INT/45x45.png",
+        "30x30": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/clubes_2026/escudos/INT/30x30.png"
+      },
+      "nome": "INT",
+      "abreviacao": "INT",
+      "slug": "internacional",
+      "apelido": "Colorado",
+      "nome_fantasia": "Internacional",
+      "id": 285,
+      "url_editoria": "https://ge.globo.com/rs/futebol/times/internacional/"
+    },
+    "287": {
+      "escudos": {
+        "60x60": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/clubes_2026/escudos/VIT/60x60.png",
+        "45x45": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/clubes_2026/escudos/VIT/45x45.png",
+        "30x30": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/clubes_2026/escudos/VIT/30x30.png"
+      },
+      "nome": "VIT",
+      "abreviacao": "VIT",
+      "slug": "vitoria",
+      "apelido": "Vitória",
+      "nome_fantasia": "Vitória",
+      "id": 287,
+      "url_editoria": "https://ge.globo.com/ba/futebol/times/vitoria/"
+    },
+    "293": {
+      "escudos": {
+        "60x60": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/clubes_2026/escudos/CAP/60x60.png",
+        "45x45": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/clubes_2026/escudos/CAP/45x45.png",
+        "30x30": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/clubes_2026/escudos/CAP/30x30.png"
+      },
+      "nome": "CAP",
+      "abreviacao": "CAP",
+      "slug": "atletico-pr",
+      "apelido": "Furacão",
+      "nome_fantasia": "Athlético-PR",
+      "id": 293,
+      "url_editoria": "https://ge.globo.com/pr/futebol/times/athletico-pr/"
+    },
+    "294": {
+      "escudos": {
+        "60x60": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/clubes_2026/escudos/CFC/60x60.png",
+        "45x45": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/clubes_2026/escudos/CFC/45x45.png",
+        "30x30": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/clubes_2026/escudos/CFC/30x30.png"
+      },
+      "nome": "CFC",
+      "abreviacao": "CFC",
+      "slug": "coritiba",
+      "apelido": "Coxa",
+      "nome_fantasia": "Coritiba",
+      "id": 294,
+      "url_editoria": "https://ge.globo.com/pr/futebol/times/coritiba/"
+    },
+    "315": {
+      "escudos": {
+        "60x60": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/clubes_2026/escudos/CHA/60x60.png",
+        "45x45": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/clubes_2026/escudos/CHA/45x45.png",
+        "30x30": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/clubes_2026/escudos/CHA/30x30.png"
+      },
+      "nome": "CHA",
+      "abreviacao": "CHA",
+      "slug": "chapecoense",
+      "apelido": "Verdão do Oeste",
+      "nome_fantasia": "Chapecoense",
+      "id": 315,
+      "url_editoria": "https://ge.globo.com/sc/futebol/times/chapecoense/"
+    },
+    "364": {
+      "escudos": {
+        "60x60": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/clubes_2026/escudos/REM/60x60.png",
+        "45x45": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/clubes_2026/escudos/REM/45x45.png",
+        "30x30": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/clubes_2026/escudos/REM/30x30.png"
+      },
+      "nome": "REM",
+      "abreviacao": "REM",
+      "slug": "remo",
+      "apelido": "Remo",
+      "nome_fantasia": "Remo",
+      "id": 364,
+      "url_editoria": "https://ge.globo.com/pa/futebol/times/remo/"
+    }
+  },
+  "posicoes": {
+    "1": {
+      "id": 1,
+      "nome": "Goleiro",
+      "abreviacao": "gol"
+    },
+    "2": {
+      "id": 2,
+      "nome": "Lateral",
+      "abreviacao": "lat"
+    },
+    "3": {
+      "id": 3,
+      "nome": "Zagueiro",
+      "abreviacao": "zag"
+    },
+    "4": {
+      "id": 4,
+      "nome": "Meia",
+      "abreviacao": "mei"
+    },
+    "5": {
+      "id": 5,
+      "nome": "Atacante",
+      "abreviacao": "ata"
+    },
+    "6": {
+      "id": 6,
+      "nome": "Técnico",
+      "abreviacao": "tec"
+    }
+  },
+  "rodada": 10,
+  "total_atletas": 42
+}
