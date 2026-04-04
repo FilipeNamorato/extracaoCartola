@@ -2280,3 +2280,12 @@
 04/04/2026 10:52,brasileirao,20,OK,
 04/04/2026 10:52,escalacao,0,ERRO,'score_confronto_z'
 04/04/2026 10:52,enriquecido,262,OK,
+04/04/2026 12:59,mercado,737,OK,
+04/04/2026 12:59,pontuados,0,ERRO,Expecting value: line 1 column 1 (char 0)
+04/04/2026 12:59,partidas,10,OK,
+04/04/2026 12:59,rodadas,38,OK,
+04/04/2026 12:59,status,1,OK,
+04/04/2026 12:59,odds,20,OK,
+04/04/2026 12:59,brasileirao,20,OK,
+04/04/2026 12:59,escalacao,263,OK,
+04/04/2026 12:59,enriquecido,263,OK,
