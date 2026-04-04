@@ -421,7 +421,6 @@ footer a { color: var(--green); text-decoration: none; }
 </head>
 <body>
 
-<!-- HEADER -->
 <header>
   <div>
     <div class="logo-title">Namorato's Dashboard</div>
@@ -435,7 +434,6 @@ footer a { color: var(--green); text-decoration: none; }
   </div>
 </header>
 
-<!-- TIMER -->
 <div class="timer-bar" id="timer-bar">
   <div>
     <div class="timer-label" id="timer-label">fechamento do mercado em</div>
@@ -444,7 +442,6 @@ footer a { color: var(--green); text-decoration: none; }
   </div>
 </div>
 
-<!-- STATS BAR -->
 <div class="stats-bar">
   <div class="stat-item"><div class="stat-label">Atletas</div><div class="stat-value" id="s-total">—</div></div>
   <div class="stat-item"><div class="stat-label">Prováveis</div><div class="stat-value g" id="s-prov">—</div></div>
@@ -457,7 +454,6 @@ footer a { color: var(--green); text-decoration: none; }
   <div class="stat-item"><div class="stat-label">Maior baixa</div><div class="stat-value r" id="s-baixa">—</div></div>
 </div>
 
-<!-- TABS -->
 <div class="nav-tabs">
   <button class="nav-tab active" data-tab="destaques">Destaques</button>
   <button class="nav-tab" data-tab="atletas">Atletas</button>
@@ -467,7 +463,6 @@ footer a { color: var(--green); text-decoration: none; }
 
 <main>
 
-  <!-- TAB: DESTAQUES -->
   <div class="tab-panel active" id="tab-destaques">
     <div class="cards-grid">
 
@@ -520,7 +515,6 @@ footer a { color: var(--green); text-decoration: none; }
     </div>
   </div>
 
-  <!-- TAB: ATLETAS -->
   <div class="tab-panel" id="tab-atletas">
     <div class="filters">
       <div id="filter-pos" style="display:flex;gap:6px;flex-wrap:wrap;">
@@ -550,20 +544,22 @@ footer a { color: var(--green); text-decoration: none; }
               <th data-col="clube">CLUBE</th>
               <th data-col="posicao">POS</th>
               <th data-col="preco" data-tip="Preço atual em cartoletas (C$)">PREÇO</th>
+              <th data-col="min_valorizar" data-tip="Estimativa do mínimo de pontos para não desvalorizar">MÍNIMO</th>
               <th data-col="variacao" data-tip="Variação de preço após a última rodada">VAR</th>
               <th data-col="media" data-tip="Média bruta de pontos por rodada">MÉDIA</th>
-              <th data-col="media_bayesiana" data-tip="Média com encolhimento bayesiano: atletas com poucos jogos têm a média ajustada para a média da posição, evitando superestimar amostras pequenas">BAYES</th>
+              <th data-col="pb_media" data-tip="Pontos Base Médios (Média retirando Gols, Assistências e SG). Indica a segurança do atleta.">PB MÉDIO</th>
+              <th data-col="media_bayesiana" data-tip="Média com encolhimento bayesiano">BAYES</th>
               <th data-col="custo_beneficio" data-tip="média bayesiana ÷ preço × confiabilidade">C/B</th>
               <th data-col="cb_rank" data-tip="Ranking de custo-benefício dentro da posição">RANK</th>
               <th data-col="mandante" data-tip="Confronto, oportunidade posicional (barra) e vantagem de aproveitamento (pp)">CONF / OPC</th>
               <th data-col="tendencia" data-tip="Tendência de preço baseada na variação">TEND</th>
               <th data-col="status_id" data-tip="Status no Cartola">STATUS</th>
               <th data-col="armadilha_label" data-tip="Avaliação regressão linear: valor_oculto, valor_bom, neutro, armadilha_leve, armadilha_forte">LABEL</th>
-              <th data-col="score_confronto_100" data-tip="Score de confronto z-normalizado por posição: combina oportunidade posicional (30%), vantagem de mando (25%), momentum ofensivo do time (20%), forma recente (15%) e fraqueza do adversário (10%)">SCORE ↕</th>
+              <th data-col="score_confronto_100" data-tip="Mede a dificuldade do jogo. 50 = Confronto normal/mediano. Acima de 60 = Oportunidade excelente. Abaixo de 40 = Fogueira/Risco alto.">SCORE ↕</th>
             </tr>
           </thead>
           <tbody id="table-body">
-            <tr><td colspan="14"><div class="loading"><div class="spinner"></div>carregando...</div></td></tr>
+            <tr><td colspan="16"><div class="loading"><div class="spinner"></div>carregando...</div></td></tr>
           </tbody>
         </table>
       </div>
@@ -574,7 +570,6 @@ footer a { color: var(--green); text-decoration: none; }
     </div>
   </div>
 
-  <!-- TAB: CONFRONTOS -->
   <div class="tab-panel" id="tab-confrontos">
     <div class="section-title"><div class="accent"></div>JOGOS DA RODADA</div>
     <div class="section-sub">Cards incluem odds, probabilidades e — quando disponível — análise de momentum dos dois times (gols recentes vs temporada, forma ponderada e sequência de resultados).</div>
@@ -583,7 +578,6 @@ footer a { color: var(--green); text-decoration: none; }
     </div>
   </div>
 
-  <!-- TAB: BRASILEIRÃO -->
   <div class="tab-panel" id="tab-brasileirao">
 
     <div class="zona-legenda">
@@ -637,13 +631,11 @@ footer a { color: var(--green); text-decoration: none; }
           </div>
         </div>
 
-        <!-- cards mobile -->
         <div class="bra-cards" id="bra-cards">
           <div class="loading"><div class="spinner"></div>carregando...</div>
         </div>
       </div>
 
-      <!-- ARTILHEIROS -->
       <div class="bra-artilheiros" style="display:flex; flex-direction:column; gap:16px;">
         <div class="card">
           <div class="card-header">
@@ -659,7 +651,6 @@ footer a { color: var(--green); text-decoration: none; }
 
 </main>
 
-<!-- MODAL LEGENDA -->
 <div id="modal-legenda" style="display:none; position:fixed; inset:0; z-index:200; background:rgba(6,9,13,.85); backdrop-filter:blur(6px); align-items:center; justify-content:center;">
   <div style="background:var(--s1); border:1px solid var(--border); border-radius:12px; padding:24px 28px; max-width:520px; width:90%; position:relative; max-height:90vh; overflow-y:auto;">
     <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:18px;">
@@ -669,8 +660,10 @@ footer a { color: var(--green); text-decoration: none; }
     <div style="display:flex; flex-direction:column; gap:10px; font-family:var(--fm); font-size:11px;">
       <div style="color:var(--muted); font-size:9px; letter-spacing:2px; text-transform:uppercase; margin-top:4px;">— Preço e Rendimento —</div>
       <div style="display:flex; gap:10px;"><span style="color:var(--green); min-width:80px;">PREÇO</span><span style="color:var(--muted)">Valor atual em cartoletas (C$)</span></div>
+      <div style="display:flex; gap:10px;"><span style="color:var(--orange); min-width:80px;">MÍNIMO</span><span style="color:var(--muted)">Heurística do mercado indicando quanto o atleta precisa pontuar para não desvalorizar.</span></div>
       <div style="display:flex; gap:10px;"><span style="color:var(--green); min-width:80px;">VAR</span><span style="color:var(--muted)">Variação de preço após a última rodada</span></div>
       <div style="display:flex; gap:10px;"><span style="color:var(--green); min-width:80px;">MÉDIA</span><span style="color:var(--muted)">Média bruta de pontos por rodada disputada</span></div>
+      <div style="display:flex; gap:10px;"><span style="color:var(--green); min-width:80px;">PB MÉDIO</span><span style="color:var(--muted)">Pontos Base. É a média excluindo eventos dependentes (Gols, Assistência, SG). Valores em verde indicam atletas altamente seguros e regulares.</span></div>
       <div style="display:flex; gap:10px;"><span style="color:var(--green); min-width:80px;">BAYES</span><span style="color:var(--muted)">Média com encolhimento: atletas com poucos jogos têm a média puxada para a média da posição — evita superestimar amostras pequenas</span></div>
       <div style="display:flex; gap:10px;"><span style="color:var(--green); min-width:80px;">C/B</span><span style="color:var(--muted)">Custo-benefício: média bayesiana ÷ preço × confiabilidade</span></div>
       <div style="display:flex; gap:10px;"><span style="color:var(--green); min-width:80px;">RANK</span><span style="color:var(--muted)">Ranking de C/B dentro da posição</span></div>
@@ -679,7 +672,7 @@ footer a { color: var(--green); text-decoration: none; }
       <div style="display:flex; gap:10px;"><span style="color:var(--green); min-width:80px;">OPC (barra)</span><span style="color:var(--muted)">Atacantes/Meias: quão fraca é a defesa do adversário no mando. Defensores/GOL: quão fraco é o ataque adversário. Percentil 0–1.</span></div>
       <div style="color:var(--muted); font-size:9px; letter-spacing:2px; text-transform:uppercase; margin-top:4px;">— Avaliação —</div>
       <div style="display:flex; gap:10px;"><span style="color:var(--green); min-width:80px;">LABEL</span><span style="color:var(--muted)">Avaliação por regressão linear (preço → média) dentro da posição: 💎 valor_oculto · ✓ valor_bom · — neutro · ⚠ armadilha_leve · 🚨 armadilha_forte</span></div>
-      <div style="display:flex; gap:10px;"><span style="color:var(--yellow); min-width:80px;">SCORE</span><span style="color:var(--muted)">Score de confronto z-normalizado por posição: oportunidade posicional (30%) + vantagem de mando (25%) + momentum ofensivo do time (20%) + forma recente (15%) + fraqueza do adversário (10%)</span></div>
+      <div style="display:flex; gap:10px;"><span style="color:var(--yellow); min-width:80px;">SCORE</span><span style="color:var(--muted)">Escore-Z do confronto. Mede a distância para a média da posição. <strong>50.0</strong> = Confronto mediano/neutro. <strong>60.0 ou mais</strong> = Confronto excelente. <strong>40.0 ou menos</strong> = Fogueira (evite escalar). Mistura mando de campo, fragilidade do adversário e momentum.</span></div>
       <div style="color:var(--muted); font-size:9px; letter-spacing:2px; text-transform:uppercase; margin-top:4px;">— Brasileirão —</div>
       <div style="display:flex; gap:10px;"><span style="color:var(--green); min-width:80px;">MOF</span><span style="color:var(--muted)">Momentum ofensivo: ratio gols marcados recentes ÷ média da temporada. &gt;1 = time marcando mais que o normal</span></div>
       <div style="display:flex; gap:10px;"><span style="color:var(--green); min-width:80px;">MDF</span><span style="color:var(--muted)">Momentum defensivo: ratio gols sofridos recentes ÷ média. &lt;1 = defesa mais sólida que o normal</span></div>
@@ -1043,10 +1036,12 @@ function renderDestaques() {
 function renderTopConfrontos() {
   const grid = document.getElementById('top-confronto-grid');
   const posicoes = ['Goleiro','Zagueiro','Lateral','Meia','Atacante'];
-  const elegiveis = ALL.filter(a => a.status_id === '7' && +a.preco > 0);
+  
+  // AQUI ESTÁ O FILTRO SALVADOR: a.adversario !== '—'
+  const elegiveis = ALL.filter(a => a.status_id === '7' && +a.preco > 0 && a.adversario && a.adversario !== '—');
 
   if (!elegiveis.length) {
-    grid.innerHTML = '<div class="err">Sem dados disponíveis.</div>'; return;
+    grid.innerHTML = '<div class="err">Sem confrontos válidos calculados para a rodada.</div>'; return;
   }
 
   grid.innerHTML = posicoes.map(pos => {
@@ -1059,25 +1054,31 @@ function renderTopConfrontos() {
 
     const itens = lista.map((a, i) => {
       const isMand = a.mandante === 'True';
-      const adv = a.adversario && a.adversario !== '—' ? a.adversario : null;
+      const adv = a.adversario;
+      
       const score = parseFloat(a.score_confronto_100 || 0);
-      const scoreCls = score > 1 ? 'tg' : score < -1 ? 'tr' : 'tm';
+      const scoreCls = score >= 60 ? 'tg' : score <= 40 ? 'tr' : 'tm';
+      
       const opc = parseFloat(a.oportunidade_confronto);
       const opcPct = !isNaN(opc) ? Math.round(opc * 100) : null;
       const opcCls = !isNaN(opc) ? (opc >= 0.65 ? 'hi' : opc >= 0.4 ? 'mid' : 'lo') : 'mid';
+
+      const preco = parseFloat(a.preco||0).toFixed(1);
+      const minVal = a.min_valorizar !== undefined ? parseFloat(a.min_valorizar).toFixed(1) : '?';
+      const pb = a.pb_media !== undefined ? parseFloat(a.pb_media).toFixed(1) : '?';
 
       return `<div class="conf-list-item">
         <div class="conf-list-top">
           <span class="rank">${i+1}</span>
           <span class="pname">${a.nome}</span>
           <span class="pclub">${a.clube}</span>
-          ${adv ? `<span class="conf-tag ${isMand?'conf-home':'conf-away'}">${isMand?'🏠':'✈️'} ${adv}</span>` : ''}
-          <span class="${scoreCls}" style="font-family:var(--fm);font-size:12px;font-weight:600;margin-left:auto">${score > 0 ? '+' : ''}${score.toFixed(2)}</span>
+          <span class="conf-tag ${isMand?'conf-home':'conf-away'}">${isMand?'🏠':'✈️'} ${adv}</span>
+          <span class="${scoreCls}" style="font-family:var(--fm);font-size:12px;font-weight:600;margin-left:auto">${score.toFixed(1)}</span>
         </div>
         <div class="conf-list-bottom">
           ${opcPct !== null ? `<div class="opc-wrap"><div class="opc-bar"><div class="opc-fill ${opcCls}" style="width:${opcPct}%"></div></div><span class="opc-val">OPC ${opcPct}%</span></div>` : ''}
           ${sequenciaTexto(a.sequencia_time)}
-          <span style="font-family:var(--fm);font-size:9px;color:var(--muted)">C$${parseFloat(a.preco||0).toFixed(1)} · ${armadilhaHtml(a.armadilha_label)}</span>
+          <span style="font-family:var(--fm);font-size:9px;color:var(--muted)">C$${preco} (Mín: ${minVal}) · PB: ${pb} · ${armadilhaHtml(a.armadilha_label)}</span>
         </div>
       </div>`;
     }).join('');
@@ -1121,7 +1122,7 @@ function renderTable() {
   const data = getSorted(getFiltered());
   const tbody = document.getElementById('table-body');
   if (!data.length) {
-    tbody.innerHTML = '<tr><td colspan="14"><div class="err">Nenhum atleta encontrado</div></td></tr>';
+    tbody.innerHTML = '<tr><td colspan="16"><div class="err">Nenhum atleta encontrado</div></td></tr>';
     document.getElementById('table-count').textContent = '0 atletas'; return;
   }
   tbody.innerHTML = data.map(a => {
@@ -1137,8 +1138,10 @@ function renderTable() {
       <td class="tm">${a.clube||'—'}</td>
       <td class="tm">${(a.posicao||'').substring(0,3).toUpperCase()}</td>
       <td class="mo">C$ ${parseFloat(a.preco||0).toFixed(2)}</td>
+      <td class="mo" style="color:var(--orange)">${a.min_valorizar !== undefined ? parseFloat(a.min_valorizar).toFixed(2) : '—'}</td>
       <td class="${vcls}">${vf > 0 ? '+' : ''}${vf.toFixed(2)}</td>
       <td class="mo">${parseFloat(a.media||0).toFixed(2)}</td>
+      <td class="mo" style="color: ${parseFloat(a.resiliencia_pct) >= 0.6 ? 'var(--green)' : 'var(--text)'}">${a.pb_media !== undefined ? parseFloat(a.pb_media).toFixed(2) : '—'}</td>
       <td class="mo" style="color:var(--blue)">${parseFloat(a.media_bayesiana||0).toFixed(2)}</td>
       <td class="mo">${parseFloat(a.custo_beneficio||0).toFixed(2)}</td>
       <td class="tm">#${a.cb_rank||'—'}</td>
@@ -1483,7 +1486,7 @@ async function init() {
       ALL = (await fetchCSV('./data/atletas_mercado.csv')).filter(a => a.nome);
     } catch(e2) {
       document.getElementById('table-body').innerHTML =
-        `<tr><td colspan="14"><div class="err">Erro: ${e2.message}</div></td></tr>`;
+        `<tr><td colspan="16"><div class="err">Erro: ${e2.message}</div></td></tr>`;
     }
   }
 
