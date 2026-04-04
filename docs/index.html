@@ -848,7 +848,7 @@ function opcHtml(opc, vm) {
 
 function confCellHtml(a) {
   const isMand = a.mandante === 'True';
-  const adv = a.adversario && a.adversario !== '—' ? a.adversario : null;
+  const adv = a.adversario && a.adversario !== '—' && a.adversario !== '' ? a.adversario : null;
   if (!adv) return '<span class="tm">—</span>';
   return `<div class="conf-cell">
     <span class="conf-tag ${isMand ? 'conf-home' : 'conf-away'}">${isMand ? '🏠' : '✈️'} ${adv}</span>
@@ -1064,8 +1064,9 @@ function renderTopConfrontos() {
       const opcCls = !isNaN(opc) ? (opc >= 0.65 ? 'hi' : opc >= 0.4 ? 'mid' : 'lo') : 'mid';
 
       const preco = parseFloat(a.preco||0).toFixed(1);
-      const minVal = a.min_valorizar !== undefined ? parseFloat(a.min_valorizar).toFixed(1) : '?';
-      const pb = a.pb_media !== undefined ? parseFloat(a.pb_media).toFixed(1) : '?';
+      const minVal = parseFloat(a.min_valorizar) > 0 ? parseFloat(a.min_valorizar).toFixed(1) : '?';
+      const pb = parseFloat(a.pb_media) > 0 ? parseFloat(a.pb_media).toFixed(2) : '—'
+
 
       return `<div class="conf-list-item">
         <div class="conf-list-top">
@@ -1138,10 +1139,10 @@ function renderTable() {
       <td class="tm">${a.clube||'—'}</td>
       <td class="tm">${(a.posicao||'').substring(0,3).toUpperCase()}</td>
       <td class="mo">C$ ${parseFloat(a.preco||0).toFixed(2)}</td>
-      <td class="mo" style="color:var(--orange)">${a.min_valorizar !== undefined ? parseFloat(a.min_valorizar).toFixed(2) : '—'}</td>
+      <td class="mo" style="color:var(--orange)">${parseFloat(a.min_valorizar) > 0 ? parseFloat(a.min_valorizar).toFixed(2) : '—'}</td>
       <td class="${vcls}">${vf > 0 ? '+' : ''}${vf.toFixed(2)}</td>
       <td class="mo">${parseFloat(a.media||0).toFixed(2)}</td>
-      <td class="mo" style="color: ${parseFloat(a.resiliencia_pct) >= 0.6 ? 'var(--green)' : 'var(--text)'}">${a.pb_media !== undefined ? parseFloat(a.pb_media).toFixed(2) : '—'}</td>
+      <td class="mo" style="color: ${parseFloat(a.resiliencia_pct) >= 0.6 ? 'var(--green)' : 'var(--text)'}">${parseFloat(a.pb_media) > 0 ? parseFloat(a.pb_media).toFixed(2) : '—'}</td>
       <td class="mo" style="color:var(--blue)">${parseFloat(a.media_bayesiana||0).toFixed(2)}</td>
       <td class="mo">${parseFloat(a.custo_beneficio||0).toFixed(2)}</td>
       <td class="tm">#${a.cb_rank||'—'}</td>

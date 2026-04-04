@@ -8,11 +8,14 @@ Colunas extras geradas em atletas_enriquecido.csv:
   - mandante              : True se o clube joga em casa nessa rodada
   - adversario            : abreviação do adversário na rodada
   - tendencia             : 'alta' | 'baixa' | 'estavel'
-  - confiabilidade        : fator 0-1 baseado no número de jogos (penaliza amostras pequenas)
+  - confiabilidade        : fator 0-1 baseado no número de jogos
   - media_bayesiana       : média com encolhimento para a média da posição (Bayesian shrinkage)
-  - residuo_z             : z-score do desvio entre média e o esperado pelo preço (via regressão)
+  - residuo_z             : z-score do desvio entre média e o esperado pelo preço (regressão linear)
   - armadilha_label       : armadilha_forte | armadilha_leve | neutro | valor_bom | valor_oculto
-  - custo_beneficio       : media_bayesiana / preco × confiabilidade
+  - pb_media              : Pontos Base médios (média excluindo Gols, Assistências e SG por jogo)
+  - resiliencia_pct       : proporção da média que vem de pontos base (0-1, >0.6 = atleta regular)
+  - min_valorizar         : estimativa de pontos mínimos para não desvalorizar (heurística por tier)
+  - custo_beneficio       : media_bayesiana / preco x confiabilidade
   - cb_rank               : ranking dentro da posição por custo-benefício ajustado
   - status_label          : texto legível do status
   - time_pos              : posição do time na tabela do Brasileirão
@@ -26,10 +29,12 @@ Colunas extras geradas em atletas_enriquecido.csv:
   - sequencia_time        : streak atual (+N = N jogos invicto, -N = N jogos sem ganhar)
   - forma_score_time      : pontuação de forma ponderada 0-1 (mais recente = mais peso)
   - score_confronto_z     : score composto do confronto, normalizado por posição
+  - score_confronto_100   : score_confronto_z convertido para escala 0-100 (50 = mediano)
 """
 
 import json
 import os
+import unicodedata
 import numpy as np
 import requests
 import pandas as pd
@@ -67,11 +72,11 @@ FOOTBALL_DATA_KEY = os.environ.get("FOOTBALL_DATA_KEY", "")
 FOOTBALL_DATA_URL = "https://api.football-data.org/v4"
 BRASILEIRAO_ID    = "BSA"
 
-# Mapa de nomes da Odds API / football-data → abreviações do Cartola
 NOMES_PARA_ABR = {
     "Flamengo":            "FLA",
     "Palmeiras":           "PAL",
     "Atletico Mineiro":    "CAM",
+    "Atletico MG":         "CAM",
     "Atlético Mineiro":    "CAM",
     "Fluminense":          "FLU",
     "Corinthians":         "COR",
@@ -85,6 +90,7 @@ NOMES_PARA_ABR = {
     "Bahia":               "BAH",
     "Cruzeiro":            "CRU",
     "Atletico Paranaense": "CAP",
+    "Athletico Paranaense":"CAP",
     "Atlético Paranaense": "CAP",
     "Santos":              "SAN",
     "Vitoria":             "VIT",
@@ -96,11 +102,16 @@ NOMES_PARA_ABR = {
     "Coritiba":            "CFC",
     "Remo":                "REM",
     "Sport Recife":        "SPT",
+    "Sport Club do Recife":"SPT",
+    "Ceara":               "CEA",
     "Ceará":               "CEA",
     "Fortaleza":           "FOR",
     "Juventude":           "JUV",
+    "America Mineiro":     "AME",
     "América Mineiro":     "AME",
+    "Goias":               "GOI",
     "Goiás":               "GOI",
+    "Cuiaba":              "CUI",
     "Cuiabá":              "CUI",
 }
 
@@ -110,67 +121,68 @@ DATA_DIR = Path("docs/data")
 DATA_DIR.mkdir(parents=True, exist_ok=True)
 
 # ── Parâmetros estatísticos ───────────────────────────────────
-# K do Bayesian shrinkage: abaixo disso a média é considerada não confiável
 JOGOS_CONFIANCA_PLENA = 8
-# Janela de jogos para cálculo de momentum
-JANELA_MOMENTUM = 5
-# Pesos da forma ponderada (5 jogos, mais recente = maior peso)
-PESOS_FORMA = [0.10, 0.15, 0.20, 0.25, 0.30]
+JANELA_MOMENTUM       = 5
+PESOS_FORMA           = [0.10, 0.15, 0.20, 0.25, 0.30]
 
-# Posições para lógica de oportunidade de confronto
-POSICOES_ATAQUE = {"Atacante", "Meia"}
+POSICOES_ATAQUE = {"Atacante", "Meia", "Técnico"}
 POSICOES_DEFESA = {"Zagueiro", "Lateral", "Goleiro"}
+
+# ── Pontuação Cartola por evento (para cálculo do PB) ────────
+# PB (Pontos Base) = media - pontos médios de eventos voláteis (G, A, SG) por jogo.
+# Scouts G, A, SG são totais cumulativos da temporada — divide por jogos.
+PESO_GOL_POS = {
+    "Goleiro":  6.0,
+    "Zagueiro": 6.0,
+    "Lateral":  6.0,
+    "Meia":     5.0,
+    "Atacante": 8.0,
+    "Técnico":  3.0,
+}
+PESO_SG_POS = {
+    "Goleiro":  5.0,
+    "Zagueiro": 3.0,
+    "Lateral":  3.0,
+    "Meia":     1.0,
+    "Atacante": 1.0,
+    "Técnico":  0.0,
+}
+PESO_ASSISTENCIA = 5.0
 
 
 # ─────────────────────────────────────────────────────────────
 # HELPERS DE MAPEAMENTO
 # ─────────────────────────────────────────────────────────────
-# ── HELPERS DE MAPEAMENTO ─────────────────────────────────────
-
-import unicodedata
 
 def normalizar_nome(nome: str) -> str:
-    """Remove acentos e padroniza para comparação tolerante."""
     return unicodedata.normalize("NFKD", nome).encode("ascii", "ignore").decode("ascii").lower().strip()
-
-# Pré-computa o índice normalizado uma vez
-_NOMES_NORM = {normalizar_nome(k): v for k, v in NOMES_PARA_ABR.items()}
 
 def get_nomes_por_abr(abr: str) -> list:
     return [nome for nome, a in NOMES_PARA_ABR.items() if a == abr]
 
 def get_tabela_row(abr: str, tabela_idx: pd.DataFrame):
-    """
-    Busca tolerante: tenta match exato primeiro, depois normalizado.
-    Loga miss para facilitar diagnóstico.
-    """
+    """Busca tolerante: match exato primeiro, depois normalizado."""
     for nome in get_nomes_por_abr(abr):
         if nome in tabela_idx.index:
             return tabela_idx.loc[nome]
-    
-    # Fallback: match normalizado contra o índice real do football-data
-    abr_norm = normalizar_nome(abr)
+    abr_norm_nomes = [normalizar_nome(n) for n in get_nomes_por_abr(abr)]
     for idx_nome in tabela_idx.index:
-        if normalizar_nome(idx_nome) in [normalizar_nome(n) for n in get_nomes_por_abr(abr)]:
+        if normalizar_nome(idx_nome) in abr_norm_nomes:
             return tabela_idx.loc[idx_nome]
-    
-    # Log para detectar mapeamentos quebrados
-    if abr and abr != "—":
+    if abr and abr not in ("—", ""):
         print(f"  [WARN] get_tabela_row: sem match para abr='{abr}' | nomes tentados={get_nomes_por_abr(abr)}")
     return None
 
-
 def get_momentum_time(abr: str, momentum: dict) -> dict:
-    """Busca tolerante com fallback normalizado."""
     for nome in get_nomes_por_abr(abr):
         if nome in momentum:
             return momentum[nome]
-    # Fallback normalizado
     abr_norm_nomes = [normalizar_nome(n) for n in get_nomes_por_abr(abr)]
     for k in momentum:
         if normalizar_nome(k) in abr_norm_nomes:
             return momentum[k]
     return {}
+
 
 # ─────────────────────────────────────────────────────────────
 # REQUISIÇÃO CARTOLA
@@ -188,7 +200,6 @@ def get_json(endpoint_key: str) -> dict:
 # ─────────────────────────────────────────────────────────────
 
 def get_odds() -> pd.DataFrame:
-    """Busca odds do Brasileirão e retorna DataFrame com colunas por abreviação."""
     if not ODDS_API_KEY:
         print("  SKIP — ODDS_API_KEY não definida")
         return pd.DataFrame()
@@ -215,12 +226,9 @@ def get_odds() -> pd.DataFrame:
                 if market["key"] == "h2h":
                     for o in market["outcomes"]:
                         abr = NOMES_PARA_ABR.get(o["name"])
-                        if abr == abr_casa:
-                            odd_casa = o["price"]
-                        elif abr == abr_vis:
-                            odd_vis = o["price"]
-                        else:
-                            odd_empate = o["price"]
+                        if abr == abr_casa:      odd_casa   = o["price"]
+                        elif abr == abr_vis:     odd_vis    = o["price"]
+                        else:                    odd_empate = o["price"]
 
         if not odd_casa or not odd_vis:
             continue
@@ -273,7 +281,6 @@ def _aprov(w: int, d: int, l: int) -> float:
 
 
 def build_team_history(matches: list) -> dict:
-    """Histórico de resultados (W/D/L) por time, em ordem cronológica."""
     history = defaultdict(list)
     finished = sorted(
         [m for m in matches if m.get("status") == "FINISHED"],
@@ -287,19 +294,15 @@ def build_team_history(matches: list) -> dict:
         if gh is None or ga is None:
             continue
         if gh > ga:
-            history[home].append("W")
-            history[away].append("L")
+            history[home].append("W"); history[away].append("L")
         elif gh < ga:
-            history[home].append("L")
-            history[away].append("W")
+            history[home].append("L"); history[away].append("W")
         else:
-            history[home].append("D")
-            history[away].append("D")
+            history[home].append("D"); history[away].append("D")
     return dict(history)
 
 
 def build_team_stats(matches: list) -> dict:
-    """Aproveitamento separado por mando de campo."""
     stats = defaultdict(lambda: {
         "home": {"gf": 0, "ga": 0, "w": 0, "d": 0, "l": 0},
         "away": {"gf": 0, "ga": 0, "w": 0, "d": 0, "l": 0},
@@ -314,20 +317,15 @@ def build_team_stats(matches: list) -> dict:
         if gh is None or ga is None:
             continue
 
-        stats[home]["home"]["gf"] += gh
-        stats[home]["home"]["ga"] += ga
-        stats[away]["away"]["gf"] += ga
-        stats[away]["away"]["ga"] += gh
+        stats[home]["home"]["gf"] += gh; stats[home]["home"]["ga"] += ga
+        stats[away]["away"]["gf"] += ga; stats[away]["away"]["ga"] += gh
 
         if gh > ga:
-            stats[home]["home"]["w"] += 1
-            stats[away]["away"]["l"] += 1
+            stats[home]["home"]["w"] += 1; stats[away]["away"]["l"] += 1
         elif gh < ga:
-            stats[home]["home"]["l"] += 1
-            stats[away]["away"]["w"] += 1
+            stats[home]["home"]["l"] += 1; stats[away]["away"]["w"] += 1
         else:
-            stats[home]["home"]["d"] += 1
-            stats[away]["away"]["d"] += 1
+            stats[home]["home"]["d"] += 1; stats[away]["away"]["d"] += 1
 
     return {k: dict(v) for k, v in stats.items()}
 
@@ -369,9 +367,8 @@ def build_team_momentum(matches: list, n: int = JANELA_MOMENTUM) -> dict:
         if not jogos:
             continue
 
-        all_gf = [j["gf"] for j in jogos]
-        all_ga = [j["ga"] for j in jogos]
-
+        all_gf        = [j["gf"] for j in jogos]
+        all_ga        = [j["ga"] for j in jogos]
         media_gf_temp = sum(all_gf) / len(all_gf)
         media_ga_temp = sum(all_ga) / len(all_ga)
 
@@ -379,39 +376,29 @@ def build_team_momentum(matches: list, n: int = JANELA_MOMENTUM) -> dict:
         media_gf_rec = sum(j["gf"] for j in ultimos_n) / len(ultimos_n)
         media_ga_rec = sum(j["ga"] for j in ultimos_n) / len(ultimos_n)
 
-        # Momentum: ratio recente / temporada inteira
-        # >1 = crescendo, <1 = declinando
         momentum_of  = round(media_gf_rec / media_gf_temp, 3) if media_gf_temp > 0 else 1.0
         momentum_def = round(media_ga_rec / media_ga_temp, 3) if media_ga_temp > 0 else 1.0
 
-        # Forma ponderada dos últimos 5 jogos
         ultimos5    = jogos[-5:]
         offset      = 5 - len(ultimos5)
         forma_score = 0.0
         for i, j in enumerate(ultimos5):
             peso = PESOS_FORMA[i + offset]
-            if j["gf"] > j["ga"]:
-                forma_score += peso * 1.0
-            elif j["gf"] == j["ga"]:
-                forma_score += peso * 0.5
+            if j["gf"] > j["ga"]:    forma_score += peso * 1.0
+            elif j["gf"] == j["ga"]: forma_score += peso * 0.5
 
-        # Sequência: invicto consecutivo (positivo) ou sem ganhar (negativo)
         seq_invicto = 0
         for j in reversed(jogos):
-            if j["gf"] >= j["ga"]:  # vitória ou empate
-                seq_invicto += 1
-            else:
-                break
+            if j["gf"] >= j["ga"]: seq_invicto += 1
+            else: break
 
         if seq_invicto > 0:
             sequencia = seq_invicto
         else:
             seq_sem_ganhar = 0
             for j in reversed(jogos):
-                if j["gf"] < j["ga"]:  # derrota
-                    seq_sem_ganhar -= 1
-                else:
-                    break
+                if j["gf"] < j["ga"]: seq_sem_ganhar -= 1
+                else: break
             sequencia = seq_sem_ganhar
 
         momentum[team] = {
@@ -428,83 +415,49 @@ def build_team_momentum(matches: list, n: int = JANELA_MOMENTUM) -> dict:
     return momentum
 
 
-def build_tabela_csv(
-    tabela: list,
-    history: dict,
-    team_stats: dict,
-    momentum: dict = None,
-) -> pd.DataFrame:
-    """
-    Monta DataFrame plano da tabela do Brasileirão para análise e CSV.
-    Inclui métricas de momentum quando disponíveis.
-    """
+def build_tabela_csv(tabela, history, team_stats, momentum=None) -> pd.DataFrame:
     rows = []
     for entry in tabela:
         nome = entry.get("team", {}).get("name", "")
         w    = entry.get("won",  0)
         d    = entry.get("draw", 0)
         l    = entry.get("lost", 0)
-
-        ts = team_stats.get(nome, {})
-        h  = ts.get("home", {})
-        a  = ts.get("away", {})
-
-        hist  = history.get(nome, [])
+        ts   = team_stats.get(nome, {})
+        h    = ts.get("home", {}); a = ts.get("away", {})
+        hist = history.get(nome, [])
         forma = ",".join(hist[-5:]) if hist else ""
-
-        mom = (momentum or {}).get(nome, {})
+        mom  = (momentum or {}).get(nome, {})
 
         rows.append({
-            # Tabela geral
-            "posicao":        entry.get("position"),
-            "time":           nome,
-            "pts":            entry.get("points"),
-            "j":              entry.get("playedGames"),
-            "v":              w,
-            "e":              d,
-            "d":              l,
-            "gp":             entry.get("goalsFor"),
-            "gc":             entry.get("goalsAgainst"),
-            "sg":             entry.get("goalDifference"),
-            "aprov_pct":      _aprov(w, d, l),
-            # Desempenho em casa
-            "casa_v":         h.get("w", 0),
-            "casa_e":         h.get("d", 0),
-            "casa_d":         h.get("l", 0),
-            "casa_gp":        h.get("gf", 0),
-            "casa_gc":        h.get("ga", 0),
-            "casa_aprov_pct": _aprov(h.get("w", 0), h.get("d", 0), h.get("l", 0)),
-            # Desempenho fora
-            "fora_v":         a.get("w", 0),
-            "fora_e":         a.get("d", 0),
-            "fora_d":         a.get("l", 0),
-            "fora_gp":        a.get("gf", 0),
-            "fora_gc":        a.get("ga", 0),
-            "fora_aprov_pct": _aprov(a.get("w", 0), a.get("d", 0), a.get("l", 0)),
-            # Forma
-            "forma":                 forma,
-            # Momentum (calculado dos placares reais)
-            "momentum_of":           mom.get("momentum_of"),
-            "momentum_def":          mom.get("momentum_def"),
-            "forma_score":           mom.get("forma_score"),
-            "sequencia":             mom.get("sequencia"),
-            "media_gf_temporada":    mom.get("media_gf_temporada"),
-            "media_ga_temporada":    mom.get("media_ga_temporada"),
-            "media_gf_recente":      mom.get("media_gf_recente"),
-            "media_ga_recente":      mom.get("media_ga_recente"),
+            "posicao":            entry.get("position"),
+            "time":               nome,
+            "pts":                entry.get("points"),
+            "j":                  entry.get("playedGames"),
+            "v": w, "e": d, "d": l,
+            "gp":                 entry.get("goalsFor"),
+            "gc":                 entry.get("goalsAgainst"),
+            "sg":                 entry.get("goalDifference"),
+            "aprov_pct":          _aprov(w, d, l),
+            "casa_v":             h.get("w", 0), "casa_e": h.get("d", 0), "casa_d": h.get("l", 0),
+            "casa_gp":            h.get("gf", 0), "casa_gc": h.get("ga", 0),
+            "casa_aprov_pct":     _aprov(h.get("w", 0), h.get("d", 0), h.get("l", 0)),
+            "fora_v":             a.get("w", 0), "fora_e": a.get("d", 0), "fora_d": a.get("l", 0),
+            "fora_gp":            a.get("gf", 0), "fora_gc": a.get("ga", 0),
+            "fora_aprov_pct":     _aprov(a.get("w", 0), a.get("d", 0), a.get("l", 0)),
+            "forma":              forma,
+            "momentum_of":        mom.get("momentum_of"),
+            "momentum_def":       mom.get("momentum_def"),
+            "forma_score":        mom.get("forma_score"),
+            "sequencia":          mom.get("sequencia"),
+            "media_gf_temporada": mom.get("media_gf_temporada"),
+            "media_ga_temporada": mom.get("media_ga_temporada"),
+            "media_gf_recente":   mom.get("media_gf_recente"),
+            "media_ga_recente":   mom.get("media_ga_recente"),
         })
     return pd.DataFrame(rows)
 
 
 def get_brasileirao_data() -> tuple:
-    """
-    Coleta tabela, partidas e artilheiros do Brasileirão via football-data.org.
-
-    Retorna (dados_dict, df_tabela, momentum) onde:
-      dados_dict : dicionário para brasileirao_data.json
-      df_tabela  : DataFrame plano da tabela (já salvo em CSV)
-      momentum   : dict de momentum por time (para enriquecimento dos atletas)
-    """
     if not FOOTBALL_DATA_KEY:
         print("  SKIP — FOOTBALL_DATA_KEY não definida")
         return {}, pd.DataFrame(), {}
@@ -533,7 +486,6 @@ def get_brasileirao_data() -> tuple:
         "historico_times": history,
         "team_stats":      team_stats,
     }
-
     return dados, df_tabela, momentum
 
 
@@ -603,6 +555,47 @@ def normalizar_rodadas(raw: list) -> pd.DataFrame:
 # ENRIQUECIMENTO CARTOLA
 # ─────────────────────────────────────────────────────────────
 
+def calcular_min_valorizar(preco: float) -> float:
+    """
+    Heurística de mercado: pontos mínimos para não desvalorizar.
+    Se a API retornar 'pontos_min_valorizacao' no payload raw,
+    priorize esse valor — ele é o oficial do Cartola.
+    """
+    if preco <= 0:   return 0.0
+    if preco <= 4:   return round(preco * 2.8, 1)
+    if preco <= 8:   return round(preco * 2.3, 1)
+    if preco <= 15:  return round(preco * 2.0, 1)
+    if preco <= 25:  return round(preco * 1.8, 1)
+    return round(preco * 1.6, 1)
+
+
+def calcular_pb_media(row: pd.Series) -> float:
+    """
+    Pontos Base médios: média bruta menos pontos médios de eventos
+    voláteis (Gols, Assistências, Saldo de Gols) por jogo disputado.
+
+    Scouts G, A e SG são totais cumulativos — divide por jogos
+    antes de multiplicar pelo peso de pontuação.
+    """
+    j   = row["jogos"]
+    med = row["media"]
+    if j < 1 or med <= 0:
+        return 0.0
+
+    pos = row.get("posicao", "")
+    g   = float(row.get("scout_G",  0) or 0)
+    a   = float(row.get("scout_A",  0) or 0)
+    sg  = float(row.get("scout_SG", 0) or 0)
+
+    pts_evento_por_jogo = (
+        (g  / j) * PESO_GOL_POS.get(pos, 5.0)  +
+        (a  / j) * PESO_ASSISTENCIA              +
+        (sg / j) * PESO_SG_POS.get(pos, 1.0)
+    )
+
+    return round(max(med - pts_evento_por_jogo, 0.0), 2)
+
+
 def enriquecer(df_mercado: pd.DataFrame, df_partidas: pd.DataFrame) -> pd.DataFrame:
     df = df_mercado.copy()
 
@@ -657,14 +650,27 @@ def enriquecer(df_mercado: pd.DataFrame, df_partidas: pd.DataFrame) -> pd.DataFr
     df["jogos"]    = pd.to_numeric(df["jogos"],    errors="coerce").fillna(0)
     df["variacao"] = pd.to_numeric(df["variacao"], errors="coerce").fillna(0)
 
+    # ── Mínimo para valorizar ────────────────────────────────
+    df["min_valorizar"] = df["preco"].apply(calcular_min_valorizar)
+
+    # ── Pontos Base (PB) e Resiliência ───────────────────────
+    for scout_col in ["scout_G", "scout_A", "scout_SG"]:
+        if scout_col in df.columns:
+            df[scout_col] = pd.to_numeric(df[scout_col], errors="coerce").fillna(0)
+        else:
+            df[scout_col] = 0.0
+
+    df["pb_media"] = df.apply(calcular_pb_media, axis=1)
+
+    # Resiliência: > 0.6 = atleta regular independente de gols/assistências
+    df["resiliencia_pct"] = df.apply(
+        lambda r: round(r["pb_media"] / r["media"], 3) if r["media"] > 0 else 0.0, axis=1
+    )
+
     # ── Confiabilidade ───────────────────────────────────────
-    # Fator 0-1: atletas com menos de JOGOS_CONFIANCA_PLENA jogos têm peso menor.
     df["confiabilidade"] = (df["jogos"] / JOGOS_CONFIANCA_PLENA).clip(upper=1.0).round(3)
 
-    # ── Média bayesiana (Bayesian shrinkage) ─────────────────
-    # Puxa a média individual para a média da posição quando há poucos jogos.
-    # media_bayes = (jogos × media + K × media_posicao) / (jogos + K)
-    # Com muitos jogos, tende para a média bruta. Com poucos, para a média da posição.
+    # ── Média bayesiana ──────────────────────────────────────
     media_prior = df[df["jogos"] >= 3].groupby("posicao")["media"].mean()
 
     def calcular_media_bayesiana(row):
@@ -678,12 +684,7 @@ def enriquecer(df_mercado: pd.DataFrame, df_partidas: pd.DataFrame) -> pd.DataFr
 
     df["media_bayesiana"] = df.apply(calcular_media_bayesiana, axis=1)
 
-    # ── Resíduo z-score: armadilha por regressão linear ─────
-    # Dentro de cada posição: regressão preco → media_bayesiana.
-    # O resíduo mede o quanto o atleta entrega ACIMA ou ABAIXO do esperado pelo preço.
-    # residuo_z > 0  : entrega mais do que o preço sugere (valor oculto)
-    # residuo_z < 0  : entrega menos do que o preço sugere (armadilha)
-    # Vantagem sobre o booleano: captura magnitude e não depende de mediana simples.
+    # ── Resíduo z-score por regressão linear ─────────────────
     residuos = []
     for pos, grp in df.groupby("posicao"):
         x = grp["preco"].values
@@ -709,7 +710,7 @@ def enriquecer(df_mercado: pd.DataFrame, df_partidas: pd.DataFrame) -> pd.DataFr
 
     df["armadilha_label"] = df["residuo_z"].apply(armadilha_label)
 
-    # ── Custo-benefício ajustado por confiabilidade ──────────
+    # ── Custo-benefício ──────────────────────────────────────
     df["custo_beneficio"] = df.apply(
         lambda r: round(r["media_bayesiana"] / r["preco"] * r["confiabilidade"], 3)
         if r["preco"] > 0 else 0,
@@ -732,32 +733,22 @@ def enriquecer(df_mercado: pd.DataFrame, df_partidas: pd.DataFrame) -> pd.DataFr
     return df
 
 
-def enriquecer_partidas(
-    df_partidas: pd.DataFrame,
-    df_odds: pd.DataFrame,
-    mapa_clubes: dict,
-) -> pd.DataFrame:
-    """Cruza partidas com odds usando mapa clube_id → abreviação."""
+def enriquecer_partidas(df_partidas, df_odds, mapa_clubes) -> pd.DataFrame:
     df = df_partidas.copy()
-
     if df_odds.empty:
         return df
 
     col_casa = next((c for c in df.columns if "casa_id"      in c), None)
     col_vis  = next((c for c in df.columns if "visitante_id" in c), None)
-
     if not col_casa or not col_vis:
         return df
 
     mapa_odds = {}
     for _, o in df_odds.iterrows():
         mapa_odds[o["abr_casa"]] = {
-            "odd_casa":   o["odd_casa"],
-            "odd_vis":    o["odd_vis"],
-            "odd_empate": o["odd_empate"],
-            "prob_casa":  o["prob_casa"],
-            "prob_vis":   o["prob_vis"],
-            "forca_casa": o["forca_casa"],
+            "odd_casa":   o["odd_casa"],   "odd_vis":    o["odd_vis"],
+            "odd_empate": o["odd_empate"], "prob_casa":  o["prob_casa"],
+            "prob_vis":   o["prob_vis"],   "forca_casa": o["forca_casa"],
             "forca_vis":  o["forca_vis"],
         }
 
@@ -783,53 +774,23 @@ def enriquecer_partidas(
 # ENRIQUECIMENTO COM DADOS DO BRASILEIRÃO
 # ─────────────────────────────────────────────────────────────
 
-def enriquecer_com_confronto(
-    df: pd.DataFrame,
-    df_tabela: pd.DataFrame,
-    momentum: dict,
-) -> pd.DataFrame:
-    """
-    Cruza cada atleta com os dados do Brasileirão:
-
-    - time_pos / adv_pos             : posição na tabela
-    - vantagem_mando                 : delta de aproveitamento no mando específico do confronto
-    - oportunidade_confronto         : percentil 0-1 de oportunidade dado a posição do atleta
-        Atacantes/Meias : fragilidade defensiva do adversário no mando dele
-        Defensores/GOL  : fraqueza ofensiva do adversário no mando dele
-    - time_momentum_of/def           : ratio gols recentes / temporada para o time do atleta
-    - adv_momentum_of/def            : idem para o adversário
-    - forma_score_time               : forma ponderada do time (0-1)
-    - sequencia_time                 : streak invicto (positivo) ou sem ganhar (negativo)
-    - score_confronto_z              : score composto normalizado por posição
-    """
+def enriquecer_com_confronto(df, df_tabela, momentum) -> pd.DataFrame:
     if df_tabela.empty:
         return df
 
     df = df.copy()
 
-    # Pré-calcular gols por jogo (casa e fora) na tabela
     t = df_tabela.copy()
     t["j_casa"] = t["casa_v"] + t["casa_e"] + t["casa_d"]
     t["j_fora"] = t["fora_v"] + t["fora_e"] + t["fora_d"]
 
-    t["gc_pg_casa"] = t.apply(
-        lambda r: round(r["casa_gc"] / r["j_casa"], 3) if r["j_casa"] > 0 else 0, axis=1
-    )
-    t["gc_pg_fora"] = t.apply(
-        lambda r: round(r["fora_gc"] / r["j_fora"], 3) if r["j_fora"] > 0 else 0, axis=1
-    )
-    t["gp_pg_casa"] = t.apply(
-        lambda r: round(r["casa_gp"] / r["j_casa"], 3) if r["j_casa"] > 0 else 0, axis=1
-    )
-    t["gp_pg_fora"] = t.apply(
-        lambda r: round(r["fora_gp"] / r["j_fora"], 3) if r["j_fora"] > 0 else 0, axis=1
-    )
+    t["gc_pg_casa"] = t.apply(lambda r: round(r["casa_gc"] / r["j_casa"], 3) if r["j_casa"] > 0 else 0, axis=1)
+    t["gc_pg_fora"] = t.apply(lambda r: round(r["fora_gc"] / r["j_fora"], 3) if r["j_fora"] > 0 else 0, axis=1)
+    t["gp_pg_casa"] = t.apply(lambda r: round(r["casa_gp"] / r["j_casa"], 3) if r["j_casa"] > 0 else 0, axis=1)
+    t["gp_pg_fora"] = t.apply(lambda r: round(r["fora_gp"] / r["j_fora"], 3) if r["j_fora"] > 0 else 0, axis=1)
 
-    # Percentis de fragilidade defensiva e força ofensiva
-    # percentil_def_casa alto = adversário sofre muitos gols quando joga em casa (fraco defensivamente em casa)
     t["percentil_def_casa"] = t["gc_pg_casa"].rank(pct=True).round(3)
     t["percentil_def_fora"] = t["gc_pg_fora"].rank(pct=True).round(3)
-    # percentil_of_casa alto = adversário marca muitos gols em casa (forte ofensivamente em casa)
     t["percentil_of_casa"]  = t["gp_pg_casa"].rank(pct=True).round(3)
     t["percentil_of_fora"]  = t["gp_pg_fora"].rank(pct=True).round(3)
 
@@ -848,8 +809,8 @@ def enriquecer_com_confronto(
         mom_adv  = get_momentum_time(adv_abr,  momentum)
 
         rec = {
-            "time_pos":               int(row_time["posicao"])  if row_time is not None else None,
-            "adv_pos":                int(row_adv["posicao"])   if row_adv  is not None else None,
+            "time_pos":               int(row_time["posicao"]) if row_time is not None else None,
+            "adv_pos":                int(row_adv["posicao"])  if row_adv  is not None else None,
             "time_momentum_of":       mom_time.get("momentum_of"),
             "time_momentum_def":      mom_time.get("momentum_def"),
             "adv_momentum_of":        mom_adv.get("momentum_of"),
@@ -860,26 +821,12 @@ def enriquecer_com_confronto(
             "oportunidade_confronto": None,
         }
 
-        # ── Vantagem de mando ──────────────────────────────
-        # Delta entre o aproveitamento do time no mando em que joga
-        # e o aproveitamento do adversário no mando contrário.
-        # Positivo = o time tem vantagem estrutural nesse confronto específico.
         if row_time is not None and row_adv is not None and mandante is not None:
             if mandante:
-                rec["vantagem_mando"] = round(
-                    float(row_time["casa_aprov_pct"]) - float(row_adv["fora_aprov_pct"]), 1
-                )
+                rec["vantagem_mando"] = round(float(row_time["casa_aprov_pct"]) - float(row_adv["fora_aprov_pct"]), 1)
             else:
-                rec["vantagem_mando"] = round(
-                    float(row_time["fora_aprov_pct"]) - float(row_adv["casa_aprov_pct"]), 1
-                )
+                rec["vantagem_mando"] = round(float(row_time["fora_aprov_pct"]) - float(row_adv["casa_aprov_pct"]), 1)
 
-        # ── Oportunidade de confronto por posição ──────────
-        # Atacantes/Meias: quão fraca é a defesa do adversário no mando dele?
-        #   Mandante=True  → adversário joga fora → usar percentil_def_fora do adv
-        #   Mandante=False → adversário joga em casa → usar percentil_def_casa do adv
-        # Defensores/GOL: quão fraco é o ataque do adversário no mando dele?
-        #   (inverte: menor força ofensiva = melhor oportunidade para a defesa)
         if row_adv is not None and mandante is not None:
             if posicao in POSICOES_ATAQUE:
                 rec["oportunidade_confronto"] = round(float(
@@ -895,14 +842,6 @@ def enriquecer_com_confronto(
     for col in results[0].keys():
         df[col] = [r[col] for r in results]
 
-    # ── Score composto do confronto ──────────────────────────
-    # Componentes normalizados para 0-1 antes de combinar com pesos.
-    # oportunidade_confronto : já é percentil 0-1
-    # vantagem_mando         : clip em [-50, +50] e normaliza
-    # time_momentum_of       : ratio clampado em [0.3, 2.0] e normalizado
-    # forma_score_time       : já é 0-1
-    # adv_em_queda           : inverso do momentum ofensivo do adversário
-
     # ── Score composto dinâmico por posição ──────────────────
     oc       = df["oportunidade_confronto"].fillna(0.5)
     vm       = ((df["vantagem_mando"].fillna(0).clip(-50, 50) + 50) / 100)
@@ -911,39 +850,41 @@ def enriquecer_com_confronto(
     adv_norm = ((df["adv_momentum_of"].fillna(1.0).clip(0.3, 2.0) - 0.3) / 1.7)
 
     def calcular_score(row):
-        # Defesa: Foco em não tomar gol (Vantagem de Mando e Queda do Adversário)
-        if row["posicao"] in ["Zagueiro", "Lateral", "Goleiro"]:
+        if row["posicao"] in POSICOES_DEFESA:
             return (0.40 * row["oc"] + 0.30 * row["vm"] + 0.10 * row["tof_norm"] + 0.10 * row["fs"] + 0.10 * (1 - row["adv_norm"]))
-        # Ataque: Foco em Momentum Ofensivo e Oportunidade
         else:
             return (0.35 * row["oc"] + 0.15 * row["vm"] + 0.30 * row["tof_norm"] + 0.15 * row["fs"] + 0.05 * (1 - row["adv_norm"]))
 
-    df_temp = pd.DataFrame({'posicao': df['posicao'], 'oc': oc, 'vm': vm, 'tof_norm': tof_norm, 'fs': fs, 'adv_norm': adv_norm})
+    df_temp = pd.DataFrame({
+        "posicao":  df["posicao"],
+        "oc":       oc, "vm": vm,
+        "tof_norm": tof_norm, "fs": fs, "adv_norm": adv_norm,
+    })
     df["score_confronto"] = df_temp.apply(calcular_score, axis=1).round(4)
 
-    # 1. Isolar apenas quem vai jogar (não usar os nulos na estatística)
-    mask_validos = (df["adversario"] != "—") & (df["adversario"].notna())
+    # Z-score apenas para quem tem adversário definido
+    mask_validos = (
+        df["adversario"].notna() &
+        (df["adversario"] != "—") &
+        (df["adversario"] != "")
+    )
 
-    # 2. Função matemática de Z-Score Seguro
     def z_score_seguro(x):
         std = x.std()
         if pd.isna(std) or std < 1e-6:
-            # Sem variância real dentro do grupo: retorna 0 (mediano para todos)
             return pd.Series(0.0, index=x.index)
-        # Clipa em 3 desvios para evitar outliers extremos
         return ((x - x.mean()) / std).clip(-3.0, 3.0)
 
-    # 3. Calcula o Z-Score apenas na máscara válida e já clipa os excessos (-3 a +3)
     df["score_confronto_z"] = np.nan
     df.loc[mask_validos, "score_confronto_z"] = (
-        df[mask_validos].groupby("posicao")["score_confronto"]
+        df[mask_validos]
+        .groupby("posicao")["score_confronto"]
         .transform(z_score_seguro)
         .round(3)
         .clip(lower=-3.0, upper=3.0)
     )
 
-    # 4. Transformação UX: Z-Score para "Nota Cartola" (0 a 100)
-    # Z=0 (Mediano) vira Nota 50. Z=+3 (Excelente) vira Nota 95. Z=-3 (Fogueira) vira Nota 5.
+    # Nota 0-100: Z=0 → 50, Z=+3 → 95, Z=-3 → 5
     df["score_confronto_100"] = (50 + (df["score_confronto_z"] * 15)).round(1).clip(0, 100)
 
     return df
@@ -967,17 +908,13 @@ for key, (normalizador, nome_arquivo) in EXTRATORES.items():
     print(f"Extraindo {key}...")
     try:
         raw = get_json(key)
-
         with open(DATA_DIR / f"{nome_arquivo}.json", "w", encoding="utf-8") as f:
             json.dump(raw, f, ensure_ascii=False, indent=2)
-
         df = normalizador(raw)
         df.to_csv(DATA_DIR / f"{nome_arquivo}.csv", index=False, encoding="utf-8-sig")
         dados_brutos[key] = df
-
         print(f"  OK — {len(df)} registros")
         log.append({"endpoint": key, "registros": len(df), "status": "OK", "erro": ""})
-
     except Exception as e:
         print(f"  ERRO: {e}")
         log.append({"endpoint": key, "registros": 0, "status": "ERRO", "erro": str(e)})
@@ -1034,8 +971,6 @@ except Exception as e:
     log.append({"endpoint": "partidas_odds", "registros": 0, "status": "ERRO", "erro": str(e)})
 
 # ── Brasileirão (antes do enriquecimento de atletas) ─────────
-# Movido para antes do CSV enriquecido para que momentum e tabela
-# estejam disponíveis no momento do cruzamento com os atletas.
 print("Extraindo tabela do Brasileirão...")
 df_tabela_bra = pd.DataFrame()
 momentum_bra  = {}
@@ -1059,20 +994,15 @@ print("Gerando CSV enriquecido...")
 try:
     df_mercado  = dados_brutos.get("mercado", pd.DataFrame())
     df_partidas = dados_brutos.get("partidas", pd.DataFrame())
-    # ── DIAGNÓSTICO DE MAPEAMENTO ────────────────────────────────
-    if not df_tabela_bra.empty:
-        times_cartola = set(dados_brutos["mercado"]["clube"].dropna().unique())
-        times_fd = set(df_tabela_bra["time"].dropna().unique())
-        
-        sem_match = []
-        for abr in times_cartola:
-            nomes = get_nomes_por_abr(abr)
-            if not any(n in times_fd for n in nomes):
-                sem_match.append(abr)
-        
+
+    if not df_tabela_bra.empty and not df_mercado.empty:
+        times_cartola = set(df_mercado["clube"].dropna().unique())
+        times_fd      = set(df_tabela_bra["time"].dropna().unique())
+        sem_match = [abr for abr in times_cartola if not any(n in times_fd for n in get_nomes_por_abr(abr))]
         if sem_match:
             print(f"  [WARN] Times sem match no football-data: {sem_match}")
             print(f"  Times disponíveis no football-data: {sorted(times_fd)}")
+
     if not df_mercado.empty:
         df_enriquecido = enriquecer(df_mercado, df_partidas)
         df_enriquecido = enriquecer_com_confronto(df_enriquecido, df_tabela_bra, momentum_bra)
@@ -1083,11 +1013,9 @@ try:
         ]
         df_enriquecido.to_csv(DATA_DIR / "atletas_enriquecido.csv", index=False, encoding="utf-8-sig")
 
-        # ── CSV enxuto para escalação ────────────────────────────
         print("Gerando CSV enxuto para escalação...")
         try:
             df_partidas_validas = dados_brutos.get("partidas", pd.DataFrame())
-
             times_validos = set()
             if not df_partidas_validas.empty and "valida" in df_partidas_validas.columns:
                 col_casa = next((c for c in df_partidas_validas.columns if "casa_id"      in c), None)
@@ -1097,29 +1025,19 @@ try:
                 if col_vis:  times_validos.update(validas[col_vis].astype(str).tolist())
 
             cols_enxuto = [
-                # Identificação
                 "nome", "clube", "clube_id", "posicao", "status_id", "status_label",
-                # Preço e médias
-                "preco", "media", "media_bayesiana", "variacao", "jogos",
-                # Qualidade do dado
+                "preco", "min_valorizar", "media", "media_bayesiana", "variacao", "jogos",
+                "pb_media", "resiliencia_pct",
                 "confiabilidade",
-                # Custo-benefício
                 "custo_beneficio", "cb_rank",
-                # Contexto do confronto (Cartola)
                 "mandante", "adversario", "tendencia",
-                # Avaliação de valor
                 "residuo_z", "armadilha_label",
-                # Posição na tabela
                 "time_pos", "adv_pos",
-                # Vantagem estrutural
                 "vantagem_mando", "oportunidade_confronto",
-                # Momentum do time
                 "time_momentum_of", "time_momentum_def",
                 "forma_score_time", "sequencia_time",
-                # Momentum do adversário
                 "adv_momentum_of", "adv_momentum_def",
-                # Score final
-                "score_confronto_100",
+                "score_confronto_z", "score_confronto_100",
             ]
             cols_enxuto = [c for c in cols_enxuto if c in df_enriquecido.columns]
 
@@ -1134,7 +1052,7 @@ try:
                     (df_enriquecido["preco"] > 0) &
                     filtro_times
                 ][cols_enxuto]
-                .sort_values("score_confronto_z", ascending=False)
+                .sort_values("score_confronto_100", ascending=False)
             )
 
             df_enxuto.to_csv(DATA_DIR / "atletas_escalacao.csv", index=False, encoding="utf-8-sig")
