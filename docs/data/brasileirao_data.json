@@ -237,12 +237,12 @@
         "tla": "VIT",
         "crest": "https://crests.football-data.org/1782.png"
       },
-      "playedGames": 8,
+      "playedGames": 9,
       "form": null,
       "won": 3,
-      "draw": 1,
+      "draw": 2,
       "lost": 4,
-      "points": 10,
+      "points": 11,
       "goalsFor": 8,
       "goalsAgainst": 13,
       "goalDifference": -5
@@ -313,12 +313,12 @@
         "tla": "CHA",
         "crest": "https://crests.football-data.org/1772_large.png"
       },
-      "playedGames": 8,
+      "playedGames": 9,
       "form": null,
       "won": 1,
-      "draw": 4,
+      "draw": 5,
       "lost": 3,
-      "points": 7,
+      "points": 8,
       "goalsFor": 9,
       "goalsAgainst": 15,
       "goalDifference": -6
@@ -501,7 +501,7 @@
         "venue": "Estádio Joaquim Américo Guimarães",
         "lastUpdated": "2022-04-06T13:14:06Z"
       },
-      "playedMatches": 9,
+      "playedMatches": 10,
       "goals": 5,
       "assists": 1,
       "penalties": 1
@@ -625,7 +625,7 @@
         "venue": "Estádio Joaquim Américo Guimarães",
         "lastUpdated": "2022-04-06T13:14:06Z"
       },
-      "playedMatches": 9,
+      "playedMatches": 10,
       "goals": 3,
       "assists": null,
       "penalties": null
@@ -1105,8 +1105,8 @@
     },
     "Coritiba FBC": {
       "home": {
-        "gf": 2,
-        "ga": 3,
+        "gf": 3,
+        "ga": 4,
         "w": 1,
         "d": 2,
         "l": 2
@@ -1208,8 +1208,8 @@
         "l": 0
       },
       "away": {
-        "gf": 6,
-        "ga": 6,
+        "gf": 7,
+        "ga": 7,
         "w": 1,
         "d": 2,
         "l": 2
