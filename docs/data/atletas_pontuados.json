@@ -727,13 +727,24 @@
       "clube_id": 263,
       "entrou_em_campo": true
     },
+    "146430": {
+      "scout": {
+        "CA": 1
+      },
+      "apelido": "Justino",
+      "foto": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/clubes_2026/silhuetas/BOT/FORMATO.png",
+      "pontuacao": -1,
+      "posicao_id": 3,
+      "clube_id": 263,
+      "entrou_em_campo": false
+    },
     "147850": {
       "scout": {
         "V": 1
       },
       "apelido": "Rodrigo Bellão",
       "foto": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/clubes_2026/silhuetas/BOT/FORMATO.png",
-      "pontuacao": 7.46,
+      "pontuacao": 7.37,
       "posicao_id": 6,
       "clube_id": 263,
       "entrou_em_campo": true
@@ -781,7 +792,7 @@
       "scout": {},
       "apelido": "Renato Gaúcho",
       "foto": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/clubes_2026/silhuetas/VAS/FORMATO.png",
-      "pontuacao": 4.39,
+      "pontuacao": 4.3,
       "posicao_id": 6,
       "clube_id": 267,
       "entrou_em_campo": true
@@ -1304,13 +1315,14 @@
     "99213": {
       "scout": {
         "A": 1,
+        "CA": 1,
         "DS": 2,
         "FD": 2,
         "FF": 1
       },
       "apelido": "Puma Rodríguez",
       "foto": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/clubes_2026/silhuetas/VAS/FORMATO.png",
-      "pontuacao": 11.2,
+      "pontuacao": 10.2,
       "posicao_id": 2,
       "clube_id": 267,
       "entrou_em_campo": true
@@ -1653,5 +1665,5 @@
     }
   },
   "rodada": 10,
-  "total_atletas": 115
+  "total_atletas": 116
 }
