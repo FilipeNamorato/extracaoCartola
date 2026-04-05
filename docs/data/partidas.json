@@ -288,25 +288,25 @@
         "d",
         "e",
         "v",
-        "e"
+        "d"
       ],
       "aproveitamento_mandante": [
         "v",
         "d",
         "d",
         "e",
-        "e"
+        "v"
       ],
       "transmissao": {
-        "label": "ao vivo",
+        "label": "saiba como foi",
         "url": "https://ge.globo.com/sp/futebol/brasileirao-serie-a/jogo/04-04-2026/sao-paulo-cruzeiro.ghtml?utm_source=cartolafc"
       },
       "local": "Morumbis",
-      "status_transmissao_tr": "EM_ANDAMENTO",
-      "status_cronometro_tr": "INICIADO",
-      "periodo_tr": "SEGUNDO_TEMPO",
+      "status_transmissao_tr": "ENCERRADA",
+      "status_cronometro_tr": "PAUSADO",
+      "periodo_tr": "POS_JOGO",
       "partida_data": "2026-04-04 18:30:00",
-      "inicio_cronometro_tr": "2026-04-04T22:40:56.282Z",
+      "inicio_cronometro_tr": "2026-04-04T23:45:23.274Z",
       "placar_oficial_visitante": 1,
       "placar_oficial_mandante": 4,
       "partida_id": 346607,
@@ -334,21 +334,21 @@
         "e"
       ],
       "transmissao": {
-        "label": "ao vivo",
+        "label": "saiba como foi",
         "url": "https://ge.globo.com/pr/futebol/brasileirao-serie-a/jogo/04-04-2026/coritiba-fluminense.ghtml?utm_source=cartolafc"
       },
       "local": "Couto Pereira",
-      "status_transmissao_tr": "EM_ANDAMENTO",
-      "status_cronometro_tr": "INICIADO",
-      "periodo_tr": "PRIMEIRO_TEMPO",
+      "status_transmissao_tr": "ENCERRADA",
+      "status_cronometro_tr": "PAUSADO",
+      "periodo_tr": "POS_JOGO",
       "partida_data": "2026-04-04 20:30:00",
-      "inicio_cronometro_tr": "2026-04-04T23:31:15.721Z",
-      "placar_oficial_visitante": null,
-      "placar_oficial_mandante": null,
+      "inicio_cronometro_tr": "2026-04-05T01:34:29.146Z",
+      "placar_oficial_visitante": 1,
+      "placar_oficial_mandante": 1,
       "partida_id": 346612,
       "clube_visitante_posicao": 3,
       "clube_visitante_id": 266,
-      "clube_casa_posicao": 7,
+      "clube_casa_posicao": 6,
       "clube_casa_id": 294,
       "timestamp": 1775345400,
       "campeonato_id": 26,
@@ -360,31 +360,31 @@
         "v",
         "d",
         "v",
-        "e"
+        "v"
       ],
       "aproveitamento_mandante": [
         "e",
         "v",
         "v",
         "e",
-        "e"
+        "d"
       ],
       "transmissao": {
-        "label": "ao vivo",
+        "label": "saiba como foi",
         "url": "https://ge.globo.com/futebol/brasileirao-serie-a/jogo/04-04-2026/vasco-botafogo.ghtml?utm_source=cartolafc"
       },
       "local": "São Januário",
-      "status_transmissao_tr": "EM_ANDAMENTO",
+      "status_transmissao_tr": "ENCERRADA",
       "status_cronometro_tr": "PAUSADO",
-      "periodo_tr": "PRE_JOGO",
+      "periodo_tr": "POS_JOGO",
       "partida_data": "2026-04-04 21:00:00",
-      "inicio_cronometro_tr": "2026-04-04T22:53:24.613Z",
-      "placar_oficial_visitante": null,
-      "placar_oficial_mandante": null,
+      "inicio_cronometro_tr": "2026-04-05T02:10:10.454Z",
+      "placar_oficial_visitante": 2,
+      "placar_oficial_mandante": 1,
       "partida_id": 346606,
-      "clube_visitante_posicao": 15,
+      "clube_visitante_posicao": 8,
       "clube_visitante_id": 263,
-      "clube_casa_posicao": 8,
+      "clube_casa_posicao": 9,
       "clube_casa_id": 267,
       "timestamp": 1775347200,
       "campeonato_id": 26,
@@ -392,18 +392,18 @@
     },
     {
       "aproveitamento_visitante": [
-        "e",
         "v",
         "d",
         "v",
-        "d"
+        "d",
+        "e"
       ],
       "aproveitamento_mandante": [
-        "d",
         "e",
         "e",
         "d",
-        "d"
+        "d",
+        "e"
       ],
       "transmissao": {
         "label": "fique por dentro",
@@ -418,7 +418,7 @@
       "placar_oficial_visitante": null,
       "placar_oficial_mandante": null,
       "partida_id": 346614,
-      "clube_visitante_posicao": 12,
+      "clube_visitante_posicao": 13,
       "clube_visitante_id": 287,
       "clube_casa_posicao": 17,
       "clube_casa_id": 315,
@@ -429,17 +429,17 @@
     {
       "aproveitamento_visitante": [
         "e",
-        "e",
         "d",
         "e",
-        "v"
+        "v",
+        "e"
       ],
       "aproveitamento_mandante": [
         "v",
         "v",
-        "v",
         "e",
-        "d"
+        "d",
+        "e"
       ],
       "transmissao": {
         "label": "fique por dentro",
@@ -454,9 +454,9 @@
       "placar_oficial_visitante": null,
       "placar_oficial_mandante": null,
       "partida_id": 346605,
-      "clube_visitante_posicao": 13,
+      "clube_visitante_posicao": 14,
       "clube_visitante_id": 277,
-      "clube_casa_posicao": 6,
+      "clube_casa_posicao": 7,
       "clube_casa_id": 262,
       "timestamp": 1775421000,
       "campeonato_id": 26,
@@ -464,18 +464,18 @@
     },
     {
       "aproveitamento_visitante": [
+        "v",
+        "v",
+        "v",
         "d",
-        "v",
-        "v",
-        "v",
-        "d"
+        "e"
       ],
       "aproveitamento_mandante": [
-        "v",
         "d",
         "v",
         "d",
-        "v"
+        "v",
+        "e"
       ],
       "transmissao": {
         "label": "fique por dentro",
@@ -492,7 +492,7 @@
       "partida_id": 346610,
       "clube_visitante_posicao": 5,
       "clube_visitante_id": 293,
-      "clube_casa_posicao": 9,
+      "clube_casa_posicao": 10,
       "clube_casa_id": 282,
       "timestamp": 1775421000,
       "campeonato_id": 26,
@@ -501,17 +501,17 @@
     {
       "aproveitamento_visitante": [
         "d",
-        "d",
         "v",
         "v",
+        "e",
         "e"
       ],
       "aproveitamento_mandante": [
+        "e",
+        "e",
+        "e",
         "d",
-        "e",
-        "e",
-        "e",
-        "d"
+        "e"
       ],
       "transmissao": {
         "label": "fique por dentro",
@@ -528,7 +528,7 @@
       "partida_id": 346608,
       "clube_visitante_posicao": 16,
       "clube_visitante_id": 285,
-      "clube_casa_posicao": 14,
+      "clube_casa_posicao": 15,
       "clube_casa_id": 264,
       "timestamp": 1775428200,
       "campeonato_id": 26,
@@ -536,18 +536,18 @@
     },
     {
       "aproveitamento_visitante": [
-        "d",
         "v",
         "v",
         "v",
-        "v"
+        "v",
+        "e"
       ],
       "aproveitamento_mandante": [
-        "e",
         "v",
         "v",
         "d",
-        "v"
+        "v",
+        "e"
       ],
       "transmissao": {
         "label": "fique por dentro",
@@ -572,18 +572,18 @@
     },
     {
       "aproveitamento_visitante": [
-        "e",
         "d",
         "d",
         "d",
-        "v"
+        "v",
+        "e"
       ],
       "aproveitamento_mandante": [
-        "e",
         "d",
         "d",
         "d",
-        "d"
+        "d",
+        "e"
       ],
       "transmissao": {
         "label": "fique por dentro",
@@ -598,7 +598,7 @@
       "placar_oficial_visitante": null,
       "placar_oficial_mandante": null,
       "partida_id": 346609,
-      "clube_visitante_posicao": 11,
+      "clube_visitante_posicao": 12,
       "clube_visitante_id": 280,
       "clube_casa_posicao": 19,
       "clube_casa_id": 2305,
@@ -610,16 +610,16 @@
       "aproveitamento_visitante": [
         "d",
         "d",
-        "d",
         "v",
-        "d"
+        "d",
+        "e"
       ],
       "aproveitamento_mandante": [
         "e",
-        "e",
         "v",
         "d",
-        "d"
+        "d",
+        "e"
       ],
       "transmissao": {
         "label": "fique por dentro",
@@ -636,7 +636,7 @@
       "partida_id": 346611,
       "clube_visitante_posicao": 20,
       "clube_visitante_id": 364,
-      "clube_casa_posicao": 10,
+      "clube_casa_posicao": 11,
       "clube_casa_id": 284,
       "timestamp": 1775431800,
       "campeonato_id": 26,

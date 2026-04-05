@@ -53,8 +53,8 @@
       "draw": 2,
       "lost": 2,
       "points": 20,
-      "goalsFor": 16,
-      "goalsAgainst": 10,
+      "goalsFor": 17,
+      "goalsAgainst": 11,
       "goalDifference": 6
     },
     {
@@ -110,8 +110,8 @@
       "draw": 3,
       "lost": 3,
       "points": 15,
-      "goalsFor": 10,
-      "goalsAgainst": 9,
+      "goalsFor": 11,
+      "goalsAgainst": 10,
       "goalDifference": 1
     },
     {
@@ -136,24 +136,43 @@
     {
       "position": 8,
       "team": {
+        "id": 1770,
+        "name": "Botafogo FR",
+        "shortName": "Botafogo",
+        "tla": "BOT",
+        "crest": "https://crests.football-data.org/1770.png"
+      },
+      "playedGames": 9,
+      "form": null,
+      "won": 4,
+      "draw": 0,
+      "lost": 5,
+      "points": 12,
+      "goalsFor": 16,
+      "goalsAgainst": 19,
+      "goalDifference": -3
+    },
+    {
+      "position": 9,
+      "team": {
         "id": 1780,
         "name": "CR Vasco da Gama",
         "shortName": "Vasco da Gama",
         "tla": "VAS",
         "crest": "https://crests.football-data.org/1780.png"
       },
-      "playedGames": 9,
+      "playedGames": 10,
       "form": null,
       "won": 3,
       "draw": 3,
-      "lost": 3,
+      "lost": 4,
       "points": 12,
-      "goalsFor": 14,
-      "goalsAgainst": 14,
-      "goalDifference": 0
+      "goalsFor": 15,
+      "goalsAgainst": 16,
+      "goalDifference": -1
     },
     {
-      "position": 9,
+      "position": 10,
       "team": {
         "id": 1766,
         "name": "CA Mineiro",
@@ -172,7 +191,7 @@
       "goalDifference": 1
     },
     {
-      "position": 10,
+      "position": 11,
       "team": {
         "id": 1767,
         "name": "Grêmio FBPA",
@@ -191,7 +210,7 @@
       "goalDifference": 0
     },
     {
-      "position": 11,
+      "position": 12,
       "team": {
         "id": 4286,
         "name": "RB Bragantino",
@@ -210,7 +229,7 @@
       "goalDifference": -1
     },
     {
-      "position": 12,
+      "position": 13,
       "team": {
         "id": 1782,
         "name": "EC Vitória",
@@ -229,7 +248,7 @@
       "goalDifference": -5
     },
     {
-      "position": 13,
+      "position": 14,
       "team": {
         "id": 6685,
         "name": "Santos FC",
@@ -248,7 +267,7 @@
       "goalDifference": -1
     },
     {
-      "position": 14,
+      "position": 15,
       "team": {
         "id": 1779,
         "name": "SC Corinthians Paulista",
@@ -265,25 +284,6 @@
       "goalsFor": 8,
       "goalsAgainst": 10,
       "goalDifference": -2
-    },
-    {
-      "position": 15,
-      "team": {
-        "id": 1770,
-        "name": "Botafogo FR",
-        "shortName": "Botafogo",
-        "tla": "BOT",
-        "crest": "https://crests.football-data.org/1770.png"
-      },
-      "playedGames": 8,
-      "form": null,
-      "won": 3,
-      "draw": 0,
-      "lost": 5,
-      "points": 9,
-      "goalsFor": 14,
-      "goalsAgainst": 18,
-      "goalDifference": -4
     },
     {
       "position": 16,
@@ -508,6 +508,37 @@
     },
     {
       "player": {
+        "id": 157533,
+        "name": "John Kennedy",
+        "firstName": "",
+        "lastName": "John Kennedy",
+        "dateOfBirth": "2002-05-18",
+        "nationality": "Brazil",
+        "section": "Centre-Forward",
+        "position": null,
+        "shirtNumber": null,
+        "lastUpdated": "2025-02-08T15:38:40Z"
+      },
+      "team": {
+        "id": 1765,
+        "name": "Fluminense FC",
+        "shortName": "Fluminense",
+        "tla": "FLU",
+        "crest": "https://crests.football-data.org/1765.png",
+        "address": "Rua Álvaro Chaves 41, Bairro Laranjeiras Rio de Janeiro, RJ 22231-220",
+        "website": "http://www.fluminense.com.br",
+        "founded": 1902,
+        "clubColors": "Maroon / Green / White",
+        "venue": "Estadio Jornalista Mário Filho",
+        "lastUpdated": "2024-07-29T17:24:37Z"
+      },
+      "playedMatches": 10,
+      "goals": 4,
+      "assists": null,
+      "penalties": null
+    },
+    {
+      "player": {
         "id": 170698,
         "name": "José Manuel López",
         "firstName": "José Manuel",
@@ -725,37 +756,6 @@
     },
     {
       "player": {
-        "id": 157533,
-        "name": "John Kennedy",
-        "firstName": "",
-        "lastName": "John Kennedy",
-        "dateOfBirth": "2002-05-18",
-        "nationality": "Brazil",
-        "section": "Centre-Forward",
-        "position": null,
-        "shirtNumber": null,
-        "lastUpdated": "2025-02-08T15:38:40Z"
-      },
-      "team": {
-        "id": 1765,
-        "name": "Fluminense FC",
-        "shortName": "Fluminense",
-        "tla": "FLU",
-        "crest": "https://crests.football-data.org/1765.png",
-        "address": "Rua Álvaro Chaves 41, Bairro Laranjeiras Rio de Janeiro, RJ 22231-220",
-        "website": "http://www.fluminense.com.br",
-        "founded": 1902,
-        "clubColors": "Maroon / Green / White",
-        "venue": "Estadio Jornalista Mário Filho",
-        "lastUpdated": "2024-07-29T17:24:37Z"
-      },
-      "playedMatches": 10,
-      "goals": 3,
-      "assists": null,
-      "penalties": null
-    },
-    {
-      "player": {
         "id": 169022,
         "name": "Breno Lopes",
         "firstName": "",
@@ -880,6 +880,7 @@
       "W",
       "W",
       "L",
+      "D",
       "D"
     ],
     "RB Bragantino": [
@@ -945,7 +946,8 @@
       "W",
       "L",
       "W",
-      "W"
+      "W",
+      "D"
     ],
     "Grêmio FBPA": [
       "L",
@@ -1009,7 +1011,8 @@
       "W",
       "L",
       "L",
-      "D"
+      "D",
+      "W"
     ],
     "CR Flamengo": [
       "L",
@@ -1040,7 +1043,8 @@
       "D",
       "W",
       "W",
-      "D"
+      "D",
+      "L"
     ],
     "Botafogo FR": [
       "W",
@@ -1050,6 +1054,7 @@
       "L",
       "W",
       "L",
+      "W",
       "W"
     ],
     "Cruzeiro EC": [
@@ -1061,7 +1066,8 @@
       "D",
       "L",
       "D",
-      "W"
+      "W",
+      "L"
     ]
   },
   "team_stats": {
@@ -1099,10 +1105,10 @@
     },
     "Coritiba FBC": {
       "home": {
-        "gf": 2,
-        "ga": 3,
+        "gf": 3,
+        "ga": 4,
         "w": 1,
-        "d": 1,
+        "d": 2,
         "l": 2
       },
       "away": {
@@ -1202,10 +1208,10 @@
         "l": 0
       },
       "away": {
-        "gf": 6,
-        "ga": 6,
+        "gf": 7,
+        "ga": 7,
         "w": 1,
-        "d": 1,
+        "d": 2,
         "l": 2
       }
     },
@@ -1291,9 +1297,9 @@
     },
     "São Paulo FC": {
       "home": {
-        "gf": 6,
-        "ga": 2,
-        "w": 3,
+        "gf": 10,
+        "ga": 3,
+        "w": 4,
         "d": 0,
         "l": 1
       },
@@ -1339,11 +1345,11 @@
     },
     "CR Vasco da Gama": {
       "home": {
-        "gf": 8,
-        "ga": 6,
+        "gf": 9,
+        "ga": 8,
         "w": 3,
         "d": 1,
-        "l": 1
+        "l": 2
       },
       "away": {
         "gf": 6,
@@ -1362,9 +1368,9 @@
         "l": 1
       },
       "away": {
-        "gf": 7,
-        "ga": 13,
-        "w": 1,
+        "gf": 9,
+        "ga": 14,
+        "w": 2,
         "d": 0,
         "l": 4
       }
@@ -1378,11 +1384,11 @@
         "l": 1
       },
       "away": {
-        "gf": 3,
-        "ga": 10,
+        "gf": 4,
+        "ga": 14,
         "w": 0,
         "d": 1,
-        "l": 3
+        "l": 4
       }
     }
   }
