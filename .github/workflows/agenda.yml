@@ -32,7 +32,7 @@ jobs:
           GOOGLE_SERVICE_ACCOUNT_JSON: ${{ secrets.GOOGLE_SERVICE_ACCOUNT_JSON }}
           GOOGLE_CALENDAR_ID: ${{ secrets.GOOGLE_CALENDAR_ID }}
           HORAS_ANTES_LEMBRETE: "3"
-          MERCADO_STATUS_CSV: "docs/data/mercado_status.csv"
+          MERCADO_STATUS_CSV: "docs/data/current/status.csv"
         run: python agendaFechamentomercado.py
 
       - name: Debug secret
