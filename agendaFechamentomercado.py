@@ -122,7 +122,7 @@ def timestamp_mudou(eventos_existentes: list, dt_fechamento: datetime.datetime) 
 
 
 def main():
-    caminho_csv = os.environ.get("MERCADO_STATUS_CSV", "docs/data/mercado_status.csv")
+    caminho_csv = os.environ.get("MERCADO_STATUS_CSV", "docs/data/current/status.csv")
 
     print(f"Lendo mercado status de: {caminho_csv}")
     row = carregar_dados_mercado(caminho_csv)
