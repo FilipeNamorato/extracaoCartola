@@ -636,12 +636,16 @@ def enriquecer(df_mercado: pd.DataFrame, df_partidas: pd.DataFrame) -> pd.DataFr
                 mapa_abr[int(row["clube_id"])] = row["clube"]
         for _, p in df_partidas.iterrows():
             try:
-                id_casa  = int(p[col_casa]) if col_casa else None
-                id_vis   = int(p[col_vis])  if col_vis  else None
-                abr_casa = mapa_abr.get(id_casa, str(id_casa))
-                abr_vis  = mapa_abr.get(id_vis,  str(id_vis))
-                if id_casa: mapa_confronto[id_casa] = {"mandante": True,  "adversario": abr_vis}
-                if id_vis:  mapa_confronto[id_vis]  = {"mandante": False, "adversario": abr_casa}
+                id_casa   = int(p[col_casa]) if col_casa else None
+                id_vis    = int(p[col_vis])  if col_vis  else None
+                abr_casa  = mapa_abr.get(id_casa, str(id_casa))
+                abr_vis   = mapa_abr.get(id_vis,  str(id_vis))
+                prob_casa = float(p.get("prob_casa") or 0)
+                prob_vis  = float(p.get("prob_vis")  or 0)
+                if id_casa: mapa_confronto[id_casa] = {
+                    "mandante": True,  "adversario": abr_vis,  "prob_vitoria": prob_casa}
+                if id_vis:  mapa_confronto[id_vis]  = {
+                    "mandante": False, "adversario": abr_casa, "prob_vitoria": prob_vis}
             except Exception:
                 continue
 
@@ -649,8 +653,9 @@ def enriquecer(df_mercado: pd.DataFrame, df_partidas: pd.DataFrame) -> pd.DataFr
         try:    return mapa_confronto.get(int(clube_id), {}).get(campo, default)
         except: return default
 
-    df["mandante"]  = df["clube_id"].apply(lambda x: get_confronto(x, "mandante",  None))
-    df["adversario"] = df["clube_id"].apply(lambda x: get_confronto(x, "adversario", "—"))
+    df["mandante"]    = df["clube_id"].apply(lambda x: get_confronto(x, "mandante",     None))
+    df["adversario"]  = df["clube_id"].apply(lambda x: get_confronto(x, "adversario",   "—"))
+    df["prob_vitoria"] = df["clube_id"].apply(lambda x: get_confronto(x, "prob_vitoria", 0.0))
 
     # ── Tendência ────────────────────────────────────────────
     def calcular_tendencia(v):
