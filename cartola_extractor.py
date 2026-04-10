@@ -907,7 +907,7 @@ def enriquecer_com_confronto(df, df_tabela, momentum) -> pd.DataFrame:
         return round(1.0 + excesso * sens, 4)
 
     prob_series = pd.to_numeric(
-        df["prob_vitoria"] if "prob_vitoria" in df.columns else 0,
+        df["prob_vitoria"] if "prob_vitoria" in df.columns else pd.Series(0.0, index=df.index),
         errors="coerce"
     ).fillna(0)
 
