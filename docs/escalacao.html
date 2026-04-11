@@ -294,14 +294,14 @@ footer {
         <option value="5-3-2">5-3-2</option>
         <option value="5-4-1">5-4-1</option>
       </select>
-    </div>
-  <div class="ctrl-group">
+      </div>
+    <div class="ctrl-group">
       <div class="ctrl-label">Patrimônio atual (C$)</div>
       <input type="number" class="ctrl-select" id="inp-patrimonio"
-             value="112" min="50" max="200" step="1" style="width:90px">
+             value="120" min="50" max="200" step="1" style="width:90px">
     </div>
     <div class="ctrl-group">
-      <div class="ctrl-label">Risco — orçamento: <span id="orc-calc">112</span> C$</div>
+      <div class="ctrl-label">Risco — orçamento: <span id="orc-calc">120</span> C$</div>
       <input type="range" id="inp-risco" min="50" max="100" value="100" step="5"
              style="width:160px;accent-color:var(--green);cursor:pointer">
     </div>
@@ -378,7 +378,7 @@ function calcOrcamento() {
   const pat   = parseFloat(document.getElementById('inp-patrimonio').value) || 112;
   const risco = parseFloat(document.getElementById('inp-risco').value) || 100;
   // Orçamento = mín(patrimônio × risco%, 112) — nunca passa do teto do Cartola
-  const orc = Math.min(pat * risco / 100, 112);
+  const orc = Math.min(pat * risco / 100, 130);
   document.getElementById('orc-calc').textContent = orc.toFixed(0);
   return parseFloat(orc.toFixed(0));
 }

@@ -36,6 +36,9 @@ COLUNAS GERADAS em atletas.csv (current):
     forma_score_time    → pontuação de forma ponderada 0-1
     score_confronto_z   → score composto do confronto, normalizado por posição
     score_confronto_100 → score_confronto_z convertido para escala 0-100
+    condicao_mando      → 'favoravel' | 'neutro' | 'desfavoravel' baseado em vantagem_mando + score_confronto + residuo_z
+                          (proxy enquanto histórico individual acumula; substituir por delta_mando_jogador quando disponível)
+    pontos_esperados    → media_bayesiana × (score_confronto_100/50) × confiabilidade — retorno absoluto esperado na rodada
 """
 
 import json
@@ -201,6 +204,7 @@ COLUNAS_LLM = [
     "custo_beneficio", "cb_rank",
     "oportunidade_confronto", "vantagem_mando",
     "score_confronto_z", "score_confronto_100",
+    "condicao_mando", "pontos_esperados",
     "time_momentum_of", "time_momentum_def",
     "adv_momentum_of", "adv_momentum_def",
     "sequencia_time", "forma_score_time",
@@ -954,6 +958,38 @@ def enriquecer_com_confronto(df, df_tabela, momentum) -> pd.DataFrame:
 
     df["score_confronto_100"] = (50 + (df["score_confronto_z"] * 15)).round(1).clip(0, 100)
 
+    # ── Condição de Mando ─────────────────────────────────────
+    # Proxy enquanto o histórico individual (media_casa / media_fora por jogador)
+    # acumula rodadas suficientes. Quando disponível, substituir vantagem_mando > 5
+    # pelo delta_mando_jogador > 1.5 calculado do histórico.
+    #
+    # Critérios atuais (todos devem ser satisfeitos para 'favoravel'):
+    #   - mandante == True (joga em casa nessa rodada)
+    #   - vantagem_mando > 5 (o time performa bem em casa vs. adversário fora)
+    #   - score_confronto_100 > 60 (confronto favorável nessa rodada)
+    #   - residuo_z > 0 (jogador entrega acima do esperado pelo preço)
+    def _condicao_mando(row):
+        vm  = row["vantagem_mando"]  if pd.notna(row["vantagem_mando"])  else 0.0
+        sc  = row["score_confronto_100"] if pd.notna(row["score_confronto_100"]) else 50.0
+        rz  = row["residuo_z"]       if pd.notna(row["residuo_z"])       else 0.0
+        m   = row["mandante"]        if pd.notna(row["mandante"])        else False
+        if m and vm > 5 and sc > 60 and rz > 0:
+            return "favoravel"
+        if (not m) and vm < -5 and sc < 40:
+            return "desfavoravel"
+        return "neutro"
+
+    df["condicao_mando"] = df.apply(_condicao_mando, axis=1)
+
+    # ── Pontos Esperados ─────────────────────────────────────
+    # Retorno absoluto esperado na rodada — não eficiência, mas volume de pontos.
+    # confronto=100 → ×2.0 (amplifica), confronto=50 → ×1.0 (neutro), confronto=0 → ×0.0
+    df["pontos_esperados"] = (
+        df["media_bayesiana"]
+        * (df["score_confronto_100"].fillna(50) / 50)
+        * df["confiabilidade"]
+    ).round(2)
+
     return df
 
 # ─────────────────────────────────────────────────────────────
@@ -970,6 +1006,7 @@ COLUNAS_SNAPSHOT = [
     "residuo_z", "armadilha_label",
     "media_bayesiana", "pb_media", "confiabilidade",
     "score_confronto_100",
+    "condicao_mando", "pontos_esperados",  # ← base para split real de mando no futuro
 ]
 
 def _pasta_rodada(rodada: int) -> Path:
