@@ -249,7 +249,7 @@
       "scout": {},
       "apelido": "Rafael Guanaes",
       "foto": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/clubes_2026/silhuetas/MIR/FORMATO.png",
-      "pontuacao": 2.36,
+      "pontuacao": 2.18,
       "posicao_id": 6,
       "clube_id": 2305,
       "entrou_em_campo": true
@@ -1855,11 +1855,12 @@
     },
     "94514": {
       "scout": {
+        "CA": 1,
         "DS": 1
       },
       "apelido": "Lucas Oliveira",
       "foto": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/clubes_2026/silhuetas/MIR/FORMATO.png",
-      "pontuacao": 1.5,
+      "pontuacao": 0.5,
       "posicao_id": 3,
       "clube_id": 2305,
       "entrou_em_campo": true
@@ -2028,6 +2029,7 @@
     },
     "98384": {
       "scout": {
+        "CA": 1,
         "DS": 1,
         "FC": 2,
         "FD": 1,
@@ -2036,7 +2038,7 @@
       },
       "apelido": "Negueba",
       "foto": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/clubes_2026/silhuetas/MIR/FORMATO.png",
-      "pontuacao": 5.4,
+      "pontuacao": 4.4,
       "posicao_id": 5,
       "clube_id": 2305,
       "entrou_em_campo": true

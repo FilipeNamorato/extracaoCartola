@@ -514,15 +514,15 @@
         "e"
       ],
       "transmissao": {
-        "label": "fique por dentro",
+        "label": "ao vivo",
         "url": "https://ge.globo.com/pr/futebol/brasileirao-serie-a/jogo/12-04-2026/atletico-pr-chapecoense.ghtml?utm_source=cartolafc"
       },
       "local": "Arena da Baixada",
-      "status_transmissao_tr": "CRIADA",
+      "status_transmissao_tr": "EM_ANDAMENTO",
       "status_cronometro_tr": "PAUSADO",
-      "periodo_tr": "",
+      "periodo_tr": "PRE_JOGO",
       "partida_data": "2026-04-12 11:00:00",
-      "inicio_cronometro_tr": "",
+      "inicio_cronometro_tr": "2026-04-12T13:02:38.556Z",
       "placar_oficial_visitante": null,
       "placar_oficial_mandante": null,
       "partida_id": 346328,
