@@ -1,0 +1,10 @@
+{
+  "status": "insuficiente",
+  "n_rodadas": 1,
+  "n_registros": 24,
+  "motivo": "precisa ≥3 rodadas e ≥200 registros",
+  "atualizado_em": "2026-04-16 22:23 BRT",
+  "metricas": {
+    "mae_heuristica": 1.902
+  }
+}
