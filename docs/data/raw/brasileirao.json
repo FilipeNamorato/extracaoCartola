@@ -11,16 +11,35 @@
       },
       "playedGames": 12,
       "form": null,
-      "won": 8,
-      "draw": 3,
+      "won": 9,
+      "draw": 2,
       "lost": 1,
-      "points": 27,
-      "goalsFor": 21,
+      "points": 29,
+      "goalsFor": 22,
       "goalsAgainst": 10,
-      "goalDifference": 11
+      "goalDifference": 12
     },
     {
       "position": 2,
+      "team": {
+        "id": 1783,
+        "name": "CR Flamengo",
+        "shortName": "Flamengo",
+        "tla": "FLA",
+        "crest": "https://crests.football-data.org/1783.png"
+      },
+      "playedGames": 11,
+      "form": null,
+      "won": 7,
+      "draw": 2,
+      "lost": 2,
+      "points": 23,
+      "goalsFor": 19,
+      "goalsAgainst": 10,
+      "goalDifference": 9
+    },
+    {
+      "position": 3,
       "team": {
         "id": 1765,
         "name": "Fluminense FC",
@@ -37,25 +56,6 @@
       "goalsFor": 21,
       "goalsAgainst": 15,
       "goalDifference": 6
-    },
-    {
-      "position": 3,
-      "team": {
-        "id": 1783,
-        "name": "CR Flamengo",
-        "shortName": "Flamengo",
-        "tla": "FLA",
-        "crest": "https://crests.football-data.org/1783.png"
-      },
-      "playedGames": 10,
-      "form": null,
-      "won": 6,
-      "draw": 2,
-      "lost": 2,
-      "points": 20,
-      "goalsFor": 18,
-      "goalsAgainst": 10,
-      "goalDifference": 8
     },
     {
       "position": 4,
@@ -85,15 +85,15 @@
         "tla": "BAH",
         "crest": "https://crests.football-data.org/1777.png"
       },
-      "playedGames": 10,
+      "playedGames": 11,
       "form": null,
       "won": 6,
       "draw": 2,
-      "lost": 2,
+      "lost": 3,
       "points": 20,
       "goalsFor": 15,
-      "goalsAgainst": 10,
-      "goalDifference": 5
+      "goalsAgainst": 11,
+      "goalDifference": 4
     },
     {
       "position": 6,
@@ -107,12 +107,12 @@
       "playedGames": 12,
       "form": null,
       "won": 6,
-      "draw": 2,
-      "lost": 4,
-      "points": 20,
+      "draw": 1,
+      "lost": 5,
+      "points": 19,
       "goalsFor": 17,
-      "goalsAgainst": 13,
-      "goalDifference": 4
+      "goalsAgainst": 14,
+      "goalDifference": 3
     },
     {
       "position": 7,
@@ -136,6 +136,25 @@
     {
       "position": 8,
       "team": {
+        "id": 4286,
+        "name": "RB Bragantino",
+        "shortName": "Bragantino",
+        "tla": "RBB",
+        "crest": "https://crests.football-data.org/4286.png"
+      },
+      "playedGames": 12,
+      "form": null,
+      "won": 5,
+      "draw": 2,
+      "lost": 5,
+      "points": 17,
+      "goalsFor": 15,
+      "goalsAgainst": 14,
+      "goalDifference": 1
+    },
+    {
+      "position": 9,
+      "team": {
         "id": 1770,
         "name": "Botafogo FR",
         "shortName": "Botafogo",
@@ -153,7 +172,7 @@
       "goalDifference": 0
     },
     {
-      "position": 9,
+      "position": 10,
       "team": {
         "id": 1780,
         "name": "CR Vasco da Gama",
@@ -170,25 +189,6 @@
       "goalsFor": 18,
       "goalsAgainst": 18,
       "goalDifference": 0
-    },
-    {
-      "position": 10,
-      "team": {
-        "id": 4286,
-        "name": "RB Bragantino",
-        "shortName": "Bragantino",
-        "tla": "RBB",
-        "crest": "https://crests.football-data.org/4286.png"
-      },
-      "playedGames": 12,
-      "form": null,
-      "won": 4,
-      "draw": 3,
-      "lost": 5,
-      "points": 15,
-      "goalsFor": 11,
-      "goalsAgainst": 12,
-      "goalDifference": -1
     },
     {
       "position": 11,
@@ -354,12 +354,12 @@
       "playedGames": 12,
       "form": null,
       "won": 1,
-      "draw": 6,
-      "lost": 5,
-      "points": 9,
-      "goalsFor": 11,
-      "goalsAgainst": 18,
-      "goalDifference": -7
+      "draw": 5,
+      "lost": 6,
+      "points": 8,
+      "goalsFor": 13,
+      "goalsAgainst": 22,
+      "goalDifference": -9
     },
     {
       "position": 20,
@@ -596,7 +596,7 @@
       },
       "playedMatches": 11,
       "goals": 5,
-      "assists": 2,
+      "assists": 3,
       "penalties": null
     },
     {
@@ -626,6 +626,37 @@
         "lastUpdated": "2022-04-10T11:03:46Z"
       },
       "playedMatches": 12,
+      "goals": 5,
+      "assists": 1,
+      "penalties": null
+    },
+    {
+      "player": {
+        "id": 114353,
+        "name": "Isidro Pitta",
+        "firstName": "Isidro",
+        "lastName": "Pitta",
+        "dateOfBirth": "1999-08-14",
+        "nationality": "Paraguay",
+        "section": "Midfield",
+        "position": null,
+        "shirtNumber": null,
+        "lastUpdated": "2023-07-30T23:15:50Z"
+      },
+      "team": {
+        "id": 4286,
+        "name": "RB Bragantino",
+        "shortName": "Bragantino",
+        "tla": "RBB",
+        "crest": "https://crests.football-data.org/4286.png",
+        "address": "Rua Emílio Colela S/N, Jd. Nova Bragança Bragança Paulista, SP 12914-410",
+        "website": "http://www.bragantino.net",
+        "founded": 1928,
+        "clubColors": "White / Black",
+        "venue": "Estádio Nabi Abi Chedid",
+        "lastUpdated": "2023-02-18T08:43:26Z"
+      },
+      "playedMatches": 11,
       "goals": 5,
       "assists": 1,
       "penalties": null
@@ -815,37 +846,6 @@
       "goals": 3,
       "assists": 3,
       "penalties": null
-    },
-    {
-      "player": {
-        "id": 178854,
-        "name": "Victor Hugo Gomes",
-        "firstName": "",
-        "lastName": "Victor Hugo",
-        "dateOfBirth": "2004-05-11",
-        "nationality": "Brazil",
-        "section": "Midfield",
-        "position": null,
-        "shirtNumber": null,
-        "lastUpdated": "2023-07-30T23:15:48Z"
-      },
-      "team": {
-        "id": 1766,
-        "name": "CA Mineiro",
-        "shortName": "Mineiro",
-        "tla": "CAM",
-        "crest": "https://crests.football-data.org/1766.png",
-        "address": "Av. Olegário Maciel 1516, Lourdes Belo Horizonte, MG 30180-111",
-        "website": "http://www.atletico.com.br",
-        "founded": 1908,
-        "clubColors": "Black / White",
-        "venue": "Estádio Raimundo Sampaio",
-        "lastUpdated": "2022-12-28T10:32:33Z"
-      },
-      "playedMatches": 12,
-      "goals": 3,
-      "assists": 1,
-      "penalties": null
     }
   ],
   "historico_times": {
@@ -874,7 +874,8 @@
       "W",
       "W",
       "W",
-      "D"
+      "D",
+      "W"
     ],
     "Coritiba FBC": [
       "L",
@@ -901,7 +902,8 @@
       "L",
       "W",
       "W",
-      "L"
+      "L",
+      "W"
     ],
     "SC Internacional": [
       "L",
@@ -928,7 +930,8 @@
       "W",
       "L",
       "L",
-      "W"
+      "W",
+      "L"
     ],
     "EC Vitória": [
       "W",
@@ -953,7 +956,8 @@
       "W",
       "L",
       "D",
-      "D"
+      "D",
+      "L"
     ],
     "Fluminense FC": [
       "W",
@@ -1135,9 +1139,9 @@
     },
     "SE Palmeiras": {
       "home": {
-        "gf": 12,
+        "gf": 13,
         "ga": 4,
-        "w": 5,
+        "w": 6,
         "d": 0,
         "l": 0
       },
@@ -1167,9 +1171,9 @@
     },
     "RB Bragantino": {
       "home": {
-        "gf": 7,
-        "ga": 5,
-        "w": 2,
+        "gf": 11,
+        "ga": 7,
+        "w": 3,
         "d": 1,
         "l": 2
       },
@@ -1207,10 +1211,10 @@
       },
       "away": {
         "gf": 5,
-        "ga": 9,
+        "ga": 10,
         "w": 1,
         "d": 1,
-        "l": 3
+        "l": 4
       }
     },
     "EC Vitória": {
@@ -1238,11 +1242,11 @@
         "l": 1
       },
       "away": {
-        "gf": 3,
-        "ga": 11,
+        "gf": 5,
+        "ga": 15,
         "w": 0,
         "d": 2,
-        "l": 4
+        "l": 5
       }
     },
     "Fluminense FC": {
