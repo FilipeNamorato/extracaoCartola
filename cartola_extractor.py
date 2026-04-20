@@ -1092,7 +1092,6 @@ def _classificar_atletas(df: pd.DataFrame) -> pd.DataFrame:
         (df["pontos_esperados"] > mediana_pe)
     )
 
-    is_provavel      = df["status_label"].eq("Provável") if "status_label" in df.columns else pd.Series(False, index=df.index)
     is_armadilha_f   = df["armadilha_label"] == "armadilha_forte"
     is_armadilha_l   = df["armadilha_label"] == "armadilha_leve"
     is_valor_oculto  = df["armadilha_label"] == "valor_oculto"
@@ -1100,27 +1099,30 @@ def _classificar_atletas(df: pd.DataFrame) -> pd.DataFrame:
     resil            = df.get("resiliencia_pct", pd.Series(0.0, index=df.index)).astype(float)
     resid            = df["residuo_z"].astype(float)
 
+    # Status bloqueante: Suspenso(3), Contundido(5), Nulo(6). Dúvida(2) NÃO bloqueia.
+    is_status_bloqueante = df["status_id"].astype(float).isin([3, 5, 6])
+
     titular_cand = (
         (df["pontos_esperados"] >= mediana_pe) &
         (resil >= 0.5) & (conf >= 0.6) &
-        (~is_armadilha_l) & (~is_armadilha_f)
+        (~is_armadilha_l) & (~is_armadilha_f) & (~is_status_bloqueante)
     )
     alto_teto = is_valor_oculto & (df["pontos_esperados"] >= p20_pe)
     banco_cand = (
-        (df["preco"] <= p25_preco) & (conf >= 0.4) & (resid >= 0) & (~is_armadilha_f)
+        (df["preco"] <= p25_preco) & (conf >= 0.4) & (resid >= 0) & (~is_armadilha_f) & (~is_status_bloqueante)
     )
 
     # Ordem de prioridade (primeira regra que bate vence):
-    # 1) EVITAR sobrescreve tudo
-    # 2) valor_oculto com alto teto → TITULAR se também é consistente, senão RESERVA_LUXO
-    # 3) TITULAR padrão
-    # 4) BANCO (barato e estável)
-    # 5) WATCH
+    # 1) EVITAR: armadilha_forte OU status bloqueante (Suspenso/Contundido/Nulo)
+    # 2) alto teto com inconsistência → RESERVA_LUXO
+    # 3) TITULAR: consistente, confiável, resiliente, sem armadilhas
+    # 4) BANCO: barato, estável
+    # 5) WATCH: demais casos (inclui Dúvida com valor)
     recomendacao = pd.Series("WATCH", index=df.index)
     recomendacao[banco_cand]                       = "BANCO"
     recomendacao[titular_cand]                     = "TITULAR"
     recomendacao[alto_teto & ~titular_cand]      = "RESERVA_LUXO"
-    recomendacao[is_armadilha_f | ~is_provavel]  = "EVITAR"
+    recomendacao[is_armadilha_f | is_status_bloqueante] = "EVITAR"
 
     df["recomendacao"] = recomendacao
     return df
