@@ -34,9 +34,9 @@
       "draw": 2,
       "lost": 2,
       "points": 23,
-      "goalsFor": 19,
+      "goalsFor": 20,
       "goalsAgainst": 10,
-      "goalDifference": 9
+      "goalDifference": 10
     },
     {
       "position": 3,
@@ -92,8 +92,8 @@
       "lost": 3,
       "points": 20,
       "goalsFor": 15,
-      "goalsAgainst": 11,
-      "goalDifference": 4
+      "goalsAgainst": 12,
+      "goalDifference": 3
     },
     {
       "position": 6,
@@ -943,7 +943,8 @@
       "W",
       "L",
       "D",
-      "W"
+      "W",
+      "D"
     ],
     "Clube do Remo": [
       "L",
@@ -1025,6 +1026,7 @@
       "D",
       "L",
       "L",
+      "D",
       "D"
     ],
     "EC Bahia": [
@@ -1037,7 +1039,8 @@
       "L",
       "W",
       "L",
-      "W"
+      "W",
+      "L"
     ],
     "São Paulo FC": [
       "W",
@@ -1062,6 +1065,7 @@
       "W",
       "D",
       "L",
+      "W",
       "W",
       "W"
     ],
@@ -1222,7 +1226,7 @@
         "gf": 8,
         "ga": 2,
         "w": 4,
-        "d": 0,
+        "d": 1,
         "l": 1
       },
       "away": {
@@ -1275,7 +1279,7 @@
       },
       "away": {
         "gf": 4,
-        "ga": 10,
+        "ga": 11,
         "w": 0,
         "d": 2,
         "l": 5
@@ -1325,7 +1329,7 @@
         "gf": 4,
         "ga": 5,
         "w": 1,
-        "d": 3,
+        "d": 4,
         "l": 1
       }
     },
@@ -1339,10 +1343,10 @@
       },
       "away": {
         "gf": 7,
-        "ga": 6,
+        "ga": 8,
         "w": 4,
         "d": 0,
-        "l": 1
+        "l": 2
       }
     },
     "São Paulo FC": {
@@ -1363,9 +1367,9 @@
     },
     "CR Flamengo": {
       "home": {
-        "gf": 9,
+        "gf": 11,
         "ga": 2,
-        "w": 3,
+        "w": 4,
         "d": 1,
         "l": 0
       },
@@ -1427,7 +1431,7 @@
     },
     "Cruzeiro EC": {
       "home": {
-        "gf": 11,
+        "gf": 12,
         "ga": 7,
         "w": 3,
         "d": 3,

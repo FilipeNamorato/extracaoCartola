@@ -432,14 +432,14 @@
         "d",
         "d",
         "d",
-        "e"
+        "v"
       ],
       "aproveitamento_mandante": [
         "v",
         "e",
         "v",
         "e",
-        "e"
+        "d"
       ],
       "transmissao": {
         "label": "saiba como foi",
@@ -468,14 +468,14 @@
         "v",
         "e",
         "d",
-        "e"
+        "v"
       ],
       "aproveitamento_mandante": [
         "e",
         "v",
         "d",
         "v",
-        "e"
+        "d"
       ],
       "transmissao": {
         "label": "saiba como foi",
@@ -504,14 +504,14 @@
         "v",
         "v",
         "d",
-        "e"
+        "d"
       ],
       "aproveitamento_mandante": [
         "d",
         "e",
         "e",
         "e",
-        "e"
+        "v"
       ],
       "transmissao": {
         "label": "saiba como foi",
@@ -540,25 +540,25 @@
         "d",
         "d",
         "v",
-        "e"
+        "d"
       ],
       "aproveitamento_mandante": [
         "v",
         "v",
         "v",
         "e",
-        "e"
+        "v"
       ],
       "transmissao": {
-        "label": "ao vivo",
+        "label": "saiba como foi",
         "url": "https://ge.globo.com/sp/futebol/brasileirao-serie-a/jogo/19-04-2026/palmeiras-atletico-pr.ghtml?utm_source=cartolafc"
       },
       "local": "Allianz Parque",
-      "status_transmissao_tr": "EM_ANDAMENTO",
+      "status_transmissao_tr": "ENCERRADA",
       "status_cronometro_tr": "PAUSADO",
-      "periodo_tr": "FIM_DE_JOGO",
+      "periodo_tr": "POS_JOGO",
       "partida_data": "2026-04-19 18:30:00",
-      "inicio_cronometro_tr": "2026-04-19T23:28:51.212Z",
+      "inicio_cronometro_tr": "2026-04-19T23:45:35.168Z",
       "placar_oficial_visitante": 0,
       "placar_oficial_mandante": 1,
       "partida_id": 346354,
@@ -576,25 +576,25 @@
         "d",
         "e",
         "e",
-        "e"
+        "d"
       ],
       "aproveitamento_mandante": [
         "d",
         "v",
         "v",
         "d",
-        "e"
+        "v"
       ],
       "transmissao": {
-        "label": "ao vivo",
+        "label": "saiba como foi",
         "url": "https://ge.globo.com/sp/vale-do-paraiba-regiao/futebol/brasileirao-serie-a/jogo/19-04-2026/bragantino-remo.ghtml?utm_source=cartolafc"
       },
       "local": "Cícero de Souza Marques",
-      "status_transmissao_tr": "EM_ANDAMENTO",
+      "status_transmissao_tr": "ENCERRADA",
       "status_cronometro_tr": "PAUSADO",
-      "periodo_tr": "FIM_DE_JOGO",
+      "periodo_tr": "POS_JOGO",
       "partida_data": "2026-04-19 18:30:00",
-      "inicio_cronometro_tr": "2026-04-19T23:25:47.147Z",
+      "inicio_cronometro_tr": "2026-04-19T23:38:19.742Z",
       "placar_oficial_visitante": 2,
       "placar_oficial_mandante": 4,
       "partida_id": 346355,
@@ -612,27 +612,27 @@
         "v",
         "d",
         "v",
-        "e"
+        "d"
       ],
       "aproveitamento_mandante": [
         "e",
         "d",
         "v",
         "v",
-        "e"
+        "v"
       ],
       "transmissao": {
-        "label": "ao vivo",
+        "label": "saiba como foi",
         "url": "https://ge.globo.com/rj/futebol/brasileirao-serie-a/jogo/19-04-2026/flamengo-bahia.ghtml?utm_source=cartolafc"
       },
       "local": "Maracanã",
-      "status_transmissao_tr": "EM_ANDAMENTO",
+      "status_transmissao_tr": "ENCERRADA",
       "status_cronometro_tr": "PAUSADO",
-      "periodo_tr": "INTERVALO",
+      "periodo_tr": "POS_JOGO",
       "partida_data": "2026-04-19 19:30:00",
-      "inicio_cronometro_tr": "2026-04-19T23:16:35.444Z",
+      "inicio_cronometro_tr": "2026-04-20T00:22:58.804Z",
       "placar_oficial_visitante": 0,
-      "placar_oficial_mandante": 1,
+      "placar_oficial_mandante": 2,
       "partida_id": 346351,
       "clube_visitante_posicao": 5,
       "clube_visitante_id": 265,
