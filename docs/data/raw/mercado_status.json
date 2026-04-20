@@ -1,6 +1,6 @@
 {
-  "rodada_atual": 12,
-  "status_mercado": 4,
+  "rodada_atual": 13,
+  "status_mercado": 1,
   "esquema_default_id": 4,
   "cartoleta_inicial": 100,
   "max_ligas_free": 1,
@@ -19,20 +19,20 @@
   "reativar": true,
   "exibe_sorteio_pro": false,
   "fechamento": {
-    "dia": 18,
+    "dia": 25,
     "mes": 4,
     "ano": 2026,
     "hora": 18,
     "minuto": 29,
-    "timestamp": 1776547740
+    "timestamp": 1777152540
   },
   "limites_competicao": {},
-  "times_escalados": 994947,
-  "mercado_pos_rodada": false,
+  "times_escalados": 4018,
+  "mercado_pos_rodada": true,
   "novo_mes_ranking": false,
   "degustacao_gatomestre": false,
   "bola_rolando": false,
-  "nome_rodada": "Rodada 12",
+  "nome_rodada": "Rodada 13",
   "limites_competicoes": {
     "pontos_corridos": {
       "free": {
