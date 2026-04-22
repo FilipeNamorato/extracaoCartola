@@ -1,9 +1,9 @@
 ﻿time,adversario,mandante,prob_vitoria,forca,adv_gc_pg,n_provaveis,n_valor_oculto,n_valor_bom,media_residuo_z,media_pb,preco_medio,concentracao_valor,momentum_of,momentum_def,sequencia,score_time,tier_time
-BAH,SAN,True,0.502,favorito,2.2,11,2,6,0.831,3.477,7.92,0.727,1.027,1.65,-1.0,0.727,A
+BAH,SAN,True,0.516,favorito,2.2,11,2,6,0.831,3.477,7.92,0.727,1.027,1.65,-1.0,0.732,A
 CAP,VIT,True,0.46,equilibrado,2.4,12,0,7,0.633,2.395,6.26,0.583,0.988,1.2,-1.0,0.691,B
 FLU,CHA,True,0.726,favorito_forte,1.75,11,1,5,0.506,3.22,8.04,0.545,1.029,0.96,1.0,0.668,B
 REM,CRU,True,0.277,zebra,2.8,12,0,6,0.454,2.774,6.43,0.5,1.292,0.873,-1.0,0.661,B
-INT,BOT,False,0.324,zebra,1.75,10,0,5,0.558,2.549,6.39,0.5,1.2,0.6,-1.0,0.588,B
+INT,BOT,False,0.324,zebra,1.75,10,0,5,0.558,2.549,6.38,0.5,1.2,0.6,-1.0,0.588,B
 RBB,PAL,True,0.303,zebra,1.0,12,0,7,0.616,2.912,7.19,0.583,1.6,1.029,1.0,0.588,B
 SAO,MIR,True,0.446,favorito,1.6,10,0,7,0.321,2.995,9.34,0.7,0.9,1.527,-2.0,0.507,C
 CAM,FLA,True,0.248,zebra,1.3333333333333333,12,0,5,0.511,2.8,7.15,0.417,1.029,0.8,-2.0,0.459,C
