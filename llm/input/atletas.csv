@@ -132,7 +132,6 @@ Vini Paulista,CFC,Meia,Provável,4.66,0.09,2.89,12,False,GRE,estavel,,6.6,2.89,1
 João Vitor,CHA,Meia,Provável,4.23,0.66,2.63,7,False,FLU,alta,0.385,5.8,2.63,1.0,0.875,2.221,0.248,neutro,0.459,53,0.475,-75.0,21.9,desfavoravel,0.85,False,WATCH,0.4,1.3,1.029,0.96,-2.0
 Lucas Romero,CRU,Meia,Provável,9.71,2.21,4.42,6,False,REM,alta,0.246,11.4,1.92,0.434,0.75,4.27,0.239,neutro,0.33,109,0.85,-33.3,59.7,neutro,3.82,False,WATCH,1.2,0.571,1.292,0.873,2.0
 Aldo Filho,MIR,Meia,Provável,3.73,-0.39,1.98,9,False,SAO,estavel,0.319,2.0,1.42,0.717,1.0,1.925,0.239,neutro,0.516,32,0.15,-53.3,27.3,desfavoravel,1.05,False,WATCH,0.846,1.035,0.9,1.527,1.0
-Neymar,SAN,Meia,Provável,19.84,-0.07,8.82,6,False,BAH,estavel,,7.5,5.49,0.622,0.75,6.156,0.212,neutro,0.233,134,0.35,-40.0,39.8,desfavoravel,3.68,False,TITULAR,0.9,0.758,1.027,1.65,-1.0
 Arthur Melo,GRE,Meia,Provável,9.0,0.16,3.8,7,True,CFC,estavel,0.501,4.5,3.8,1.0,0.875,3.991,0.146,neutro,0.388,83,0.4,12.2,34.1,neutro,2.38,False,TITULAR,0.343,0.9,0.96,1.2,-1.0
 Portilla,CAP,Meia,Provável,2.49,-0.36,1.01,10,True,VIT,estavel,0.46,1.0,1.01,1.0,1.0,0.959,0.133,neutro,0.385,85,0.95,70.0,68.7,favoravel,1.32,False,TITULAR,0.988,1.2,0.8,0.629,-1.0
 Patrick,REM,Meia,Provável,3.99,-0.57,2.09,9,True,CRU,baixa,0.277,0.2,2.09,1.0,1.0,1.983,0.131,neutro,0.497,39,1.0,33.3,70.1,favoravel,2.78,False,TITULAR,1.292,0.873,1.2,0.571,-1.0
@@ -154,6 +153,7 @@ Ignacio Sosa,RBB,Meia,Provável,3.75,0.37,1.3,9,True,PAL,estavel,0.299,2.7,1.3,1
 Shaylon,MIR,Meia,Provável,4.83,0.77,2.43,7,False,SAO,alta,0.319,4.5,1.72,0.708,0.875,2.128,-0.211,neutro,0.386,84,0.15,-53.3,27.3,desfavoravel,1.02,False,WATCH,0.846,1.035,0.9,1.527,1.0
 Caíque,VIT,Meia,Provável,4.84,-0.27,2.32,8,False,CAP,estavel,0.284,2.5,2.32,1.0,1.0,2.092,-0.257,neutro,0.432,65,0.25,-70.0,29.9,desfavoravel,1.25,False,TITULAR,0.8,0.629,0.988,1.2,3.0
 Allan,BOT,Meia,Provável,4.7,-0.58,2.14,8,True,INT,baixa,0.571,1.5,2.14,1.0,1.0,2.002,-0.28,neutro,0.426,67,0.05,5.0,39.4,neutro,1.58,False,TITULAR,1.2,1.0,1.2,0.6,4.0
+Barreal,SAN,Meia,Provável,11.07,1.11,4.08,10,False,BAH,alta,,8.0,3.08,0.755,1.0,4.115,-0.325,neutro,0.372,91,0.35,-40.0,39.8,desfavoravel,3.28,False,TITULAR,0.9,0.758,1.027,1.65,-1.0
 Tchê Tchê,VAS,Meia,Provável,4.47,0.55,1.82,9,False,COR,alta,,3.7,1.26,0.692,1.0,1.841,-0.329,neutro,0.412,72,0.475,-7.8,46.4,neutro,1.71,False,TITULAR,0.933,0.8,0.6,1.091,2.0
 Neto Moura,MIR,Meia,Provável,3.46,-0.32,1.54,8,False,SAO,estavel,0.319,1.5,1.54,1.0,1.0,1.218,-0.371,neutro,0.352,98,0.15,-53.3,27.3,desfavoravel,0.67,False,WATCH,0.846,1.035,0.9,1.527,1.0
 Edenílson,VIT,Meia,Provável,3.15,0.0,1.27,3,False,CAP,estavel,0.284,1.3,1.27,1.0,0.375,0.997,-0.387,neutro,0.119,165,0.25,-70.0,29.9,desfavoravel,0.22,False,WATCH,0.8,0.629,0.988,1.2,3.0
