@@ -284,18 +284,18 @@
   "partidas": [
     {
       "aproveitamento_visitante": [
-        "v",
         "e",
         "v",
         "e",
-        "d"
+        "d",
+        "e"
       ],
       "aproveitamento_mandante": [
-        "d",
         "v",
         "v",
         "e",
-        "v"
+        "v",
+        "e"
       ],
       "transmissao": {
         "label": "fique por dentro",
@@ -320,18 +320,18 @@
     },
     {
       "aproveitamento_visitante": [
-        "e",
         "v",
         "d",
         "v",
-        "d"
+        "d",
+        "e"
       ],
       "aproveitamento_mandante": [
-        "d",
         "v",
         "d",
         "v",
-        "d"
+        "d",
+        "e"
       ],
       "transmissao": {
         "label": "fique por dentro",
@@ -356,18 +356,18 @@
     },
     {
       "aproveitamento_visitante": [
-        "e",
         "v",
         "d",
         "v",
-        "v"
+        "v",
+        "e"
       ],
       "aproveitamento_mandante": [
-        "v",
         "d",
         "e",
         "e",
-        "d"
+        "d",
+        "e"
       ],
       "transmissao": {
         "label": "fique por dentro",
@@ -395,15 +395,15 @@
         "d",
         "d",
         "d",
-        "d",
-        "v"
+        "v",
+        "e"
       ],
       "aproveitamento_mandante": [
-        "d",
         "e",
         "v",
         "d",
-        "d"
+        "d",
+        "e"
       ],
       "transmissao": {
         "label": "fique por dentro",
