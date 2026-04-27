@@ -34,9 +34,9 @@
       "draw": 2,
       "lost": 2,
       "points": 26,
-      "goalsFor": 23,
+      "goalsFor": 24,
       "goalsAgainst": 10,
-      "goalDifference": 13
+      "goalDifference": 14
     },
     {
       "position": 3,
@@ -49,13 +49,13 @@
       },
       "playedGames": 13,
       "form": null,
-      "won": 7,
-      "draw": 3,
+      "won": 8,
+      "draw": 2,
       "lost": 3,
-      "points": 24,
-      "goalsFor": 21,
-      "goalsAgainst": 15,
-      "goalDifference": 6
+      "points": 26,
+      "goalsFor": 23,
+      "goalsAgainst": 16,
+      "goalDifference": 7
     },
     {
       "position": 4,
@@ -282,8 +282,8 @@
       "lost": 7,
       "points": 14,
       "goalsFor": 14,
-      "goalsAgainst": 18,
-      "goalDifference": -4
+      "goalsAgainst": 19,
+      "goalDifference": -5
     },
     {
       "position": 16,
@@ -345,25 +345,6 @@
     {
       "position": 19,
       "team": {
-        "id": 1772,
-        "name": "Chapecoense AF",
-        "shortName": "Chapecoense",
-        "tla": "CHA",
-        "crest": "https://crests.football-data.org/1772_large.png"
-      },
-      "playedGames": 12,
-      "form": null,
-      "won": 1,
-      "draw": 6,
-      "lost": 5,
-      "points": 9,
-      "goalsFor": 11,
-      "goalsAgainst": 22,
-      "goalDifference": -11
-    },
-    {
-      "position": 20,
-      "team": {
         "id": 4287,
         "name": "Clube do Remo",
         "shortName": "Clube do Remo",
@@ -379,6 +360,25 @@
       "goalsFor": 13,
       "goalsAgainst": 23,
       "goalDifference": -10
+    },
+    {
+      "position": 20,
+      "team": {
+        "id": 1772,
+        "name": "Chapecoense AF",
+        "shortName": "Chapecoense",
+        "tla": "CHA",
+        "crest": "https://crests.football-data.org/1772_large.png"
+      },
+      "playedGames": 12,
+      "form": null,
+      "won": 1,
+      "draw": 5,
+      "lost": 6,
+      "points": 8,
+      "goalsFor": 12,
+      "goalsAgainst": 24,
+      "goalDifference": -12
     }
   ],
   "artilheiros": [
@@ -477,6 +477,37 @@
     },
     {
       "player": {
+        "id": 1077,
+        "name": "Pedro",
+        "firstName": "",
+        "lastName": "Pedro",
+        "dateOfBirth": "1997-06-20",
+        "nationality": "Brazil",
+        "section": "Offence",
+        "position": null,
+        "shirtNumber": null,
+        "lastUpdated": "2023-07-30T23:15:48Z"
+      },
+      "team": {
+        "id": 1783,
+        "name": "CR Flamengo",
+        "shortName": "Flamengo",
+        "tla": "FLA",
+        "crest": "https://crests.football-data.org/1783.png",
+        "address": "null Rio de Janeiro, RJ null",
+        "website": "https://www.flamengo.com.br/pagina-inicial-basquete",
+        "founded": 1919,
+        "clubColors": "Red / Black / White",
+        "venue": "Estadio Jornalista Mário Filho",
+        "lastUpdated": "2022-04-06T13:13:43Z"
+      },
+      "playedMatches": 12,
+      "goals": 7,
+      "assists": 3,
+      "penalties": null
+    },
+    {
+      "player": {
         "id": 3137,
         "name": "Jonathan Calleri",
         "firstName": "Jonathan",
@@ -508,37 +539,6 @@
     },
     {
       "player": {
-        "id": 1077,
-        "name": "Pedro",
-        "firstName": "",
-        "lastName": "Pedro",
-        "dateOfBirth": "1997-06-20",
-        "nationality": "Brazil",
-        "section": "Offence",
-        "position": null,
-        "shirtNumber": null,
-        "lastUpdated": "2023-07-30T23:15:48Z"
-      },
-      "team": {
-        "id": 1783,
-        "name": "CR Flamengo",
-        "shortName": "Flamengo",
-        "tla": "FLA",
-        "crest": "https://crests.football-data.org/1783.png",
-        "address": "null Rio de Janeiro, RJ null",
-        "website": "https://www.flamengo.com.br/pagina-inicial-basquete",
-        "founded": 1919,
-        "clubColors": "Red / Black / White",
-        "venue": "Estadio Jornalista Mário Filho",
-        "lastUpdated": "2022-04-06T13:13:43Z"
-      },
-      "playedMatches": 12,
-      "goals": 6,
-      "assists": 3,
-      "penalties": null
-    },
-    {
-      "player": {
         "id": 157533,
         "name": "John Kennedy",
         "firstName": "",
@@ -564,7 +564,7 @@
         "lastUpdated": "2024-07-29T17:24:37Z"
       },
       "playedMatches": 13,
-      "goals": 5,
+      "goals": 6,
       "assists": null,
       "penalties": null
     },
@@ -861,6 +861,7 @@
       "W",
       "W",
       "L",
+      "L",
       "L"
     ],
     "SE Palmeiras": [
@@ -979,6 +980,7 @@
       "W",
       "D",
       "L",
+      "W",
       "W"
     ],
     "Grêmio FBPA": [
@@ -1006,6 +1008,7 @@
       "L",
       "L",
       "D",
+      "L",
       "L",
       "L"
     ],
@@ -1079,6 +1082,7 @@
       "L",
       "W",
       "W",
+      "W",
       "W"
     ],
     "Mirassol FC": [
@@ -1144,10 +1148,10 @@
     "CA Mineiro": {
       "home": {
         "gf": 9,
-        "ga": 6,
+        "ga": 10,
         "w": 3,
         "d": 2,
-        "l": 0
+        "l": 1
       },
       "away": {
         "gf": 5,
@@ -1183,7 +1187,7 @@
       },
       "away": {
         "gf": 10,
-        "ga": 10,
+        "ga": 9,
         "w": 3,
         "d": 2,
         "l": 2
@@ -1271,9 +1275,9 @@
     },
     "Fluminense FC": {
       "home": {
-        "gf": 11,
-        "ga": 6,
-        "w": 5,
+        "gf": 13,
+        "ga": 7,
+        "w": 6,
         "d": 0,
         "l": 1
       },
@@ -1287,7 +1291,7 @@
     },
     "Grêmio FBPA": {
       "home": {
-        "gf": 12,
+        "gf": 11,
         "ga": 5,
         "w": 4,
         "d": 2,
@@ -1310,11 +1314,11 @@
         "l": 2
       },
       "away": {
-        "gf": 1,
-        "ga": 7,
+        "gf": 2,
+        "ga": 9,
         "w": 0,
         "d": 1,
-        "l": 3
+        "l": 4
       }
     },
     "Santos FC": {
@@ -1390,9 +1394,9 @@
         "l": 0
       },
       "away": {
-        "gf": 9,
+        "gf": 13,
         "ga": 8,
-        "w": 3,
+        "w": 4,
         "d": 1,
         "l": 2
       }
