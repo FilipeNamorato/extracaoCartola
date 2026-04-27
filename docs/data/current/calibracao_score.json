@@ -1,7 +1,43 @@
 {
   "status": "insuficiente",
-  "n_rodadas": 0,
-  "n_registros": 0,
-  "motivo": "sem snapshots com features brutas de confronto",
-  "atualizado_em": "2026-04-25 17:35 BRT"
+  "n_rodadas": 1,
+  "n_registros": 72,
+  "pesos": {
+    "defesa": {
+      "oc": 0.3,
+      "vm": 0.25,
+      "tof": 0.1,
+      "tdef": 0.15,
+      "fs": 0.05,
+      "adv_of": 0.15
+    },
+    "ataque": {
+      "oc": 0.3,
+      "vm": 0.15,
+      "tof": 0.3,
+      "fs": 0.1,
+      "adv_def": 0.15
+    }
+  },
+  "grupos": {
+    "defesa": {
+      "status": "insuficiente",
+      "n_rodadas": 1,
+      "n_registros": 28,
+      "motivo": "precisa ≥3 rodadas e ≥150 registros"
+    },
+    "ataque": {
+      "status": "insuficiente",
+      "n_rodadas": 1,
+      "n_registros": 44,
+      "motivo": "precisa ≥3 rodadas e ≥150 registros"
+    }
+  },
+  "hiperparams": {
+    "ridge_lambda": 1.0,
+    "recency_decay": 0.9,
+    "min_rodadas": 3,
+    "min_registros": 150
+  },
+  "atualizado_em": "2026-04-27 16:02 BRT"
 }
