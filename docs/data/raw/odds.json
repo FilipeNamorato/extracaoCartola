@@ -10,11 +10,11 @@
       {
         "key": "nordicbet",
         "title": "Nordic Bet",
-        "last_update": "2026-04-29T11:01:32Z",
+        "last_update": "2026-04-29T15:12:11Z",
         "markets": [
           {
             "key": "h2h",
-            "last_update": "2026-04-29T11:01:31Z",
+            "last_update": "2026-04-29T15:12:11Z",
             "outcomes": [
               {
                 "name": "Botafogo",
@@ -32,7 +32,7 @@
           },
           {
             "key": "totals",
-            "last_update": "2026-04-29T11:01:31Z",
+            "last_update": "2026-04-29T15:12:11Z",
             "outcomes": [
               {
                 "name": "Over",
@@ -51,11 +51,11 @@
       {
         "key": "onexbet",
         "title": "1xBet",
-        "last_update": "2026-04-29T11:01:52Z",
+        "last_update": "2026-04-29T15:11:32Z",
         "markets": [
           {
             "key": "h2h",
-            "last_update": "2026-04-29T11:01:52Z",
+            "last_update": "2026-04-29T15:11:32Z",
             "outcomes": [
               {
                 "name": "Botafogo",
@@ -73,7 +73,7 @@
           },
           {
             "key": "totals",
-            "last_update": "2026-04-29T11:01:52Z",
+            "last_update": "2026-04-29T15:11:32Z",
             "outcomes": [
               {
                 "name": "Over",
@@ -92,11 +92,11 @@
       {
         "key": "betsson",
         "title": "Betsson",
-        "last_update": "2026-04-29T11:00:53Z",
+        "last_update": "2026-04-29T15:11:20Z",
         "markets": [
           {
             "key": "h2h",
-            "last_update": "2026-04-29T11:00:53Z",
+            "last_update": "2026-04-29T15:11:20Z",
             "outcomes": [
               {
                 "name": "Botafogo",
@@ -114,7 +114,7 @@
           },
           {
             "key": "totals",
-            "last_update": "2026-04-29T11:00:53Z",
+            "last_update": "2026-04-29T15:11:20Z",
             "outcomes": [
               {
                 "name": "Over",
@@ -133,11 +133,11 @@
       {
         "key": "unibet_fr",
         "title": "Unibet (FR)",
-        "last_update": "2026-04-29T11:01:29Z",
+        "last_update": "2026-04-29T15:11:21Z",
         "markets": [
           {
             "key": "h2h",
-            "last_update": "2026-04-29T11:01:29Z",
+            "last_update": "2026-04-29T15:11:20Z",
             "outcomes": [
               {
                 "name": "Botafogo",
@@ -158,11 +158,11 @@
       {
         "key": "sport888",
         "title": "888sport",
-        "last_update": "2026-04-29T11:01:02Z",
+        "last_update": "2026-04-29T15:12:10Z",
         "markets": [
           {
             "key": "h2h",
-            "last_update": "2026-04-29T11:01:02Z",
+            "last_update": "2026-04-29T15:12:10Z",
             "outcomes": [
               {
                 "name": "Botafogo",
@@ -183,11 +183,11 @@
       {
         "key": "williamhill",
         "title": "William Hill",
-        "last_update": "2026-04-29T11:01:29Z",
+        "last_update": "2026-04-29T15:11:10Z",
         "markets": [
           {
             "key": "h2h",
-            "last_update": "2026-04-29T11:01:29Z",
+            "last_update": "2026-04-29T15:11:10Z",
             "outcomes": [
               {
                 "name": "Botafogo",
@@ -205,7 +205,7 @@
           },
           {
             "key": "totals",
-            "last_update": "2026-04-29T11:01:29Z",
+            "last_update": "2026-04-29T15:11:10Z",
             "outcomes": [
               {
                 "name": "Over",
@@ -224,11 +224,11 @@
       {
         "key": "winamax_de",
         "title": "Winamax (DE)",
-        "last_update": "2026-04-29T11:00:52Z",
+        "last_update": "2026-04-29T15:11:21Z",
         "markets": [
           {
             "key": "h2h",
-            "last_update": "2026-04-29T11:00:52Z",
+            "last_update": "2026-04-29T15:11:21Z",
             "outcomes": [
               {
                 "name": "Botafogo",
@@ -249,11 +249,11 @@
       {
         "key": "winamax_fr",
         "title": "Winamax (FR)",
-        "last_update": "2026-04-29T11:01:55Z",
+        "last_update": "2026-04-29T15:11:34Z",
         "markets": [
           {
             "key": "h2h",
-            "last_update": "2026-04-29T11:01:54Z",
+            "last_update": "2026-04-29T15:11:34Z",
             "outcomes": [
               {
                 "name": "Botafogo",
@@ -274,11 +274,11 @@
       {
         "key": "marathonbet",
         "title": "Marathon Bet",
-        "last_update": "2026-04-29T11:01:53Z",
+        "last_update": "2026-04-29T15:11:47Z",
         "markets": [
           {
             "key": "h2h",
-            "last_update": "2026-04-29T11:01:53Z",
+            "last_update": "2026-04-29T15:11:47Z",
             "outcomes": [
               {
                 "name": "Botafogo",
@@ -299,11 +299,11 @@
       {
         "key": "betclic_fr",
         "title": "Betclic (FR)",
-        "last_update": "2026-04-29T11:00:57Z",
+        "last_update": "2026-04-29T15:12:13Z",
         "markets": [
           {
             "key": "h2h",
-            "last_update": "2026-04-29T11:00:57Z",
+            "last_update": "2026-04-29T15:12:13Z",
             "outcomes": [
               {
                 "name": "Botafogo",
@@ -324,11 +324,11 @@
       {
         "key": "coolbet",
         "title": "Coolbet",
-        "last_update": "2026-04-29T11:01:53Z",
+        "last_update": "2026-04-29T15:11:59Z",
         "markets": [
           {
             "key": "h2h",
-            "last_update": "2026-04-29T11:01:53Z",
+            "last_update": "2026-04-29T15:11:59Z",
             "outcomes": [
               {
                 "name": "Botafogo",
@@ -346,7 +346,7 @@
           },
           {
             "key": "totals",
-            "last_update": "2026-04-29T11:01:53Z",
+            "last_update": "2026-04-29T15:11:59Z",
             "outcomes": [
               {
                 "name": "Over",
@@ -365,11 +365,11 @@
       {
         "key": "leovegas_se",
         "title": "LeoVegas (SE)",
-        "last_update": "2026-04-29T11:01:03Z",
+        "last_update": "2026-04-29T15:12:11Z",
         "markets": [
           {
             "key": "h2h",
-            "last_update": "2026-04-29T11:01:03Z",
+            "last_update": "2026-04-29T15:12:11Z",
             "outcomes": [
               {
                 "name": "Botafogo",
@@ -390,15 +390,15 @@
       {
         "key": "pmu_fr",
         "title": "PMU (FR)",
-        "last_update": "2026-04-29T11:01:29Z",
+        "last_update": "2026-04-29T15:12:13Z",
         "markets": [
           {
             "key": "h2h",
-            "last_update": "2026-04-29T11:01:29Z",
+            "last_update": "2026-04-29T15:12:13Z",
             "outcomes": [
               {
                 "name": "Botafogo",
-                "price": 1.49
+                "price": 1.5
               },
               {
                 "name": "Remo",
@@ -412,7 +412,7 @@
           },
           {
             "key": "totals",
-            "last_update": "2026-04-29T11:01:29Z",
+            "last_update": "2026-04-29T15:12:13Z",
             "outcomes": [
               {
                 "name": "Over",
@@ -421,7 +421,7 @@
               },
               {
                 "name": "Under",
-                "price": 1.8,
+                "price": 1.79,
                 "point": 2.5
               }
             ]
@@ -431,11 +431,11 @@
       {
         "key": "unibet_se",
         "title": "Unibet (SE)",
-        "last_update": "2026-04-29T11:01:30Z",
+        "last_update": "2026-04-29T15:12:11Z",
         "markets": [
           {
             "key": "h2h",
-            "last_update": "2026-04-29T11:01:30Z",
+            "last_update": "2026-04-29T15:12:11Z",
             "outcomes": [
               {
                 "name": "Botafogo",
@@ -453,16 +453,16 @@
           },
           {
             "key": "totals",
-            "last_update": "2026-04-29T11:01:30Z",
+            "last_update": "2026-04-29T15:12:11Z",
             "outcomes": [
               {
                 "name": "Over",
-                "price": 1.83,
+                "price": 1.85,
                 "point": 2.5
               },
               {
                 "name": "Under",
-                "price": 1.92,
+                "price": 1.91,
                 "point": 2.5
               }
             ]
@@ -472,11 +472,11 @@
       {
         "key": "unibet_nl",
         "title": "Unibet (NL)",
-        "last_update": "2026-04-29T11:01:15Z",
+        "last_update": "2026-04-29T15:11:33Z",
         "markets": [
           {
             "key": "h2h",
-            "last_update": "2026-04-29T11:01:15Z",
+            "last_update": "2026-04-29T15:11:33Z",
             "outcomes": [
               {
                 "name": "Botafogo",
@@ -494,16 +494,16 @@
           },
           {
             "key": "totals",
-            "last_update": "2026-04-29T11:01:15Z",
+            "last_update": "2026-04-29T15:11:33Z",
             "outcomes": [
               {
                 "name": "Over",
-                "price": 1.83,
+                "price": 1.85,
                 "point": 2.5
               },
               {
                 "name": "Under",
-                "price": 1.92,
+                "price": 1.91,
                 "point": 2.5
               }
             ]
@@ -513,11 +513,11 @@
       {
         "key": "pinnacle",
         "title": "Pinnacle",
-        "last_update": "2026-04-29T11:01:30Z",
+        "last_update": "2026-04-29T15:12:13Z",
         "markets": [
           {
             "key": "h2h",
-            "last_update": "2026-04-29T11:01:30Z",
+            "last_update": "2026-04-29T15:12:12Z",
             "outcomes": [
               {
                 "name": "Botafogo",
@@ -535,7 +535,7 @@
           },
           {
             "key": "totals",
-            "last_update": "2026-04-29T11:01:30Z",
+            "last_update": "2026-04-29T15:12:12Z",
             "outcomes": [
               {
                 "name": "Over",
@@ -554,11 +554,11 @@
       {
         "key": "matchbook",
         "title": "Matchbook",
-        "last_update": "2026-04-29T11:01:53Z",
+        "last_update": "2026-04-29T15:11:45Z",
         "markets": [
           {
             "key": "h2h",
-            "last_update": "2026-04-29T11:01:53Z",
+            "last_update": "2026-04-29T15:11:45Z",
             "outcomes": [
               {
                 "name": "Botafogo",
@@ -576,7 +576,7 @@
           },
           {
             "key": "h2h_lay",
-            "last_update": "2026-04-29T11:01:53Z",
+            "last_update": "2026-04-29T15:11:45Z",
             "outcomes": [
               {
                 "name": "Botafogo",
@@ -584,7 +584,7 @@
               },
               {
                 "name": "Remo",
-                "price": 8.0
+                "price": 7.8
               },
               {
                 "name": "Draw",
@@ -594,11 +594,11 @@
           },
           {
             "key": "totals",
-            "last_update": "2026-04-29T11:01:53Z",
+            "last_update": "2026-04-29T15:11:45Z",
             "outcomes": [
               {
                 "name": "Over",
-                "price": 1.7,
+                "price": 1.69,
                 "point": 2.5
               },
               {
@@ -613,11 +613,11 @@
       {
         "key": "gtbets",
         "title": "GTbets",
-        "last_update": "2026-04-29T11:01:17Z",
+        "last_update": "2026-04-29T15:11:46Z",
         "markets": [
           {
             "key": "h2h",
-            "last_update": "2026-04-29T11:01:17Z",
+            "last_update": "2026-04-29T15:11:46Z",
             "outcomes": [
               {
                 "name": "Botafogo",
@@ -635,7 +635,7 @@
           },
           {
             "key": "totals",
-            "last_update": "2026-04-29T11:01:17Z",
+            "last_update": "2026-04-29T15:11:46Z",
             "outcomes": [
               {
                 "name": "Over",
@@ -654,11 +654,11 @@
       {
         "key": "tipico_de",
         "title": "Tipico",
-        "last_update": "2026-04-29T11:01:16Z",
+        "last_update": "2026-04-29T15:11:45Z",
         "markets": [
           {
             "key": "h2h",
-            "last_update": "2026-04-29T11:01:16Z",
+            "last_update": "2026-04-29T15:11:45Z",
             "outcomes": [
               {
                 "name": "Botafogo",
@@ -676,7 +676,7 @@
           },
           {
             "key": "totals",
-            "last_update": "2026-04-29T11:01:16Z",
+            "last_update": "2026-04-29T15:11:45Z",
             "outcomes": [
               {
                 "name": "Over",
@@ -695,11 +695,11 @@
       {
         "key": "everygame",
         "title": "Everygame",
-        "last_update": "2026-04-29T11:01:17Z",
+        "last_update": "2026-04-29T15:11:12Z",
         "markets": [
           {
             "key": "h2h",
-            "last_update": "2026-04-29T11:01:17Z",
+            "last_update": "2026-04-29T15:11:12Z",
             "outcomes": [
               {
                 "name": "Botafogo",
@@ -720,11 +720,11 @@
       {
         "key": "betonlineag",
         "title": "BetOnline.ag",
-        "last_update": "2026-04-29T11:01:16Z",
+        "last_update": "2026-04-29T15:11:33Z",
         "markets": [
           {
             "key": "h2h",
-            "last_update": "2026-04-29T11:01:16Z",
+            "last_update": "2026-04-29T15:11:33Z",
             "outcomes": [
               {
                 "name": "Botafogo",
@@ -742,7 +742,7 @@
           },
           {
             "key": "totals",
-            "last_update": "2026-04-29T11:01:16Z",
+            "last_update": "2026-04-29T15:11:33Z",
             "outcomes": [
               {
                 "name": "Over",
@@ -771,11 +771,11 @@
       {
         "key": "winamax_de",
         "title": "Winamax (DE)",
-        "last_update": "2026-04-29T11:00:52Z",
+        "last_update": "2026-04-29T15:11:21Z",
         "markets": [
           {
             "key": "h2h",
-            "last_update": "2026-04-29T11:00:52Z",
+            "last_update": "2026-04-29T15:11:21Z",
             "outcomes": [
               {
                 "name": "Coritiba",
@@ -796,11 +796,11 @@
       {
         "key": "winamax_fr",
         "title": "Winamax (FR)",
-        "last_update": "2026-04-29T11:01:55Z",
+        "last_update": "2026-04-29T15:11:34Z",
         "markets": [
           {
             "key": "h2h",
-            "last_update": "2026-04-29T11:01:55Z",
+            "last_update": "2026-04-29T15:11:34Z",
             "outcomes": [
               {
                 "name": "Coritiba",
@@ -821,11 +821,11 @@
       {
         "key": "sport888",
         "title": "888sport",
-        "last_update": "2026-04-29T11:01:02Z",
+        "last_update": "2026-04-29T15:12:10Z",
         "markets": [
           {
             "key": "h2h",
-            "last_update": "2026-04-29T11:01:02Z",
+            "last_update": "2026-04-29T15:12:10Z",
             "outcomes": [
               {
                 "name": "Coritiba",
@@ -846,11 +846,11 @@
       {
         "key": "nordicbet",
         "title": "Nordic Bet",
-        "last_update": "2026-04-29T11:01:32Z",
+        "last_update": "2026-04-29T15:12:11Z",
         "markets": [
           {
             "key": "h2h",
-            "last_update": "2026-04-29T11:01:31Z",
+            "last_update": "2026-04-29T15:12:11Z",
             "outcomes": [
               {
                 "name": "Coritiba",
@@ -868,16 +868,16 @@
           },
           {
             "key": "totals",
-            "last_update": "2026-04-29T11:01:31Z",
+            "last_update": "2026-04-29T15:12:11Z",
             "outcomes": [
               {
                 "name": "Over",
-                "price": 2.22,
+                "price": 2.18,
                 "point": 2.5
               },
               {
                 "name": "Under",
-                "price": 1.6,
+                "price": 1.65,
                 "point": 2.5
               }
             ]
@@ -887,11 +887,11 @@
       {
         "key": "unibet_fr",
         "title": "Unibet (FR)",
-        "last_update": "2026-04-29T11:01:29Z",
+        "last_update": "2026-04-29T15:11:21Z",
         "markets": [
           {
             "key": "h2h",
-            "last_update": "2026-04-29T11:01:29Z",
+            "last_update": "2026-04-29T15:11:21Z",
             "outcomes": [
               {
                 "name": "Coritiba",
@@ -912,11 +912,11 @@
       {
         "key": "onexbet",
         "title": "1xBet",
-        "last_update": "2026-04-29T11:01:52Z",
+        "last_update": "2026-04-29T15:11:32Z",
         "markets": [
           {
             "key": "h2h",
-            "last_update": "2026-04-29T11:01:52Z",
+            "last_update": "2026-04-29T15:11:32Z",
             "outcomes": [
               {
                 "name": "Coritiba",
@@ -934,7 +934,7 @@
           },
           {
             "key": "totals",
-            "last_update": "2026-04-29T11:01:52Z",
+            "last_update": "2026-04-29T15:11:32Z",
             "outcomes": [
               {
                 "name": "Over",
@@ -953,11 +953,11 @@
       {
         "key": "betsson",
         "title": "Betsson",
-        "last_update": "2026-04-29T11:00:53Z",
+        "last_update": "2026-04-29T15:11:20Z",
         "markets": [
           {
             "key": "h2h",
-            "last_update": "2026-04-29T11:00:53Z",
+            "last_update": "2026-04-29T15:11:20Z",
             "outcomes": [
               {
                 "name": "Coritiba",
@@ -975,16 +975,16 @@
           },
           {
             "key": "totals",
-            "last_update": "2026-04-29T11:00:53Z",
+            "last_update": "2026-04-29T15:11:20Z",
             "outcomes": [
               {
                 "name": "Over",
-                "price": 2.22,
+                "price": 2.18,
                 "point": 2.5
               },
               {
                 "name": "Under",
-                "price": 1.6,
+                "price": 1.65,
                 "point": 2.5
               }
             ]
@@ -994,11 +994,11 @@
       {
         "key": "marathonbet",
         "title": "Marathon Bet",
-        "last_update": "2026-04-29T11:01:53Z",
+        "last_update": "2026-04-29T15:11:47Z",
         "markets": [
           {
             "key": "h2h",
-            "last_update": "2026-04-29T11:01:53Z",
+            "last_update": "2026-04-29T15:11:47Z",
             "outcomes": [
               {
                 "name": "Coritiba",
@@ -1019,11 +1019,11 @@
       {
         "key": "williamhill",
         "title": "William Hill",
-        "last_update": "2026-04-29T11:01:29Z",
+        "last_update": "2026-04-29T15:11:10Z",
         "markets": [
           {
             "key": "h2h",
-            "last_update": "2026-04-29T11:01:29Z",
+            "last_update": "2026-04-29T15:11:10Z",
             "outcomes": [
               {
                 "name": "Coritiba",
@@ -1041,7 +1041,7 @@
           },
           {
             "key": "totals",
-            "last_update": "2026-04-29T11:01:29Z",
+            "last_update": "2026-04-29T15:11:10Z",
             "outcomes": [
               {
                 "name": "Over",
@@ -1060,11 +1060,11 @@
       {
         "key": "betclic_fr",
         "title": "Betclic (FR)",
-        "last_update": "2026-04-29T11:00:57Z",
+        "last_update": "2026-04-29T15:12:13Z",
         "markets": [
           {
             "key": "h2h",
-            "last_update": "2026-04-29T11:00:57Z",
+            "last_update": "2026-04-29T15:12:13Z",
             "outcomes": [
               {
                 "name": "Coritiba",
@@ -1085,11 +1085,11 @@
       {
         "key": "coolbet",
         "title": "Coolbet",
-        "last_update": "2026-04-29T11:01:53Z",
+        "last_update": "2026-04-29T15:11:59Z",
         "markets": [
           {
             "key": "h2h",
-            "last_update": "2026-04-29T11:01:53Z",
+            "last_update": "2026-04-29T15:11:59Z",
             "outcomes": [
               {
                 "name": "Coritiba",
@@ -1107,7 +1107,7 @@
           },
           {
             "key": "totals",
-            "last_update": "2026-04-29T11:01:53Z",
+            "last_update": "2026-04-29T15:11:59Z",
             "outcomes": [
               {
                 "name": "Over",
@@ -1126,11 +1126,11 @@
       {
         "key": "pmu_fr",
         "title": "PMU (FR)",
-        "last_update": "2026-04-29T11:01:29Z",
+        "last_update": "2026-04-29T15:12:13Z",
         "markets": [
           {
             "key": "h2h",
-            "last_update": "2026-04-29T11:01:29Z",
+            "last_update": "2026-04-29T15:12:13Z",
             "outcomes": [
               {
                 "name": "Coritiba",
@@ -1148,7 +1148,7 @@
           },
           {
             "key": "totals",
-            "last_update": "2026-04-29T11:01:29Z",
+            "last_update": "2026-04-29T15:12:13Z",
             "outcomes": [
               {
                 "name": "Over",
@@ -1167,11 +1167,11 @@
       {
         "key": "unibet_nl",
         "title": "Unibet (NL)",
-        "last_update": "2026-04-29T11:01:15Z",
+        "last_update": "2026-04-29T15:11:33Z",
         "markets": [
           {
             "key": "h2h",
-            "last_update": "2026-04-29T11:01:15Z",
+            "last_update": "2026-04-29T15:11:33Z",
             "outcomes": [
               {
                 "name": "Coritiba",
@@ -1189,7 +1189,7 @@
           },
           {
             "key": "totals",
-            "last_update": "2026-04-29T11:01:15Z",
+            "last_update": "2026-04-29T15:11:33Z",
             "outcomes": [
               {
                 "name": "Over",
@@ -1208,11 +1208,11 @@
       {
         "key": "leovegas_se",
         "title": "LeoVegas (SE)",
-        "last_update": "2026-04-29T11:01:03Z",
+        "last_update": "2026-04-29T15:12:11Z",
         "markets": [
           {
             "key": "h2h",
-            "last_update": "2026-04-29T11:01:03Z",
+            "last_update": "2026-04-29T15:12:11Z",
             "outcomes": [
               {
                 "name": "Coritiba",
@@ -1233,11 +1233,11 @@
       {
         "key": "unibet_se",
         "title": "Unibet (SE)",
-        "last_update": "2026-04-29T11:01:30Z",
+        "last_update": "2026-04-29T15:12:11Z",
         "markets": [
           {
             "key": "h2h",
-            "last_update": "2026-04-29T11:01:30Z",
+            "last_update": "2026-04-29T15:12:11Z",
             "outcomes": [
               {
                 "name": "Coritiba",
@@ -1255,7 +1255,7 @@
           },
           {
             "key": "totals",
-            "last_update": "2026-04-29T11:01:30Z",
+            "last_update": "2026-04-29T15:12:11Z",
             "outcomes": [
               {
                 "name": "Over",
@@ -1274,11 +1274,11 @@
       {
         "key": "gtbets",
         "title": "GTbets",
-        "last_update": "2026-04-29T11:01:17Z",
+        "last_update": "2026-04-29T15:11:46Z",
         "markets": [
           {
             "key": "h2h",
-            "last_update": "2026-04-29T11:01:17Z",
+            "last_update": "2026-04-29T15:11:46Z",
             "outcomes": [
               {
                 "name": "Coritiba",
@@ -1296,7 +1296,7 @@
           },
           {
             "key": "totals",
-            "last_update": "2026-04-29T11:01:17Z",
+            "last_update": "2026-04-29T15:11:46Z",
             "outcomes": [
               {
                 "name": "Over",
@@ -1315,38 +1315,38 @@
       {
         "key": "pinnacle",
         "title": "Pinnacle",
-        "last_update": "2026-04-29T11:01:30Z",
+        "last_update": "2026-04-29T15:12:13Z",
         "markets": [
           {
             "key": "h2h",
-            "last_update": "2026-04-29T11:01:30Z",
+            "last_update": "2026-04-29T15:12:12Z",
             "outcomes": [
               {
                 "name": "Coritiba",
-                "price": 3.5
+                "price": 3.51
               },
               {
                 "name": "Vitoria",
-                "price": 2.16
+                "price": 2.15
               },
               {
                 "name": "Draw",
-                "price": 3.32
+                "price": 3.35
               }
             ]
           },
           {
             "key": "totals",
-            "last_update": "2026-04-29T11:01:30Z",
+            "last_update": "2026-04-29T15:12:12Z",
             "outcomes": [
               {
                 "name": "Over",
-                "price": 1.98,
+                "price": 1.94,
                 "point": 2.25
               },
               {
                 "name": "Under",
-                "price": 1.85,
+                "price": 1.88,
                 "point": 2.25
               }
             ]
@@ -1356,29 +1356,29 @@
       {
         "key": "matchbook",
         "title": "Matchbook",
-        "last_update": "2026-04-29T11:01:53Z",
+        "last_update": "2026-04-29T15:11:45Z",
         "markets": [
           {
             "key": "h2h",
-            "last_update": "2026-04-29T11:01:53Z",
+            "last_update": "2026-04-29T15:11:45Z",
             "outcomes": [
               {
                 "name": "Coritiba",
-                "price": 3.55
+                "price": 3.45
               },
               {
                 "name": "Vitoria",
-                "price": 2.16
+                "price": 2.14
               },
               {
                 "name": "Draw",
-                "price": 3.25
+                "price": 3.3
               }
             ]
           },
           {
             "key": "h2h_lay",
-            "last_update": "2026-04-29T11:01:53Z",
+            "last_update": "2026-04-29T15:11:45Z",
             "outcomes": [
               {
                 "name": "Coritiba",
@@ -1386,27 +1386,11 @@
               },
               {
                 "name": "Vitoria",
-                "price": 2.44
+                "price": 2.42
               },
               {
                 "name": "Draw",
-                "price": 4.0
-              }
-            ]
-          },
-          {
-            "key": "totals",
-            "last_update": "2026-04-29T11:01:53Z",
-            "outcomes": [
-              {
-                "name": "Over",
-                "price": 2.04,
-                "point": 2.5
-              },
-              {
-                "name": "Under",
-                "price": 1.63,
-                "point": 2.5
+                "price": 4.1
               }
             ]
           }
@@ -1415,11 +1399,11 @@
       {
         "key": "tipico_de",
         "title": "Tipico",
-        "last_update": "2026-04-29T11:01:16Z",
+        "last_update": "2026-04-29T15:11:45Z",
         "markets": [
           {
             "key": "h2h",
-            "last_update": "2026-04-29T11:01:16Z",
+            "last_update": "2026-04-29T15:11:45Z",
             "outcomes": [
               {
                 "name": "Coritiba",
@@ -1437,7 +1421,7 @@
           },
           {
             "key": "totals",
-            "last_update": "2026-04-29T11:01:16Z",
+            "last_update": "2026-04-29T15:11:45Z",
             "outcomes": [
               {
                 "name": "Over",
@@ -1456,11 +1440,11 @@
       {
         "key": "everygame",
         "title": "Everygame",
-        "last_update": "2026-04-29T11:01:17Z",
+        "last_update": "2026-04-29T15:11:12Z",
         "markets": [
           {
             "key": "h2h",
-            "last_update": "2026-04-29T11:01:17Z",
+            "last_update": "2026-04-29T15:11:12Z",
             "outcomes": [
               {
                 "name": "Coritiba",
@@ -1481,11 +1465,11 @@
       {
         "key": "betonlineag",
         "title": "BetOnline.ag",
-        "last_update": "2026-04-29T11:01:16Z",
+        "last_update": "2026-04-29T15:11:33Z",
         "markets": [
           {
             "key": "h2h",
-            "last_update": "2026-04-29T11:01:16Z",
+            "last_update": "2026-04-29T15:11:33Z",
             "outcomes": [
               {
                 "name": "Coritiba",
@@ -1503,7 +1487,7 @@
           },
           {
             "key": "totals",
-            "last_update": "2026-04-29T11:01:16Z",
+            "last_update": "2026-04-29T15:11:33Z",
             "outcomes": [
               {
                 "name": "Over",
@@ -1532,11 +1516,11 @@
       {
         "key": "winamax_de",
         "title": "Winamax (DE)",
-        "last_update": "2026-04-29T11:00:52Z",
+        "last_update": "2026-04-29T15:11:21Z",
         "markets": [
           {
             "key": "h2h",
-            "last_update": "2026-04-29T11:00:52Z",
+            "last_update": "2026-04-29T15:11:21Z",
             "outcomes": [
               {
                 "name": "Palmeiras",
@@ -1557,11 +1541,11 @@
       {
         "key": "winamax_fr",
         "title": "Winamax (FR)",
-        "last_update": "2026-04-29T11:01:55Z",
+        "last_update": "2026-04-29T15:11:34Z",
         "markets": [
           {
             "key": "h2h",
-            "last_update": "2026-04-29T11:01:54Z",
+            "last_update": "2026-04-29T15:11:34Z",
             "outcomes": [
               {
                 "name": "Palmeiras",
@@ -1582,11 +1566,11 @@
       {
         "key": "sport888",
         "title": "888sport",
-        "last_update": "2026-04-29T11:01:02Z",
+        "last_update": "2026-04-29T15:12:10Z",
         "markets": [
           {
             "key": "h2h",
-            "last_update": "2026-04-29T11:01:02Z",
+            "last_update": "2026-04-29T15:12:10Z",
             "outcomes": [
               {
                 "name": "Palmeiras",
@@ -1607,11 +1591,11 @@
       {
         "key": "marathonbet",
         "title": "Marathon Bet",
-        "last_update": "2026-04-29T11:01:53Z",
+        "last_update": "2026-04-29T15:11:47Z",
         "markets": [
           {
             "key": "h2h",
-            "last_update": "2026-04-29T11:01:53Z",
+            "last_update": "2026-04-29T15:11:47Z",
             "outcomes": [
               {
                 "name": "Palmeiras",
@@ -1619,11 +1603,11 @@
               },
               {
                 "name": "Santos",
-                "price": 6.75
+                "price": 6.6
               },
               {
                 "name": "Draw",
-                "price": 4.1
+                "price": 4.15
               }
             ]
           }
@@ -1632,11 +1616,11 @@
       {
         "key": "nordicbet",
         "title": "Nordic Bet",
-        "last_update": "2026-04-29T11:01:32Z",
+        "last_update": "2026-04-29T15:12:11Z",
         "markets": [
           {
             "key": "h2h",
-            "last_update": "2026-04-29T11:01:31Z",
+            "last_update": "2026-04-29T15:12:11Z",
             "outcomes": [
               {
                 "name": "Palmeiras",
@@ -1654,7 +1638,7 @@
           },
           {
             "key": "totals",
-            "last_update": "2026-04-29T11:01:31Z",
+            "last_update": "2026-04-29T15:12:11Z",
             "outcomes": [
               {
                 "name": "Over",
@@ -1663,7 +1647,7 @@
               },
               {
                 "name": "Under",
-                "price": 1.88,
+                "price": 1.92,
                 "point": 2.5
               }
             ]
@@ -1673,11 +1657,11 @@
       {
         "key": "unibet_fr",
         "title": "Unibet (FR)",
-        "last_update": "2026-04-29T11:01:29Z",
+        "last_update": "2026-04-29T15:11:21Z",
         "markets": [
           {
             "key": "h2h",
-            "last_update": "2026-04-29T11:01:29Z",
+            "last_update": "2026-04-29T15:11:20Z",
             "outcomes": [
               {
                 "name": "Palmeiras",
@@ -1698,11 +1682,11 @@
       {
         "key": "onexbet",
         "title": "1xBet",
-        "last_update": "2026-04-29T11:01:52Z",
+        "last_update": "2026-04-29T15:11:32Z",
         "markets": [
           {
             "key": "h2h",
-            "last_update": "2026-04-29T11:01:52Z",
+            "last_update": "2026-04-29T15:11:32Z",
             "outcomes": [
               {
                 "name": "Palmeiras",
@@ -1710,26 +1694,26 @@
               },
               {
                 "name": "Santos",
-                "price": 6.94
+                "price": 6.79
               },
               {
                 "name": "Draw",
-                "price": 4.22
+                "price": 4.27
               }
             ]
           },
           {
             "key": "totals",
-            "last_update": "2026-04-29T11:01:52Z",
+            "last_update": "2026-04-29T15:11:32Z",
             "outcomes": [
               {
                 "name": "Over",
-                "price": 1.93,
+                "price": 1.91,
                 "point": 2.5
               },
               {
                 "name": "Under",
-                "price": 1.92,
+                "price": 1.94,
                 "point": 2.5
               }
             ]
@@ -1739,11 +1723,11 @@
       {
         "key": "betsson",
         "title": "Betsson",
-        "last_update": "2026-04-29T11:00:53Z",
+        "last_update": "2026-04-29T15:11:20Z",
         "markets": [
           {
             "key": "h2h",
-            "last_update": "2026-04-29T11:00:53Z",
+            "last_update": "2026-04-29T15:11:20Z",
             "outcomes": [
               {
                 "name": "Palmeiras",
@@ -1761,7 +1745,7 @@
           },
           {
             "key": "totals",
-            "last_update": "2026-04-29T11:00:53Z",
+            "last_update": "2026-04-29T15:11:20Z",
             "outcomes": [
               {
                 "name": "Over",
@@ -1770,7 +1754,7 @@
               },
               {
                 "name": "Under",
-                "price": 1.88,
+                "price": 1.92,
                 "point": 2.5
               }
             ]
@@ -1780,11 +1764,11 @@
       {
         "key": "williamhill",
         "title": "William Hill",
-        "last_update": "2026-04-29T11:01:29Z",
+        "last_update": "2026-04-29T15:11:10Z",
         "markets": [
           {
             "key": "h2h",
-            "last_update": "2026-04-29T11:01:29Z",
+            "last_update": "2026-04-29T15:11:10Z",
             "outcomes": [
               {
                 "name": "Palmeiras",
@@ -1802,7 +1786,7 @@
           },
           {
             "key": "totals",
-            "last_update": "2026-04-29T11:01:29Z",
+            "last_update": "2026-04-29T15:11:10Z",
             "outcomes": [
               {
                 "name": "Over",
@@ -1821,11 +1805,11 @@
       {
         "key": "betclic_fr",
         "title": "Betclic (FR)",
-        "last_update": "2026-04-29T11:00:57Z",
+        "last_update": "2026-04-29T15:12:13Z",
         "markets": [
           {
             "key": "h2h",
-            "last_update": "2026-04-29T11:00:57Z",
+            "last_update": "2026-04-29T15:12:13Z",
             "outcomes": [
               {
                 "name": "Palmeiras",
@@ -1846,11 +1830,11 @@
       {
         "key": "coolbet",
         "title": "Coolbet",
-        "last_update": "2026-04-29T11:01:53Z",
+        "last_update": "2026-04-29T15:11:59Z",
         "markets": [
           {
             "key": "h2h",
-            "last_update": "2026-04-29T11:01:53Z",
+            "last_update": "2026-04-29T15:11:59Z",
             "outcomes": [
               {
                 "name": "Palmeiras",
@@ -1868,7 +1852,7 @@
           },
           {
             "key": "totals",
-            "last_update": "2026-04-29T11:01:53Z",
+            "last_update": "2026-04-29T15:11:59Z",
             "outcomes": [
               {
                 "name": "Over",
@@ -1887,11 +1871,11 @@
       {
         "key": "pmu_fr",
         "title": "PMU (FR)",
-        "last_update": "2026-04-29T11:01:29Z",
+        "last_update": "2026-04-29T15:12:13Z",
         "markets": [
           {
             "key": "h2h",
-            "last_update": "2026-04-29T11:01:29Z",
+            "last_update": "2026-04-29T15:12:13Z",
             "outcomes": [
               {
                 "name": "Palmeiras",
@@ -1909,16 +1893,16 @@
           },
           {
             "key": "totals",
-            "last_update": "2026-04-29T11:01:29Z",
+            "last_update": "2026-04-29T15:12:13Z",
             "outcomes": [
               {
                 "name": "Over",
-                "price": 1.73,
+                "price": 1.74,
                 "point": 2.5
               },
               {
                 "name": "Under",
-                "price": 1.79,
+                "price": 1.78,
                 "point": 2.5
               }
             ]
@@ -1928,11 +1912,11 @@
       {
         "key": "unibet_nl",
         "title": "Unibet (NL)",
-        "last_update": "2026-04-29T11:01:15Z",
+        "last_update": "2026-04-29T15:11:33Z",
         "markets": [
           {
             "key": "h2h",
-            "last_update": "2026-04-29T11:01:15Z",
+            "last_update": "2026-04-29T15:11:33Z",
             "outcomes": [
               {
                 "name": "Palmeiras",
@@ -1944,13 +1928,13 @@
               },
               {
                 "name": "Draw",
-                "price": 4.3
+                "price": 4.25
               }
             ]
           },
           {
             "key": "totals",
-            "last_update": "2026-04-29T11:01:15Z",
+            "last_update": "2026-04-29T15:11:33Z",
             "outcomes": [
               {
                 "name": "Over",
@@ -1969,11 +1953,11 @@
       {
         "key": "leovegas_se",
         "title": "LeoVegas (SE)",
-        "last_update": "2026-04-29T11:01:03Z",
+        "last_update": "2026-04-29T15:12:11Z",
         "markets": [
           {
             "key": "h2h",
-            "last_update": "2026-04-29T11:01:03Z",
+            "last_update": "2026-04-29T15:12:11Z",
             "outcomes": [
               {
                 "name": "Palmeiras",
@@ -1994,11 +1978,11 @@
       {
         "key": "unibet_se",
         "title": "Unibet (SE)",
-        "last_update": "2026-04-29T11:01:30Z",
+        "last_update": "2026-04-29T15:12:11Z",
         "markets": [
           {
             "key": "h2h",
-            "last_update": "2026-04-29T11:01:30Z",
+            "last_update": "2026-04-29T15:12:11Z",
             "outcomes": [
               {
                 "name": "Palmeiras",
@@ -2010,13 +1994,13 @@
               },
               {
                 "name": "Draw",
-                "price": 4.3
+                "price": 4.25
               }
             ]
           },
           {
             "key": "totals",
-            "last_update": "2026-04-29T11:01:30Z",
+            "last_update": "2026-04-29T15:12:11Z",
             "outcomes": [
               {
                 "name": "Over",
@@ -2035,11 +2019,11 @@
       {
         "key": "gtbets",
         "title": "GTbets",
-        "last_update": "2026-04-29T11:01:17Z",
+        "last_update": "2026-04-29T15:11:46Z",
         "markets": [
           {
             "key": "h2h",
-            "last_update": "2026-04-29T11:01:17Z",
+            "last_update": "2026-04-29T15:11:46Z",
             "outcomes": [
               {
                 "name": "Palmeiras",
@@ -2057,7 +2041,7 @@
           },
           {
             "key": "totals",
-            "last_update": "2026-04-29T11:01:17Z",
+            "last_update": "2026-04-29T15:11:46Z",
             "outcomes": [
               {
                 "name": "Over",
@@ -2076,19 +2060,19 @@
       {
         "key": "matchbook",
         "title": "Matchbook",
-        "last_update": "2026-04-29T11:01:53Z",
+        "last_update": "2026-04-29T15:11:45Z",
         "markets": [
           {
             "key": "h2h",
-            "last_update": "2026-04-29T11:01:53Z",
+            "last_update": "2026-04-29T15:11:45Z",
             "outcomes": [
               {
                 "name": "Palmeiras",
-                "price": 1.49
+                "price": 1.5
               },
               {
                 "name": "Santos",
-                "price": 7.4
+                "price": 7.2
               },
               {
                 "name": "Draw",
@@ -2098,7 +2082,7 @@
           },
           {
             "key": "h2h_lay",
-            "last_update": "2026-04-29T11:01:53Z",
+            "last_update": "2026-04-29T15:11:45Z",
             "outcomes": [
               {
                 "name": "Palmeiras",
@@ -2110,17 +2094,58 @@
               },
               {
                 "name": "Draw",
-                "price": 5.3
+                "price": 4.8
               }
             ]
           },
           {
             "key": "totals",
-            "last_update": "2026-04-29T11:01:53Z",
+            "last_update": "2026-04-29T15:11:45Z",
             "outcomes": [
               {
                 "name": "Over",
-                "price": 1.79,
+                "price": 1.77,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "price": 1.96,
+                "point": 2.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "pinnacle",
+        "title": "Pinnacle",
+        "last_update": "2026-04-29T15:12:13Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2026-04-29T15:12:13Z",
+            "outcomes": [
+              {
+                "name": "Palmeiras",
+                "price": 1.47
+              },
+              {
+                "name": "Santos",
+                "price": 7.15
+              },
+              {
+                "name": "Draw",
+                "price": 4.27
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2026-04-29T15:12:13Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.89,
                 "point": 2.5
               },
               {
@@ -2133,54 +2158,13 @@
         ]
       },
       {
-        "key": "pinnacle",
-        "title": "Pinnacle",
-        "last_update": "2026-04-29T11:01:30Z",
-        "markets": [
-          {
-            "key": "h2h",
-            "last_update": "2026-04-29T11:01:30Z",
-            "outcomes": [
-              {
-                "name": "Palmeiras",
-                "price": 1.47
-              },
-              {
-                "name": "Santos",
-                "price": 7.2
-              },
-              {
-                "name": "Draw",
-                "price": 4.26
-              }
-            ]
-          },
-          {
-            "key": "totals",
-            "last_update": "2026-04-29T11:01:30Z",
-            "outcomes": [
-              {
-                "name": "Over",
-                "price": 1.93,
-                "point": 2.5
-              },
-              {
-                "name": "Under",
-                "price": 1.91,
-                "point": 2.5
-              }
-            ]
-          }
-        ]
-      },
-      {
         "key": "tipico_de",
         "title": "Tipico",
-        "last_update": "2026-04-29T11:01:16Z",
+        "last_update": "2026-04-29T15:11:45Z",
         "markets": [
           {
             "key": "h2h",
-            "last_update": "2026-04-29T11:01:16Z",
+            "last_update": "2026-04-29T15:11:45Z",
             "outcomes": [
               {
                 "name": "Palmeiras",
@@ -2198,16 +2182,16 @@
           },
           {
             "key": "totals",
-            "last_update": "2026-04-29T11:01:16Z",
+            "last_update": "2026-04-29T15:11:45Z",
             "outcomes": [
               {
                 "name": "Over",
-                "price": 1.85,
+                "price": 1.83,
                 "point": 2.5
               },
               {
                 "name": "Under",
-                "price": 1.83,
+                "price": 1.85,
                 "point": 2.5
               }
             ]
@@ -2217,11 +2201,11 @@
       {
         "key": "everygame",
         "title": "Everygame",
-        "last_update": "2026-04-29T11:01:17Z",
+        "last_update": "2026-04-29T15:11:12Z",
         "markets": [
           {
             "key": "h2h",
-            "last_update": "2026-04-29T11:01:17Z",
+            "last_update": "2026-04-29T15:11:12Z",
             "outcomes": [
               {
                 "name": "Palmeiras",
@@ -2242,11 +2226,11 @@
       {
         "key": "betonlineag",
         "title": "BetOnline.ag",
-        "last_update": "2026-04-29T11:01:16Z",
+        "last_update": "2026-04-29T15:11:33Z",
         "markets": [
           {
             "key": "h2h",
-            "last_update": "2026-04-29T11:01:16Z",
+            "last_update": "2026-04-29T15:11:33Z",
             "outcomes": [
               {
                 "name": "Palmeiras",
@@ -2264,7 +2248,7 @@
           },
           {
             "key": "totals",
-            "last_update": "2026-04-29T11:01:16Z",
+            "last_update": "2026-04-29T15:11:33Z",
             "outcomes": [
               {
                 "name": "Over",
@@ -2293,11 +2277,11 @@
       {
         "key": "nordicbet",
         "title": "Nordic Bet",
-        "last_update": "2026-04-29T11:01:32Z",
+        "last_update": "2026-04-29T15:12:11Z",
         "markets": [
           {
             "key": "h2h",
-            "last_update": "2026-04-29T11:01:32Z",
+            "last_update": "2026-04-29T15:12:11Z",
             "outcomes": [
               {
                 "name": "Atletico Paranaense",
@@ -2315,7 +2299,7 @@
           },
           {
             "key": "totals",
-            "last_update": "2026-04-29T11:01:32Z",
+            "last_update": "2026-04-29T15:12:11Z",
             "outcomes": [
               {
                 "name": "Over",
@@ -2324,7 +2308,7 @@
               },
               {
                 "name": "Under",
-                "price": 1.78,
+                "price": 1.75,
                 "point": 2.5
               }
             ]
@@ -2334,11 +2318,11 @@
       {
         "key": "betsson",
         "title": "Betsson",
-        "last_update": "2026-04-29T11:00:53Z",
+        "last_update": "2026-04-29T15:11:20Z",
         "markets": [
           {
             "key": "h2h",
-            "last_update": "2026-04-29T11:00:53Z",
+            "last_update": "2026-04-29T15:11:20Z",
             "outcomes": [
               {
                 "name": "Atletico Paranaense",
@@ -2356,7 +2340,7 @@
           },
           {
             "key": "totals",
-            "last_update": "2026-04-29T11:00:53Z",
+            "last_update": "2026-04-29T15:11:20Z",
             "outcomes": [
               {
                 "name": "Over",
@@ -2365,7 +2349,7 @@
               },
               {
                 "name": "Under",
-                "price": 1.78,
+                "price": 1.75,
                 "point": 2.5
               }
             ]
@@ -2375,11 +2359,11 @@
       {
         "key": "unibet_fr",
         "title": "Unibet (FR)",
-        "last_update": "2026-04-29T11:01:29Z",
+        "last_update": "2026-04-29T15:11:21Z",
         "markets": [
           {
             "key": "h2h",
-            "last_update": "2026-04-29T11:01:29Z",
+            "last_update": "2026-04-29T15:11:21Z",
             "outcomes": [
               {
                 "name": "Atletico Paranaense",
@@ -2400,11 +2384,11 @@
       {
         "key": "onexbet",
         "title": "1xBet",
-        "last_update": "2026-04-29T11:01:52Z",
+        "last_update": "2026-04-29T15:11:32Z",
         "markets": [
           {
             "key": "h2h",
-            "last_update": "2026-04-29T11:01:52Z",
+            "last_update": "2026-04-29T15:11:32Z",
             "outcomes": [
               {
                 "name": "Atletico Paranaense",
@@ -2412,26 +2396,26 @@
               },
               {
                 "name": "Grêmio",
-                "price": 4.21
+                "price": 4.27
               },
               {
                 "name": "Draw",
-                "price": 3.58
+                "price": 3.54
               }
             ]
           },
           {
             "key": "totals",
-            "last_update": "2026-04-29T11:01:52Z",
+            "last_update": "2026-04-29T15:11:32Z",
             "outcomes": [
               {
                 "name": "Over",
-                "price": 2.0,
+                "price": 2.04,
                 "point": 2.5
               },
               {
                 "name": "Under",
-                "price": 1.84,
+                "price": 1.81,
                 "point": 2.5
               }
             ]
@@ -2441,11 +2425,11 @@
       {
         "key": "winamax_de",
         "title": "Winamax (DE)",
-        "last_update": "2026-04-29T11:00:52Z",
+        "last_update": "2026-04-29T15:11:21Z",
         "markets": [
           {
             "key": "h2h",
-            "last_update": "2026-04-29T11:00:52Z",
+            "last_update": "2026-04-29T15:11:21Z",
             "outcomes": [
               {
                 "name": "Atletico Paranaense",
@@ -2466,11 +2450,11 @@
       {
         "key": "winamax_fr",
         "title": "Winamax (FR)",
-        "last_update": "2026-04-29T11:01:55Z",
+        "last_update": "2026-04-29T15:11:34Z",
         "markets": [
           {
             "key": "h2h",
-            "last_update": "2026-04-29T11:01:55Z",
+            "last_update": "2026-04-29T15:11:34Z",
             "outcomes": [
               {
                 "name": "Atletico Paranaense",
@@ -2491,11 +2475,11 @@
       {
         "key": "sport888",
         "title": "888sport",
-        "last_update": "2026-04-29T11:01:02Z",
+        "last_update": "2026-04-29T15:12:10Z",
         "markets": [
           {
             "key": "h2h",
-            "last_update": "2026-04-29T11:01:02Z",
+            "last_update": "2026-04-29T15:12:10Z",
             "outcomes": [
               {
                 "name": "Atletico Paranaense",
@@ -2516,11 +2500,11 @@
       {
         "key": "williamhill",
         "title": "William Hill",
-        "last_update": "2026-04-29T11:01:29Z",
+        "last_update": "2026-04-29T15:11:10Z",
         "markets": [
           {
             "key": "h2h",
-            "last_update": "2026-04-29T11:01:29Z",
+            "last_update": "2026-04-29T15:11:10Z",
             "outcomes": [
               {
                 "name": "Atletico Paranaense",
@@ -2538,7 +2522,7 @@
           },
           {
             "key": "totals",
-            "last_update": "2026-04-29T11:01:29Z",
+            "last_update": "2026-04-29T15:11:10Z",
             "outcomes": [
               {
                 "name": "Over",
@@ -2557,11 +2541,11 @@
       {
         "key": "marathonbet",
         "title": "Marathon Bet",
-        "last_update": "2026-04-29T11:01:53Z",
+        "last_update": "2026-04-29T15:11:47Z",
         "markets": [
           {
             "key": "h2h",
-            "last_update": "2026-04-29T11:01:53Z",
+            "last_update": "2026-04-29T15:11:47Z",
             "outcomes": [
               {
                 "name": "Atletico Paranaense",
@@ -2569,11 +2553,11 @@
               },
               {
                 "name": "Grêmio",
-                "price": 4.1
+                "price": 4.15
               },
               {
                 "name": "Draw",
-                "price": 3.48
+                "price": 3.44
               }
             ]
           }
@@ -2582,11 +2566,11 @@
       {
         "key": "betclic_fr",
         "title": "Betclic (FR)",
-        "last_update": "2026-04-29T11:00:57Z",
+        "last_update": "2026-04-29T15:12:13Z",
         "markets": [
           {
             "key": "h2h",
-            "last_update": "2026-04-29T11:00:57Z",
+            "last_update": "2026-04-29T15:12:13Z",
             "outcomes": [
               {
                 "name": "Atletico Paranaense",
@@ -2607,11 +2591,11 @@
       {
         "key": "coolbet",
         "title": "Coolbet",
-        "last_update": "2026-04-29T11:01:53Z",
+        "last_update": "2026-04-29T15:11:59Z",
         "markets": [
           {
             "key": "h2h",
-            "last_update": "2026-04-29T11:01:53Z",
+            "last_update": "2026-04-29T15:11:59Z",
             "outcomes": [
               {
                 "name": "Atletico Paranaense",
@@ -2629,7 +2613,7 @@
           },
           {
             "key": "totals",
-            "last_update": "2026-04-29T11:01:53Z",
+            "last_update": "2026-04-29T15:11:59Z",
             "outcomes": [
               {
                 "name": "Over",
@@ -2648,11 +2632,11 @@
       {
         "key": "unibet_se",
         "title": "Unibet (SE)",
-        "last_update": "2026-04-29T11:01:30Z",
+        "last_update": "2026-04-29T15:12:11Z",
         "markets": [
           {
             "key": "h2h",
-            "last_update": "2026-04-29T11:01:30Z",
+            "last_update": "2026-04-29T15:12:11Z",
             "outcomes": [
               {
                 "name": "Atletico Paranaense",
@@ -2670,7 +2654,7 @@
           },
           {
             "key": "totals",
-            "last_update": "2026-04-29T11:01:30Z",
+            "last_update": "2026-04-29T15:12:11Z",
             "outcomes": [
               {
                 "name": "Over",
@@ -2689,11 +2673,11 @@
       {
         "key": "unibet_nl",
         "title": "Unibet (NL)",
-        "last_update": "2026-04-29T11:01:15Z",
+        "last_update": "2026-04-29T15:11:33Z",
         "markets": [
           {
             "key": "h2h",
-            "last_update": "2026-04-29T11:01:15Z",
+            "last_update": "2026-04-29T15:11:33Z",
             "outcomes": [
               {
                 "name": "Atletico Paranaense",
@@ -2711,7 +2695,7 @@
           },
           {
             "key": "totals",
-            "last_update": "2026-04-29T11:01:15Z",
+            "last_update": "2026-04-29T15:11:33Z",
             "outcomes": [
               {
                 "name": "Over",
@@ -2730,11 +2714,11 @@
       {
         "key": "leovegas_se",
         "title": "LeoVegas (SE)",
-        "last_update": "2026-04-29T11:01:03Z",
+        "last_update": "2026-04-29T15:12:11Z",
         "markets": [
           {
             "key": "h2h",
-            "last_update": "2026-04-29T11:01:03Z",
+            "last_update": "2026-04-29T15:12:11Z",
             "outcomes": [
               {
                 "name": "Atletico Paranaense",
@@ -2755,11 +2739,11 @@
       {
         "key": "pmu_fr",
         "title": "PMU (FR)",
-        "last_update": "2026-04-29T11:01:29Z",
+        "last_update": "2026-04-29T15:12:13Z",
         "markets": [
           {
             "key": "h2h",
-            "last_update": "2026-04-29T11:01:29Z",
+            "last_update": "2026-04-29T15:12:13Z",
             "outcomes": [
               {
                 "name": "Atletico Paranaense",
@@ -2777,7 +2761,7 @@
           },
           {
             "key": "totals",
-            "last_update": "2026-04-29T11:01:29Z",
+            "last_update": "2026-04-29T15:12:13Z",
             "outcomes": [
               {
                 "name": "Over",
@@ -2796,11 +2780,11 @@
       {
         "key": "gtbets",
         "title": "GTbets",
-        "last_update": "2026-04-29T11:01:17Z",
+        "last_update": "2026-04-29T15:11:46Z",
         "markets": [
           {
             "key": "h2h",
-            "last_update": "2026-04-29T11:01:17Z",
+            "last_update": "2026-04-29T15:11:46Z",
             "outcomes": [
               {
                 "name": "Atletico Paranaense",
@@ -2818,7 +2802,7 @@
           },
           {
             "key": "totals",
-            "last_update": "2026-04-29T11:01:17Z",
+            "last_update": "2026-04-29T15:11:46Z",
             "outcomes": [
               {
                 "name": "Over",
@@ -2837,11 +2821,11 @@
       {
         "key": "matchbook",
         "title": "Matchbook",
-        "last_update": "2026-04-29T11:01:53Z",
+        "last_update": "2026-04-29T15:11:45Z",
         "markets": [
           {
             "key": "h2h",
-            "last_update": "2026-04-29T11:01:53Z",
+            "last_update": "2026-04-29T15:11:45Z",
             "outcomes": [
               {
                 "name": "Atletico Paranaense",
@@ -2853,21 +2837,21 @@
               },
               {
                 "name": "Draw",
-                "price": 3.55
+                "price": 3.5
               }
             ]
           },
           {
             "key": "h2h_lay",
-            "last_update": "2026-04-29T11:01:53Z",
+            "last_update": "2026-04-29T15:11:45Z",
             "outcomes": [
               {
                 "name": "Atletico Paranaense",
-                "price": 2.08
+                "price": 2.1
               },
               {
                 "name": "Grêmio",
-                "price": 5.5
+                "price": 5.6
               },
               {
                 "name": "Draw",
@@ -2880,15 +2864,15 @@
       {
         "key": "pinnacle",
         "title": "Pinnacle",
-        "last_update": "2026-04-29T11:01:30Z",
+        "last_update": "2026-04-29T15:12:13Z",
         "markets": [
           {
             "key": "h2h",
-            "last_update": "2026-04-29T11:01:30Z",
+            "last_update": "2026-04-29T15:12:12Z",
             "outcomes": [
               {
                 "name": "Atletico Paranaense",
-                "price": 1.86
+                "price": 1.87
               },
               {
                 "name": "Grêmio",
@@ -2896,22 +2880,22 @@
               },
               {
                 "name": "Draw",
-                "price": 3.61
+                "price": 3.57
               }
             ]
           },
           {
             "key": "totals",
-            "last_update": "2026-04-29T11:01:30Z",
+            "last_update": "2026-04-29T15:12:12Z",
             "outcomes": [
               {
                 "name": "Over",
-                "price": 2.01,
+                "price": 2.05,
                 "point": 2.5
               },
               {
                 "name": "Under",
-                "price": 1.83,
+                "price": 1.81,
                 "point": 2.5
               }
             ]
@@ -2921,11 +2905,11 @@
       {
         "key": "tipico_de",
         "title": "Tipico",
-        "last_update": "2026-04-29T11:01:16Z",
+        "last_update": "2026-04-29T15:11:45Z",
         "markets": [
           {
             "key": "h2h",
-            "last_update": "2026-04-29T11:01:16Z",
+            "last_update": "2026-04-29T15:11:45Z",
             "outcomes": [
               {
                 "name": "Atletico Paranaense",
@@ -2943,7 +2927,7 @@
           },
           {
             "key": "totals",
-            "last_update": "2026-04-29T11:01:16Z",
+            "last_update": "2026-04-29T15:11:45Z",
             "outcomes": [
               {
                 "name": "Over",
@@ -2962,11 +2946,11 @@
       {
         "key": "everygame",
         "title": "Everygame",
-        "last_update": "2026-04-29T11:01:17Z",
+        "last_update": "2026-04-29T15:11:12Z",
         "markets": [
           {
             "key": "h2h",
-            "last_update": "2026-04-29T11:01:17Z",
+            "last_update": "2026-04-29T15:11:12Z",
             "outcomes": [
               {
                 "name": "Atletico Paranaense",
@@ -2987,11 +2971,11 @@
       {
         "key": "betonlineag",
         "title": "BetOnline.ag",
-        "last_update": "2026-04-29T11:01:16Z",
+        "last_update": "2026-04-29T15:11:33Z",
         "markets": [
           {
             "key": "h2h",
-            "last_update": "2026-04-29T11:01:16Z",
+            "last_update": "2026-04-29T15:11:33Z",
             "outcomes": [
               {
                 "name": "Atletico Paranaense",
@@ -3009,7 +2993,7 @@
           },
           {
             "key": "totals",
-            "last_update": "2026-04-29T11:01:16Z",
+            "last_update": "2026-04-29T15:11:33Z",
             "outcomes": [
               {
                 "name": "Over",
@@ -3038,11 +3022,11 @@
       {
         "key": "unibet_fr",
         "title": "Unibet (FR)",
-        "last_update": "2026-04-29T11:01:29Z",
+        "last_update": "2026-04-29T15:11:21Z",
         "markets": [
           {
             "key": "h2h",
-            "last_update": "2026-04-29T11:01:29Z",
+            "last_update": "2026-04-29T15:11:21Z",
             "outcomes": [
               {
                 "name": "Atletico Mineiro",
@@ -3063,11 +3047,11 @@
       {
         "key": "nordicbet",
         "title": "Nordic Bet",
-        "last_update": "2026-04-29T11:01:32Z",
+        "last_update": "2026-04-29T15:12:11Z",
         "markets": [
           {
             "key": "h2h",
-            "last_update": "2026-04-29T11:01:32Z",
+            "last_update": "2026-04-29T15:12:11Z",
             "outcomes": [
               {
                 "name": "Atletico Mineiro",
@@ -3085,7 +3069,7 @@
           },
           {
             "key": "totals",
-            "last_update": "2026-04-29T11:01:32Z",
+            "last_update": "2026-04-29T15:12:11Z",
             "outcomes": [
               {
                 "name": "Over",
@@ -3104,11 +3088,11 @@
       {
         "key": "betsson",
         "title": "Betsson",
-        "last_update": "2026-04-29T11:00:53Z",
+        "last_update": "2026-04-29T15:11:20Z",
         "markets": [
           {
             "key": "h2h",
-            "last_update": "2026-04-29T11:00:53Z",
+            "last_update": "2026-04-29T15:11:20Z",
             "outcomes": [
               {
                 "name": "Atletico Mineiro",
@@ -3126,7 +3110,7 @@
           },
           {
             "key": "totals",
-            "last_update": "2026-04-29T11:00:53Z",
+            "last_update": "2026-04-29T15:11:20Z",
             "outcomes": [
               {
                 "name": "Over",
@@ -3145,11 +3129,11 @@
       {
         "key": "onexbet",
         "title": "1xBet",
-        "last_update": "2026-04-29T11:01:52Z",
+        "last_update": "2026-04-29T15:11:32Z",
         "markets": [
           {
             "key": "h2h",
-            "last_update": "2026-04-29T11:01:52Z",
+            "last_update": "2026-04-29T15:11:32Z",
             "outcomes": [
               {
                 "name": "Atletico Mineiro",
@@ -3167,7 +3151,7 @@
           },
           {
             "key": "totals",
-            "last_update": "2026-04-29T11:01:52Z",
+            "last_update": "2026-04-29T15:11:32Z",
             "outcomes": [
               {
                 "name": "Over",
@@ -3186,11 +3170,11 @@
       {
         "key": "marathonbet",
         "title": "Marathon Bet",
-        "last_update": "2026-04-29T11:01:53Z",
+        "last_update": "2026-04-29T15:11:47Z",
         "markets": [
           {
             "key": "h2h",
-            "last_update": "2026-04-29T11:01:53Z",
+            "last_update": "2026-04-29T15:11:47Z",
             "outcomes": [
               {
                 "name": "Atletico Mineiro",
@@ -3211,11 +3195,11 @@
       {
         "key": "winamax_de",
         "title": "Winamax (DE)",
-        "last_update": "2026-04-29T11:00:52Z",
+        "last_update": "2026-04-29T15:11:21Z",
         "markets": [
           {
             "key": "h2h",
-            "last_update": "2026-04-29T11:00:52Z",
+            "last_update": "2026-04-29T15:11:21Z",
             "outcomes": [
               {
                 "name": "Atletico Mineiro",
@@ -3236,11 +3220,11 @@
       {
         "key": "winamax_fr",
         "title": "Winamax (FR)",
-        "last_update": "2026-04-29T11:01:55Z",
+        "last_update": "2026-04-29T15:11:34Z",
         "markets": [
           {
             "key": "h2h",
-            "last_update": "2026-04-29T11:01:54Z",
+            "last_update": "2026-04-29T15:11:34Z",
             "outcomes": [
               {
                 "name": "Atletico Mineiro",
@@ -3261,11 +3245,11 @@
       {
         "key": "sport888",
         "title": "888sport",
-        "last_update": "2026-04-29T11:01:02Z",
+        "last_update": "2026-04-29T15:12:10Z",
         "markets": [
           {
             "key": "h2h",
-            "last_update": "2026-04-29T11:01:02Z",
+            "last_update": "2026-04-29T15:12:10Z",
             "outcomes": [
               {
                 "name": "Atletico Mineiro",
@@ -3286,11 +3270,11 @@
       {
         "key": "williamhill",
         "title": "William Hill",
-        "last_update": "2026-04-29T11:01:29Z",
+        "last_update": "2026-04-29T15:11:10Z",
         "markets": [
           {
             "key": "h2h",
-            "last_update": "2026-04-29T11:01:29Z",
+            "last_update": "2026-04-29T15:11:10Z",
             "outcomes": [
               {
                 "name": "Atletico Mineiro",
@@ -3308,7 +3292,7 @@
           },
           {
             "key": "totals",
-            "last_update": "2026-04-29T11:01:29Z",
+            "last_update": "2026-04-29T15:11:10Z",
             "outcomes": [
               {
                 "name": "Over",
@@ -3327,11 +3311,11 @@
       {
         "key": "betclic_fr",
         "title": "Betclic (FR)",
-        "last_update": "2026-04-29T11:00:57Z",
+        "last_update": "2026-04-29T15:12:13Z",
         "markets": [
           {
             "key": "h2h",
-            "last_update": "2026-04-29T11:00:57Z",
+            "last_update": "2026-04-29T15:12:13Z",
             "outcomes": [
               {
                 "name": "Atletico Mineiro",
@@ -3352,11 +3336,11 @@
       {
         "key": "coolbet",
         "title": "Coolbet",
-        "last_update": "2026-04-29T11:01:53Z",
+        "last_update": "2026-04-29T15:11:59Z",
         "markets": [
           {
             "key": "h2h",
-            "last_update": "2026-04-29T11:01:53Z",
+            "last_update": "2026-04-29T15:11:59Z",
             "outcomes": [
               {
                 "name": "Atletico Mineiro",
@@ -3374,7 +3358,7 @@
           },
           {
             "key": "totals",
-            "last_update": "2026-04-29T11:01:53Z",
+            "last_update": "2026-04-29T15:11:59Z",
             "outcomes": [
               {
                 "name": "Over",
@@ -3393,11 +3377,11 @@
       {
         "key": "pmu_fr",
         "title": "PMU (FR)",
-        "last_update": "2026-04-29T11:01:29Z",
+        "last_update": "2026-04-29T15:12:13Z",
         "markets": [
           {
             "key": "h2h",
-            "last_update": "2026-04-29T11:01:29Z",
+            "last_update": "2026-04-29T15:12:13Z",
             "outcomes": [
               {
                 "name": "Atletico Mineiro",
@@ -3415,7 +3399,7 @@
           },
           {
             "key": "totals",
-            "last_update": "2026-04-29T11:01:29Z",
+            "last_update": "2026-04-29T15:12:13Z",
             "outcomes": [
               {
                 "name": "Over",
@@ -3434,11 +3418,11 @@
       {
         "key": "leovegas_se",
         "title": "LeoVegas (SE)",
-        "last_update": "2026-04-29T11:01:03Z",
+        "last_update": "2026-04-29T15:12:11Z",
         "markets": [
           {
             "key": "h2h",
-            "last_update": "2026-04-29T11:01:03Z",
+            "last_update": "2026-04-29T15:12:11Z",
             "outcomes": [
               {
                 "name": "Atletico Mineiro",
@@ -3459,11 +3443,11 @@
       {
         "key": "unibet_se",
         "title": "Unibet (SE)",
-        "last_update": "2026-04-29T11:01:30Z",
+        "last_update": "2026-04-29T15:12:11Z",
         "markets": [
           {
             "key": "h2h",
-            "last_update": "2026-04-29T11:01:30Z",
+            "last_update": "2026-04-29T15:12:11Z",
             "outcomes": [
               {
                 "name": "Atletico Mineiro",
@@ -3481,7 +3465,7 @@
           },
           {
             "key": "totals",
-            "last_update": "2026-04-29T11:01:30Z",
+            "last_update": "2026-04-29T15:12:11Z",
             "outcomes": [
               {
                 "name": "Over",
@@ -3500,11 +3484,11 @@
       {
         "key": "unibet_nl",
         "title": "Unibet (NL)",
-        "last_update": "2026-04-29T11:01:15Z",
+        "last_update": "2026-04-29T15:11:33Z",
         "markets": [
           {
             "key": "h2h",
-            "last_update": "2026-04-29T11:01:15Z",
+            "last_update": "2026-04-29T15:11:33Z",
             "outcomes": [
               {
                 "name": "Atletico Mineiro",
@@ -3522,7 +3506,7 @@
           },
           {
             "key": "totals",
-            "last_update": "2026-04-29T11:01:15Z",
+            "last_update": "2026-04-29T15:11:33Z",
             "outcomes": [
               {
                 "name": "Over",
@@ -3541,11 +3525,11 @@
       {
         "key": "matchbook",
         "title": "Matchbook",
-        "last_update": "2026-04-29T11:01:53Z",
+        "last_update": "2026-04-29T15:11:45Z",
         "markets": [
           {
             "key": "h2h",
-            "last_update": "2026-04-29T11:01:53Z",
+            "last_update": "2026-04-29T15:11:45Z",
             "outcomes": [
               {
                 "name": "Atletico Mineiro",
@@ -3563,7 +3547,7 @@
           },
           {
             "key": "h2h_lay",
-            "last_update": "2026-04-29T11:01:53Z",
+            "last_update": "2026-04-29T15:11:45Z",
             "outcomes": [
               {
                 "name": "Atletico Mineiro",
@@ -3581,7 +3565,7 @@
           },
           {
             "key": "totals",
-            "last_update": "2026-04-29T11:01:53Z",
+            "last_update": "2026-04-29T15:11:45Z",
             "outcomes": [
               {
                 "name": "Over",
@@ -3600,11 +3584,11 @@
       {
         "key": "pinnacle",
         "title": "Pinnacle",
-        "last_update": "2026-04-29T11:01:30Z",
+        "last_update": "2026-04-29T15:12:13Z",
         "markets": [
           {
             "key": "h2h",
-            "last_update": "2026-04-29T11:01:30Z",
+            "last_update": "2026-04-29T15:12:13Z",
             "outcomes": [
               {
                 "name": "Atletico Mineiro",
@@ -3622,7 +3606,7 @@
           },
           {
             "key": "totals",
-            "last_update": "2026-04-29T11:01:30Z",
+            "last_update": "2026-04-29T15:12:13Z",
             "outcomes": [
               {
                 "name": "Over",
@@ -3641,11 +3625,11 @@
       {
         "key": "tipico_de",
         "title": "Tipico",
-        "last_update": "2026-04-29T11:01:16Z",
+        "last_update": "2026-04-29T15:11:45Z",
         "markets": [
           {
             "key": "h2h",
-            "last_update": "2026-04-29T11:01:16Z",
+            "last_update": "2026-04-29T15:11:45Z",
             "outcomes": [
               {
                 "name": "Atletico Mineiro",
@@ -3663,7 +3647,7 @@
           },
           {
             "key": "totals",
-            "last_update": "2026-04-29T11:01:16Z",
+            "last_update": "2026-04-29T15:11:45Z",
             "outcomes": [
               {
                 "name": "Over",
@@ -3682,11 +3666,11 @@
       {
         "key": "everygame",
         "title": "Everygame",
-        "last_update": "2026-04-29T11:01:17Z",
+        "last_update": "2026-04-29T15:11:12Z",
         "markets": [
           {
             "key": "h2h",
-            "last_update": "2026-04-29T11:01:17Z",
+            "last_update": "2026-04-29T15:11:12Z",
             "outcomes": [
               {
                 "name": "Atletico Mineiro",
@@ -3707,11 +3691,11 @@
       {
         "key": "gtbets",
         "title": "GTbets",
-        "last_update": "2026-04-29T11:01:17Z",
+        "last_update": "2026-04-29T15:11:46Z",
         "markets": [
           {
             "key": "h2h",
-            "last_update": "2026-04-29T11:01:17Z",
+            "last_update": "2026-04-29T15:11:46Z",
             "outcomes": [
               {
                 "name": "Atletico Mineiro",
@@ -3729,7 +3713,7 @@
           },
           {
             "key": "totals",
-            "last_update": "2026-04-29T11:01:17Z",
+            "last_update": "2026-04-29T15:11:46Z",
             "outcomes": [
               {
                 "name": "Over",
@@ -3748,11 +3732,11 @@
       {
         "key": "betonlineag",
         "title": "BetOnline.ag",
-        "last_update": "2026-04-29T11:01:16Z",
+        "last_update": "2026-04-29T15:11:33Z",
         "markets": [
           {
             "key": "h2h",
-            "last_update": "2026-04-29T11:01:16Z",
+            "last_update": "2026-04-29T15:11:33Z",
             "outcomes": [
               {
                 "name": "Atletico Mineiro",
@@ -3770,7 +3754,7 @@
           },
           {
             "key": "totals",
-            "last_update": "2026-04-29T11:01:16Z",
+            "last_update": "2026-04-29T15:11:33Z",
             "outcomes": [
               {
                 "name": "Over",
@@ -3799,11 +3783,11 @@
       {
         "key": "unibet_fr",
         "title": "Unibet (FR)",
-        "last_update": "2026-04-29T11:01:29Z",
+        "last_update": "2026-04-29T15:11:21Z",
         "markets": [
           {
             "key": "h2h",
-            "last_update": "2026-04-29T11:01:29Z",
+            "last_update": "2026-04-29T15:11:21Z",
             "outcomes": [
               {
                 "name": "Bahia",
@@ -3824,38 +3808,38 @@
       {
         "key": "onexbet",
         "title": "1xBet",
-        "last_update": "2026-04-29T11:01:52Z",
+        "last_update": "2026-04-29T15:11:32Z",
         "markets": [
           {
             "key": "h2h",
-            "last_update": "2026-04-29T11:01:52Z",
+            "last_update": "2026-04-29T15:11:32Z",
             "outcomes": [
               {
                 "name": "Bahia",
-                "price": 3.69
+                "price": 3.73
               },
               {
                 "name": "Sao Paulo",
-                "price": 2.14
+                "price": 2.12
               },
               {
                 "name": "Draw",
-                "price": 3.29
+                "price": 3.31
               }
             ]
           },
           {
             "key": "totals",
-            "last_update": "2026-04-29T11:01:52Z",
+            "last_update": "2026-04-29T15:11:32Z",
             "outcomes": [
               {
                 "name": "Over",
-                "price": 2.15,
+                "price": 2.14,
                 "point": 2.5
               },
               {
                 "name": "Under",
-                "price": 1.73,
+                "price": 1.74,
                 "point": 2.5
               }
             ]
@@ -3865,11 +3849,11 @@
       {
         "key": "winamax_fr",
         "title": "Winamax (FR)",
-        "last_update": "2026-04-29T11:01:55Z",
+        "last_update": "2026-04-29T15:11:34Z",
         "markets": [
           {
             "key": "h2h",
-            "last_update": "2026-04-29T11:01:54Z",
+            "last_update": "2026-04-29T15:11:34Z",
             "outcomes": [
               {
                 "name": "Bahia",
@@ -3890,15 +3874,15 @@
       {
         "key": "sport888",
         "title": "888sport",
-        "last_update": "2026-04-29T11:01:02Z",
+        "last_update": "2026-04-29T15:12:10Z",
         "markets": [
           {
             "key": "h2h",
-            "last_update": "2026-04-29T11:01:02Z",
+            "last_update": "2026-04-29T15:12:10Z",
             "outcomes": [
               {
                 "name": "Bahia",
-                "price": 3.5
+                "price": 3.6
               },
               {
                 "name": "Sao Paulo",
@@ -3906,7 +3890,7 @@
               },
               {
                 "name": "Draw",
-                "price": 3.1
+                "price": 3.0
               }
             ]
           }
@@ -3915,15 +3899,15 @@
       {
         "key": "williamhill",
         "title": "William Hill",
-        "last_update": "2026-04-29T11:01:29Z",
+        "last_update": "2026-04-29T15:11:10Z",
         "markets": [
           {
             "key": "h2h",
-            "last_update": "2026-04-29T11:01:29Z",
+            "last_update": "2026-04-29T15:11:10Z",
             "outcomes": [
               {
                 "name": "Bahia",
-                "price": 3.5
+                "price": 3.6
               },
               {
                 "name": "Sao Paulo",
@@ -3931,13 +3915,13 @@
               },
               {
                 "name": "Draw",
-                "price": 3.1
+                "price": 3.0
               }
             ]
           },
           {
             "key": "totals",
-            "last_update": "2026-04-29T11:01:29Z",
+            "last_update": "2026-04-29T15:11:10Z",
             "outcomes": [
               {
                 "name": "Over",
@@ -3956,11 +3940,11 @@
       {
         "key": "winamax_de",
         "title": "Winamax (DE)",
-        "last_update": "2026-04-29T11:00:52Z",
+        "last_update": "2026-04-29T15:11:21Z",
         "markets": [
           {
             "key": "h2h",
-            "last_update": "2026-04-29T11:00:52Z",
+            "last_update": "2026-04-29T15:11:21Z",
             "outcomes": [
               {
                 "name": "Bahia",
@@ -3981,11 +3965,11 @@
       {
         "key": "nordicbet",
         "title": "Nordic Bet",
-        "last_update": "2026-04-29T11:01:32Z",
+        "last_update": "2026-04-29T15:12:11Z",
         "markets": [
           {
             "key": "h2h",
-            "last_update": "2026-04-29T11:01:32Z",
+            "last_update": "2026-04-29T15:12:11Z",
             "outcomes": [
               {
                 "name": "Bahia",
@@ -3993,17 +3977,17 @@
               },
               {
                 "name": "Sao Paulo",
-                "price": 2.12
+                "price": 2.08
               },
               {
                 "name": "Draw",
-                "price": 3.15
+                "price": 3.2
               }
             ]
           },
           {
             "key": "totals",
-            "last_update": "2026-04-29T11:01:32Z",
+            "last_update": "2026-04-29T15:12:11Z",
             "outcomes": [
               {
                 "name": "Over",
@@ -4022,11 +4006,11 @@
       {
         "key": "betsson",
         "title": "Betsson",
-        "last_update": "2026-04-29T11:00:53Z",
+        "last_update": "2026-04-29T15:11:20Z",
         "markets": [
           {
             "key": "h2h",
-            "last_update": "2026-04-29T11:00:53Z",
+            "last_update": "2026-04-29T15:11:20Z",
             "outcomes": [
               {
                 "name": "Bahia",
@@ -4034,17 +4018,17 @@
               },
               {
                 "name": "Sao Paulo",
-                "price": 2.12
+                "price": 2.08
               },
               {
                 "name": "Draw",
-                "price": 3.15
+                "price": 3.2
               }
             ]
           },
           {
             "key": "totals",
-            "last_update": "2026-04-29T11:00:53Z",
+            "last_update": "2026-04-29T15:11:20Z",
             "outcomes": [
               {
                 "name": "Over",
@@ -4063,23 +4047,23 @@
       {
         "key": "marathonbet",
         "title": "Marathon Bet",
-        "last_update": "2026-04-29T11:01:53Z",
+        "last_update": "2026-04-29T15:11:47Z",
         "markets": [
           {
             "key": "h2h",
-            "last_update": "2026-04-29T11:01:53Z",
+            "last_update": "2026-04-29T15:11:47Z",
             "outcomes": [
               {
                 "name": "Bahia",
-                "price": 3.58
+                "price": 3.62
               },
               {
                 "name": "Sao Paulo",
-                "price": 2.08
+                "price": 2.06
               },
               {
                 "name": "Draw",
-                "price": 3.2
+                "price": 3.22
               }
             ]
           }
@@ -4088,11 +4072,11 @@
       {
         "key": "betclic_fr",
         "title": "Betclic (FR)",
-        "last_update": "2026-04-29T11:00:57Z",
+        "last_update": "2026-04-29T15:12:13Z",
         "markets": [
           {
             "key": "h2h",
-            "last_update": "2026-04-29T11:00:57Z",
+            "last_update": "2026-04-29T15:12:13Z",
             "outcomes": [
               {
                 "name": "Bahia",
@@ -4113,11 +4097,11 @@
       {
         "key": "coolbet",
         "title": "Coolbet",
-        "last_update": "2026-04-29T11:01:53Z",
+        "last_update": "2026-04-29T15:11:59Z",
         "markets": [
           {
             "key": "h2h",
-            "last_update": "2026-04-29T11:01:53Z",
+            "last_update": "2026-04-29T15:11:59Z",
             "outcomes": [
               {
                 "name": "Bahia",
@@ -4135,7 +4119,7 @@
           },
           {
             "key": "totals",
-            "last_update": "2026-04-29T11:01:53Z",
+            "last_update": "2026-04-29T15:11:59Z",
             "outcomes": [
               {
                 "name": "Over",
@@ -4154,11 +4138,11 @@
       {
         "key": "unibet_se",
         "title": "Unibet (SE)",
-        "last_update": "2026-04-29T11:01:30Z",
+        "last_update": "2026-04-29T15:12:11Z",
         "markets": [
           {
             "key": "h2h",
-            "last_update": "2026-04-29T11:01:30Z",
+            "last_update": "2026-04-29T15:12:11Z",
             "outcomes": [
               {
                 "name": "Bahia",
@@ -4176,7 +4160,7 @@
           },
           {
             "key": "totals",
-            "last_update": "2026-04-29T11:01:30Z",
+            "last_update": "2026-04-29T15:12:11Z",
             "outcomes": [
               {
                 "name": "Over",
@@ -4195,11 +4179,11 @@
       {
         "key": "pmu_fr",
         "title": "PMU (FR)",
-        "last_update": "2026-04-29T11:01:29Z",
+        "last_update": "2026-04-29T15:12:13Z",
         "markets": [
           {
             "key": "h2h",
-            "last_update": "2026-04-29T11:01:29Z",
+            "last_update": "2026-04-29T15:12:13Z",
             "outcomes": [
               {
                 "name": "Bahia",
@@ -4217,7 +4201,7 @@
           },
           {
             "key": "totals",
-            "last_update": "2026-04-29T11:01:29Z",
+            "last_update": "2026-04-29T15:12:13Z",
             "outcomes": [
               {
                 "name": "Over",
@@ -4236,11 +4220,11 @@
       {
         "key": "unibet_nl",
         "title": "Unibet (NL)",
-        "last_update": "2026-04-29T11:01:15Z",
+        "last_update": "2026-04-29T15:11:33Z",
         "markets": [
           {
             "key": "h2h",
-            "last_update": "2026-04-29T11:01:15Z",
+            "last_update": "2026-04-29T15:11:33Z",
             "outcomes": [
               {
                 "name": "Bahia",
@@ -4258,7 +4242,7 @@
           },
           {
             "key": "totals",
-            "last_update": "2026-04-29T11:01:15Z",
+            "last_update": "2026-04-29T15:11:33Z",
             "outcomes": [
               {
                 "name": "Over",
@@ -4277,11 +4261,11 @@
       {
         "key": "leovegas_se",
         "title": "LeoVegas (SE)",
-        "last_update": "2026-04-29T11:01:03Z",
+        "last_update": "2026-04-29T15:12:11Z",
         "markets": [
           {
             "key": "h2h",
-            "last_update": "2026-04-29T11:01:03Z",
+            "last_update": "2026-04-29T15:12:11Z",
             "outcomes": [
               {
                 "name": "Bahia",
@@ -4302,11 +4286,11 @@
       {
         "key": "pinnacle",
         "title": "Pinnacle",
-        "last_update": "2026-04-29T11:01:30Z",
+        "last_update": "2026-04-29T15:12:13Z",
         "markets": [
           {
             "key": "h2h",
-            "last_update": "2026-04-29T11:01:30Z",
+            "last_update": "2026-04-29T15:12:12Z",
             "outcomes": [
               {
                 "name": "Bahia",
@@ -4324,7 +4308,7 @@
           },
           {
             "key": "totals",
-            "last_update": "2026-04-29T11:01:30Z",
+            "last_update": "2026-04-29T15:12:12Z",
             "outcomes": [
               {
                 "name": "Over",
@@ -4343,15 +4327,15 @@
       {
         "key": "matchbook",
         "title": "Matchbook",
-        "last_update": "2026-04-29T11:01:53Z",
+        "last_update": "2026-04-29T15:11:45Z",
         "markets": [
           {
             "key": "h2h",
-            "last_update": "2026-04-29T11:01:53Z",
+            "last_update": "2026-04-29T15:11:45Z",
             "outcomes": [
               {
                 "name": "Bahia",
-                "price": 3.6
+                "price": 3.7
               },
               {
                 "name": "Sao Paulo",
@@ -4359,21 +4343,21 @@
               },
               {
                 "name": "Draw",
-                "price": 3.2
+                "price": 3.25
               }
             ]
           },
           {
             "key": "h2h_lay",
-            "last_update": "2026-04-29T11:01:53Z",
+            "last_update": "2026-04-29T15:11:45Z",
             "outcomes": [
               {
                 "name": "Bahia",
-                "price": 4.6
+                "price": 4.4
               },
               {
                 "name": "Sao Paulo",
-                "price": 2.4
+                "price": 2.36
               },
               {
                 "name": "Draw",
@@ -4383,7 +4367,7 @@
           },
           {
             "key": "totals",
-            "last_update": "2026-04-29T11:01:53Z",
+            "last_update": "2026-04-29T15:11:45Z",
             "outcomes": [
               {
                 "name": "Over",
@@ -4402,11 +4386,11 @@
       {
         "key": "tipico_de",
         "title": "Tipico",
-        "last_update": "2026-04-29T11:01:16Z",
+        "last_update": "2026-04-29T15:11:45Z",
         "markets": [
           {
             "key": "h2h",
-            "last_update": "2026-04-29T11:01:16Z",
+            "last_update": "2026-04-29T15:11:45Z",
             "outcomes": [
               {
                 "name": "Bahia",
@@ -4424,7 +4408,7 @@
           },
           {
             "key": "totals",
-            "last_update": "2026-04-29T11:01:16Z",
+            "last_update": "2026-04-29T15:11:45Z",
             "outcomes": [
               {
                 "name": "Over",
@@ -4443,15 +4427,15 @@
       {
         "key": "everygame",
         "title": "Everygame",
-        "last_update": "2026-04-29T11:01:17Z",
+        "last_update": "2026-04-29T15:11:12Z",
         "markets": [
           {
             "key": "h2h",
-            "last_update": "2026-04-29T11:01:17Z",
+            "last_update": "2026-04-29T15:11:12Z",
             "outcomes": [
               {
                 "name": "Bahia",
-                "price": 3.5
+                "price": 3.6
               },
               {
                 "name": "Sao Paulo",
@@ -4459,7 +4443,7 @@
               },
               {
                 "name": "Draw",
-                "price": 3.15
+                "price": 3.1
               }
             ]
           }
@@ -4468,11 +4452,11 @@
       {
         "key": "gtbets",
         "title": "GTbets",
-        "last_update": "2026-04-29T11:01:17Z",
+        "last_update": "2026-04-29T15:11:46Z",
         "markets": [
           {
             "key": "h2h",
-            "last_update": "2026-04-29T11:01:17Z",
+            "last_update": "2026-04-29T15:11:46Z",
             "outcomes": [
               {
                 "name": "Bahia",
@@ -4490,7 +4474,7 @@
           },
           {
             "key": "totals",
-            "last_update": "2026-04-29T11:01:17Z",
+            "last_update": "2026-04-29T15:11:46Z",
             "outcomes": [
               {
                 "name": "Over",
@@ -4509,11 +4493,11 @@
       {
         "key": "betonlineag",
         "title": "BetOnline.ag",
-        "last_update": "2026-04-29T11:01:16Z",
+        "last_update": "2026-04-29T15:11:33Z",
         "markets": [
           {
             "key": "h2h",
-            "last_update": "2026-04-29T11:01:16Z",
+            "last_update": "2026-04-29T15:11:33Z",
             "outcomes": [
               {
                 "name": "Bahia",
@@ -4531,7 +4515,7 @@
           },
           {
             "key": "totals",
-            "last_update": "2026-04-29T11:01:16Z",
+            "last_update": "2026-04-29T15:11:33Z",
             "outcomes": [
               {
                 "name": "Over",
@@ -4560,11 +4544,11 @@
       {
         "key": "sport888",
         "title": "888sport",
-        "last_update": "2026-04-29T11:01:02Z",
+        "last_update": "2026-04-29T15:12:10Z",
         "markets": [
           {
             "key": "h2h",
-            "last_update": "2026-04-29T11:01:02Z",
+            "last_update": "2026-04-29T15:12:10Z",
             "outcomes": [
               {
                 "name": "Flamengo",
@@ -4585,11 +4569,11 @@
       {
         "key": "nordicbet",
         "title": "Nordic Bet",
-        "last_update": "2026-04-29T11:01:32Z",
+        "last_update": "2026-04-29T15:12:11Z",
         "markets": [
           {
             "key": "h2h",
-            "last_update": "2026-04-29T11:01:32Z",
+            "last_update": "2026-04-29T15:12:11Z",
             "outcomes": [
               {
                 "name": "Flamengo",
@@ -4607,7 +4591,7 @@
           },
           {
             "key": "totals",
-            "last_update": "2026-04-29T11:01:32Z",
+            "last_update": "2026-04-29T15:12:11Z",
             "outcomes": [
               {
                 "name": "Over",
@@ -4626,11 +4610,11 @@
       {
         "key": "unibet_fr",
         "title": "Unibet (FR)",
-        "last_update": "2026-04-29T11:01:29Z",
+        "last_update": "2026-04-29T15:11:21Z",
         "markets": [
           {
             "key": "h2h",
-            "last_update": "2026-04-29T11:01:29Z",
+            "last_update": "2026-04-29T15:11:21Z",
             "outcomes": [
               {
                 "name": "Flamengo",
@@ -4651,11 +4635,11 @@
       {
         "key": "betsson",
         "title": "Betsson",
-        "last_update": "2026-04-29T11:00:53Z",
+        "last_update": "2026-04-29T15:11:20Z",
         "markets": [
           {
             "key": "h2h",
-            "last_update": "2026-04-29T11:00:53Z",
+            "last_update": "2026-04-29T15:11:20Z",
             "outcomes": [
               {
                 "name": "Flamengo",
@@ -4673,7 +4657,7 @@
           },
           {
             "key": "totals",
-            "last_update": "2026-04-29T11:00:53Z",
+            "last_update": "2026-04-29T15:11:20Z",
             "outcomes": [
               {
                 "name": "Over",
@@ -4692,11 +4676,11 @@
       {
         "key": "onexbet",
         "title": "1xBet",
-        "last_update": "2026-04-29T11:01:52Z",
+        "last_update": "2026-04-29T15:11:32Z",
         "markets": [
           {
             "key": "h2h",
-            "last_update": "2026-04-29T11:01:52Z",
+            "last_update": "2026-04-29T15:11:32Z",
             "outcomes": [
               {
                 "name": "Flamengo",
@@ -4714,7 +4698,7 @@
           },
           {
             "key": "totals",
-            "last_update": "2026-04-29T11:01:52Z",
+            "last_update": "2026-04-29T15:11:32Z",
             "outcomes": [
               {
                 "name": "Over",
@@ -4733,11 +4717,11 @@
       {
         "key": "winamax_de",
         "title": "Winamax (DE)",
-        "last_update": "2026-04-29T11:00:52Z",
+        "last_update": "2026-04-29T15:11:21Z",
         "markets": [
           {
             "key": "h2h",
-            "last_update": "2026-04-29T11:00:52Z",
+            "last_update": "2026-04-29T15:11:21Z",
             "outcomes": [
               {
                 "name": "Flamengo",
@@ -4758,11 +4742,11 @@
       {
         "key": "winamax_fr",
         "title": "Winamax (FR)",
-        "last_update": "2026-04-29T11:01:55Z",
+        "last_update": "2026-04-29T15:11:34Z",
         "markets": [
           {
             "key": "h2h",
-            "last_update": "2026-04-29T11:01:54Z",
+            "last_update": "2026-04-29T15:11:34Z",
             "outcomes": [
               {
                 "name": "Flamengo",
@@ -4783,11 +4767,11 @@
       {
         "key": "williamhill",
         "title": "William Hill",
-        "last_update": "2026-04-29T11:01:29Z",
+        "last_update": "2026-04-29T15:11:10Z",
         "markets": [
           {
             "key": "h2h",
-            "last_update": "2026-04-29T11:01:29Z",
+            "last_update": "2026-04-29T15:11:10Z",
             "outcomes": [
               {
                 "name": "Flamengo",
@@ -4805,7 +4789,7 @@
           },
           {
             "key": "totals",
-            "last_update": "2026-04-29T11:01:29Z",
+            "last_update": "2026-04-29T15:11:10Z",
             "outcomes": [
               {
                 "name": "Over",
@@ -4824,11 +4808,11 @@
       {
         "key": "marathonbet",
         "title": "Marathon Bet",
-        "last_update": "2026-04-29T11:01:53Z",
+        "last_update": "2026-04-29T15:11:47Z",
         "markets": [
           {
             "key": "h2h",
-            "last_update": "2026-04-29T11:01:53Z",
+            "last_update": "2026-04-29T15:11:47Z",
             "outcomes": [
               {
                 "name": "Flamengo",
@@ -4849,11 +4833,11 @@
       {
         "key": "betclic_fr",
         "title": "Betclic (FR)",
-        "last_update": "2026-04-29T11:00:57Z",
+        "last_update": "2026-04-29T15:12:13Z",
         "markets": [
           {
             "key": "h2h",
-            "last_update": "2026-04-29T11:00:57Z",
+            "last_update": "2026-04-29T15:12:13Z",
             "outcomes": [
               {
                 "name": "Flamengo",
@@ -4874,11 +4858,11 @@
       {
         "key": "coolbet",
         "title": "Coolbet",
-        "last_update": "2026-04-29T11:01:53Z",
+        "last_update": "2026-04-29T15:11:59Z",
         "markets": [
           {
             "key": "h2h",
-            "last_update": "2026-04-29T11:01:53Z",
+            "last_update": "2026-04-29T15:11:59Z",
             "outcomes": [
               {
                 "name": "Flamengo",
@@ -4896,7 +4880,7 @@
           },
           {
             "key": "totals",
-            "last_update": "2026-04-29T11:01:53Z",
+            "last_update": "2026-04-29T15:11:59Z",
             "outcomes": [
               {
                 "name": "Over",
@@ -4915,11 +4899,11 @@
       {
         "key": "leovegas_se",
         "title": "LeoVegas (SE)",
-        "last_update": "2026-04-29T11:01:03Z",
+        "last_update": "2026-04-29T15:12:11Z",
         "markets": [
           {
             "key": "h2h",
-            "last_update": "2026-04-29T11:01:03Z",
+            "last_update": "2026-04-29T15:12:11Z",
             "outcomes": [
               {
                 "name": "Flamengo",
@@ -4940,11 +4924,11 @@
       {
         "key": "pmu_fr",
         "title": "PMU (FR)",
-        "last_update": "2026-04-29T11:01:29Z",
+        "last_update": "2026-04-29T15:12:13Z",
         "markets": [
           {
             "key": "h2h",
-            "last_update": "2026-04-29T11:01:29Z",
+            "last_update": "2026-04-29T15:12:13Z",
             "outcomes": [
               {
                 "name": "Flamengo",
@@ -4962,7 +4946,7 @@
           },
           {
             "key": "totals",
-            "last_update": "2026-04-29T11:01:29Z",
+            "last_update": "2026-04-29T15:12:13Z",
             "outcomes": [
               {
                 "name": "Over",
@@ -4981,11 +4965,11 @@
       {
         "key": "unibet_se",
         "title": "Unibet (SE)",
-        "last_update": "2026-04-29T11:01:30Z",
+        "last_update": "2026-04-29T15:12:11Z",
         "markets": [
           {
             "key": "h2h",
-            "last_update": "2026-04-29T11:01:30Z",
+            "last_update": "2026-04-29T15:12:11Z",
             "outcomes": [
               {
                 "name": "Flamengo",
@@ -5003,7 +4987,7 @@
           },
           {
             "key": "totals",
-            "last_update": "2026-04-29T11:01:30Z",
+            "last_update": "2026-04-29T15:12:11Z",
             "outcomes": [
               {
                 "name": "Over",
@@ -5022,11 +5006,11 @@
       {
         "key": "unibet_nl",
         "title": "Unibet (NL)",
-        "last_update": "2026-04-29T11:01:15Z",
+        "last_update": "2026-04-29T15:11:33Z",
         "markets": [
           {
             "key": "h2h",
-            "last_update": "2026-04-29T11:01:15Z",
+            "last_update": "2026-04-29T15:11:33Z",
             "outcomes": [
               {
                 "name": "Flamengo",
@@ -5044,7 +5028,7 @@
           },
           {
             "key": "totals",
-            "last_update": "2026-04-29T11:01:15Z",
+            "last_update": "2026-04-29T15:11:33Z",
             "outcomes": [
               {
                 "name": "Over",
@@ -5063,11 +5047,11 @@
       {
         "key": "pinnacle",
         "title": "Pinnacle",
-        "last_update": "2026-04-29T11:01:30Z",
+        "last_update": "2026-04-29T15:12:13Z",
         "markets": [
           {
             "key": "h2h",
-            "last_update": "2026-04-29T11:01:30Z",
+            "last_update": "2026-04-29T15:12:13Z",
             "outcomes": [
               {
                 "name": "Flamengo",
@@ -5085,7 +5069,7 @@
           },
           {
             "key": "totals",
-            "last_update": "2026-04-29T11:01:30Z",
+            "last_update": "2026-04-29T15:12:13Z",
             "outcomes": [
               {
                 "name": "Over",
@@ -5104,15 +5088,15 @@
       {
         "key": "matchbook",
         "title": "Matchbook",
-        "last_update": "2026-04-29T11:01:53Z",
+        "last_update": "2026-04-29T15:11:45Z",
         "markets": [
           {
             "key": "h2h",
-            "last_update": "2026-04-29T11:01:53Z",
+            "last_update": "2026-04-29T15:11:45Z",
             "outcomes": [
               {
                 "name": "Flamengo",
-                "price": 1.47
+                "price": 1.48
               },
               {
                 "name": "Vasco da Gama",
@@ -5126,7 +5110,7 @@
           },
           {
             "key": "h2h_lay",
-            "last_update": "2026-04-29T11:01:53Z",
+            "last_update": "2026-04-29T15:11:45Z",
             "outcomes": [
               {
                 "name": "Flamengo",
@@ -5134,17 +5118,17 @@
               },
               {
                 "name": "Vasco da Gama",
-                "price": 9.0
+                "price": 8.8
               },
               {
                 "name": "Draw",
-                "price": 5.8
+                "price": 5.7
               }
             ]
           },
           {
             "key": "totals",
-            "last_update": "2026-04-29T11:01:53Z",
+            "last_update": "2026-04-29T15:11:45Z",
             "outcomes": [
               {
                 "name": "Over",
@@ -5163,11 +5147,11 @@
       {
         "key": "tipico_de",
         "title": "Tipico",
-        "last_update": "2026-04-29T11:01:16Z",
+        "last_update": "2026-04-29T15:11:45Z",
         "markets": [
           {
             "key": "h2h",
-            "last_update": "2026-04-29T11:01:16Z",
+            "last_update": "2026-04-29T15:11:45Z",
             "outcomes": [
               {
                 "name": "Flamengo",
@@ -5185,7 +5169,7 @@
           },
           {
             "key": "totals",
-            "last_update": "2026-04-29T11:01:16Z",
+            "last_update": "2026-04-29T15:11:45Z",
             "outcomes": [
               {
                 "name": "Over",
@@ -5204,11 +5188,11 @@
       {
         "key": "everygame",
         "title": "Everygame",
-        "last_update": "2026-04-29T11:01:17Z",
+        "last_update": "2026-04-29T15:11:12Z",
         "markets": [
           {
             "key": "h2h",
-            "last_update": "2026-04-29T11:01:17Z",
+            "last_update": "2026-04-29T15:11:12Z",
             "outcomes": [
               {
                 "name": "Flamengo",
@@ -5229,11 +5213,11 @@
       {
         "key": "gtbets",
         "title": "GTbets",
-        "last_update": "2026-04-29T11:01:17Z",
+        "last_update": "2026-04-29T15:11:46Z",
         "markets": [
           {
             "key": "h2h",
-            "last_update": "2026-04-29T11:01:17Z",
+            "last_update": "2026-04-29T15:11:46Z",
             "outcomes": [
               {
                 "name": "Flamengo",
@@ -5251,7 +5235,7 @@
           },
           {
             "key": "totals",
-            "last_update": "2026-04-29T11:01:17Z",
+            "last_update": "2026-04-29T15:11:46Z",
             "outcomes": [
               {
                 "name": "Over",
@@ -5270,11 +5254,11 @@
       {
         "key": "betonlineag",
         "title": "BetOnline.ag",
-        "last_update": "2026-04-29T11:01:16Z",
+        "last_update": "2026-04-29T15:11:33Z",
         "markets": [
           {
             "key": "h2h",
-            "last_update": "2026-04-29T11:01:16Z",
+            "last_update": "2026-04-29T15:11:33Z",
             "outcomes": [
               {
                 "name": "Flamengo",
@@ -5292,7 +5276,7 @@
           },
           {
             "key": "totals",
-            "last_update": "2026-04-29T11:01:16Z",
+            "last_update": "2026-04-29T15:11:33Z",
             "outcomes": [
               {
                 "name": "Over",
@@ -5321,11 +5305,11 @@
       {
         "key": "betsson",
         "title": "Betsson",
-        "last_update": "2026-04-29T11:00:53Z",
+        "last_update": "2026-04-29T15:11:20Z",
         "markets": [
           {
             "key": "h2h",
-            "last_update": "2026-04-29T11:00:53Z",
+            "last_update": "2026-04-29T15:11:20Z",
             "outcomes": [
               {
                 "name": "Bragantino-SP",
@@ -5343,7 +5327,7 @@
           },
           {
             "key": "totals",
-            "last_update": "2026-04-29T11:00:53Z",
+            "last_update": "2026-04-29T15:11:20Z",
             "outcomes": [
               {
                 "name": "Over",
@@ -5362,11 +5346,11 @@
       {
         "key": "unibet_fr",
         "title": "Unibet (FR)",
-        "last_update": "2026-04-29T11:01:29Z",
+        "last_update": "2026-04-29T15:11:21Z",
         "markets": [
           {
             "key": "h2h",
-            "last_update": "2026-04-29T11:01:29Z",
+            "last_update": "2026-04-29T15:11:21Z",
             "outcomes": [
               {
                 "name": "Bragantino-SP",
@@ -5387,11 +5371,11 @@
       {
         "key": "nordicbet",
         "title": "Nordic Bet",
-        "last_update": "2026-04-29T11:01:32Z",
+        "last_update": "2026-04-29T15:12:11Z",
         "markets": [
           {
             "key": "h2h",
-            "last_update": "2026-04-29T11:01:32Z",
+            "last_update": "2026-04-29T15:12:11Z",
             "outcomes": [
               {
                 "name": "Bragantino-SP",
@@ -5409,7 +5393,7 @@
           },
           {
             "key": "totals",
-            "last_update": "2026-04-29T11:01:32Z",
+            "last_update": "2026-04-29T15:12:11Z",
             "outcomes": [
               {
                 "name": "Over",
@@ -5428,11 +5412,11 @@
       {
         "key": "onexbet",
         "title": "1xBet",
-        "last_update": "2026-04-29T11:01:52Z",
+        "last_update": "2026-04-29T15:11:32Z",
         "markets": [
           {
             "key": "h2h",
-            "last_update": "2026-04-29T11:01:52Z",
+            "last_update": "2026-04-29T15:11:32Z",
             "outcomes": [
               {
                 "name": "Bragantino-SP",
@@ -5450,7 +5434,7 @@
           },
           {
             "key": "totals",
-            "last_update": "2026-04-29T11:01:52Z",
+            "last_update": "2026-04-29T15:11:32Z",
             "outcomes": [
               {
                 "name": "Over",
@@ -5469,11 +5453,11 @@
       {
         "key": "winamax_de",
         "title": "Winamax (DE)",
-        "last_update": "2026-04-29T11:00:52Z",
+        "last_update": "2026-04-29T15:11:21Z",
         "markets": [
           {
             "key": "h2h",
-            "last_update": "2026-04-29T11:00:52Z",
+            "last_update": "2026-04-29T15:11:21Z",
             "outcomes": [
               {
                 "name": "Bragantino-SP",
@@ -5494,11 +5478,11 @@
       {
         "key": "winamax_fr",
         "title": "Winamax (FR)",
-        "last_update": "2026-04-29T11:01:55Z",
+        "last_update": "2026-04-29T15:11:34Z",
         "markets": [
           {
             "key": "h2h",
-            "last_update": "2026-04-29T11:01:55Z",
+            "last_update": "2026-04-29T15:11:34Z",
             "outcomes": [
               {
                 "name": "Bragantino-SP",
@@ -5519,11 +5503,11 @@
       {
         "key": "sport888",
         "title": "888sport",
-        "last_update": "2026-04-29T11:01:02Z",
+        "last_update": "2026-04-29T15:12:10Z",
         "markets": [
           {
             "key": "h2h",
-            "last_update": "2026-04-29T11:01:02Z",
+            "last_update": "2026-04-29T15:12:10Z",
             "outcomes": [
               {
                 "name": "Bragantino-SP",
@@ -5544,11 +5528,11 @@
       {
         "key": "williamhill",
         "title": "William Hill",
-        "last_update": "2026-04-29T11:01:29Z",
+        "last_update": "2026-04-29T15:11:10Z",
         "markets": [
           {
             "key": "h2h",
-            "last_update": "2026-04-29T11:01:29Z",
+            "last_update": "2026-04-29T15:11:10Z",
             "outcomes": [
               {
                 "name": "Bragantino-SP",
@@ -5566,7 +5550,7 @@
           },
           {
             "key": "totals",
-            "last_update": "2026-04-29T11:01:29Z",
+            "last_update": "2026-04-29T15:11:10Z",
             "outcomes": [
               {
                 "name": "Over",
@@ -5585,11 +5569,11 @@
       {
         "key": "marathonbet",
         "title": "Marathon Bet",
-        "last_update": "2026-04-29T11:01:53Z",
+        "last_update": "2026-04-29T15:11:47Z",
         "markets": [
           {
             "key": "h2h",
-            "last_update": "2026-04-29T11:01:53Z",
+            "last_update": "2026-04-29T15:11:47Z",
             "outcomes": [
               {
                 "name": "Bragantino-SP",
@@ -5610,11 +5594,11 @@
       {
         "key": "betclic_fr",
         "title": "Betclic (FR)",
-        "last_update": "2026-04-29T11:00:57Z",
+        "last_update": "2026-04-29T15:12:13Z",
         "markets": [
           {
             "key": "h2h",
-            "last_update": "2026-04-29T11:00:57Z",
+            "last_update": "2026-04-29T15:12:13Z",
             "outcomes": [
               {
                 "name": "Bragantino-SP",
@@ -5635,11 +5619,11 @@
       {
         "key": "coolbet",
         "title": "Coolbet",
-        "last_update": "2026-04-29T11:01:53Z",
+        "last_update": "2026-04-29T15:11:59Z",
         "markets": [
           {
             "key": "h2h",
-            "last_update": "2026-04-29T11:01:53Z",
+            "last_update": "2026-04-29T15:11:59Z",
             "outcomes": [
               {
                 "name": "Bragantino-SP",
@@ -5657,7 +5641,7 @@
           },
           {
             "key": "totals",
-            "last_update": "2026-04-29T11:01:53Z",
+            "last_update": "2026-04-29T15:11:59Z",
             "outcomes": [
               {
                 "name": "Over",
@@ -5676,11 +5660,11 @@
       {
         "key": "unibet_nl",
         "title": "Unibet (NL)",
-        "last_update": "2026-04-29T11:01:15Z",
+        "last_update": "2026-04-29T15:11:33Z",
         "markets": [
           {
             "key": "h2h",
-            "last_update": "2026-04-29T11:01:15Z",
+            "last_update": "2026-04-29T15:11:33Z",
             "outcomes": [
               {
                 "name": "Bragantino-SP",
@@ -5698,7 +5682,7 @@
           },
           {
             "key": "totals",
-            "last_update": "2026-04-29T11:01:15Z",
+            "last_update": "2026-04-29T15:11:33Z",
             "outcomes": [
               {
                 "name": "Over",
@@ -5717,11 +5701,11 @@
       {
         "key": "unibet_se",
         "title": "Unibet (SE)",
-        "last_update": "2026-04-29T11:01:30Z",
+        "last_update": "2026-04-29T15:12:11Z",
         "markets": [
           {
             "key": "h2h",
-            "last_update": "2026-04-29T11:01:30Z",
+            "last_update": "2026-04-29T15:12:11Z",
             "outcomes": [
               {
                 "name": "Bragantino-SP",
@@ -5739,7 +5723,7 @@
           },
           {
             "key": "totals",
-            "last_update": "2026-04-29T11:01:30Z",
+            "last_update": "2026-04-29T15:12:11Z",
             "outcomes": [
               {
                 "name": "Over",
@@ -5758,11 +5742,11 @@
       {
         "key": "pmu_fr",
         "title": "PMU (FR)",
-        "last_update": "2026-04-29T11:01:29Z",
+        "last_update": "2026-04-29T15:12:13Z",
         "markets": [
           {
             "key": "h2h",
-            "last_update": "2026-04-29T11:01:29Z",
+            "last_update": "2026-04-29T15:12:13Z",
             "outcomes": [
               {
                 "name": "Bragantino-SP",
@@ -5780,7 +5764,7 @@
           },
           {
             "key": "totals",
-            "last_update": "2026-04-29T11:01:29Z",
+            "last_update": "2026-04-29T15:12:13Z",
             "outcomes": [
               {
                 "name": "Over",
@@ -5799,11 +5783,11 @@
       {
         "key": "leovegas_se",
         "title": "LeoVegas (SE)",
-        "last_update": "2026-04-29T11:01:03Z",
+        "last_update": "2026-04-29T15:12:11Z",
         "markets": [
           {
             "key": "h2h",
-            "last_update": "2026-04-29T11:01:03Z",
+            "last_update": "2026-04-29T15:12:11Z",
             "outcomes": [
               {
                 "name": "Bragantino-SP",
@@ -5824,11 +5808,11 @@
       {
         "key": "pinnacle",
         "title": "Pinnacle",
-        "last_update": "2026-04-29T11:01:30Z",
+        "last_update": "2026-04-29T15:12:13Z",
         "markets": [
           {
             "key": "h2h",
-            "last_update": "2026-04-29T11:01:30Z",
+            "last_update": "2026-04-29T15:12:12Z",
             "outcomes": [
               {
                 "name": "Bragantino-SP",
@@ -5846,7 +5830,7 @@
           },
           {
             "key": "totals",
-            "last_update": "2026-04-29T11:01:30Z",
+            "last_update": "2026-04-29T15:12:12Z",
             "outcomes": [
               {
                 "name": "Over",
@@ -5865,11 +5849,11 @@
       {
         "key": "matchbook",
         "title": "Matchbook",
-        "last_update": "2026-04-29T11:01:53Z",
+        "last_update": "2026-04-29T15:11:45Z",
         "markets": [
           {
             "key": "h2h",
-            "last_update": "2026-04-29T11:01:53Z",
+            "last_update": "2026-04-29T15:11:45Z",
             "outcomes": [
               {
                 "name": "Bragantino-SP",
@@ -5887,7 +5871,7 @@
           },
           {
             "key": "h2h_lay",
-            "last_update": "2026-04-29T11:01:53Z",
+            "last_update": "2026-04-29T15:11:45Z",
             "outcomes": [
               {
                 "name": "Bragantino-SP",
@@ -5908,11 +5892,11 @@
       {
         "key": "tipico_de",
         "title": "Tipico",
-        "last_update": "2026-04-29T11:01:16Z",
+        "last_update": "2026-04-29T15:11:45Z",
         "markets": [
           {
             "key": "h2h",
-            "last_update": "2026-04-29T11:01:16Z",
+            "last_update": "2026-04-29T15:11:45Z",
             "outcomes": [
               {
                 "name": "Bragantino-SP",
@@ -5930,7 +5914,7 @@
           },
           {
             "key": "totals",
-            "last_update": "2026-04-29T11:01:16Z",
+            "last_update": "2026-04-29T15:11:45Z",
             "outcomes": [
               {
                 "name": "Over",
@@ -5949,11 +5933,11 @@
       {
         "key": "everygame",
         "title": "Everygame",
-        "last_update": "2026-04-29T11:01:17Z",
+        "last_update": "2026-04-29T15:11:12Z",
         "markets": [
           {
             "key": "h2h",
-            "last_update": "2026-04-29T11:01:17Z",
+            "last_update": "2026-04-29T15:11:12Z",
             "outcomes": [
               {
                 "name": "Bragantino-SP",
@@ -5974,11 +5958,11 @@
       {
         "key": "gtbets",
         "title": "GTbets",
-        "last_update": "2026-04-29T11:01:17Z",
+        "last_update": "2026-04-29T15:11:46Z",
         "markets": [
           {
             "key": "h2h",
-            "last_update": "2026-04-29T11:01:17Z",
+            "last_update": "2026-04-29T15:11:46Z",
             "outcomes": [
               {
                 "name": "Bragantino-SP",
@@ -5996,7 +5980,7 @@
           },
           {
             "key": "totals",
-            "last_update": "2026-04-29T11:01:17Z",
+            "last_update": "2026-04-29T15:11:46Z",
             "outcomes": [
               {
                 "name": "Over",
@@ -6015,11 +5999,11 @@
       {
         "key": "betonlineag",
         "title": "BetOnline.ag",
-        "last_update": "2026-04-29T11:01:16Z",
+        "last_update": "2026-04-29T15:11:33Z",
         "markets": [
           {
             "key": "h2h",
-            "last_update": "2026-04-29T11:01:16Z",
+            "last_update": "2026-04-29T15:11:33Z",
             "outcomes": [
               {
                 "name": "Bragantino-SP",
@@ -6037,7 +6021,7 @@
           },
           {
             "key": "totals",
-            "last_update": "2026-04-29T11:01:16Z",
+            "last_update": "2026-04-29T15:11:33Z",
             "outcomes": [
               {
                 "name": "Over",
@@ -6066,11 +6050,11 @@
       {
         "key": "nordicbet",
         "title": "Nordic Bet",
-        "last_update": "2026-04-29T11:01:32Z",
+        "last_update": "2026-04-29T15:12:11Z",
         "markets": [
           {
             "key": "h2h",
-            "last_update": "2026-04-29T11:01:32Z",
+            "last_update": "2026-04-29T15:12:11Z",
             "outcomes": [
               {
                 "name": "Fluminense",
@@ -6088,7 +6072,7 @@
           },
           {
             "key": "totals",
-            "last_update": "2026-04-29T11:01:32Z",
+            "last_update": "2026-04-29T15:12:11Z",
             "outcomes": [
               {
                 "name": "Over",
@@ -6107,11 +6091,11 @@
       {
         "key": "betsson",
         "title": "Betsson",
-        "last_update": "2026-04-29T11:00:53Z",
+        "last_update": "2026-04-29T15:11:20Z",
         "markets": [
           {
             "key": "h2h",
-            "last_update": "2026-04-29T11:00:53Z",
+            "last_update": "2026-04-29T15:11:20Z",
             "outcomes": [
               {
                 "name": "Fluminense",
@@ -6129,7 +6113,7 @@
           },
           {
             "key": "totals",
-            "last_update": "2026-04-29T11:00:53Z",
+            "last_update": "2026-04-29T15:11:20Z",
             "outcomes": [
               {
                 "name": "Over",
@@ -6148,11 +6132,11 @@
       {
         "key": "unibet_fr",
         "title": "Unibet (FR)",
-        "last_update": "2026-04-29T11:01:29Z",
+        "last_update": "2026-04-29T15:11:21Z",
         "markets": [
           {
             "key": "h2h",
-            "last_update": "2026-04-29T11:01:29Z",
+            "last_update": "2026-04-29T15:11:21Z",
             "outcomes": [
               {
                 "name": "Fluminense",
@@ -6173,11 +6157,11 @@
       {
         "key": "onexbet",
         "title": "1xBet",
-        "last_update": "2026-04-29T11:01:52Z",
+        "last_update": "2026-04-29T15:11:32Z",
         "markets": [
           {
             "key": "h2h",
-            "last_update": "2026-04-29T11:01:52Z",
+            "last_update": "2026-04-29T15:11:32Z",
             "outcomes": [
               {
                 "name": "Fluminense",
@@ -6195,7 +6179,7 @@
           },
           {
             "key": "totals",
-            "last_update": "2026-04-29T11:01:52Z",
+            "last_update": "2026-04-29T15:11:32Z",
             "outcomes": [
               {
                 "name": "Over",
@@ -6214,11 +6198,11 @@
       {
         "key": "winamax_de",
         "title": "Winamax (DE)",
-        "last_update": "2026-04-29T11:00:52Z",
+        "last_update": "2026-04-29T15:11:21Z",
         "markets": [
           {
             "key": "h2h",
-            "last_update": "2026-04-29T11:00:52Z",
+            "last_update": "2026-04-29T15:11:21Z",
             "outcomes": [
               {
                 "name": "Fluminense",
@@ -6239,11 +6223,11 @@
       {
         "key": "winamax_fr",
         "title": "Winamax (FR)",
-        "last_update": "2026-04-29T11:01:55Z",
+        "last_update": "2026-04-29T15:11:34Z",
         "markets": [
           {
             "key": "h2h",
-            "last_update": "2026-04-29T11:01:55Z",
+            "last_update": "2026-04-29T15:11:34Z",
             "outcomes": [
               {
                 "name": "Fluminense",
@@ -6264,11 +6248,11 @@
       {
         "key": "sport888",
         "title": "888sport",
-        "last_update": "2026-04-29T11:01:02Z",
+        "last_update": "2026-04-29T15:12:10Z",
         "markets": [
           {
             "key": "h2h",
-            "last_update": "2026-04-29T11:01:02Z",
+            "last_update": "2026-04-29T15:12:10Z",
             "outcomes": [
               {
                 "name": "Fluminense",
@@ -6289,11 +6273,11 @@
       {
         "key": "williamhill",
         "title": "William Hill",
-        "last_update": "2026-04-29T11:01:29Z",
+        "last_update": "2026-04-29T15:11:10Z",
         "markets": [
           {
             "key": "h2h",
-            "last_update": "2026-04-29T11:01:29Z",
+            "last_update": "2026-04-29T15:11:10Z",
             "outcomes": [
               {
                 "name": "Fluminense",
@@ -6311,7 +6295,7 @@
           },
           {
             "key": "totals",
-            "last_update": "2026-04-29T11:01:29Z",
+            "last_update": "2026-04-29T15:11:10Z",
             "outcomes": [
               {
                 "name": "Over",
@@ -6330,11 +6314,11 @@
       {
         "key": "marathonbet",
         "title": "Marathon Bet",
-        "last_update": "2026-04-29T11:01:53Z",
+        "last_update": "2026-04-29T15:11:47Z",
         "markets": [
           {
             "key": "h2h",
-            "last_update": "2026-04-29T11:01:53Z",
+            "last_update": "2026-04-29T15:11:47Z",
             "outcomes": [
               {
                 "name": "Fluminense",
@@ -6355,11 +6339,11 @@
       {
         "key": "betclic_fr",
         "title": "Betclic (FR)",
-        "last_update": "2026-04-29T11:00:57Z",
+        "last_update": "2026-04-29T15:12:13Z",
         "markets": [
           {
             "key": "h2h",
-            "last_update": "2026-04-29T11:00:57Z",
+            "last_update": "2026-04-29T15:12:13Z",
             "outcomes": [
               {
                 "name": "Fluminense",
@@ -6380,11 +6364,11 @@
       {
         "key": "coolbet",
         "title": "Coolbet",
-        "last_update": "2026-04-29T11:01:53Z",
+        "last_update": "2026-04-29T15:11:59Z",
         "markets": [
           {
             "key": "h2h",
-            "last_update": "2026-04-29T11:01:53Z",
+            "last_update": "2026-04-29T15:11:59Z",
             "outcomes": [
               {
                 "name": "Fluminense",
@@ -6402,7 +6386,7 @@
           },
           {
             "key": "totals",
-            "last_update": "2026-04-29T11:01:53Z",
+            "last_update": "2026-04-29T15:11:59Z",
             "outcomes": [
               {
                 "name": "Over",
@@ -6421,11 +6405,11 @@
       {
         "key": "unibet_se",
         "title": "Unibet (SE)",
-        "last_update": "2026-04-29T11:01:30Z",
+        "last_update": "2026-04-29T15:12:11Z",
         "markets": [
           {
             "key": "h2h",
-            "last_update": "2026-04-29T11:01:30Z",
+            "last_update": "2026-04-29T15:12:11Z",
             "outcomes": [
               {
                 "name": "Fluminense",
@@ -6443,7 +6427,7 @@
           },
           {
             "key": "totals",
-            "last_update": "2026-04-29T11:01:30Z",
+            "last_update": "2026-04-29T15:12:11Z",
             "outcomes": [
               {
                 "name": "Over",
@@ -6462,11 +6446,11 @@
       {
         "key": "pmu_fr",
         "title": "PMU (FR)",
-        "last_update": "2026-04-29T11:01:29Z",
+        "last_update": "2026-04-29T15:12:13Z",
         "markets": [
           {
             "key": "h2h",
-            "last_update": "2026-04-29T11:01:29Z",
+            "last_update": "2026-04-29T15:12:13Z",
             "outcomes": [
               {
                 "name": "Fluminense",
@@ -6484,7 +6468,7 @@
           },
           {
             "key": "totals",
-            "last_update": "2026-04-29T11:01:29Z",
+            "last_update": "2026-04-29T15:12:13Z",
             "outcomes": [
               {
                 "name": "Over",
@@ -6503,11 +6487,11 @@
       {
         "key": "leovegas_se",
         "title": "LeoVegas (SE)",
-        "last_update": "2026-04-29T11:01:03Z",
+        "last_update": "2026-04-29T15:12:11Z",
         "markets": [
           {
             "key": "h2h",
-            "last_update": "2026-04-29T11:01:03Z",
+            "last_update": "2026-04-29T15:12:11Z",
             "outcomes": [
               {
                 "name": "Fluminense",
@@ -6528,11 +6512,11 @@
       {
         "key": "unibet_nl",
         "title": "Unibet (NL)",
-        "last_update": "2026-04-29T11:01:15Z",
+        "last_update": "2026-04-29T15:11:33Z",
         "markets": [
           {
             "key": "h2h",
-            "last_update": "2026-04-29T11:01:15Z",
+            "last_update": "2026-04-29T15:11:33Z",
             "outcomes": [
               {
                 "name": "Fluminense",
@@ -6550,7 +6534,7 @@
           },
           {
             "key": "totals",
-            "last_update": "2026-04-29T11:01:15Z",
+            "last_update": "2026-04-29T15:11:33Z",
             "outcomes": [
               {
                 "name": "Over",
@@ -6569,15 +6553,15 @@
       {
         "key": "betfair_ex_eu",
         "title": "Betfair",
-        "last_update": "2026-04-29T11:01:55Z",
+        "last_update": "2026-04-29T15:11:46Z",
         "markets": [
           {
             "key": "h2h",
-            "last_update": "2026-04-29T11:01:55Z",
+            "last_update": "2026-04-29T15:11:46Z",
             "outcomes": [
               {
                 "name": "Fluminense",
-                "price": 3.65
+                "price": 3.3
               },
               {
                 "name": "Internacional",
@@ -6585,17 +6569,17 @@
               },
               {
                 "name": "Draw",
-                "price": 3.2
+                "price": 3.05
               }
             ]
           },
           {
             "key": "h2h_lay",
-            "last_update": "2026-04-29T11:01:55Z",
+            "last_update": "2026-04-29T15:11:46Z",
             "outcomes": [
               {
                 "name": "Fluminense",
-                "price": 3.9
+                "price": 4.1
               },
               {
                 "name": "Internacional",
@@ -6603,7 +6587,7 @@
               },
               {
                 "name": "Draw",
-                "price": 3.45
+                "price": 3.95
               }
             ]
           }
@@ -6612,11 +6596,11 @@
       {
         "key": "pinnacle",
         "title": "Pinnacle",
-        "last_update": "2026-04-29T11:01:30Z",
+        "last_update": "2026-04-29T15:12:13Z",
         "markets": [
           {
             "key": "h2h",
-            "last_update": "2026-04-29T11:01:30Z",
+            "last_update": "2026-04-29T15:12:13Z",
             "outcomes": [
               {
                 "name": "Fluminense",
@@ -6634,7 +6618,7 @@
           },
           {
             "key": "totals",
-            "last_update": "2026-04-29T11:01:30Z",
+            "last_update": "2026-04-29T15:12:13Z",
             "outcomes": [
               {
                 "name": "Over",
@@ -6653,15 +6637,15 @@
       {
         "key": "matchbook",
         "title": "Matchbook",
-        "last_update": "2026-04-29T11:01:53Z",
+        "last_update": "2026-04-29T15:11:45Z",
         "markets": [
           {
             "key": "h2h",
-            "last_update": "2026-04-29T11:01:53Z",
+            "last_update": "2026-04-29T15:11:45Z",
             "outcomes": [
               {
                 "name": "Fluminense",
-                "price": 3.6
+                "price": 3.35
               },
               {
                 "name": "Internacional",
@@ -6675,7 +6659,7 @@
           },
           {
             "key": "h2h_lay",
-            "last_update": "2026-04-29T11:01:53Z",
+            "last_update": "2026-04-29T15:11:45Z",
             "outcomes": [
               {
                 "name": "Fluminense",
@@ -6687,23 +6671,7 @@
               },
               {
                 "name": "Draw",
-                "price": 3.85
-              }
-            ]
-          },
-          {
-            "key": "totals",
-            "last_update": "2026-04-29T11:01:53Z",
-            "outcomes": [
-              {
-                "name": "Over",
-                "price": 2.1,
-                "point": 2.5
-              },
-              {
-                "name": "Under",
-                "price": 1.63,
-                "point": 2.5
+                "price": 3.95
               }
             ]
           }
@@ -6712,11 +6680,11 @@
       {
         "key": "tipico_de",
         "title": "Tipico",
-        "last_update": "2026-04-29T11:01:16Z",
+        "last_update": "2026-04-29T15:11:45Z",
         "markets": [
           {
             "key": "h2h",
-            "last_update": "2026-04-29T11:01:16Z",
+            "last_update": "2026-04-29T15:11:45Z",
             "outcomes": [
               {
                 "name": "Fluminense",
@@ -6734,7 +6702,7 @@
           },
           {
             "key": "totals",
-            "last_update": "2026-04-29T11:01:16Z",
+            "last_update": "2026-04-29T15:11:45Z",
             "outcomes": [
               {
                 "name": "Over",
@@ -6753,11 +6721,11 @@
       {
         "key": "everygame",
         "title": "Everygame",
-        "last_update": "2026-04-29T11:01:17Z",
+        "last_update": "2026-04-29T15:11:12Z",
         "markets": [
           {
             "key": "h2h",
-            "last_update": "2026-04-29T11:01:17Z",
+            "last_update": "2026-04-29T15:11:12Z",
             "outcomes": [
               {
                 "name": "Fluminense",
@@ -6778,11 +6746,11 @@
       {
         "key": "gtbets",
         "title": "GTbets",
-        "last_update": "2026-04-29T11:01:17Z",
+        "last_update": "2026-04-29T15:11:46Z",
         "markets": [
           {
             "key": "h2h",
-            "last_update": "2026-04-29T11:01:17Z",
+            "last_update": "2026-04-29T15:11:46Z",
             "outcomes": [
               {
                 "name": "Fluminense",
@@ -6800,7 +6768,7 @@
           },
           {
             "key": "totals",
-            "last_update": "2026-04-29T11:01:17Z",
+            "last_update": "2026-04-29T15:11:46Z",
             "outcomes": [
               {
                 "name": "Over",
@@ -6819,11 +6787,11 @@
       {
         "key": "betonlineag",
         "title": "BetOnline.ag",
-        "last_update": "2026-04-29T11:01:16Z",
+        "last_update": "2026-04-29T15:11:33Z",
         "markets": [
           {
             "key": "h2h",
-            "last_update": "2026-04-29T11:01:16Z",
+            "last_update": "2026-04-29T15:11:33Z",
             "outcomes": [
               {
                 "name": "Fluminense",
@@ -6841,7 +6809,7 @@
           },
           {
             "key": "totals",
-            "last_update": "2026-04-29T11:01:16Z",
+            "last_update": "2026-04-29T15:11:33Z",
             "outcomes": [
               {
                 "name": "Over",
@@ -6870,11 +6838,11 @@
       {
         "key": "nordicbet",
         "title": "Nordic Bet",
-        "last_update": "2026-04-29T11:01:32Z",
+        "last_update": "2026-04-29T15:12:11Z",
         "markets": [
           {
             "key": "h2h",
-            "last_update": "2026-04-29T11:01:32Z",
+            "last_update": "2026-04-29T15:12:11Z",
             "outcomes": [
               {
                 "name": "Corinthians",
@@ -6892,7 +6860,7 @@
           },
           {
             "key": "totals",
-            "last_update": "2026-04-29T11:01:32Z",
+            "last_update": "2026-04-29T15:12:11Z",
             "outcomes": [
               {
                 "name": "Over",
@@ -6911,11 +6879,11 @@
       {
         "key": "onexbet",
         "title": "1xBet",
-        "last_update": "2026-04-29T11:01:52Z",
+        "last_update": "2026-04-29T15:11:32Z",
         "markets": [
           {
             "key": "h2h",
-            "last_update": "2026-04-29T11:01:52Z",
+            "last_update": "2026-04-29T15:11:32Z",
             "outcomes": [
               {
                 "name": "Corinthians",
@@ -6933,7 +6901,7 @@
           },
           {
             "key": "totals",
-            "last_update": "2026-04-29T11:01:52Z",
+            "last_update": "2026-04-29T15:11:32Z",
             "outcomes": [
               {
                 "name": "Over",
@@ -6952,11 +6920,11 @@
       {
         "key": "betsson",
         "title": "Betsson",
-        "last_update": "2026-04-29T11:00:53Z",
+        "last_update": "2026-04-29T15:11:20Z",
         "markets": [
           {
             "key": "h2h",
-            "last_update": "2026-04-29T11:00:53Z",
+            "last_update": "2026-04-29T15:11:20Z",
             "outcomes": [
               {
                 "name": "Corinthians",
@@ -6974,7 +6942,7 @@
           },
           {
             "key": "totals",
-            "last_update": "2026-04-29T11:00:53Z",
+            "last_update": "2026-04-29T15:11:20Z",
             "outcomes": [
               {
                 "name": "Over",
@@ -6993,11 +6961,11 @@
       {
         "key": "unibet_fr",
         "title": "Unibet (FR)",
-        "last_update": "2026-04-29T11:01:29Z",
+        "last_update": "2026-04-29T15:11:21Z",
         "markets": [
           {
             "key": "h2h",
-            "last_update": "2026-04-29T11:01:29Z",
+            "last_update": "2026-04-29T15:11:21Z",
             "outcomes": [
               {
                 "name": "Corinthians",
@@ -7018,11 +6986,11 @@
       {
         "key": "winamax_de",
         "title": "Winamax (DE)",
-        "last_update": "2026-04-29T11:00:52Z",
+        "last_update": "2026-04-29T15:11:21Z",
         "markets": [
           {
             "key": "h2h",
-            "last_update": "2026-04-29T11:00:52Z",
+            "last_update": "2026-04-29T15:11:21Z",
             "outcomes": [
               {
                 "name": "Corinthians",
@@ -7043,11 +7011,11 @@
       {
         "key": "winamax_fr",
         "title": "Winamax (FR)",
-        "last_update": "2026-04-29T11:01:55Z",
+        "last_update": "2026-04-29T15:11:34Z",
         "markets": [
           {
             "key": "h2h",
-            "last_update": "2026-04-29T11:01:54Z",
+            "last_update": "2026-04-29T15:11:34Z",
             "outcomes": [
               {
                 "name": "Corinthians",
@@ -7068,11 +7036,11 @@
       {
         "key": "sport888",
         "title": "888sport",
-        "last_update": "2026-04-29T11:01:02Z",
+        "last_update": "2026-04-29T15:12:10Z",
         "markets": [
           {
             "key": "h2h",
-            "last_update": "2026-04-29T11:01:02Z",
+            "last_update": "2026-04-29T15:12:10Z",
             "outcomes": [
               {
                 "name": "Corinthians",
@@ -7093,11 +7061,11 @@
       {
         "key": "williamhill",
         "title": "William Hill",
-        "last_update": "2026-04-29T11:01:29Z",
+        "last_update": "2026-04-29T15:11:10Z",
         "markets": [
           {
             "key": "h2h",
-            "last_update": "2026-04-29T11:01:29Z",
+            "last_update": "2026-04-29T15:11:10Z",
             "outcomes": [
               {
                 "name": "Corinthians",
@@ -7115,7 +7083,7 @@
           },
           {
             "key": "totals",
-            "last_update": "2026-04-29T11:01:29Z",
+            "last_update": "2026-04-29T15:11:10Z",
             "outcomes": [
               {
                 "name": "Over",
@@ -7134,11 +7102,11 @@
       {
         "key": "marathonbet",
         "title": "Marathon Bet",
-        "last_update": "2026-04-29T11:01:53Z",
+        "last_update": "2026-04-29T15:11:47Z",
         "markets": [
           {
             "key": "h2h",
-            "last_update": "2026-04-29T11:01:53Z",
+            "last_update": "2026-04-29T15:11:47Z",
             "outcomes": [
               {
                 "name": "Corinthians",
@@ -7159,11 +7127,11 @@
       {
         "key": "betclic_fr",
         "title": "Betclic (FR)",
-        "last_update": "2026-04-29T11:00:57Z",
+        "last_update": "2026-04-29T15:12:13Z",
         "markets": [
           {
             "key": "h2h",
-            "last_update": "2026-04-29T11:00:57Z",
+            "last_update": "2026-04-29T15:12:13Z",
             "outcomes": [
               {
                 "name": "Corinthians",
@@ -7184,11 +7152,11 @@
       {
         "key": "coolbet",
         "title": "Coolbet",
-        "last_update": "2026-04-29T11:01:53Z",
+        "last_update": "2026-04-29T15:11:59Z",
         "markets": [
           {
             "key": "h2h",
-            "last_update": "2026-04-29T11:01:53Z",
+            "last_update": "2026-04-29T15:11:59Z",
             "outcomes": [
               {
                 "name": "Corinthians",
@@ -7206,7 +7174,7 @@
           },
           {
             "key": "totals",
-            "last_update": "2026-04-29T11:01:53Z",
+            "last_update": "2026-04-29T15:11:59Z",
             "outcomes": [
               {
                 "name": "Over",
@@ -7225,11 +7193,11 @@
       {
         "key": "unibet_nl",
         "title": "Unibet (NL)",
-        "last_update": "2026-04-29T11:01:15Z",
+        "last_update": "2026-04-29T15:11:33Z",
         "markets": [
           {
             "key": "h2h",
-            "last_update": "2026-04-29T11:01:15Z",
+            "last_update": "2026-04-29T15:11:33Z",
             "outcomes": [
               {
                 "name": "Corinthians",
@@ -7241,22 +7209,22 @@
               },
               {
                 "name": "Draw",
-                "price": 3.15
+                "price": 3.1
               }
             ]
           },
           {
             "key": "totals",
-            "last_update": "2026-04-29T11:01:15Z",
+            "last_update": "2026-04-29T15:11:33Z",
             "outcomes": [
               {
                 "name": "Over",
-                "price": 2.35,
+                "price": 2.48,
                 "point": 2.5
               },
               {
                 "name": "Under",
-                "price": 1.56,
+                "price": 1.51,
                 "point": 2.5
               }
             ]
@@ -7266,15 +7234,15 @@
       {
         "key": "pmu_fr",
         "title": "PMU (FR)",
-        "last_update": "2026-04-29T11:01:29Z",
+        "last_update": "2026-04-29T15:12:13Z",
         "markets": [
           {
             "key": "h2h",
-            "last_update": "2026-04-29T11:01:29Z",
+            "last_update": "2026-04-29T15:12:13Z",
             "outcomes": [
               {
                 "name": "Corinthians",
-                "price": 3.15
+                "price": 3.2
               },
               {
                 "name": "Mirassol",
@@ -7282,22 +7250,22 @@
               },
               {
                 "name": "Draw",
-                "price": 3.05
+                "price": 3.0
               }
             ]
           },
           {
             "key": "totals",
-            "last_update": "2026-04-29T11:01:29Z",
+            "last_update": "2026-04-29T15:12:13Z",
             "outcomes": [
               {
                 "name": "Over",
-                "price": 2.2,
+                "price": 2.32,
                 "point": 2.5
               },
               {
                 "name": "Under",
-                "price": 1.47,
+                "price": 1.42,
                 "point": 2.5
               }
             ]
@@ -7307,11 +7275,11 @@
       {
         "key": "unibet_se",
         "title": "Unibet (SE)",
-        "last_update": "2026-04-29T11:01:30Z",
+        "last_update": "2026-04-29T15:12:11Z",
         "markets": [
           {
             "key": "h2h",
-            "last_update": "2026-04-29T11:01:30Z",
+            "last_update": "2026-04-29T15:12:11Z",
             "outcomes": [
               {
                 "name": "Corinthians",
@@ -7323,22 +7291,22 @@
               },
               {
                 "name": "Draw",
-                "price": 3.15
+                "price": 3.1
               }
             ]
           },
           {
             "key": "totals",
-            "last_update": "2026-04-29T11:01:30Z",
+            "last_update": "2026-04-29T15:12:11Z",
             "outcomes": [
               {
                 "name": "Over",
-                "price": 2.35,
+                "price": 2.48,
                 "point": 2.5
               },
               {
                 "name": "Under",
-                "price": 1.56,
+                "price": 1.51,
                 "point": 2.5
               }
             ]
@@ -7348,11 +7316,11 @@
       {
         "key": "leovegas_se",
         "title": "LeoVegas (SE)",
-        "last_update": "2026-04-29T11:01:03Z",
+        "last_update": "2026-04-29T15:12:11Z",
         "markets": [
           {
             "key": "h2h",
-            "last_update": "2026-04-29T11:01:03Z",
+            "last_update": "2026-04-29T15:12:11Z",
             "outcomes": [
               {
                 "name": "Corinthians",
@@ -7364,7 +7332,7 @@
               },
               {
                 "name": "Draw",
-                "price": 3.1
+                "price": 3.05
               }
             ]
           }
@@ -7373,11 +7341,11 @@
       {
         "key": "pinnacle",
         "title": "Pinnacle",
-        "last_update": "2026-04-29T11:01:30Z",
+        "last_update": "2026-04-29T15:12:13Z",
         "markets": [
           {
             "key": "h2h",
-            "last_update": "2026-04-29T11:01:30Z",
+            "last_update": "2026-04-29T15:12:13Z",
             "outcomes": [
               {
                 "name": "Corinthians",
@@ -7395,7 +7363,7 @@
           },
           {
             "key": "totals",
-            "last_update": "2026-04-29T11:01:30Z",
+            "last_update": "2026-04-29T15:12:13Z",
             "outcomes": [
               {
                 "name": "Over",
@@ -7414,11 +7382,11 @@
       {
         "key": "matchbook",
         "title": "Matchbook",
-        "last_update": "2026-04-29T11:01:53Z",
+        "last_update": "2026-04-29T15:11:45Z",
         "markets": [
           {
             "key": "h2h",
-            "last_update": "2026-04-29T11:01:53Z",
+            "last_update": "2026-04-29T15:11:45Z",
             "outcomes": [
               {
                 "name": "Corinthians",
@@ -7436,11 +7404,11 @@
           },
           {
             "key": "h2h_lay",
-            "last_update": "2026-04-29T11:01:53Z",
+            "last_update": "2026-04-29T15:11:45Z",
             "outcomes": [
               {
                 "name": "Corinthians",
-                "price": 4.2
+                "price": 3.8
               },
               {
                 "name": "Mirassol",
@@ -7454,7 +7422,7 @@
           },
           {
             "key": "totals",
-            "last_update": "2026-04-29T11:01:53Z",
+            "last_update": "2026-04-29T15:11:45Z",
             "outcomes": [
               {
                 "name": "Over",
@@ -7473,11 +7441,11 @@
       {
         "key": "tipico_de",
         "title": "Tipico",
-        "last_update": "2026-04-29T11:01:16Z",
+        "last_update": "2026-04-29T15:11:45Z",
         "markets": [
           {
             "key": "h2h",
-            "last_update": "2026-04-29T11:01:16Z",
+            "last_update": "2026-04-29T15:11:45Z",
             "outcomes": [
               {
                 "name": "Corinthians",
@@ -7495,7 +7463,7 @@
           },
           {
             "key": "totals",
-            "last_update": "2026-04-29T11:01:16Z",
+            "last_update": "2026-04-29T15:11:45Z",
             "outcomes": [
               {
                 "name": "Over",
@@ -7514,11 +7482,11 @@
       {
         "key": "everygame",
         "title": "Everygame",
-        "last_update": "2026-04-29T11:01:17Z",
+        "last_update": "2026-04-29T15:11:12Z",
         "markets": [
           {
             "key": "h2h",
-            "last_update": "2026-04-29T11:01:17Z",
+            "last_update": "2026-04-29T15:11:12Z",
             "outcomes": [
               {
                 "name": "Corinthians",
@@ -7539,11 +7507,11 @@
       {
         "key": "gtbets",
         "title": "GTbets",
-        "last_update": "2026-04-29T11:01:17Z",
+        "last_update": "2026-04-29T15:11:46Z",
         "markets": [
           {
             "key": "h2h",
-            "last_update": "2026-04-29T11:01:17Z",
+            "last_update": "2026-04-29T15:11:46Z",
             "outcomes": [
               {
                 "name": "Corinthians",
@@ -7561,7 +7529,7 @@
           },
           {
             "key": "totals",
-            "last_update": "2026-04-29T11:01:17Z",
+            "last_update": "2026-04-29T15:11:46Z",
             "outcomes": [
               {
                 "name": "Over",
@@ -7580,11 +7548,11 @@
       {
         "key": "betonlineag",
         "title": "BetOnline.ag",
-        "last_update": "2026-04-29T11:01:16Z",
+        "last_update": "2026-04-29T15:11:33Z",
         "markets": [
           {
             "key": "h2h",
-            "last_update": "2026-04-29T11:01:16Z",
+            "last_update": "2026-04-29T15:11:33Z",
             "outcomes": [
               {
                 "name": "Corinthians",
@@ -7602,7 +7570,7 @@
           },
           {
             "key": "totals",
-            "last_update": "2026-04-29T11:01:16Z",
+            "last_update": "2026-04-29T15:11:33Z",
             "outcomes": [
               {
                 "name": "Over",
@@ -7631,11 +7599,11 @@
       {
         "key": "winamax_fr",
         "title": "Winamax (FR)",
-        "last_update": "2026-04-29T11:01:55Z",
+        "last_update": "2026-04-29T15:11:34Z",
         "markets": [
           {
             "key": "h2h",
-            "last_update": "2026-04-29T11:01:55Z",
+            "last_update": "2026-04-29T15:11:34Z",
             "outcomes": [
               {
                 "name": "Coritiba",
@@ -7656,11 +7624,11 @@
       {
         "key": "unibet_fr",
         "title": "Unibet (FR)",
-        "last_update": "2026-04-29T11:01:29Z",
+        "last_update": "2026-04-29T15:11:21Z",
         "markets": [
           {
             "key": "h2h",
-            "last_update": "2026-04-29T11:01:29Z",
+            "last_update": "2026-04-29T15:11:21Z",
             "outcomes": [
               {
                 "name": "Coritiba",
@@ -7681,11 +7649,11 @@
       {
         "key": "winamax_de",
         "title": "Winamax (DE)",
-        "last_update": "2026-04-29T11:00:52Z",
+        "last_update": "2026-04-29T15:11:21Z",
         "markets": [
           {
             "key": "h2h",
-            "last_update": "2026-04-29T11:00:52Z",
+            "last_update": "2026-04-29T15:11:21Z",
             "outcomes": [
               {
                 "name": "Coritiba",
@@ -7706,11 +7674,11 @@
       {
         "key": "onexbet",
         "title": "1xBet",
-        "last_update": "2026-04-29T11:01:52Z",
+        "last_update": "2026-04-29T15:11:32Z",
         "markets": [
           {
             "key": "h2h",
-            "last_update": "2026-04-29T11:01:52Z",
+            "last_update": "2026-04-29T15:11:32Z",
             "outcomes": [
               {
                 "name": "Coritiba",
@@ -7728,7 +7696,7 @@
           },
           {
             "key": "totals",
-            "last_update": "2026-04-29T11:01:52Z",
+            "last_update": "2026-04-29T15:11:32Z",
             "outcomes": [
               {
                 "name": "Over",
@@ -7747,11 +7715,11 @@
       {
         "key": "sport888",
         "title": "888sport",
-        "last_update": "2026-04-29T11:01:02Z",
+        "last_update": "2026-04-29T15:12:10Z",
         "markets": [
           {
             "key": "h2h",
-            "last_update": "2026-04-29T11:01:02Z",
+            "last_update": "2026-04-29T15:12:10Z",
             "outcomes": [
               {
                 "name": "Coritiba",
@@ -7772,11 +7740,11 @@
       {
         "key": "williamhill",
         "title": "William Hill",
-        "last_update": "2026-04-29T11:01:29Z",
+        "last_update": "2026-04-29T15:11:10Z",
         "markets": [
           {
             "key": "h2h",
-            "last_update": "2026-04-29T11:01:29Z",
+            "last_update": "2026-04-29T15:11:10Z",
             "outcomes": [
               {
                 "name": "Coritiba",
@@ -7794,7 +7762,7 @@
           },
           {
             "key": "totals",
-            "last_update": "2026-04-29T11:01:29Z",
+            "last_update": "2026-04-29T15:11:10Z",
             "outcomes": [
               {
                 "name": "Over",
@@ -7813,11 +7781,11 @@
       {
         "key": "marathonbet",
         "title": "Marathon Bet",
-        "last_update": "2026-04-29T11:01:53Z",
+        "last_update": "2026-04-29T15:11:47Z",
         "markets": [
           {
             "key": "h2h",
-            "last_update": "2026-04-29T11:01:53Z",
+            "last_update": "2026-04-29T15:11:47Z",
             "outcomes": [
               {
                 "name": "Coritiba",
@@ -7838,41 +7806,41 @@
       {
         "key": "betfair_ex_eu",
         "title": "Betfair",
-        "last_update": "2026-04-29T11:01:55Z",
+        "last_update": "2026-04-29T15:11:46Z",
         "markets": [
           {
             "key": "h2h",
-            "last_update": "2026-04-29T11:01:55Z",
+            "last_update": "2026-04-29T15:11:46Z",
             "outcomes": [
               {
                 "name": "Coritiba",
-                "price": 1.04
+                "price": 1.49
               },
               {
                 "name": "Internacional",
-                "price": 1.04
+                "price": 1.49
               },
               {
                 "name": "Draw",
-                "price": 1.01
+                "price": 2.9
               }
             ]
           },
           {
             "key": "h2h_lay",
-            "last_update": "2026-04-29T11:01:55Z",
+            "last_update": "2026-04-29T15:11:46Z",
             "outcomes": [
               {
                 "name": "Coritiba",
-                "price": 2.88
+                "price": 3.05
               },
               {
                 "name": "Internacional",
-                "price": 3.65
+                "price": 3.05
               },
               {
                 "name": "Draw",
-                "price": 3.75
+                "price": 950.0
               }
             ]
           }
@@ -7891,11 +7859,11 @@
       {
         "key": "unibet_fr",
         "title": "Unibet (FR)",
-        "last_update": "2026-04-29T11:01:29Z",
+        "last_update": "2026-04-29T15:11:21Z",
         "markets": [
           {
             "key": "h2h",
-            "last_update": "2026-04-29T11:01:29Z",
+            "last_update": "2026-04-29T15:11:21Z",
             "outcomes": [
               {
                 "name": "Fluminense",
@@ -7916,11 +7884,11 @@
       {
         "key": "onexbet",
         "title": "1xBet",
-        "last_update": "2026-04-29T11:01:52Z",
+        "last_update": "2026-04-29T15:11:32Z",
         "markets": [
           {
             "key": "h2h",
-            "last_update": "2026-04-29T11:01:52Z",
+            "last_update": "2026-04-29T15:11:32Z",
             "outcomes": [
               {
                 "name": "Fluminense",
@@ -7938,7 +7906,7 @@
           },
           {
             "key": "totals",
-            "last_update": "2026-04-29T11:01:52Z",
+            "last_update": "2026-04-29T15:11:32Z",
             "outcomes": [
               {
                 "name": "Over",
@@ -7957,11 +7925,11 @@
       {
         "key": "winamax_de",
         "title": "Winamax (DE)",
-        "last_update": "2026-04-29T11:00:52Z",
+        "last_update": "2026-04-29T15:11:21Z",
         "markets": [
           {
             "key": "h2h",
-            "last_update": "2026-04-29T11:00:52Z",
+            "last_update": "2026-04-29T15:11:21Z",
             "outcomes": [
               {
                 "name": "Fluminense",
@@ -7982,11 +7950,11 @@
       {
         "key": "winamax_fr",
         "title": "Winamax (FR)",
-        "last_update": "2026-04-29T11:01:55Z",
+        "last_update": "2026-04-29T15:11:34Z",
         "markets": [
           {
             "key": "h2h",
-            "last_update": "2026-04-29T11:01:55Z",
+            "last_update": "2026-04-29T15:11:34Z",
             "outcomes": [
               {
                 "name": "Fluminense",
@@ -8007,11 +7975,11 @@
       {
         "key": "sport888",
         "title": "888sport",
-        "last_update": "2026-04-29T11:01:02Z",
+        "last_update": "2026-04-29T15:12:10Z",
         "markets": [
           {
             "key": "h2h",
-            "last_update": "2026-04-29T11:01:02Z",
+            "last_update": "2026-04-29T15:12:10Z",
             "outcomes": [
               {
                 "name": "Fluminense",
@@ -8032,11 +8000,11 @@
       {
         "key": "williamhill",
         "title": "William Hill",
-        "last_update": "2026-04-29T11:01:29Z",
+        "last_update": "2026-04-29T15:11:10Z",
         "markets": [
           {
             "key": "h2h",
-            "last_update": "2026-04-29T11:01:29Z",
+            "last_update": "2026-04-29T15:11:10Z",
             "outcomes": [
               {
                 "name": "Fluminense",
@@ -8054,7 +8022,7 @@
           },
           {
             "key": "totals",
-            "last_update": "2026-04-29T11:01:29Z",
+            "last_update": "2026-04-29T15:11:10Z",
             "outcomes": [
               {
                 "name": "Over",
@@ -8073,11 +8041,11 @@
       {
         "key": "betfair_ex_eu",
         "title": "Betfair",
-        "last_update": "2026-04-29T11:01:55Z",
+        "last_update": "2026-04-29T15:11:46Z",
         "markets": [
           {
             "key": "h2h",
-            "last_update": "2026-04-29T11:01:55Z",
+            "last_update": "2026-04-29T15:11:46Z",
             "outcomes": [
               {
                 "name": "Fluminense",
@@ -8095,7 +8063,7 @@
           },
           {
             "key": "h2h_lay",
-            "last_update": "2026-04-29T11:01:55Z",
+            "last_update": "2026-04-29T15:11:46Z",
             "outcomes": [
               {
                 "name": "Fluminense",
@@ -8116,11 +8084,11 @@
       {
         "key": "marathonbet",
         "title": "Marathon Bet",
-        "last_update": "2026-04-29T11:01:53Z",
+        "last_update": "2026-04-29T15:11:47Z",
         "markets": [
           {
             "key": "h2h",
-            "last_update": "2026-04-29T11:01:53Z",
+            "last_update": "2026-04-29T15:11:47Z",
             "outcomes": [
               {
                 "name": "Fluminense",
@@ -8151,11 +8119,11 @@
       {
         "key": "winamax_de",
         "title": "Winamax (DE)",
-        "last_update": "2026-04-29T11:00:52Z",
+        "last_update": "2026-04-29T15:11:21Z",
         "markets": [
           {
             "key": "h2h",
-            "last_update": "2026-04-29T11:00:52Z",
+            "last_update": "2026-04-29T15:11:21Z",
             "outcomes": [
               {
                 "name": "Bahia",
@@ -8176,11 +8144,11 @@
       {
         "key": "winamax_fr",
         "title": "Winamax (FR)",
-        "last_update": "2026-04-29T11:01:55Z",
+        "last_update": "2026-04-29T15:11:34Z",
         "markets": [
           {
             "key": "h2h",
-            "last_update": "2026-04-29T11:01:55Z",
+            "last_update": "2026-04-29T15:11:34Z",
             "outcomes": [
               {
                 "name": "Bahia",
@@ -8201,11 +8169,11 @@
       {
         "key": "unibet_fr",
         "title": "Unibet (FR)",
-        "last_update": "2026-04-29T11:01:29Z",
+        "last_update": "2026-04-29T15:11:21Z",
         "markets": [
           {
             "key": "h2h",
-            "last_update": "2026-04-29T11:01:29Z",
+            "last_update": "2026-04-29T15:11:21Z",
             "outcomes": [
               {
                 "name": "Bahia",
@@ -8226,11 +8194,11 @@
       {
         "key": "onexbet",
         "title": "1xBet",
-        "last_update": "2026-04-29T11:01:52Z",
+        "last_update": "2026-04-29T15:11:32Z",
         "markets": [
           {
             "key": "h2h",
-            "last_update": "2026-04-29T11:01:52Z",
+            "last_update": "2026-04-29T15:11:32Z",
             "outcomes": [
               {
                 "name": "Bahia",
@@ -8248,7 +8216,7 @@
           },
           {
             "key": "totals",
-            "last_update": "2026-04-29T11:01:52Z",
+            "last_update": "2026-04-29T15:11:32Z",
             "outcomes": [
               {
                 "name": "Over",
@@ -8267,11 +8235,11 @@
       {
         "key": "sport888",
         "title": "888sport",
-        "last_update": "2026-04-29T11:01:02Z",
+        "last_update": "2026-04-29T15:12:10Z",
         "markets": [
           {
             "key": "h2h",
-            "last_update": "2026-04-29T11:01:02Z",
+            "last_update": "2026-04-29T15:12:10Z",
             "outcomes": [
               {
                 "name": "Bahia",
@@ -8292,11 +8260,11 @@
       {
         "key": "williamhill",
         "title": "William Hill",
-        "last_update": "2026-04-29T11:01:29Z",
+        "last_update": "2026-04-29T15:11:10Z",
         "markets": [
           {
             "key": "h2h",
-            "last_update": "2026-04-29T11:01:29Z",
+            "last_update": "2026-04-29T15:11:10Z",
             "outcomes": [
               {
                 "name": "Bahia",
@@ -8314,7 +8282,7 @@
           },
           {
             "key": "totals",
-            "last_update": "2026-04-29T11:01:29Z",
+            "last_update": "2026-04-29T15:11:10Z",
             "outcomes": [
               {
                 "name": "Over",
@@ -8333,11 +8301,11 @@
       {
         "key": "betfair_ex_eu",
         "title": "Betfair",
-        "last_update": "2026-04-29T11:01:55Z",
+        "last_update": "2026-04-29T15:11:46Z",
         "markets": [
           {
             "key": "h2h",
-            "last_update": "2026-04-29T11:01:55Z",
+            "last_update": "2026-04-29T15:11:46Z",
             "outcomes": [
               {
                 "name": "Bahia",
@@ -8355,7 +8323,7 @@
           },
           {
             "key": "h2h_lay",
-            "last_update": "2026-04-29T11:01:55Z",
+            "last_update": "2026-04-29T15:11:46Z",
             "outcomes": [
               {
                 "name": "Bahia",
@@ -8376,11 +8344,11 @@
       {
         "key": "marathonbet",
         "title": "Marathon Bet",
-        "last_update": "2026-04-29T11:01:53Z",
+        "last_update": "2026-04-29T15:11:47Z",
         "markets": [
           {
             "key": "h2h",
-            "last_update": "2026-04-29T11:01:53Z",
+            "last_update": "2026-04-29T15:11:47Z",
             "outcomes": [
               {
                 "name": "Bahia",
@@ -8411,23 +8379,23 @@
       {
         "key": "winamax_de",
         "title": "Winamax (DE)",
-        "last_update": "2026-04-29T11:00:52Z",
+        "last_update": "2026-04-29T15:11:21Z",
         "markets": [
           {
             "key": "h2h",
-            "last_update": "2026-04-29T11:00:52Z",
+            "last_update": "2026-04-29T15:11:21Z",
             "outcomes": [
               {
                 "name": "Atletico Mineiro",
-                "price": 1.94
+                "price": 2.05
               },
               {
                 "name": "Botafogo",
-                "price": 3.1
+                "price": 2.95
               },
               {
                 "name": "Draw",
-                "price": 3.2
+                "price": 3.05
               }
             ]
           }
@@ -8436,23 +8404,23 @@
       {
         "key": "winamax_fr",
         "title": "Winamax (FR)",
-        "last_update": "2026-04-29T11:01:55Z",
+        "last_update": "2026-04-29T15:11:34Z",
         "markets": [
           {
             "key": "h2h",
-            "last_update": "2026-04-29T11:01:55Z",
+            "last_update": "2026-04-29T15:11:34Z",
             "outcomes": [
               {
                 "name": "Atletico Mineiro",
-                "price": 1.88
+                "price": 2.0
               },
               {
                 "name": "Botafogo",
-                "price": 3.0
+                "price": 2.85
               },
               {
                 "name": "Draw",
-                "price": 3.1
+                "price": 2.95
               }
             ]
           }
@@ -8461,23 +8429,23 @@
       {
         "key": "unibet_fr",
         "title": "Unibet (FR)",
-        "last_update": "2026-04-29T11:01:29Z",
+        "last_update": "2026-04-29T15:11:21Z",
         "markets": [
           {
             "key": "h2h",
-            "last_update": "2026-04-29T11:01:29Z",
+            "last_update": "2026-04-29T15:11:21Z",
             "outcomes": [
               {
                 "name": "Atletico Mineiro",
-                "price": 1.94
+                "price": 1.99
               },
               {
                 "name": "Botafogo",
-                "price": 3.15
+                "price": 3.1
               },
               {
                 "name": "Draw",
-                "price": 3.1
+                "price": 3.05
               }
             ]
           }
@@ -8486,38 +8454,38 @@
       {
         "key": "onexbet",
         "title": "1xBet",
-        "last_update": "2026-04-29T11:01:52Z",
+        "last_update": "2026-04-29T15:11:32Z",
         "markets": [
           {
             "key": "h2h",
-            "last_update": "2026-04-29T11:01:52Z",
+            "last_update": "2026-04-29T15:11:32Z",
             "outcomes": [
               {
                 "name": "Atletico Mineiro",
-                "price": 2.16
+                "price": 2.22
               },
               {
                 "name": "Botafogo",
-                "price": 3.52
+                "price": 3.38
               },
               {
                 "name": "Draw",
-                "price": 3.4
+                "price": 3.38
               }
             ]
           },
           {
             "key": "totals",
-            "last_update": "2026-04-29T11:01:52Z",
+            "last_update": "2026-04-29T15:11:32Z",
             "outcomes": [
               {
                 "name": "Over",
-                "price": 2.03,
+                "price": 2.04,
                 "point": 2.5
               },
               {
                 "name": "Under",
-                "price": 1.82,
+                "price": 1.81,
                 "point": 2.5
               }
             ]
@@ -8527,19 +8495,19 @@
       {
         "key": "sport888",
         "title": "888sport",
-        "last_update": "2026-04-29T11:01:02Z",
+        "last_update": "2026-04-29T15:12:10Z",
         "markets": [
           {
             "key": "h2h",
-            "last_update": "2026-04-29T11:01:02Z",
+            "last_update": "2026-04-29T15:12:10Z",
             "outcomes": [
               {
                 "name": "Atletico Mineiro",
-                "price": 2.1
+                "price": 2.15
               },
               {
                 "name": "Botafogo",
-                "price": 3.4
+                "price": 3.25
               },
               {
                 "name": "Draw",
@@ -8552,11 +8520,11 @@
       {
         "key": "betfair_ex_eu",
         "title": "Betfair",
-        "last_update": "2026-04-29T11:01:55Z",
+        "last_update": "2026-04-29T15:11:46Z",
         "markets": [
           {
             "key": "h2h",
-            "last_update": "2026-04-29T11:01:55Z",
+            "last_update": "2026-04-29T15:11:46Z",
             "outcomes": [
               {
                 "name": "Atletico Mineiro",
@@ -8574,15 +8542,15 @@
           },
           {
             "key": "h2h_lay",
-            "last_update": "2026-04-29T11:01:55Z",
+            "last_update": "2026-04-29T15:11:46Z",
             "outcomes": [
               {
                 "name": "Atletico Mineiro",
-                "price": 2.44
+                "price": 2.5
               },
               {
                 "name": "Botafogo",
-                "price": 4.1
+                "price": 3.95
               },
               {
                 "name": "Draw",
@@ -8595,19 +8563,19 @@
       {
         "key": "williamhill",
         "title": "William Hill",
-        "last_update": "2026-04-29T11:01:29Z",
+        "last_update": "2026-04-29T15:11:10Z",
         "markets": [
           {
             "key": "h2h",
-            "last_update": "2026-04-29T11:01:29Z",
+            "last_update": "2026-04-29T15:11:10Z",
             "outcomes": [
               {
                 "name": "Atletico Mineiro",
-                "price": 2.1
+                "price": 2.15
               },
               {
                 "name": "Botafogo",
-                "price": 3.4
+                "price": 3.25
               },
               {
                 "name": "Draw",
@@ -8617,7 +8585,7 @@
           },
           {
             "key": "totals",
-            "last_update": "2026-04-29T11:01:29Z",
+            "last_update": "2026-04-29T15:11:10Z",
             "outcomes": [
               {
                 "name": "Over",
@@ -8636,23 +8604,23 @@
       {
         "key": "marathonbet",
         "title": "Marathon Bet",
-        "last_update": "2026-04-29T11:01:53Z",
+        "last_update": "2026-04-29T15:11:47Z",
         "markets": [
           {
             "key": "h2h",
-            "last_update": "2026-04-29T11:01:53Z",
+            "last_update": "2026-04-29T15:11:47Z",
             "outcomes": [
               {
                 "name": "Atletico Mineiro",
-                "price": 2.1
+                "price": 2.16
               },
               {
                 "name": "Botafogo",
-                "price": 3.42
+                "price": 3.28
               },
               {
                 "name": "Draw",
-                "price": 3.3
+                "price": 3.28
               }
             ]
           }
@@ -8671,11 +8639,11 @@
       {
         "key": "winamax_de",
         "title": "Winamax (DE)",
-        "last_update": "2026-04-29T11:00:52Z",
+        "last_update": "2026-04-29T15:11:21Z",
         "markets": [
           {
             "key": "h2h",
-            "last_update": "2026-04-29T11:00:52Z",
+            "last_update": "2026-04-29T15:11:21Z",
             "outcomes": [
               {
                 "name": "Palmeiras",
@@ -8696,11 +8664,11 @@
       {
         "key": "winamax_fr",
         "title": "Winamax (FR)",
-        "last_update": "2026-04-29T11:01:55Z",
+        "last_update": "2026-04-29T15:11:34Z",
         "markets": [
           {
             "key": "h2h",
-            "last_update": "2026-04-29T11:01:55Z",
+            "last_update": "2026-04-29T15:11:34Z",
             "outcomes": [
               {
                 "name": "Palmeiras",
@@ -8721,11 +8689,11 @@
       {
         "key": "unibet_fr",
         "title": "Unibet (FR)",
-        "last_update": "2026-04-29T11:01:29Z",
+        "last_update": "2026-04-29T15:11:21Z",
         "markets": [
           {
             "key": "h2h",
-            "last_update": "2026-04-29T11:01:29Z",
+            "last_update": "2026-04-29T15:11:21Z",
             "outcomes": [
               {
                 "name": "Palmeiras",
@@ -8746,11 +8714,11 @@
       {
         "key": "onexbet",
         "title": "1xBet",
-        "last_update": "2026-04-29T11:01:52Z",
+        "last_update": "2026-04-29T15:11:32Z",
         "markets": [
           {
             "key": "h2h",
-            "last_update": "2026-04-29T11:01:52Z",
+            "last_update": "2026-04-29T15:11:32Z",
             "outcomes": [
               {
                 "name": "Palmeiras",
@@ -8758,17 +8726,17 @@
               },
               {
                 "name": "Remo",
-                "price": 5.3
+                "price": 5.35
               },
               {
                 "name": "Draw",
-                "price": 3.73
+                "price": 3.71
               }
             ]
           },
           {
             "key": "totals",
-            "last_update": "2026-04-29T11:01:52Z",
+            "last_update": "2026-04-29T15:11:32Z",
             "outcomes": [
               {
                 "name": "Over",
@@ -8787,11 +8755,11 @@
       {
         "key": "betfair_ex_eu",
         "title": "Betfair",
-        "last_update": "2026-04-29T11:01:55Z",
+        "last_update": "2026-04-29T15:11:46Z",
         "markets": [
           {
             "key": "h2h",
-            "last_update": "2026-04-29T11:01:55Z",
+            "last_update": "2026-04-29T15:11:46Z",
             "outcomes": [
               {
                 "name": "Palmeiras",
@@ -8809,7 +8777,7 @@
           },
           {
             "key": "h2h_lay",
-            "last_update": "2026-04-29T11:01:55Z",
+            "last_update": "2026-04-29T15:11:46Z",
             "outcomes": [
               {
                 "name": "Palmeiras",
@@ -8830,11 +8798,11 @@
       {
         "key": "sport888",
         "title": "888sport",
-        "last_update": "2026-04-29T11:01:02Z",
+        "last_update": "2026-04-29T15:12:10Z",
         "markets": [
           {
             "key": "h2h",
-            "last_update": "2026-04-29T11:01:02Z",
+            "last_update": "2026-04-29T15:12:10Z",
             "outcomes": [
               {
                 "name": "Palmeiras",
@@ -8855,11 +8823,11 @@
       {
         "key": "williamhill",
         "title": "William Hill",
-        "last_update": "2026-04-29T11:01:29Z",
+        "last_update": "2026-04-29T15:11:10Z",
         "markets": [
           {
             "key": "h2h",
-            "last_update": "2026-04-29T11:01:29Z",
+            "last_update": "2026-04-29T15:11:10Z",
             "outcomes": [
               {
                 "name": "Palmeiras",
@@ -8877,7 +8845,7 @@
           },
           {
             "key": "totals",
-            "last_update": "2026-04-29T11:01:29Z",
+            "last_update": "2026-04-29T15:11:10Z",
             "outcomes": [
               {
                 "name": "Over",
@@ -8896,11 +8864,11 @@
       {
         "key": "marathonbet",
         "title": "Marathon Bet",
-        "last_update": "2026-04-29T11:01:53Z",
+        "last_update": "2026-04-29T15:11:47Z",
         "markets": [
           {
             "key": "h2h",
-            "last_update": "2026-04-29T11:01:53Z",
+            "last_update": "2026-04-29T15:11:47Z",
             "outcomes": [
               {
                 "name": "Palmeiras",
@@ -8908,11 +8876,11 @@
               },
               {
                 "name": "Remo",
-                "price": 5.15
+                "price": 5.2
               },
               {
                 "name": "Draw",
-                "price": 3.62
+                "price": 3.6
               }
             ]
           }
@@ -8931,11 +8899,11 @@
       {
         "key": "winamax_de",
         "title": "Winamax (DE)",
-        "last_update": "2026-04-29T11:00:52Z",
+        "last_update": "2026-04-29T15:11:21Z",
         "markets": [
           {
             "key": "h2h",
-            "last_update": "2026-04-29T11:00:52Z",
+            "last_update": "2026-04-29T15:11:21Z",
             "outcomes": [
               {
                 "name": "Bragantino-SP",
@@ -8956,11 +8924,11 @@
       {
         "key": "winamax_fr",
         "title": "Winamax (FR)",
-        "last_update": "2026-04-29T11:01:55Z",
+        "last_update": "2026-04-29T15:11:34Z",
         "markets": [
           {
             "key": "h2h",
-            "last_update": "2026-04-29T11:01:55Z",
+            "last_update": "2026-04-29T15:11:34Z",
             "outcomes": [
               {
                 "name": "Bragantino-SP",
@@ -8981,11 +8949,11 @@
       {
         "key": "unibet_fr",
         "title": "Unibet (FR)",
-        "last_update": "2026-04-29T11:01:29Z",
+        "last_update": "2026-04-29T15:11:21Z",
         "markets": [
           {
             "key": "h2h",
-            "last_update": "2026-04-29T11:01:29Z",
+            "last_update": "2026-04-29T15:11:21Z",
             "outcomes": [
               {
                 "name": "Bragantino-SP",
@@ -9006,11 +8974,11 @@
       {
         "key": "onexbet",
         "title": "1xBet",
-        "last_update": "2026-04-29T11:01:52Z",
+        "last_update": "2026-04-29T15:11:32Z",
         "markets": [
           {
             "key": "h2h",
-            "last_update": "2026-04-29T11:01:52Z",
+            "last_update": "2026-04-29T15:11:32Z",
             "outcomes": [
               {
                 "name": "Bragantino-SP",
@@ -9028,7 +8996,7 @@
           },
           {
             "key": "totals",
-            "last_update": "2026-04-29T11:01:52Z",
+            "last_update": "2026-04-29T15:11:32Z",
             "outcomes": [
               {
                 "name": "Over",
@@ -9047,11 +9015,11 @@
       {
         "key": "betfair_ex_eu",
         "title": "Betfair",
-        "last_update": "2026-04-29T11:01:55Z",
+        "last_update": "2026-04-29T15:11:46Z",
         "markets": [
           {
             "key": "h2h",
-            "last_update": "2026-04-29T11:01:55Z",
+            "last_update": "2026-04-29T15:11:46Z",
             "outcomes": [
               {
                 "name": "Bragantino-SP",
@@ -9069,7 +9037,7 @@
           },
           {
             "key": "h2h_lay",
-            "last_update": "2026-04-29T11:01:55Z",
+            "last_update": "2026-04-29T15:11:46Z",
             "outcomes": [
               {
                 "name": "Bragantino-SP",
@@ -9090,11 +9058,11 @@
       {
         "key": "sport888",
         "title": "888sport",
-        "last_update": "2026-04-29T11:01:02Z",
+        "last_update": "2026-04-29T15:12:10Z",
         "markets": [
           {
             "key": "h2h",
-            "last_update": "2026-04-29T11:01:02Z",
+            "last_update": "2026-04-29T15:12:10Z",
             "outcomes": [
               {
                 "name": "Bragantino-SP",
@@ -9115,11 +9083,11 @@
       {
         "key": "williamhill",
         "title": "William Hill",
-        "last_update": "2026-04-29T11:01:29Z",
+        "last_update": "2026-04-29T15:11:10Z",
         "markets": [
           {
             "key": "h2h",
-            "last_update": "2026-04-29T11:01:29Z",
+            "last_update": "2026-04-29T15:11:10Z",
             "outcomes": [
               {
                 "name": "Bragantino-SP",
@@ -9137,7 +9105,7 @@
           },
           {
             "key": "totals",
-            "last_update": "2026-04-29T11:01:29Z",
+            "last_update": "2026-04-29T15:11:10Z",
             "outcomes": [
               {
                 "name": "Over",
@@ -9156,11 +9124,11 @@
       {
         "key": "marathonbet",
         "title": "Marathon Bet",
-        "last_update": "2026-04-29T11:01:53Z",
+        "last_update": "2026-04-29T15:11:47Z",
         "markets": [
           {
             "key": "h2h",
-            "last_update": "2026-04-29T11:01:53Z",
+            "last_update": "2026-04-29T15:11:47Z",
             "outcomes": [
               {
                 "name": "Bragantino-SP",
@@ -9191,23 +9159,23 @@
       {
         "key": "winamax_de",
         "title": "Winamax (DE)",
-        "last_update": "2026-04-29T11:00:52Z",
+        "last_update": "2026-04-29T15:11:21Z",
         "markets": [
           {
             "key": "h2h",
-            "last_update": "2026-04-29T11:00:52Z",
+            "last_update": "2026-04-29T15:11:21Z",
             "outcomes": [
               {
                 "name": "Chapecoense",
-                "price": 4.2
+                "price": 4.7
               },
               {
                 "name": "Mirassol",
-                "price": 1.62
+                "price": 1.54
               },
               {
                 "name": "Draw",
-                "price": 3.4
+                "price": 3.45
               }
             ]
           }
@@ -9216,23 +9184,23 @@
       {
         "key": "winamax_fr",
         "title": "Winamax (FR)",
-        "last_update": "2026-04-29T11:01:55Z",
+        "last_update": "2026-04-29T15:11:34Z",
         "markets": [
           {
             "key": "h2h",
-            "last_update": "2026-04-29T11:01:55Z",
+            "last_update": "2026-04-29T15:11:34Z",
             "outcomes": [
               {
                 "name": "Chapecoense",
-                "price": 4.0
+                "price": 4.5
               },
               {
                 "name": "Mirassol",
-                "price": 1.58
+                "price": 1.5
               },
               {
                 "name": "Draw",
-                "price": 3.25
+                "price": 3.3
               }
             ]
           }
@@ -9241,19 +9209,19 @@
       {
         "key": "unibet_fr",
         "title": "Unibet (FR)",
-        "last_update": "2026-04-29T11:01:29Z",
+        "last_update": "2026-04-29T15:11:21Z",
         "markets": [
           {
             "key": "h2h",
-            "last_update": "2026-04-29T11:01:29Z",
+            "last_update": "2026-04-29T15:11:21Z",
             "outcomes": [
               {
                 "name": "Chapecoense",
-                "price": 4.35
+                "price": 4.9
               },
               {
                 "name": "Mirassol",
-                "price": 1.63
+                "price": 1.55
               },
               {
                 "name": "Draw",
@@ -9266,23 +9234,23 @@
       {
         "key": "marathonbet",
         "title": "Marathon Bet",
-        "last_update": "2026-04-29T11:01:53Z",
+        "last_update": "2026-04-29T15:11:47Z",
         "markets": [
           {
             "key": "h2h",
-            "last_update": "2026-04-29T11:01:53Z",
+            "last_update": "2026-04-29T15:11:47Z",
             "outcomes": [
               {
                 "name": "Chapecoense",
-                "price": 4.65
+                "price": 5.25
               },
               {
                 "name": "Mirassol",
-                "price": 1.75
+                "price": 1.65
               },
               {
                 "name": "Draw",
-                "price": 3.5
+                "price": 3.62
               }
             ]
           }
@@ -9291,11 +9259,11 @@
       {
         "key": "betfair_ex_eu",
         "title": "Betfair",
-        "last_update": "2026-04-29T11:01:55Z",
+        "last_update": "2026-04-29T15:11:46Z",
         "markets": [
           {
             "key": "h2h",
-            "last_update": "2026-04-29T11:01:55Z",
+            "last_update": "2026-04-29T15:11:46Z",
             "outcomes": [
               {
                 "name": "Chapecoense",
@@ -9316,29 +9284,29 @@
       {
         "key": "onexbet",
         "title": "1xBet",
-        "last_update": "2026-04-29T11:01:52Z",
+        "last_update": "2026-04-29T15:11:32Z",
         "markets": [
           {
             "key": "h2h",
-            "last_update": "2026-04-29T11:01:52Z",
+            "last_update": "2026-04-29T15:11:32Z",
             "outcomes": [
               {
                 "name": "Chapecoense",
-                "price": 4.79
+                "price": 5.4
               },
               {
                 "name": "Mirassol",
-                "price": 1.8
+                "price": 1.7
               },
               {
                 "name": "Draw",
-                "price": 3.6
+                "price": 3.73
               }
             ]
           },
           {
             "key": "totals",
-            "last_update": "2026-04-29T11:01:52Z",
+            "last_update": "2026-04-29T15:11:32Z",
             "outcomes": [
               {
                 "name": "Over",
@@ -9357,19 +9325,19 @@
       {
         "key": "sport888",
         "title": "888sport",
-        "last_update": "2026-04-29T11:01:02Z",
+        "last_update": "2026-04-29T15:12:10Z",
         "markets": [
           {
             "key": "h2h",
-            "last_update": "2026-04-29T11:01:02Z",
+            "last_update": "2026-04-29T15:12:10Z",
             "outcomes": [
               {
                 "name": "Chapecoense",
-                "price": 4.5
+                "price": 5.0
               },
               {
                 "name": "Mirassol",
-                "price": 1.75
+                "price": 1.67
               },
               {
                 "name": "Draw",
@@ -9382,19 +9350,19 @@
       {
         "key": "williamhill",
         "title": "William Hill",
-        "last_update": "2026-04-29T11:01:29Z",
+        "last_update": "2026-04-29T15:11:10Z",
         "markets": [
           {
             "key": "h2h",
-            "last_update": "2026-04-29T11:01:29Z",
+            "last_update": "2026-04-29T15:11:10Z",
             "outcomes": [
               {
                 "name": "Chapecoense",
-                "price": 4.5
+                "price": 5.0
               },
               {
                 "name": "Mirassol",
-                "price": 1.75
+                "price": 1.67
               },
               {
                 "name": "Draw",
@@ -9404,7 +9372,7 @@
           },
           {
             "key": "totals",
-            "last_update": "2026-04-29T11:01:29Z",
+            "last_update": "2026-04-29T15:11:10Z",
             "outcomes": [
               {
                 "name": "Over",
@@ -9433,11 +9401,11 @@
       {
         "key": "winamax_de",
         "title": "Winamax (DE)",
-        "last_update": "2026-04-29T11:00:52Z",
+        "last_update": "2026-04-29T15:11:21Z",
         "markets": [
           {
             "key": "h2h",
-            "last_update": "2026-04-29T11:00:52Z",
+            "last_update": "2026-04-29T15:11:21Z",
             "outcomes": [
               {
                 "name": "Corinthians",
@@ -9458,11 +9426,11 @@
       {
         "key": "winamax_fr",
         "title": "Winamax (FR)",
-        "last_update": "2026-04-29T11:01:55Z",
+        "last_update": "2026-04-29T15:11:34Z",
         "markets": [
           {
             "key": "h2h",
-            "last_update": "2026-04-29T11:01:55Z",
+            "last_update": "2026-04-29T15:11:34Z",
             "outcomes": [
               {
                 "name": "Corinthians",
@@ -9483,11 +9451,11 @@
       {
         "key": "unibet_fr",
         "title": "Unibet (FR)",
-        "last_update": "2026-04-29T11:01:29Z",
+        "last_update": "2026-04-29T15:11:21Z",
         "markets": [
           {
             "key": "h2h",
-            "last_update": "2026-04-29T11:01:29Z",
+            "last_update": "2026-04-29T15:11:21Z",
             "outcomes": [
               {
                 "name": "Corinthians",
@@ -9508,11 +9476,11 @@
       {
         "key": "onexbet",
         "title": "1xBet",
-        "last_update": "2026-04-29T11:01:52Z",
+        "last_update": "2026-04-29T15:11:32Z",
         "markets": [
           {
             "key": "h2h",
-            "last_update": "2026-04-29T11:01:52Z",
+            "last_update": "2026-04-29T15:11:32Z",
             "outcomes": [
               {
                 "name": "Corinthians",
@@ -9530,7 +9498,7 @@
           },
           {
             "key": "totals",
-            "last_update": "2026-04-29T11:01:52Z",
+            "last_update": "2026-04-29T15:11:32Z",
             "outcomes": [
               {
                 "name": "Over",
@@ -9549,11 +9517,11 @@
       {
         "key": "betfair_ex_eu",
         "title": "Betfair",
-        "last_update": "2026-04-29T11:01:55Z",
+        "last_update": "2026-04-29T15:11:46Z",
         "markets": [
           {
             "key": "h2h",
-            "last_update": "2026-04-29T11:01:55Z",
+            "last_update": "2026-04-29T15:11:46Z",
             "outcomes": [
               {
                 "name": "Corinthians",
@@ -9571,7 +9539,7 @@
           },
           {
             "key": "h2h_lay",
-            "last_update": "2026-04-29T11:01:55Z",
+            "last_update": "2026-04-29T15:11:46Z",
             "outcomes": [
               {
                 "name": "Corinthians",
@@ -9592,11 +9560,11 @@
       {
         "key": "sport888",
         "title": "888sport",
-        "last_update": "2026-04-29T11:01:02Z",
+        "last_update": "2026-04-29T15:12:10Z",
         "markets": [
           {
             "key": "h2h",
-            "last_update": "2026-04-29T11:01:02Z",
+            "last_update": "2026-04-29T15:12:10Z",
             "outcomes": [
               {
                 "name": "Corinthians",
@@ -9617,11 +9585,11 @@
       {
         "key": "williamhill",
         "title": "William Hill",
-        "last_update": "2026-04-29T11:01:29Z",
+        "last_update": "2026-04-29T15:11:10Z",
         "markets": [
           {
             "key": "h2h",
-            "last_update": "2026-04-29T11:01:29Z",
+            "last_update": "2026-04-29T15:11:10Z",
             "outcomes": [
               {
                 "name": "Corinthians",
@@ -9639,7 +9607,7 @@
           },
           {
             "key": "totals",
-            "last_update": "2026-04-29T11:01:29Z",
+            "last_update": "2026-04-29T15:11:10Z",
             "outcomes": [
               {
                 "name": "Over",
@@ -9658,11 +9626,11 @@
       {
         "key": "marathonbet",
         "title": "Marathon Bet",
-        "last_update": "2026-04-29T11:01:53Z",
+        "last_update": "2026-04-29T15:11:47Z",
         "markets": [
           {
             "key": "h2h",
-            "last_update": "2026-04-29T11:01:53Z",
+            "last_update": "2026-04-29T15:11:47Z",
             "outcomes": [
               {
                 "name": "Corinthians",
@@ -9693,11 +9661,11 @@
       {
         "key": "winamax_de",
         "title": "Winamax (DE)",
-        "last_update": "2026-04-29T11:00:52Z",
+        "last_update": "2026-04-29T15:11:21Z",
         "markets": [
           {
             "key": "h2h",
-            "last_update": "2026-04-29T11:00:52Z",
+            "last_update": "2026-04-29T15:11:21Z",
             "outcomes": [
               {
                 "name": "Flamengo",
@@ -9718,11 +9686,11 @@
       {
         "key": "unibet_fr",
         "title": "Unibet (FR)",
-        "last_update": "2026-04-29T11:01:29Z",
+        "last_update": "2026-04-29T15:11:21Z",
         "markets": [
           {
             "key": "h2h",
-            "last_update": "2026-04-29T11:01:29Z",
+            "last_update": "2026-04-29T15:11:21Z",
             "outcomes": [
               {
                 "name": "Flamengo",
@@ -9743,11 +9711,11 @@
       {
         "key": "williamhill",
         "title": "William Hill",
-        "last_update": "2026-04-29T11:01:29Z",
+        "last_update": "2026-04-29T15:11:10Z",
         "markets": [
           {
             "key": "h2h",
-            "last_update": "2026-04-29T11:01:29Z",
+            "last_update": "2026-04-29T15:11:10Z",
             "outcomes": [
               {
                 "name": "Flamengo",
@@ -9765,7 +9733,7 @@
           },
           {
             "key": "totals",
-            "last_update": "2026-04-29T11:01:29Z",
+            "last_update": "2026-04-29T15:11:10Z",
             "outcomes": [
               {
                 "name": "Over",
@@ -9784,11 +9752,11 @@
       {
         "key": "sport888",
         "title": "888sport",
-        "last_update": "2026-04-29T11:01:02Z",
+        "last_update": "2026-04-29T15:12:10Z",
         "markets": [
           {
             "key": "h2h",
-            "last_update": "2026-04-29T11:01:02Z",
+            "last_update": "2026-04-29T15:12:10Z",
             "outcomes": [
               {
                 "name": "Flamengo",
@@ -9809,11 +9777,11 @@
       {
         "key": "winamax_fr",
         "title": "Winamax (FR)",
-        "last_update": "2026-04-29T11:01:55Z",
+        "last_update": "2026-04-29T15:11:34Z",
         "markets": [
           {
             "key": "h2h",
-            "last_update": "2026-04-29T11:01:55Z",
+            "last_update": "2026-04-29T15:11:34Z",
             "outcomes": [
               {
                 "name": "Flamengo",
@@ -9834,11 +9802,11 @@
       {
         "key": "onexbet",
         "title": "1xBet",
-        "last_update": "2026-04-29T11:01:52Z",
+        "last_update": "2026-04-29T15:11:32Z",
         "markets": [
           {
             "key": "h2h",
-            "last_update": "2026-04-29T11:01:52Z",
+            "last_update": "2026-04-29T15:11:32Z",
             "outcomes": [
               {
                 "name": "Flamengo",
@@ -9856,7 +9824,7 @@
           },
           {
             "key": "totals",
-            "last_update": "2026-04-29T11:01:52Z",
+            "last_update": "2026-04-29T15:11:32Z",
             "outcomes": [
               {
                 "name": "Over",
@@ -9875,11 +9843,11 @@
       {
         "key": "betfair_ex_eu",
         "title": "Betfair",
-        "last_update": "2026-04-29T11:01:55Z",
+        "last_update": "2026-04-29T15:11:46Z",
         "markets": [
           {
             "key": "h2h",
-            "last_update": "2026-04-29T11:01:55Z",
+            "last_update": "2026-04-29T15:11:46Z",
             "outcomes": [
               {
                 "name": "Flamengo",
@@ -9897,11 +9865,11 @@
           },
           {
             "key": "h2h_lay",
-            "last_update": "2026-04-29T11:01:55Z",
+            "last_update": "2026-04-29T15:11:46Z",
             "outcomes": [
               {
                 "name": "Flamengo",
-                "price": 2.3
+                "price": 4.5
               },
               {
                 "name": "Grêmio",
@@ -9918,11 +9886,11 @@
       {
         "key": "marathonbet",
         "title": "Marathon Bet",
-        "last_update": "2026-04-29T11:01:53Z",
+        "last_update": "2026-04-29T15:11:47Z",
         "markets": [
           {
             "key": "h2h",
-            "last_update": "2026-04-29T11:01:53Z",
+            "last_update": "2026-04-29T15:11:47Z",
             "outcomes": [
               {
                 "name": "Flamengo",
@@ -9953,11 +9921,11 @@
       {
         "key": "winamax_de",
         "title": "Winamax (DE)",
-        "last_update": "2026-04-29T11:00:52Z",
+        "last_update": "2026-04-29T15:11:21Z",
         "markets": [
           {
             "key": "h2h",
-            "last_update": "2026-04-29T11:00:52Z",
+            "last_update": "2026-04-29T15:11:21Z",
             "outcomes": [
               {
                 "name": "Atletico Paranaense",
@@ -9978,11 +9946,11 @@
       {
         "key": "unibet_fr",
         "title": "Unibet (FR)",
-        "last_update": "2026-04-29T11:01:29Z",
+        "last_update": "2026-04-29T15:11:21Z",
         "markets": [
           {
             "key": "h2h",
-            "last_update": "2026-04-29T11:01:29Z",
+            "last_update": "2026-04-29T15:11:21Z",
             "outcomes": [
               {
                 "name": "Atletico Paranaense",
@@ -10003,11 +9971,11 @@
       {
         "key": "onexbet",
         "title": "1xBet",
-        "last_update": "2026-04-29T11:01:52Z",
+        "last_update": "2026-04-29T15:11:32Z",
         "markets": [
           {
             "key": "h2h",
-            "last_update": "2026-04-29T11:01:52Z",
+            "last_update": "2026-04-29T15:11:32Z",
             "outcomes": [
               {
                 "name": "Atletico Paranaense",
@@ -10025,7 +9993,7 @@
           },
           {
             "key": "totals",
-            "last_update": "2026-04-29T11:01:52Z",
+            "last_update": "2026-04-29T15:11:32Z",
             "outcomes": [
               {
                 "name": "Over",
@@ -10044,11 +10012,11 @@
       {
         "key": "winamax_fr",
         "title": "Winamax (FR)",
-        "last_update": "2026-04-29T11:01:55Z",
+        "last_update": "2026-04-29T15:11:34Z",
         "markets": [
           {
             "key": "h2h",
-            "last_update": "2026-04-29T11:01:55Z",
+            "last_update": "2026-04-29T15:11:34Z",
             "outcomes": [
               {
                 "name": "Atletico Paranaense",
@@ -10069,11 +10037,11 @@
       {
         "key": "marathonbet",
         "title": "Marathon Bet",
-        "last_update": "2026-04-29T11:01:53Z",
+        "last_update": "2026-04-29T15:11:47Z",
         "markets": [
           {
             "key": "h2h",
-            "last_update": "2026-04-29T11:01:53Z",
+            "last_update": "2026-04-29T15:11:47Z",
             "outcomes": [
               {
                 "name": "Atletico Paranaense",
@@ -10094,11 +10062,11 @@
       {
         "key": "betfair_ex_eu",
         "title": "Betfair",
-        "last_update": "2026-04-29T11:01:55Z",
+        "last_update": "2026-04-29T15:11:46Z",
         "markets": [
           {
             "key": "h2h",
-            "last_update": "2026-04-29T11:01:55Z",
+            "last_update": "2026-04-29T15:11:46Z",
             "outcomes": [
               {
                 "name": "Atletico Paranaense",
@@ -10116,7 +10084,7 @@
           },
           {
             "key": "h2h_lay",
-            "last_update": "2026-04-29T11:01:55Z",
+            "last_update": "2026-04-29T15:11:46Z",
             "outcomes": [
               {
                 "name": "Atletico Paranaense",
@@ -10137,11 +10105,11 @@
       {
         "key": "sport888",
         "title": "888sport",
-        "last_update": "2026-04-29T11:01:02Z",
+        "last_update": "2026-04-29T15:12:10Z",
         "markets": [
           {
             "key": "h2h",
-            "last_update": "2026-04-29T11:01:02Z",
+            "last_update": "2026-04-29T15:12:10Z",
             "outcomes": [
               {
                 "name": "Atletico Paranaense",
@@ -10162,11 +10130,11 @@
       {
         "key": "williamhill",
         "title": "William Hill",
-        "last_update": "2026-04-29T11:01:29Z",
+        "last_update": "2026-04-29T15:11:10Z",
         "markets": [
           {
             "key": "h2h",
-            "last_update": "2026-04-29T11:01:29Z",
+            "last_update": "2026-04-29T15:11:10Z",
             "outcomes": [
               {
                 "name": "Atletico Paranaense",
@@ -10184,7 +10152,7 @@
           },
           {
             "key": "totals",
-            "last_update": "2026-04-29T11:01:29Z",
+            "last_update": "2026-04-29T15:11:10Z",
             "outcomes": [
               {
                 "name": "Over",
