@@ -1,8 +1,8 @@
 ﻿abr_casa,abr_vis,odd_casa,odd_vis,odd_empate,prob_casa,prob_vis,prob_over_25,forca_casa,forca_vis,commence_time
-SAO,BAH,1.89,3.7,3.15,0.474,0.242,,favorito,zebra,2026-05-03T19:00:00Z
+SAO,BAH,1.89,3.75,3.2,0.477,0.241,,favorito,zebra,2026-05-03T19:00:00Z
 FLA,VAS,1.53,5.5,3.9,0.599,0.167,,favorito,zebra,2026-05-03T19:00:00Z
-CHA,RBB,3.55,2.08,3.25,0.263,0.449,0.469,zebra,equilibrado,2026-05-03T21:30:00Z
-INT,FLU,2.24,3.3,3.2,0.42,0.285,0.423,equilibrado,zebra,2026-05-03T21:30:00Z
+CHA,RBB,3.7,2.02,3.25,0.252,0.461,0.473,zebra,equilibrado,2026-05-03T21:30:00Z
+INT,FLU,2.24,3.3,3.2,0.42,0.285,0.437,equilibrado,zebra,2026-05-03T21:30:00Z
 MIR,COR,2.38,3.05,3.05,0.391,0.305,0.409,equilibrado,zebra,2026-05-03T23:30:00Z
 CFC,INT,2.15,2.7,2.85,0.392,0.312,,equilibrado,zebra,2026-05-09T19:00:00Z
 FLU,VIT,1.45,5.6,3.55,0.6,0.155,,favorito_forte,zebra,2026-05-09T21:00:00Z

@@ -201,12 +201,11 @@
     "102975": {
       "scout": {
         "DS": 2,
-        "FS": 1,
-        "SG": 1
+        "FS": 1
       },
       "apelido": "Escobar",
       "foto": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/clubes_2026/silhuetas/SAN/FORMATO.png",
-      "pontuacao": 8.5,
+      "pontuacao": 3.5,
       "posicao_id": 2,
       "clube_id": 277,
       "entrou_em_campo": true
@@ -215,12 +214,11 @@
       "scout": {
         "CA": 1,
         "DE": 2,
-        "GS": 1,
-        "SG": 1
+        "GS": 1
       },
       "apelido": "Gabriel Brazão",
       "foto": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/clubes_2026/silhuetas/SAN/FORMATO.png",
-      "pontuacao": 5.6,
+      "pontuacao": 0.6,
       "posicao_id": 1,
       "clube_id": 277,
       "entrou_em_campo": true
@@ -272,12 +270,11 @@
     "104084": {
       "scout": {
         "DE": 3,
-        "GS": 1,
-        "SG": 1
+        "GS": 1
       },
       "apelido": "Carlos Miguel",
       "foto": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/clubes_2026/silhuetas/PAL/FORMATO.png",
-      "pontuacao": 7.9,
+      "pontuacao": 2.9,
       "posicao_id": 1,
       "clube_id": 275,
       "entrou_em_campo": true
@@ -390,12 +387,11 @@
     },
     "105175": {
       "scout": {
-        "DS": 2,
-        "SG": 1
+        "DS": 2
       },
       "apelido": "Khellven",
       "foto": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/clubes_2026/silhuetas/PAL/FORMATO.png",
-      "pontuacao": 8,
+      "pontuacao": 3,
       "posicao_id": 2,
       "clube_id": 275,
       "entrou_em_campo": true
@@ -559,7 +555,7 @@
       "scout": {},
       "apelido": "Abel Ferreira",
       "foto": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/clubes_2026/silhuetas/PAL/FORMATO.png",
-      "pontuacao": 6.96,
+      "pontuacao": 4.69,
       "posicao_id": 6,
       "clube_id": 275,
       "entrou_em_campo": true
@@ -1161,12 +1157,11 @@
         "DS": 1,
         "FC": 2,
         "FF": 2,
-        "FS": 1,
-        "SG": 1
+        "FS": 1
       },
       "apelido": "Arthur",
       "foto": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/clubes_2026/silhuetas/PAL/FORMATO.png",
-      "pontuacao": 8,
+      "pontuacao": 3,
       "posicao_id": 2,
       "clube_id": 275,
       "entrou_em_campo": true
@@ -1297,7 +1292,7 @@
       "scout": {},
       "apelido": "Cuca",
       "foto": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/clubes_2026/silhuetas/SAN/FORMATO.png",
-      "pontuacao": 6.29,
+      "pontuacao": 4.02,
       "posicao_id": 6,
       "clube_id": 277,
       "entrou_em_campo": true
@@ -1402,12 +1397,11 @@
       "scout": {
         "DS": 1,
         "FC": 2,
-        "I": 2,
-        "SG": 1
+        "I": 2
       },
       "apelido": "Gustavo Gómez",
       "foto": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/clubes_2026/silhuetas/PAL/FORMATO.png",
-      "pontuacao": 5.7,
+      "pontuacao": 0.7,
       "posicao_id": 3,
       "clube_id": 275,
       "entrou_em_campo": true
@@ -1624,12 +1618,11 @@
       "scout": {
         "DS": 1,
         "FF": 1,
-        "FS": 1,
-        "SG": 1
+        "FS": 1
       },
       "apelido": "Luan Peres",
       "foto": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/clubes_2026/silhuetas/SAN/FORMATO.png",
-      "pontuacao": 7.8,
+      "pontuacao": 2.8,
       "posicao_id": 3,
       "clube_id": 277,
       "entrou_em_campo": true
@@ -1894,12 +1887,10 @@
       "entrou_em_campo": true
     },
     "93368": {
-      "scout": {
-        "SG": 1
-      },
+      "scout": {},
       "apelido": "Lucas Veríssimo",
       "foto": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/clubes_2026/silhuetas/SAN/FORMATO.png",
-      "pontuacao": 5,
+      "pontuacao": 0,
       "posicao_id": 3,
       "clube_id": 277,
       "entrou_em_campo": true
@@ -1960,12 +1951,11 @@
       "scout": {
         "DS": 8,
         "FD": 1,
-        "FS": 2,
-        "SG": 1
+        "FS": 2
       },
       "apelido": "Igor Vinícius",
       "foto": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/clubes_2026/silhuetas/SAN/FORMATO.png",
-      "pontuacao": 19.2,
+      "pontuacao": 14.2,
       "posicao_id": 2,
       "clube_id": 277,
       "entrou_em_campo": true
@@ -2027,12 +2017,10 @@
       "entrou_em_campo": true
     },
     "97653": {
-      "scout": {
-        "SG": 1
-      },
+      "scout": {},
       "apelido": "Murilo",
       "foto": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/clubes_2026/silhuetas/PAL/FORMATO.png",
-      "pontuacao": 5,
+      "pontuacao": 0,
       "posicao_id": 3,
       "clube_id": 275,
       "entrou_em_campo": true
