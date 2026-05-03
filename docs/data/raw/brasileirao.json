@@ -28,15 +28,15 @@
         "tla": "FLA",
         "crest": "https://crests.football-data.org/1783.png"
       },
-      "playedGames": 12,
+      "playedGames": 13,
       "form": null,
-      "won": 8,
+      "won": 9,
       "draw": 2,
       "lost": 2,
-      "points": 26,
-      "goalsFor": 24,
+      "points": 29,
+      "goalsFor": 25,
       "goalsAgainst": 10,
-      "goalDifference": 14
+      "goalDifference": 15
     },
     {
       "position": 3,
@@ -66,15 +66,15 @@
         "tla": "PAU",
         "crest": "https://crests.football-data.org/1776.png"
       },
-      "playedGames": 13,
+      "playedGames": 14,
       "form": null,
-      "won": 7,
+      "won": 8,
       "draw": 2,
       "lost": 4,
-      "points": 23,
-      "goalsFor": 17,
+      "points": 26,
+      "goalsFor": 18,
       "goalsAgainst": 11,
-      "goalDifference": 6
+      "goalDifference": 7
     },
     {
       "position": 5,
@@ -104,15 +104,15 @@
         "tla": "BAH",
         "crest": "https://crests.football-data.org/1777.png"
       },
-      "playedGames": 12,
+      "playedGames": 13,
       "form": null,
       "won": 6,
       "draw": 3,
-      "lost": 3,
+      "lost": 4,
       "points": 21,
       "goalsFor": 17,
-      "goalsAgainst": 14,
-      "goalDifference": 3
+      "goalsAgainst": 15,
+      "goalDifference": 2
     },
     {
       "position": 7,
@@ -237,15 +237,15 @@
         "tla": "VAS",
         "crest": "https://crests.football-data.org/1780.png"
       },
-      "playedGames": 13,
+      "playedGames": 14,
       "form": null,
       "won": 4,
       "draw": 4,
-      "lost": 5,
+      "lost": 6,
       "points": 16,
       "goalsFor": 18,
-      "goalsAgainst": 19,
-      "goalDifference": -1
+      "goalsAgainst": 20,
+      "goalDifference": -2
     },
     {
       "position": 14,
@@ -415,6 +415,37 @@
     },
     {
       "player": {
+        "id": 1077,
+        "name": "Pedro",
+        "firstName": "",
+        "lastName": "Pedro",
+        "dateOfBirth": "1997-06-20",
+        "nationality": "Brazil",
+        "section": "Offence",
+        "position": null,
+        "shirtNumber": null,
+        "lastUpdated": "2023-07-30T23:15:48Z"
+      },
+      "team": {
+        "id": 1783,
+        "name": "CR Flamengo",
+        "shortName": "Flamengo",
+        "tla": "FLA",
+        "crest": "https://crests.football-data.org/1783.png",
+        "address": "null Rio de Janeiro, RJ null",
+        "website": "https://www.flamengo.com.br/pagina-inicial-basquete",
+        "founded": 1919,
+        "clubColors": "Red / Black / White",
+        "venue": "Estadio Jornalista Mário Filho",
+        "lastUpdated": "2022-04-06T13:13:43Z"
+      },
+      "playedMatches": 13,
+      "goals": 8,
+      "assists": 3,
+      "penalties": null
+    },
+    {
+      "player": {
         "id": 37833,
         "name": "Carlos Vinícius",
         "firstName": "",
@@ -473,37 +504,6 @@
       "playedMatches": 11,
       "goals": 7,
       "assists": 2,
-      "penalties": null
-    },
-    {
-      "player": {
-        "id": 1077,
-        "name": "Pedro",
-        "firstName": "",
-        "lastName": "Pedro",
-        "dateOfBirth": "1997-06-20",
-        "nationality": "Brazil",
-        "section": "Offence",
-        "position": null,
-        "shirtNumber": null,
-        "lastUpdated": "2023-07-30T23:15:48Z"
-      },
-      "team": {
-        "id": 1783,
-        "name": "CR Flamengo",
-        "shortName": "Flamengo",
-        "tla": "FLA",
-        "crest": "https://crests.football-data.org/1783.png",
-        "address": "null Rio de Janeiro, RJ null",
-        "website": "https://www.flamengo.com.br/pagina-inicial-basquete",
-        "founded": 1919,
-        "clubColors": "Red / Black / White",
-        "venue": "Estadio Jornalista Mário Filho",
-        "lastUpdated": "2022-04-06T13:13:43Z"
-      },
-      "playedMatches": 13,
-      "goals": 7,
-      "assists": 3,
       "penalties": null
     },
     {
