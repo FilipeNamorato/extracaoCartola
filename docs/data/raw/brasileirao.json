@@ -50,12 +50,12 @@
       "playedGames": 14,
       "form": null,
       "won": 8,
-      "draw": 3,
-      "lost": 3,
-      "points": 27,
+      "draw": 2,
+      "lost": 4,
+      "points": 26,
       "goalsFor": 23,
-      "goalsAgainst": 16,
-      "goalDifference": 7
+      "goalsAgainst": 18,
+      "goalDifference": 5
     },
     {
       "position": 4,
@@ -117,6 +117,25 @@
     {
       "position": 7,
       "team": {
+        "id": 4286,
+        "name": "RB Bragantino",
+        "shortName": "Bragantino",
+        "tla": "RBB",
+        "crest": "https://crests.football-data.org/4286.png"
+      },
+      "playedGames": 14,
+      "form": null,
+      "won": 6,
+      "draw": 2,
+      "lost": 6,
+      "points": 20,
+      "goalsFor": 17,
+      "goalsAgainst": 16,
+      "goalDifference": 1
+    },
+    {
+      "position": 8,
+      "team": {
         "id": 4241,
         "name": "Coritiba FBC",
         "shortName": "Coritiba",
@@ -134,7 +153,7 @@
       "goalDifference": -1
     },
     {
-      "position": 8,
+      "position": 9,
       "team": {
         "id": 1782,
         "name": "EC Vitória",
@@ -153,7 +172,7 @@
       "goalDifference": -2
     },
     {
-      "position": 9,
+      "position": 10,
       "team": {
         "id": 1770,
         "name": "Botafogo FR",
@@ -169,25 +188,6 @@
       "points": 17,
       "goalsFor": 25,
       "goalsAgainst": 26,
-      "goalDifference": -1
-    },
-    {
-      "position": 10,
-      "team": {
-        "id": 4286,
-        "name": "RB Bragantino",
-        "shortName": "Bragantino",
-        "tla": "RBB",
-        "crest": "https://crests.football-data.org/4286.png"
-      },
-      "playedGames": 14,
-      "form": null,
-      "won": 5,
-      "draw": 2,
-      "lost": 7,
-      "points": 17,
-      "goalsFor": 15,
-      "goalsAgainst": 16,
       "goalDifference": -1
     },
     {
@@ -212,6 +212,25 @@
     {
       "position": 12,
       "team": {
+        "id": 6684,
+        "name": "SC Internacional",
+        "shortName": "Internacional",
+        "tla": "SCI",
+        "crest": "https://crests.football-data.org/6684.png"
+      },
+      "playedGames": 14,
+      "form": null,
+      "won": 4,
+      "draw": 5,
+      "lost": 5,
+      "points": 17,
+      "goalsFor": 14,
+      "goalsAgainst": 14,
+      "goalDifference": 0
+    },
+    {
+      "position": 13,
+      "team": {
         "id": 1780,
         "name": "CR Vasco da Gama",
         "shortName": "Vasco da Gama",
@@ -229,7 +248,7 @@
       "goalDifference": -1
     },
     {
-      "position": 13,
+      "position": 14,
       "team": {
         "id": 1767,
         "name": "Grêmio FBPA",
@@ -248,7 +267,7 @@
       "goalDifference": -1
     },
     {
-      "position": 14,
+      "position": 15,
       "team": {
         "id": 1771,
         "name": "Cruzeiro EC",
@@ -267,25 +286,6 @@
       "goalDifference": -6
     },
     {
-      "position": 15,
-      "team": {
-        "id": 6684,
-        "name": "SC Internacional",
-        "shortName": "Internacional",
-        "tla": "SCI",
-        "crest": "https://crests.football-data.org/6684.png"
-      },
-      "playedGames": 14,
-      "form": null,
-      "won": 3,
-      "draw": 6,
-      "lost": 5,
-      "points": 15,
-      "goalsFor": 12,
-      "goalsAgainst": 14,
-      "goalDifference": -2
-    },
-    {
       "position": 16,
       "team": {
         "id": 1779,
@@ -294,12 +294,12 @@
         "tla": "COR",
         "crest": "https://crests.football-data.org/1779.png"
       },
-      "playedGames": 13,
+      "playedGames": 14,
       "form": null,
       "won": 3,
-      "draw": 6,
+      "draw": 7,
       "lost": 4,
-      "points": 15,
+      "points": 16,
       "goalsFor": 9,
       "goalsAgainst": 11,
       "goalDifference": -2
@@ -345,6 +345,25 @@
     {
       "position": 19,
       "team": {
+        "id": 4364,
+        "name": "Mirassol FC",
+        "shortName": "Mirassol",
+        "tla": "MIR",
+        "crest": "https://crests.football-data.org/4364.png"
+      },
+      "playedGames": 13,
+      "form": null,
+      "won": 2,
+      "draw": 4,
+      "lost": 7,
+      "points": 10,
+      "goalsFor": 13,
+      "goalsAgainst": 18,
+      "goalDifference": -5
+    },
+    {
+      "position": 20,
+      "team": {
         "id": 1772,
         "name": "Chapecoense AF",
         "shortName": "Chapecoense",
@@ -353,32 +372,13 @@
       },
       "playedGames": 13,
       "form": null,
-      "won": 2,
+      "won": 1,
       "draw": 5,
-      "lost": 6,
-      "points": 11,
-      "goalsFor": 13,
-      "goalsAgainst": 24,
-      "goalDifference": -11
-    },
-    {
-      "position": 20,
-      "team": {
-        "id": 4364,
-        "name": "Mirassol FC",
-        "shortName": "Mirassol",
-        "tla": "MIR",
-        "crest": "https://crests.football-data.org/4364.png"
-      },
-      "playedGames": 12,
-      "form": null,
-      "won": 2,
-      "draw": 3,
       "lost": 7,
-      "points": 9,
+      "points": 8,
       "goalsFor": 13,
-      "goalsAgainst": 18,
-      "goalDifference": -5
+      "goalsAgainst": 26,
+      "goalDifference": -13
     }
   ],
   "artilheiros": [
@@ -910,7 +910,8 @@
       "W",
       "L",
       "W",
-      "L"
+      "L",
+      "W"
     ],
     "SC Internacional": [
       "L",
@@ -925,7 +926,8 @@
       "W",
       "D",
       "L",
-      "D"
+      "D",
+      "W"
     ],
     "CA Paranaense": [
       "W",
@@ -987,7 +989,8 @@
       "D",
       "L",
       "W",
-      "W"
+      "W",
+      "L"
     ],
     "Grêmio FBPA": [
       "L",
@@ -1015,6 +1018,7 @@
       "L",
       "L",
       "D",
+      "L",
       "L",
       "L",
       "L"
@@ -1216,18 +1220,18 @@
         "l": 3
       },
       "away": {
-        "gf": 4,
-        "ga": 7,
-        "w": 2,
+        "gf": 6,
+        "ga": 8,
+        "w": 3,
         "d": 1,
         "l": 3
       }
     },
     "SC Internacional": {
       "home": {
-        "gf": 5,
+        "gf": 7,
         "ga": 8,
-        "w": 1,
+        "w": 2,
         "d": 2,
         "l": 4
       },
@@ -1297,10 +1301,10 @@
       },
       "away": {
         "gf": 10,
-        "ga": 9,
+        "ga": 11,
         "w": 2,
         "d": 2,
-        "l": 2
+        "l": 3
       }
     },
     "Grêmio FBPA": {
@@ -1321,11 +1325,11 @@
     },
     "Chapecoense AF": {
       "home": {
-        "gf": 10,
-        "ga": 15,
+        "gf": 11,
+        "ga": 17,
         "w": 1,
         "d": 4,
-        "l": 2
+        "l": 3
       },
       "away": {
         "gf": 2,
