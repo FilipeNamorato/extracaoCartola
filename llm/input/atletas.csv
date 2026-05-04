@@ -46,7 +46,6 @@ Cassierra,CAM,Atacante,Provável,6.81,1.85,1.56,11,True,BOT,alta,0.503,12.1,0.38
 Tarzia,VIT,Atacante,Provável,3.33,1.45,1.34,8,False,FLU,alta,,7.7,0.34,0.254,1.0,1.065,-0.718,armadilha_leve,0.32,94,0.5,-74.6,48.4,neutro,1.03,False,WATCH,1.3,0.722,0.852,1.244,1.0
 Ramón Sosa,PAL,Atacante,Provável,5.12,-0.98,2.03,13,False,REM,baixa,0.181,2.0,1.03,0.507,1.0,2.068,-0.798,armadilha_leve,0.404,69,0.8,33.4,62.1,neutro,2.57,False,WATCH,0.672,0.509,0.933,0.817,9.0
 Eduardo Sasha,RBB,Atacante,Provável,4.98,-0.41,1.84,10,False,SAN,estavel,0.209,0.5,1.84,1.0,1.0,1.968,-0.831,armadilha_leve,0.395,73,0.625,-4.8,61.7,neutro,2.43,False,WATCH,1.318,1.05,1.032,1.217,1.0
-Serna,FLU,Atacante,Provável,5.48,-0.1,2.21,14,True,VIT,estavel,0.489,0.9,1.85,0.837,1.0,2.18,-0.874,armadilha_leve,0.398,70,1.0,74.6,74.0,neutro,3.23,False,WATCH,0.852,1.244,1.3,0.722,-1.0
 Yuri Alberto,COR,Atacante,Provável,10.38,-0.07,2.43,10,True,SAO,estavel,0.434,1.9,1.63,0.671,1.0,3.487,-1.386,armadilha_leve,0.336,92,0.25,0.0,38.4,neutro,2.68,False,WATCH,0.56,0.646,1.179,1.508,-1.0
 Otávio,CRU,Goleiro,Provável,1.18,-0.82,-1.7,1,False,BAH,baixa,,0.0,0.0,0.0,0.125,3.384,3.152,valor_oculto,0.358,23,0.4,-27.8,38.7,desfavoravel,0.33,False,WATCH,1.089,0.933,0.958,1.462,-1.0
 Diógenes,SAN,Goleiro,Provável,2.19,0.0,0.9,1,True,RBB,estavel,0.479,0.9,0.9,1.0,0.125,2.875,1.794,valor_oculto,0.164,31,0.625,4.8,49.7,neutro,0.36,False,WATCH,1.032,1.217,1.318,1.05,-1.0
