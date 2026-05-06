@@ -195,7 +195,6 @@ David Duarte,BAH,Zagueiro,Provável,6.03,0.12,3.61,7,True,CRU,estavel,0.524,3.5,
 Noriega,GRE,Zagueiro,Provável,8.58,0.0,5.01,10,True,FLA,estavel,0.249,5.0,3.01,0.601,1.0,4.484,0.882,valor_bom,0.523,20,0.025,15.9,34.9,neutro,3.13,False,TITULAR,0.187,0.35,1.3,0.867,2.0
 Eduardo Doma,CHA,Zagueiro,Provável,3.55,0.0,2.75,12,False,MIR,estavel,0.295,2.8,2.0,0.727,1.0,2.448,0.83,valor_bom,0.69,2,0.8,-31.4,44.7,neutro,2.19,False,TITULAR,0.8,1.1,0.867,0.821,-4.0
 Gabriel Paulista,COR,Zagueiro,Provável,9.15,-1.55,5.03,10,True,SAO,baixa,0.434,5.0,3.23,0.642,1.0,4.495,0.717,valor_bom,0.491,30,0.625,0.0,52.1,neutro,4.68,False,TITULAR,0.56,0.646,1.179,1.508,-1.0
-Rafael Tolói,SAO,Zagueiro,Provável,8.24,0.0,4.82,5,False,COR,estavel,,4.8,3.62,0.751,0.625,4.208,0.676,valor_bom,0.319,55,0.95,0.0,63.3,neutro,3.33,False,TITULAR,1.179,1.508,0.56,0.646,2.0
 Murilo,PAL,Zagueiro,Provável,6.67,-0.36,3.43,11,False,REM,estavel,0.181,3.4,1.61,0.469,1.0,3.597,0.546,valor_bom,0.539,15,0.75,33.4,71.7,favoravel_visitante,5.16,False,WATCH,0.583,0.509,0.933,0.817,9.0
 Terán,CAP,Zagueiro,Provável,7.25,2.78,3.75,8,False,VAS,alta,0.46,14.7,3.0,0.8,1.0,3.788,0.541,valor_bom,0.522,21,0.525,-39.7,40.4,neutro,3.06,False,TITULAR,0.84,0.747,0.84,0.933,2.0
 Gustavo Gómez,PAL,Zagueiro,Provável,10.52,-0.65,5.2,13,False,REM,baixa,0.181,0.7,2.28,0.438,1.0,4.677,0.537,valor_bom,0.445,38,0.75,33.4,71.7,favoravel_visitante,6.71,True,WATCH,0.583,0.509,0.933,0.817,9.0
