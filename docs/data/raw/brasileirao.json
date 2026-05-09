@@ -22,25 +22,6 @@
     {
       "position": 2,
       "team": {
-        "id": 1765,
-        "name": "Fluminense FC",
-        "shortName": "Fluminense",
-        "tla": "FLU",
-        "crest": "https://crests.football-data.org/1765.png"
-      },
-      "playedGames": 15,
-      "form": null,
-      "won": 9,
-      "draw": 2,
-      "lost": 4,
-      "points": 29,
-      "goalsFor": 24,
-      "goalsAgainst": 18,
-      "goalDifference": 6
-    },
-    {
-      "position": 3,
-      "team": {
         "id": 1783,
         "name": "CR Flamengo",
         "shortName": "Flamengo",
@@ -56,6 +37,25 @@
       "goalsFor": 26,
       "goalsAgainst": 12,
       "goalDifference": 14
+    },
+    {
+      "position": 3,
+      "team": {
+        "id": 1765,
+        "name": "Fluminense FC",
+        "shortName": "Fluminense",
+        "tla": "FLU",
+        "crest": "https://crests.football-data.org/1765.png"
+      },
+      "playedGames": 15,
+      "form": null,
+      "won": 8,
+      "draw": 3,
+      "lost": 4,
+      "points": 27,
+      "goalsFor": 25,
+      "goalsAgainst": 20,
+      "goalDifference": 5
     },
     {
       "position": 4,
@@ -164,12 +164,12 @@
       "playedGames": 14,
       "form": null,
       "won": 5,
-      "draw": 3,
-      "lost": 6,
-      "points": 18,
-      "goalsFor": 16,
-      "goalsAgainst": 19,
-      "goalDifference": -3
+      "draw": 4,
+      "lost": 5,
+      "points": 19,
+      "goalsFor": 18,
+      "goalsAgainst": 20,
+      "goalDifference": -2
     },
     {
       "position": 10,
@@ -534,7 +534,7 @@
       },
       "playedMatches": 15,
       "goals": 7,
-      "assists": null,
+      "assists": 1,
       "penalties": null
     },
     {
@@ -594,7 +594,7 @@
         "venue": "Estádio Governador Roberto Santos",
         "lastUpdated": "2024-10-28T10:09:10Z"
       },
-      "playedMatches": 13,
+      "playedMatches": 14,
       "goals": 6,
       "assists": 1,
       "penalties": 1
@@ -687,7 +687,7 @@
         "venue": "Estádio Governador Magalhães Pinto",
         "lastUpdated": "2022-04-10T11:03:46Z"
       },
-      "playedMatches": 14,
+      "playedMatches": 15,
       "goals": 5,
       "assists": 1,
       "penalties": null
@@ -895,8 +895,7 @@
       "D",
       "W",
       "L",
-      "L",
-      "D"
+      "L"
     ],
     "RB Bragantino": [
       "W",
@@ -928,8 +927,7 @@
       "D",
       "L",
       "D",
-      "W",
-      "D"
+      "W"
     ],
     "CA Paranaense": [
       "W",
@@ -1201,10 +1199,10 @@
     },
     "Coritiba FBC": {
       "home": {
-        "gf": 7,
-        "ga": 6,
+        "gf": 5,
+        "ga": 4,
         "w": 2,
-        "d": 3,
+        "d": 2,
         "l": 2
       },
       "away": {
@@ -1240,10 +1238,10 @@
         "l": 4
       },
       "away": {
-        "gf": 9,
-        "ga": 8,
+        "gf": 7,
+        "ga": 6,
         "w": 2,
-        "d": 4,
+        "d": 3,
         "l": 1
       }
     },
