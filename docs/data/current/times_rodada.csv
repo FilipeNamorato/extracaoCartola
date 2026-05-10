@@ -1,5 +1,5 @@
 ﻿time,adversario,mandante,prob_vitoria,forca,adv_gc_pg,n_provaveis,n_valor_oculto,n_valor_bom,media_residuo_z,media_pb,preco_medio,concentracao_valor,momentum_of,momentum_def,sequencia,score_time,tier_time
-BAH,CRU,True,0.527,favorito,2.142857142857143,12,0,7,0.5,3.185,8.36,0.583,0.98,1.4,-1.0,0.726,A
+BAH,CRU,True,0.53,favorito,2.142857142857143,12,0,7,0.5,3.185,8.36,0.583,0.98,1.4,-1.0,0.727,A
 FLU,VIT,True,0.489,favorito,2.4285714285714284,12,1,5,0.405,2.633,7.91,0.5,0.96,1.35,1.0,0.723,A
 MIR,CHA,True,0.641,favorito_forte,1.8,12,0,4,0.053,2.267,6.13,0.333,0.867,0.821,1.0,0.634,B
 SAN,RBB,True,0.479,favorito,1.1428571428571428,12,1,5,0.567,3.351,8.08,0.5,1.032,1.145,2.0,0.595,B

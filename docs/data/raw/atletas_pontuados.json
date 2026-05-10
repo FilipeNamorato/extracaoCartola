@@ -212,13 +212,13 @@
     },
     "104811": {
       "scout": {
-        "DS": 1,
+        "DS": 2,
         "FC": 2,
         "FS": 1
       },
       "apelido": "Sebastián Gómez",
       "foto": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/clubes_2026/silhuetas/CFC/FORMATO.png",
-      "pontuacao": 1.4,
+      "pontuacao": 2.9,
       "posicao_id": 4,
       "clube_id": 294,
       "entrou_em_campo": true
@@ -264,13 +264,13 @@
     },
     "106202": {
       "scout": {
-        "DS": 2,
+        "DS": 1,
         "FF": 1,
         "FS": 2
       },
       "apelido": "Bruno Gomes",
       "foto": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/clubes_2026/silhuetas/INT/FORMATO.png",
-      "pontuacao": 4.8,
+      "pontuacao": 3.3,
       "posicao_id": 4,
       "clube_id": 285,
       "entrou_em_campo": true
@@ -522,7 +522,7 @@
       "scout": {},
       "apelido": "Paulo Pezzolano",
       "foto": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/clubes_2026/silhuetas/INT/FORMATO.png",
-      "pontuacao": 4.02,
+      "pontuacao": 3.88,
       "posicao_id": 6,
       "clube_id": 285,
       "entrou_em_campo": true
@@ -1025,12 +1025,10 @@
       "entrou_em_campo": true
     },
     "84339": {
-      "scout": {
-        "DS": 1
-      },
+      "scout": {},
       "apelido": "Bruno Melo",
       "foto": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/clubes_2026/silhuetas/CFC/FORMATO.png",
-      "pontuacao": 1.5,
+      "pontuacao": 0,
       "posicao_id": 2,
       "clube_id": 294,
       "entrou_em_campo": true
