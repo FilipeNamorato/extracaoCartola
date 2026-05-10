@@ -1,7 +1,7 @@
 ﻿abr_casa,abr_vis,odd_casa,odd_vis,odd_empate,prob_casa,prob_vis,prob_over_25,forca_casa,forca_vis,commence_time
-CAM,BOT,1.35,9.5,4.0,0.676,0.096,,favorito_forte,zebra,2026-05-10T19:00:00Z
-REM,PAL,4.6,2.0,3.45,0.216,0.496,,zebra,equilibrado,2026-05-10T20:15:00Z
-SAN,RBB,2.0,3.3,3.3,0.452,0.274,,equilibrado,zebra,2026-05-10T21:30:00Z
+CAM,BOT,1.18,28.0,4.9,0.779,0.033,,favorito_forte,zebra,2026-05-10T19:00:00Z
+REM,PAL,2.1,2.9,3.55,0.432,0.313,,equilibrado,zebra,2026-05-10T20:30:00Z
+SAN,RBB,2.0,3.4,3.35,0.458,0.269,,equilibrado,zebra,2026-05-10T21:30:00Z
 MIR,CHA,1.42,6.0,4.4,0.641,0.152,,favorito_forte,zebra,2026-05-10T21:30:00Z
 COR,SAO,1.96,3.8,3.1,0.466,0.24,,favorito,zebra,2026-05-10T21:30:00Z
 GRE,FLA,3.65,1.9,3.4,0.25,0.481,,zebra,favorito,2026-05-10T22:30:00Z
