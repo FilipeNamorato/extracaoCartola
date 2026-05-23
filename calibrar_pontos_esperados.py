@@ -28,7 +28,7 @@ HISTORICO_DIR = Path("docs/data/historico")
 CURRENT_DIR   = Path("docs/data/current")
 OUT_PATH      = CURRENT_DIR / "calibracao_pontos.json"
 
-MIN_RODADAS   = 3
+MIN_RODADAS   = 8
 MIN_REGISTROS = 200
 RIDGE_LAMBDA  = 1.0     # regularização L2
 RECENCY_DECAY = 0.9     # peso = RECENCY_DECAY ^ (idade_em_rodadas)
