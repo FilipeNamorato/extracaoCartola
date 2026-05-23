@@ -50,12 +50,12 @@
       "playedGames": 17,
       "form": null,
       "won": 9,
-      "draw": 4,
-      "lost": 4,
-      "points": 31,
+      "draw": 3,
+      "lost": 5,
+      "points": 30,
       "goalsFor": 27,
-      "goalsAgainst": 21,
-      "goalDifference": 6
+      "goalsAgainst": 22,
+      "goalDifference": 5
     },
     {
       "position": 4,
@@ -186,9 +186,9 @@
       "draw": 4,
       "lost": 6,
       "points": 22,
-      "goalsFor": 19,
+      "goalsFor": 20,
       "goalsAgainst": 22,
-      "goalDifference": -3
+      "goalDifference": -2
     },
     {
       "position": 11,
@@ -225,11 +225,30 @@
       "lost": 6,
       "points": 21,
       "goalsFor": 20,
-      "goalsAgainst": 18,
-      "goalDifference": 2
+      "goalsAgainst": 19,
+      "goalDifference": 1
     },
     {
       "position": 13,
+      "team": {
+        "id": 1767,
+        "name": "Grêmio FBPA",
+        "shortName": "Grêmio",
+        "tla": "FBP",
+        "crest": "https://crests.football-data.org/1767.png"
+      },
+      "playedGames": 17,
+      "form": null,
+      "won": 5,
+      "draw": 6,
+      "lost": 6,
+      "points": 21,
+      "goalsFor": 19,
+      "goalsAgainst": 20,
+      "goalDifference": -1
+    },
+    {
+      "position": 14,
       "team": {
         "id": 1780,
         "name": "CR Vasco da Gama",
@@ -248,7 +267,7 @@
       "goalDifference": -3
     },
     {
-      "position": 14,
+      "position": 15,
       "team": {
         "id": 1771,
         "name": "Cruzeiro EC",
@@ -267,45 +286,7 @@
       "goalDifference": -5
     },
     {
-      "position": 15,
-      "team": {
-        "id": 1767,
-        "name": "Grêmio FBPA",
-        "shortName": "Grêmio",
-        "tla": "FBP",
-        "crest": "https://crests.football-data.org/1767.png"
-      },
-      "playedGames": 17,
-      "form": null,
-      "won": 4,
-      "draw": 7,
-      "lost": 6,
-      "points": 19,
-      "goalsFor": 16,
-      "goalsAgainst": 18,
-      "goalDifference": -2
-    },
-    {
       "position": 16,
-      "team": {
-        "id": 6685,
-        "name": "Santos FC",
-        "shortName": "Santos",
-        "tla": "SAN",
-        "crest": "https://crests.football-data.org/6685.png"
-      },
-      "playedGames": 17,
-      "form": null,
-      "won": 4,
-      "draw": 7,
-      "lost": 6,
-      "points": 19,
-      "goalsFor": 21,
-      "goalsAgainst": 25,
-      "goalDifference": -4
-    },
-    {
-      "position": 17,
       "team": {
         "id": 1779,
         "name": "SC Corinthians Paulista",
@@ -324,7 +305,45 @@
       "goalDifference": -4
     },
     {
+      "position": 17,
+      "team": {
+        "id": 6685,
+        "name": "Santos FC",
+        "shortName": "Santos",
+        "tla": "SAN",
+        "crest": "https://crests.football-data.org/6685.png"
+      },
+      "playedGames": 17,
+      "form": null,
+      "won": 4,
+      "draw": 6,
+      "lost": 7,
+      "points": 18,
+      "goalsFor": 23,
+      "goalsAgainst": 28,
+      "goalDifference": -5
+    },
+    {
       "position": 18,
+      "team": {
+        "id": 4364,
+        "name": "Mirassol FC",
+        "shortName": "Mirassol",
+        "tla": "MIR",
+        "crest": "https://crests.football-data.org/4364.png"
+      },
+      "playedGames": 16,
+      "form": null,
+      "won": 4,
+      "draw": 4,
+      "lost": 8,
+      "points": 16,
+      "goalsFor": 18,
+      "goalsAgainst": 23,
+      "goalDifference": -5
+    },
+    {
+      "position": 19,
       "team": {
         "id": 4287,
         "name": "Clube do Remo",
@@ -341,25 +360,6 @@
       "goalsFor": 19,
       "goalsAgainst": 27,
       "goalDifference": -8
-    },
-    {
-      "position": 19,
-      "team": {
-        "id": 4364,
-        "name": "Mirassol FC",
-        "shortName": "Mirassol",
-        "tla": "MIR",
-        "crest": "https://crests.football-data.org/4364.png"
-      },
-      "playedGames": 16,
-      "form": null,
-      "won": 3,
-      "draw": 5,
-      "lost": 8,
-      "points": 14,
-      "goalsFor": 17,
-      "goalsAgainst": 23,
-      "goalDifference": -6
     },
     {
       "position": 20,
@@ -382,6 +382,37 @@
     }
   ],
   "artilheiros": [
+    {
+      "player": {
+        "id": 37833,
+        "name": "Carlos Vinícius",
+        "firstName": "",
+        "lastName": "Carlos Vinícius",
+        "dateOfBirth": "1995-03-25",
+        "nationality": "Brazil",
+        "section": "Centre-Forward",
+        "position": null,
+        "shirtNumber": null,
+        "lastUpdated": "2024-08-23T09:25:15Z"
+      },
+      "team": {
+        "id": 1767,
+        "name": "Grêmio FBPA",
+        "shortName": "Grêmio",
+        "tla": "FBP",
+        "crest": "https://crests.football-data.org/1767.png",
+        "address": "Avenida Padre Leopoldo Bretano, 110, Humaitá Porto Alegre, RS 90250-590",
+        "website": "http://www.gremio.net",
+        "founded": 1903,
+        "clubColors": "Blue / Black / White",
+        "venue": "Arena do Grêmio",
+        "lastUpdated": "2023-02-18T08:42:52Z"
+      },
+      "playedMatches": 16,
+      "goals": 9,
+      "assists": null,
+      "penalties": 1
+    },
     {
       "player": {
         "id": 1077,
@@ -408,7 +439,7 @@
         "venue": "Estadio Jornalista Mário Filho",
         "lastUpdated": "2022-04-06T13:13:43Z"
       },
-      "playedMatches": 15,
+      "playedMatches": 16,
       "goals": 9,
       "assists": 3,
       "penalties": null
@@ -474,37 +505,6 @@
       "goals": 8,
       "assists": 1,
       "penalties": 2
-    },
-    {
-      "player": {
-        "id": 37833,
-        "name": "Carlos Vinícius",
-        "firstName": "",
-        "lastName": "Carlos Vinícius",
-        "dateOfBirth": "1995-03-25",
-        "nationality": "Brazil",
-        "section": "Centre-Forward",
-        "position": null,
-        "shirtNumber": null,
-        "lastUpdated": "2024-08-23T09:25:15Z"
-      },
-      "team": {
-        "id": 1767,
-        "name": "Grêmio FBPA",
-        "shortName": "Grêmio",
-        "tla": "FBP",
-        "crest": "https://crests.football-data.org/1767.png",
-        "address": "Avenida Padre Leopoldo Bretano, 110, Humaitá Porto Alegre, RS 90250-590",
-        "website": "http://www.gremio.net",
-        "founded": 1903,
-        "clubColors": "Blue / Black / White",
-        "venue": "Arena do Grêmio",
-        "lastUpdated": "2023-02-18T08:42:52Z"
-      },
-      "playedMatches": 16,
-      "goals": 7,
-      "assists": null,
-      "penalties": 1
     },
     {
       "player": {
@@ -694,6 +694,37 @@
     },
     {
       "player": {
+        "id": 1327,
+        "name": "Gabriel Barbosa",
+        "firstName": "",
+        "lastName": "Gabriel Barbosa",
+        "dateOfBirth": "1996-08-30",
+        "nationality": "Brazil",
+        "section": "Offence",
+        "position": null,
+        "shirtNumber": null,
+        "lastUpdated": "2023-07-30T23:15:48Z"
+      },
+      "team": {
+        "id": 6685,
+        "name": "Santos FC",
+        "shortName": "Santos",
+        "tla": "SAN",
+        "crest": "https://crests.football-data.org/6685.png",
+        "address": "Rua Princesa Isabel S/N, Vila Belmiro Santos, SP 11075-501",
+        "website": "http://santosfc.com.br",
+        "founded": 1912,
+        "clubColors": "Black / White",
+        "venue": "Estádio Urbano Caldeira",
+        "lastUpdated": "2023-02-18T08:43:18Z"
+      },
+      "playedMatches": 12,
+      "goals": 6,
+      "assists": 2,
+      "penalties": 1
+    },
+    {
+      "player": {
         "id": 170698,
         "name": "José Manuel López",
         "firstName": "José Manuel",
@@ -718,7 +749,7 @@
         "venue": "Allianz Parque",
         "lastUpdated": "2022-04-06T13:14:55Z"
       },
-      "playedMatches": 16,
+      "playedMatches": 17,
       "goals": 5,
       "assists": 3,
       "penalties": null
@@ -814,37 +845,6 @@
       "playedMatches": 15,
       "goals": 5,
       "assists": 1,
-      "penalties": null
-    },
-    {
-      "player": {
-        "id": 169234,
-        "name": "Matheus Martins",
-        "firstName": "",
-        "lastName": "Matheus Martins",
-        "dateOfBirth": "2003-07-16",
-        "nationality": "Brazil",
-        "section": "Midfield",
-        "position": null,
-        "shirtNumber": null,
-        "lastUpdated": "2024-08-04T23:09:37Z"
-      },
-      "team": {
-        "id": 1770,
-        "name": "Botafogo FR",
-        "shortName": "Botafogo",
-        "tla": "BOT",
-        "crest": "https://crests.football-data.org/1770.png",
-        "address": "Avenida Venceslau Brás 72, Bairro Botafago Rio de Janeiro, RJ 22290-140",
-        "website": "http://www.botafogo.com.br",
-        "founded": 1904,
-        "clubColors": "Black / White",
-        "venue": "Estádio Nilton Santos",
-        "lastUpdated": "2023-02-18T08:43:47Z"
-      },
-      "playedMatches": 14,
-      "goals": 4,
-      "assists": null,
       "penalties": null
     }
   ],
@@ -1339,7 +1339,7 @@
     },
     "Fluminense FC": {
       "home": {
-        "gf": 18,
+        "gf": 17,
         "ga": 10,
         "w": 7,
         "d": 1,
@@ -1443,7 +1443,7 @@
       },
       "away": {
         "gf": 9,
-        "ga": 14,
+        "ga": 13,
         "w": 2,
         "d": 2,
         "l": 5
