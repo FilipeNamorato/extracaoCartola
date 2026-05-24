@@ -167,8 +167,8 @@
       "draw": 5,
       "lost": 6,
       "points": 23,
-      "goalsFor": 22,
-      "goalsAgainst": 26,
+      "goalsFor": 23,
+      "goalsAgainst": 27,
       "goalDifference": -4
     },
     {
@@ -193,6 +193,25 @@
     {
       "position": 11,
       "team": {
+        "id": 1766,
+        "name": "CA Mineiro",
+        "shortName": "Mineiro",
+        "tla": "CAM",
+        "crest": "https://crests.football-data.org/1766.png"
+      },
+      "playedGames": 17,
+      "form": null,
+      "won": 6,
+      "draw": 4,
+      "lost": 7,
+      "points": 22,
+      "goalsFor": 21,
+      "goalsAgainst": 22,
+      "goalDifference": -1
+    },
+    {
+      "position": 12,
+      "team": {
         "id": 1782,
         "name": "EC Vitória",
         "shortName": "Vitória",
@@ -208,25 +227,6 @@
       "goalsFor": 20,
       "goalsAgainst": 22,
       "goalDifference": -2
-    },
-    {
-      "position": 12,
-      "team": {
-        "id": 1766,
-        "name": "CA Mineiro",
-        "shortName": "Mineiro",
-        "tla": "CAM",
-        "crest": "https://crests.football-data.org/1766.png"
-      },
-      "playedGames": 16,
-      "form": null,
-      "won": 6,
-      "draw": 3,
-      "lost": 7,
-      "points": 21,
-      "goalsFor": 21,
-      "goalsAgainst": 22,
-      "goalDifference": -1
     },
     {
       "position": 13,
@@ -294,12 +294,12 @@
         "tla": "COR",
         "crest": "https://crests.football-data.org/1779.png"
       },
-      "playedGames": 16,
+      "playedGames": 17,
       "form": null,
       "won": 4,
-      "draw": 6,
+      "draw": 7,
       "lost": 6,
-      "points": 18,
+      "points": 19,
       "goalsFor": 14,
       "goalsAgainst": 18,
       "goalDifference": -4
@@ -376,8 +376,8 @@
       "draw": 6,
       "lost": 9,
       "points": 9,
-      "goalsFor": 16,
-      "goalsAgainst": 31,
+      "goalsFor": 17,
+      "goalsAgainst": 32,
       "goalDifference": -15
     }
   ],
@@ -957,7 +957,8 @@
       "W",
       "D",
       "L",
-      "D"
+      "D",
+      "W"
     ],
     "EC Vitória": [
       "W",
@@ -993,7 +994,8 @@
       "L",
       "W",
       "D",
-      "W"
+      "W",
+      "L"
     ],
     "Fluminense FC": [
       "W",
@@ -1048,7 +1050,8 @@
       "L",
       "L",
       "D",
-      "L"
+      "L",
+      "D"
     ],
     "Santos FC": [
       "L",
@@ -1211,6 +1214,7 @@
       "W",
       "L",
       "W",
+      "D",
       "D"
     ]
   },
@@ -1304,9 +1308,9 @@
         "l": 1
       },
       "away": {
-        "gf": 5,
-        "ga": 11,
-        "w": 1,
+        "gf": 8,
+        "ga": 12,
+        "w": 2,
         "d": 1,
         "l": 5
       }
@@ -1329,11 +1333,11 @@
     },
     "Clube do Remo": {
       "home": {
-        "gf": 9,
-        "ga": 9,
+        "gf": 10,
+        "ga": 12,
         "w": 1,
         "d": 4,
-        "l": 2
+        "l": 3
       },
       "away": {
         "gf": 10,
@@ -1384,10 +1388,10 @@
         "l": 4
       },
       "away": {
-        "gf": 3,
-        "ga": 10,
+        "gf": 5,
+        "ga": 12,
         "w": 0,
-        "d": 2,
+        "d": 3,
         "l": 4
       }
     },
@@ -1521,10 +1525,10 @@
     },
     "Cruzeiro EC": {
       "home": {
-        "gf": 13,
-        "ga": 10,
+        "gf": 15,
+        "ga": 12,
         "w": 3,
-        "d": 3,
+        "d": 4,
         "l": 2
       },
       "away": {
