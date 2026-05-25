@@ -1384,12 +1384,13 @@
       "scout": {
         "DS": 1,
         "FC": 2,
+        "FF": 1,
         "FS": 2,
         "PC": 1
       },
       "apelido": "Barros",
       "foto": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/clubes_2026/silhuetas/VAS/FORMATO.png",
-      "pontuacao": 0.9,
+      "pontuacao": 1.7,
       "posicao_id": 4,
       "clube_id": 267,
       "entrou_em_campo": true
@@ -2178,7 +2179,7 @@
       "scout": {},
       "apelido": "Renato Gaúcho",
       "foto": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/clubes_2026/silhuetas/VAS/FORMATO.png",
-      "pontuacao": 3.57,
+      "pontuacao": 3.65,
       "posicao_id": 6,
       "clube_id": 267,
       "entrou_em_campo": true
