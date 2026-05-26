@@ -98,20 +98,20 @@
     {
       "position": 6,
       "team": {
-        "id": 1777,
-        "name": "EC Bahia",
-        "shortName": "Bahia",
-        "tla": "BAH",
-        "crest": "https://crests.football-data.org/1777.png"
+        "id": 4241,
+        "name": "Coritiba FBC",
+        "shortName": "Coritiba",
+        "tla": "COR",
+        "crest": "https://crests.football-data.org/4241.png"
       },
-      "playedGames": 16,
+      "playedGames": 17,
       "form": null,
       "won": 7,
       "draw": 5,
-      "lost": 4,
+      "lost": 5,
       "points": 26,
-      "goalsFor": 22,
-      "goalsAgainst": 19,
+      "goalsFor": 24,
+      "goalsAgainst": 21,
       "goalDifference": 3
     },
     {
@@ -136,20 +136,20 @@
     {
       "position": 8,
       "team": {
-        "id": 4241,
-        "name": "Coritiba FBC",
-        "shortName": "Coritiba",
-        "tla": "COR",
-        "crest": "https://crests.football-data.org/4241.png"
+        "id": 1777,
+        "name": "EC Bahia",
+        "shortName": "Bahia",
+        "tla": "BAH",
+        "crest": "https://crests.football-data.org/1777.png"
       },
-      "playedGames": 17,
+      "playedGames": 16,
       "form": null,
       "won": 6,
       "draw": 5,
-      "lost": 6,
+      "lost": 5,
       "points": 23,
-      "goalsFor": 21,
-      "goalsAgainst": 20,
+      "goalsFor": 23,
+      "goalsAgainst": 22,
       "goalDifference": 1
     },
     {
@@ -508,6 +508,37 @@
     },
     {
       "player": {
+        "id": 169022,
+        "name": "Breno Lopes",
+        "firstName": "",
+        "lastName": "Breno Lopes",
+        "dateOfBirth": "1996-01-24",
+        "nationality": "Brazil",
+        "section": "Offence",
+        "position": null,
+        "shirtNumber": null,
+        "lastUpdated": "2023-07-30T23:15:44Z"
+      },
+      "team": {
+        "id": 4241,
+        "name": "Coritiba FBC",
+        "shortName": "Coritiba",
+        "tla": "COR",
+        "crest": "https://crests.football-data.org/4241.png",
+        "address": "Rua Ubaldino do Amaral 37, Alto da Glória Curitiba, PR 80060-195",
+        "website": "http://www.coritiba.com.br",
+        "founded": 1909,
+        "clubColors": "Green / White",
+        "venue": "Estádio Major Antônio Couto Pereira",
+        "lastUpdated": "2023-02-18T08:43:33Z"
+      },
+      "playedMatches": 14,
+      "goals": 8,
+      "assists": 1,
+      "penalties": null
+    },
+    {
+      "player": {
         "id": 149704,
         "name": "Danilo dos Santos de Oliveira",
         "firstName": "",
@@ -564,37 +595,6 @@
         "lastUpdated": "2023-02-18T08:43:47Z"
       },
       "playedMatches": 16,
-      "goals": 7,
-      "assists": 1,
-      "penalties": null
-    },
-    {
-      "player": {
-        "id": 169022,
-        "name": "Breno Lopes",
-        "firstName": "",
-        "lastName": "Breno Lopes",
-        "dateOfBirth": "1996-01-24",
-        "nationality": "Brazil",
-        "section": "Offence",
-        "position": null,
-        "shirtNumber": null,
-        "lastUpdated": "2023-07-30T23:15:44Z"
-      },
-      "team": {
-        "id": 4241,
-        "name": "Coritiba FBC",
-        "shortName": "Coritiba",
-        "tla": "COR",
-        "crest": "https://crests.football-data.org/4241.png",
-        "address": "Rua Ubaldino do Amaral 37, Alto da Glória Curitiba, PR 80060-195",
-        "website": "http://www.coritiba.com.br",
-        "founded": 1909,
-        "clubColors": "Green / White",
-        "venue": "Estádio Major Antônio Couto Pereira",
-        "lastUpdated": "2023-02-18T08:43:33Z"
-      },
-      "playedMatches": 14,
       "goals": 7,
       "assists": 1,
       "penalties": null
@@ -818,33 +818,33 @@
     },
     {
       "player": {
-        "id": 118245,
-        "name": "Christian",
-        "firstName": "",
-        "lastName": "Christian",
-        "dateOfBirth": "2000-12-19",
-        "nationality": "Brazil",
-        "section": "Midfield",
+        "id": 259981,
+        "name": "Joaquín Lavega",
+        "firstName": "Joaquín",
+        "lastName": "Lavega",
+        "dateOfBirth": "2005-02-03",
+        "nationality": "Uruguay",
+        "section": "Offence",
         "position": null,
         "shirtNumber": null,
-        "lastUpdated": "2023-07-30T23:15:43Z"
+        "lastUpdated": "2026-05-06T07:57:07Z"
       },
       "team": {
-        "id": 1771,
-        "name": "Cruzeiro EC",
-        "shortName": "Cruzeiro",
-        "tla": "CRU",
-        "crest": "https://crests.football-data.org/1771.png",
-        "address": "Rua Timbiras 2903, Bairro Preto Belo Horizonte, MG 30140-062",
-        "website": "http://www.cruzeiro.com.br",
-        "founded": 1921,
-        "clubColors": "Blue / White",
-        "venue": "Estádio Governador Magalhães Pinto",
-        "lastUpdated": "2022-04-10T11:03:46Z"
+        "id": 4241,
+        "name": "Coritiba FBC",
+        "shortName": "Coritiba",
+        "tla": "COR",
+        "crest": "https://crests.football-data.org/4241.png",
+        "address": "Rua Ubaldino do Amaral 37, Alto da Glória Curitiba, PR 80060-195",
+        "website": "http://www.coritiba.com.br",
+        "founded": 1909,
+        "clubColors": "Green / White",
+        "venue": "Estádio Major Antônio Couto Pereira",
+        "lastUpdated": "2023-02-18T08:43:33Z"
       },
-      "playedMatches": 17,
+      "playedMatches": 16,
       "goals": 5,
-      "assists": 3,
+      "assists": 1,
       "penalties": null
     }
   ],
@@ -903,6 +903,7 @@
       "L",
       "L",
       "D",
+      "W",
       "W"
     ],
     "RB Bragantino": [
@@ -1053,7 +1054,7 @@
       "L",
       "D",
       "L",
-      "L"
+      "D"
     ],
     "Santos FC": [
       "L",
@@ -1108,7 +1109,8 @@
       "D",
       "D",
       "L",
-      "D"
+      "D",
+      "L"
     ],
     "São Paulo FC": [
       "W",
@@ -1219,7 +1221,7 @@
       "L",
       "W",
       "D",
-      "W"
+      "D"
     ]
   },
   "team_stats": {
@@ -1257,9 +1259,9 @@
     },
     "Coritiba FBC": {
       "home": {
-        "gf": 7,
-        "ga": 6,
-        "w": 2,
+        "gf": 10,
+        "ga": 8,
+        "w": 3,
         "d": 3,
         "l": 2
       },
@@ -1280,7 +1282,7 @@
         "l": 3
       },
       "away": {
-        "gf": 8,
+        "gf": 9,
         "ga": 10,
         "w": 4,
         "d": 1,
@@ -1312,7 +1314,7 @@
         "l": 1
       },
       "away": {
-        "gf": 7,
+        "gf": 8,
         "ga": 12,
         "w": 2,
         "d": 1,
@@ -1338,7 +1340,7 @@
     "Clube do Remo": {
       "home": {
         "gf": 10,
-        "ga": 11,
+        "ga": 12,
         "w": 1,
         "d": 4,
         "l": 3
@@ -1353,7 +1355,7 @@
     },
     "Fluminense FC": {
       "home": {
-        "gf": 17,
+        "gf": 18,
         "ga": 10,
         "w": 7,
         "d": 1,
@@ -1392,11 +1394,11 @@
         "l": 4
       },
       "away": {
-        "gf": 4,
+        "gf": 5,
         "ga": 12,
         "w": 0,
-        "d": 2,
-        "l": 5
+        "d": 3,
+        "l": 4
       }
     },
     "Santos FC": {
@@ -1440,11 +1442,11 @@
         "l": 2
       },
       "away": {
-        "gf": 9,
-        "ga": 10,
+        "gf": 11,
+        "ga": 13,
         "w": 4,
         "d": 1,
-        "l": 2
+        "l": 3
       }
     },
     "São Paulo FC": {
@@ -1457,7 +1459,7 @@
       },
       "away": {
         "gf": 9,
-        "ga": 13,
+        "ga": 14,
         "w": 2,
         "d": 2,
         "l": 5
@@ -1498,7 +1500,7 @@
     "CR Vasco da Gama": {
       "home": {
         "gf": 12,
-        "ga": 11,
+        "ga": 12,
         "w": 5,
         "d": 1,
         "l": 3
@@ -1530,9 +1532,9 @@
     "Cruzeiro EC": {
       "home": {
         "gf": 15,
-        "ga": 11,
-        "w": 4,
-        "d": 3,
+        "ga": 12,
+        "w": 3,
+        "d": 4,
         "l": 2
       },
       "away": {

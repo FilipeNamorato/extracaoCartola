@@ -612,31 +612,31 @@
         "e",
         "d",
         "e",
-        "e"
+        "d"
       ],
       "aproveitamento_mandante": [
         "d",
         "d",
         "e",
         "v",
-        "e"
+        "v"
       ],
       "transmissao": {
-        "label": "ao vivo",
+        "label": "saiba como foi",
         "url": "https://ge.globo.com/pr/futebol/brasileirao-serie-a/jogo/25-05-2026/coritiba-bahia.ghtml?utm_source=cartolafc"
       },
       "local": "Couto Pereira",
-      "status_transmissao_tr": "EM_ANDAMENTO",
+      "status_transmissao_tr": "ENCERRADA",
       "status_cronometro_tr": "PAUSADO",
-      "periodo_tr": "INTERVALO",
+      "periodo_tr": "POS_JOGO",
       "partida_data": "2026-05-25 20:00:00",
-      "inicio_cronometro_tr": "2026-05-25T23:57:01.976Z",
-      "placar_oficial_visitante": 1,
-      "placar_oficial_mandante": 0,
+      "inicio_cronometro_tr": "2026-05-26T01:16:37.266Z",
+      "placar_oficial_visitante": 2,
+      "placar_oficial_mandante": 3,
       "partida_id": 346492,
-      "clube_visitante_posicao": 6,
+      "clube_visitante_posicao": 8,
       "clube_visitante_id": 265,
-      "clube_casa_posicao": 8,
+      "clube_casa_posicao": 6,
       "clube_casa_id": 294,
       "timestamp": 1779750000,
       "campeonato_id": 26,
