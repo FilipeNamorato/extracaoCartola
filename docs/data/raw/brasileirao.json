@@ -34,9 +34,9 @@
       "draw": 4,
       "lost": 3,
       "points": 34,
-      "goalsFor": 29,
+      "goalsFor": 30,
       "goalsAgainst": 16,
-      "goalDifference": 13
+      "goalDifference": 14
     },
     {
       "position": 3,
@@ -111,8 +111,8 @@
       "lost": 6,
       "points": 26,
       "goalsFor": 24,
-      "goalsAgainst": 22,
-      "goalDifference": 2
+      "goalsAgainst": 23,
+      "goalDifference": 1
     },
     {
       "position": 7,
@@ -142,18 +142,37 @@
         "tla": "BAH",
         "crest": "https://crests.football-data.org/1777.png"
       },
-      "playedGames": 16,
+      "playedGames": 17,
       "form": null,
       "won": 6,
-      "draw": 5,
+      "draw": 6,
       "lost": 5,
-      "points": 23,
+      "points": 24,
       "goalsFor": 23,
       "goalsAgainst": 22,
       "goalDifference": 1
     },
     {
       "position": 9,
+      "team": {
+        "id": 1770,
+        "name": "Botafogo FR",
+        "shortName": "Botafogo",
+        "tla": "BOT",
+        "crest": "https://crests.football-data.org/1770.png"
+      },
+      "playedGames": 17,
+      "form": null,
+      "won": 6,
+      "draw": 5,
+      "lost": 6,
+      "points": 23,
+      "goalsFor": 30,
+      "goalsAgainst": 29,
+      "goalDifference": 1
+    },
+    {
+      "position": 10,
       "team": {
         "id": 1771,
         "name": "Cruzeiro EC",
@@ -170,25 +189,6 @@
       "goalsFor": 23,
       "goalsAgainst": 27,
       "goalDifference": -4
-    },
-    {
-      "position": 10,
-      "team": {
-        "id": 1770,
-        "name": "Botafogo FR",
-        "shortName": "Botafogo",
-        "tla": "BOT",
-        "crest": "https://crests.football-data.org/1770.png"
-      },
-      "playedGames": 16,
-      "form": null,
-      "won": 6,
-      "draw": 4,
-      "lost": 6,
-      "points": 22,
-      "goalsFor": 30,
-      "goalsAgainst": 29,
-      "goalDifference": 1
     },
     {
       "position": 11,
@@ -212,6 +212,44 @@
     {
       "position": 12,
       "team": {
+        "id": 1767,
+        "name": "Grêmio FBPA",
+        "shortName": "Grêmio",
+        "tla": "FBP",
+        "crest": "https://crests.football-data.org/1767.png"
+      },
+      "playedGames": 18,
+      "form": null,
+      "won": 5,
+      "draw": 7,
+      "lost": 6,
+      "points": 22,
+      "goalsFor": 19,
+      "goalsAgainst": 20,
+      "goalDifference": -1
+    },
+    {
+      "position": 13,
+      "team": {
+        "id": 1779,
+        "name": "SC Corinthians Paulista",
+        "shortName": "Corinthians",
+        "tla": "COR",
+        "crest": "https://crests.football-data.org/1779.png"
+      },
+      "playedGames": 18,
+      "form": null,
+      "won": 5,
+      "draw": 7,
+      "lost": 6,
+      "points": 22,
+      "goalsFor": 15,
+      "goalsAgainst": 18,
+      "goalDifference": -3
+    },
+    {
+      "position": 14,
+      "team": {
         "id": 1766,
         "name": "CA Mineiro",
         "shortName": "Mineiro",
@@ -229,7 +267,7 @@
       "goalDifference": -2
     },
     {
-      "position": 13,
+      "position": 15,
       "team": {
         "id": 6684,
         "name": "SC Internacional",
@@ -246,44 +284,6 @@
       "goalsFor": 20,
       "goalsAgainst": 19,
       "goalDifference": 1
-    },
-    {
-      "position": 14,
-      "team": {
-        "id": 1767,
-        "name": "Grêmio FBPA",
-        "shortName": "Grêmio",
-        "tla": "FBP",
-        "crest": "https://crests.football-data.org/1767.png"
-      },
-      "playedGames": 17,
-      "form": null,
-      "won": 5,
-      "draw": 6,
-      "lost": 6,
-      "points": 21,
-      "goalsFor": 19,
-      "goalsAgainst": 20,
-      "goalDifference": -1
-    },
-    {
-      "position": 15,
-      "team": {
-        "id": 1779,
-        "name": "SC Corinthians Paulista",
-        "shortName": "Corinthians",
-        "tla": "COR",
-        "crest": "https://crests.football-data.org/1779.png"
-      },
-      "playedGames": 17,
-      "form": null,
-      "won": 5,
-      "draw": 6,
-      "lost": 6,
-      "points": 21,
-      "goalsFor": 15,
-      "goalsAgainst": 18,
-      "goalDifference": -3
     },
     {
       "position": 16,
@@ -409,9 +409,40 @@
         "lastUpdated": "2022-04-06T13:14:06Z"
       },
       "playedMatches": 17,
-      "goals": 10,
+      "goals": 11,
       "assists": 1,
       "penalties": 2
+    },
+    {
+      "player": {
+        "id": 1077,
+        "name": "Pedro",
+        "firstName": "",
+        "lastName": "Pedro",
+        "dateOfBirth": "1997-06-20",
+        "nationality": "Brazil",
+        "section": "Offence",
+        "position": null,
+        "shirtNumber": null,
+        "lastUpdated": "2023-07-30T23:15:48Z"
+      },
+      "team": {
+        "id": 1783,
+        "name": "CR Flamengo",
+        "shortName": "Flamengo",
+        "tla": "FLA",
+        "crest": "https://crests.football-data.org/1783.png",
+        "address": "null Rio de Janeiro, RJ null",
+        "website": "https://www.flamengo.com.br/pagina-inicial-basquete",
+        "founded": 1919,
+        "clubColors": "Red / Black / White",
+        "venue": "Estadio Jornalista Mário Filho",
+        "lastUpdated": "2022-04-06T13:13:43Z"
+      },
+      "playedMatches": 17,
+      "goals": 10,
+      "assists": 4,
+      "penalties": null
     },
     {
       "player": {
@@ -443,37 +474,6 @@
       "goals": 9,
       "assists": null,
       "penalties": 1
-    },
-    {
-      "player": {
-        "id": 1077,
-        "name": "Pedro",
-        "firstName": "",
-        "lastName": "Pedro",
-        "dateOfBirth": "1997-06-20",
-        "nationality": "Brazil",
-        "section": "Offence",
-        "position": null,
-        "shirtNumber": null,
-        "lastUpdated": "2023-07-30T23:15:48Z"
-      },
-      "team": {
-        "id": 1783,
-        "name": "CR Flamengo",
-        "shortName": "Flamengo",
-        "tla": "FLA",
-        "crest": "https://crests.football-data.org/1783.png",
-        "address": "null Rio de Janeiro, RJ null",
-        "website": "https://www.flamengo.com.br/pagina-inicial-basquete",
-        "founded": 1919,
-        "clubColors": "Red / Black / White",
-        "venue": "Estadio Jornalista Mário Filho",
-        "lastUpdated": "2022-04-06T13:13:43Z"
-      },
-      "playedMatches": 17,
-      "goals": 9,
-      "assists": 4,
-      "penalties": null
     },
     {
       "player": {
