@@ -224,9 +224,9 @@
       "draw": 4,
       "lost": 7,
       "points": 22,
-      "goalsFor": 20,
-      "goalsAgainst": 23,
-      "goalDifference": -3
+      "goalsFor": 21,
+      "goalsAgainst": 25,
+      "goalDifference": -4
     },
     {
       "position": 13,
@@ -269,6 +269,25 @@
     {
       "position": 15,
       "team": {
+        "id": 6685,
+        "name": "Santos FC",
+        "shortName": "Santos",
+        "tla": "SAN",
+        "crest": "https://crests.football-data.org/6685.png"
+      },
+      "playedGames": 18,
+      "form": null,
+      "won": 5,
+      "draw": 6,
+      "lost": 7,
+      "points": 21,
+      "goalsFor": 26,
+      "goalsAgainst": 29,
+      "goalDifference": -3
+    },
+    {
+      "position": 16,
+      "team": {
         "id": 1767,
         "name": "Grêmio FBPA",
         "shortName": "Grêmio",
@@ -284,25 +303,6 @@
       "goalsFor": 20,
       "goalsAgainst": 23,
       "goalDifference": -3
-    },
-    {
-      "position": 16,
-      "team": {
-        "id": 6685,
-        "name": "Santos FC",
-        "shortName": "Santos",
-        "tla": "SAN",
-        "crest": "https://crests.football-data.org/6685.png"
-      },
-      "playedGames": 18,
-      "form": null,
-      "won": 5,
-      "draw": 6,
-      "lost": 7,
-      "points": 21,
-      "goalsFor": 24,
-      "goalsAgainst": 28,
-      "goalDifference": -4
     },
     {
       "position": 17,
@@ -632,6 +632,37 @@
     },
     {
       "player": {
+        "id": 1327,
+        "name": "Gabriel Barbosa",
+        "firstName": "",
+        "lastName": "Gabriel Barbosa",
+        "dateOfBirth": "1996-08-30",
+        "nationality": "Brazil",
+        "section": "Offence",
+        "position": null,
+        "shirtNumber": null,
+        "lastUpdated": "2023-07-30T23:15:48Z"
+      },
+      "team": {
+        "id": 6685,
+        "name": "Santos FC",
+        "shortName": "Santos",
+        "tla": "SAN",
+        "crest": "https://crests.football-data.org/6685.png",
+        "address": "Rua Princesa Isabel S/N, Vila Belmiro Santos, SP 11075-501",
+        "website": "http://santosfc.com.br",
+        "founded": 1912,
+        "clubColors": "Black / White",
+        "venue": "Estádio Urbano Caldeira",
+        "lastUpdated": "2023-02-18T08:43:18Z"
+      },
+      "playedMatches": 13,
+      "goals": 7,
+      "assists": 2,
+      "penalties": 1
+    },
+    {
+      "player": {
         "id": 170698,
         "name": "José Manuel López",
         "firstName": "José Manuel",
@@ -721,37 +752,6 @@
       "playedMatches": 15,
       "goals": 6,
       "assists": 1,
-      "penalties": 1
-    },
-    {
-      "player": {
-        "id": 1327,
-        "name": "Gabriel Barbosa",
-        "firstName": "",
-        "lastName": "Gabriel Barbosa",
-        "dateOfBirth": "1996-08-30",
-        "nationality": "Brazil",
-        "section": "Offence",
-        "position": null,
-        "shirtNumber": null,
-        "lastUpdated": "2023-07-30T23:15:48Z"
-      },
-      "team": {
-        "id": 6685,
-        "name": "Santos FC",
-        "shortName": "Santos",
-        "tla": "SAN",
-        "crest": "https://crests.football-data.org/6685.png",
-        "address": "Rua Princesa Isabel S/N, Vila Belmiro Santos, SP 11075-501",
-        "website": "http://santosfc.com.br",
-        "founded": 1912,
-        "clubColors": "Black / White",
-        "venue": "Estádio Urbano Caldeira",
-        "lastUpdated": "2023-02-18T08:43:18Z"
-      },
-      "playedMatches": 13,
-      "goals": 6,
-      "assists": 2,
       "penalties": 1
     },
     {

@@ -288,14 +288,14 @@
         "e",
         "v",
         "v",
-        "e"
+        "d"
       ],
       "aproveitamento_mandante": [
         "e",
         "v",
         "e",
         "d",
-        "e"
+        "v"
       ],
       "transmissao": {
         "label": "saiba como foi",
@@ -324,14 +324,14 @@
         "e",
         "d",
         "v",
-        "e"
+        "d"
       ],
       "aproveitamento_mandante": [
         "e",
         "d",
         "e",
         "v",
-        "e"
+        "v"
       ],
       "transmissao": {
         "label": "saiba como foi",
@@ -360,14 +360,14 @@
         "v",
         "d",
         "v",
-        "e"
+        "v"
       ],
       "aproveitamento_mandante": [
         "e",
         "d",
         "e",
         "v",
-        "e"
+        "d"
       ],
       "transmissao": {
         "label": "saiba como foi",
@@ -384,7 +384,7 @@
       "partida_id": 346511,
       "clube_visitante_posicao": 9,
       "clube_visitante_id": 264,
-      "clube_casa_posicao": 15,
+      "clube_casa_posicao": 16,
       "clube_casa_id": 284,
       "timestamp": 1780173000,
       "campeonato_id": 26,
@@ -396,14 +396,14 @@
         "e",
         "v",
         "e",
-        "e"
+        "d"
       ],
       "aproveitamento_mandante": [
         "e",
         "d",
         "e",
         "d",
-        "e"
+        "v"
       ],
       "transmissao": {
         "label": "saiba como foi",
@@ -432,31 +432,31 @@
         "e",
         "d",
         "v",
-        "e"
+        "d"
       ],
       "aproveitamento_mandante": [
         "e",
         "v",
         "d",
         "d",
-        "e"
+        "v"
       ],
       "transmissao": {
-        "label": "ao vivo",
+        "label": "saiba como foi",
         "url": "https://ge.globo.com/sp/santos-e-regiao/futebol/brasileirao-serie-a/jogo/30-05-2026/santos-vitoria.ghtml?utm_source=cartolafc"
       },
       "local": "Vila Belmiro",
-      "status_transmissao_tr": "EM_ANDAMENTO",
+      "status_transmissao_tr": "ENCERRADA",
       "status_cronometro_tr": "PAUSADO",
-      "periodo_tr": "INTERVALO",
+      "periodo_tr": "POS_JOGO",
       "partida_data": "2026-05-30 20:00:00",
-      "inicio_cronometro_tr": "2026-05-30T23:50:29.084Z",
-      "placar_oficial_visitante": 0,
-      "placar_oficial_mandante": 1,
+      "inicio_cronometro_tr": "2026-05-31T01:27:55.254Z",
+      "placar_oficial_visitante": 1,
+      "placar_oficial_mandante": 3,
       "partida_id": 346507,
       "clube_visitante_posicao": 12,
       "clube_visitante_id": 287,
-      "clube_casa_posicao": 16,
+      "clube_casa_posicao": 15,
       "clube_casa_id": 277,
       "timestamp": 1780182000,
       "campeonato_id": 26,
@@ -464,18 +464,18 @@
     },
     {
       "aproveitamento_visitante": [
-        "e",
         "v",
         "e",
         "v",
-        "d"
+        "d",
+        "e"
       ],
       "aproveitamento_mandante": [
-        "d",
         "v",
         "d",
         "v",
-        "v"
+        "v",
+        "e"
       ],
       "transmissao": {
         "label": "fique por dentro",
@@ -500,18 +500,18 @@
     },
     {
       "aproveitamento_visitante": [
-        "d",
         "v",
         "e",
         "v",
-        "d"
+        "d",
+        "e"
       ],
       "aproveitamento_mandante": [
-        "d",
         "e",
         "v",
         "d",
-        "d"
+        "d",
+        "e"
       ],
       "transmissao": {
         "label": "fique por dentro",
@@ -537,17 +537,17 @@
     {
       "aproveitamento_visitante": [
         "d",
-        "d",
         "e",
         "d",
-        "d"
+        "d",
+        "e"
       ],
       "aproveitamento_mandante": [
+        "e",
+        "e",
+        "e",
         "v",
-        "e",
-        "e",
-        "e",
-        "v"
+        "e"
       ],
       "transmissao": {
         "label": "fique por dentro",
@@ -572,18 +572,18 @@
     },
     {
       "aproveitamento_visitante": [
-        "v",
         "d",
         "e",
         "v",
-        "d"
+        "d",
+        "e"
       ],
       "aproveitamento_mandante": [
-        "v",
         "d",
         "v",
         "e",
-        "v"
+        "v",
+        "e"
       ],
       "transmissao": {
         "label": "fique por dentro",
@@ -608,18 +608,18 @@
     },
     {
       "aproveitamento_visitante": [
-        "v",
         "e",
         "d",
         "d",
+        "e",
         "e"
       ],
       "aproveitamento_mandante": [
-        "d",
         "v",
         "e",
         "v",
-        "d"
+        "d",
+        "e"
       ],
       "transmissao": {
         "label": "fique por dentro",
