@@ -545,10 +545,10 @@
         "lastName": "Danilo",
         "dateOfBirth": "2001-04-29",
         "nationality": "Brazil",
-        "section": "Defensive Midfield",
+        "section": "Midfield",
         "position": null,
         "shirtNumber": null,
-        "lastUpdated": "2024-08-23T09:25:15Z"
+        "lastUpdated": "2026-06-01T11:16:32Z"
       },
       "team": {
         "id": 1770,
@@ -669,10 +669,10 @@
         "lastName": "López",
         "dateOfBirth": "2000-12-06",
         "nationality": "Argentina",
-        "section": "Midfield",
+        "section": "Offence",
         "position": null,
         "shirtNumber": null,
-        "lastUpdated": "2024-06-13T09:41:56Z"
+        "lastUpdated": "2026-06-01T11:16:29Z"
       },
       "team": {
         "id": 1769,
@@ -1026,7 +1026,7 @@
       "D",
       "W",
       "L",
-      "D"
+      "W"
     ],
     "Grêmio FBPA": [
       "L",
@@ -1241,7 +1241,7 @@
       "W",
       "D",
       "W",
-      "D"
+      "L"
     ]
   },
   "team_stats": {
@@ -1383,9 +1383,9 @@
       },
       "away": {
         "gf": 11,
-        "ga": 13,
-        "w": 2,
-        "d": 3,
+        "ga": 12,
+        "w": 3,
+        "d": 2,
         "l": 4
       }
     },
@@ -1551,11 +1551,11 @@
     },
     "Cruzeiro EC": {
       "home": {
-        "gf": 16,
+        "gf": 15,
         "ga": 12,
         "w": 4,
-        "d": 4,
-        "l": 2
+        "d": 3,
+        "l": 3
       },
       "away": {
         "gf": 8,
