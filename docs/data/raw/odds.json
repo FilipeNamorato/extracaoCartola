@@ -1,1 +1,1521 @@
-[]
+[
+  {
+    "id": "f4080730439de4ccf01dadabc9a7ccc6",
+    "sport_key": "soccer_brazil_campeonato",
+    "sport_title": "Brazil Série A",
+    "commence_time": "2026-07-22T20:00:00Z",
+    "home_team": "Atletico Mineiro",
+    "away_team": "Bahia",
+    "bookmakers": [
+      {
+        "key": "winamax_fr",
+        "title": "Winamax (FR)",
+        "last_update": "2026-06-03T19:34:05Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2026-06-03T19:34:05Z",
+            "outcomes": [
+              {
+                "name": "Atletico Mineiro",
+                "price": 1.92
+              },
+              {
+                "name": "Bahia",
+                "price": 3.0
+              },
+              {
+                "name": "Draw",
+                "price": 3.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "onexbet",
+        "title": "1xBet",
+        "last_update": "2026-06-03T19:34:43Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2026-06-03T19:34:43Z",
+            "outcomes": [
+              {
+                "name": "Atletico Mineiro",
+                "price": 2.2
+              },
+              {
+                "name": "Bahia",
+                "price": 3.42
+              },
+              {
+                "name": "Draw",
+                "price": 3.4
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2026-06-03T19:34:43Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 2.02,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "price": 1.83,
+                "point": 2.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "unibet_fr",
+        "title": "Unibet (FR)",
+        "last_update": "2026-06-03T19:34:43Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2026-06-03T19:34:43Z",
+            "outcomes": [
+              {
+                "name": "Atletico Mineiro",
+                "price": 1.92
+              },
+              {
+                "name": "Bahia",
+                "price": 3.1
+              },
+              {
+                "name": "Draw",
+                "price": 3.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "codere_it",
+        "title": "Codere (IT)",
+        "last_update": "2026-06-03T19:34:42Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2026-06-03T19:34:42Z",
+            "outcomes": [
+              {
+                "name": "Atletico Mineiro",
+                "price": 2.09
+              },
+              {
+                "name": "Bahia",
+                "price": 3.4
+              },
+              {
+                "name": "Draw",
+                "price": 3.25
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2026-06-03T19:34:42Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.93,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "price": 1.75,
+                "point": 2.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "marathonbet",
+        "title": "Marathon Bet",
+        "last_update": "2026-06-03T19:35:01Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2026-06-03T19:35:01Z",
+            "outcomes": [
+              {
+                "name": "Atletico Mineiro",
+                "price": 2.14
+              },
+              {
+                "name": "Bahia",
+                "price": 3.32
+              },
+              {
+                "name": "Draw",
+                "price": 3.3
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "winamax_de",
+        "title": "Winamax (DE)",
+        "last_update": "2026-06-03T19:35:02Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2026-06-03T19:35:02Z",
+            "outcomes": [
+              {
+                "name": "Atletico Mineiro",
+                "price": 1.96
+              },
+              {
+                "name": "Bahia",
+                "price": 3.1
+              },
+              {
+                "name": "Draw",
+                "price": 3.15
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betclic_fr",
+        "title": "Betclic (FR)",
+        "last_update": "2026-06-03T19:34:18Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2026-06-03T19:34:18Z",
+            "outcomes": [
+              {
+                "name": "Atletico Mineiro",
+                "price": 1.9
+              },
+              {
+                "name": "Bahia",
+                "price": 3.12
+              },
+              {
+                "name": "Draw",
+                "price": 3.0
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "7b0cca084d7d16ef946532414fbbcb53",
+    "sport_key": "soccer_brazil_campeonato",
+    "sport_title": "Brazil Série A",
+    "commence_time": "2026-07-22T20:00:00Z",
+    "home_team": "Sao Paulo",
+    "away_team": "Atletico Paranaense",
+    "bookmakers": [
+      {
+        "key": "winamax_fr",
+        "title": "Winamax (FR)",
+        "last_update": "2026-06-03T19:34:05Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2026-06-03T19:34:05Z",
+            "outcomes": [
+              {
+                "name": "Atletico Paranaense",
+                "price": 3.55
+              },
+              {
+                "name": "Sao Paulo",
+                "price": 1.72
+              },
+              {
+                "name": "Draw",
+                "price": 3.05
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "onexbet",
+        "title": "1xBet",
+        "last_update": "2026-06-03T19:34:43Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2026-06-03T19:34:43Z",
+            "outcomes": [
+              {
+                "name": "Atletico Paranaense",
+                "price": 4.42
+              },
+              {
+                "name": "Sao Paulo",
+                "price": 1.91
+              },
+              {
+                "name": "Draw",
+                "price": 3.42
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2026-06-03T19:34:43Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 2.2,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "price": 1.7,
+                "point": 2.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "unibet_fr",
+        "title": "Unibet (FR)",
+        "last_update": "2026-06-03T19:34:43Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2026-06-03T19:34:43Z",
+            "outcomes": [
+              {
+                "name": "Atletico Paranaense",
+                "price": 3.7
+              },
+              {
+                "name": "Sao Paulo",
+                "price": 1.74
+              },
+              {
+                "name": "Draw",
+                "price": 3.1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "codere_it",
+        "title": "Codere (IT)",
+        "last_update": "2026-06-03T19:34:42Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2026-06-03T19:34:42Z",
+            "outcomes": [
+              {
+                "name": "Atletico Paranaense",
+                "price": 4.1
+              },
+              {
+                "name": "Sao Paulo",
+                "price": 1.87
+              },
+              {
+                "name": "Draw",
+                "price": 3.3
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2026-06-03T19:34:42Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 2.09,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "price": 1.64,
+                "point": 2.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "marathonbet",
+        "title": "Marathon Bet",
+        "last_update": "2026-06-03T19:35:01Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2026-06-03T19:35:01Z",
+            "outcomes": [
+              {
+                "name": "Atletico Paranaense",
+                "price": 4.3
+              },
+              {
+                "name": "Sao Paulo",
+                "price": 1.86
+              },
+              {
+                "name": "Draw",
+                "price": 3.32
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "winamax_de",
+        "title": "Winamax (DE)",
+        "last_update": "2026-06-03T19:35:02Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2026-06-03T19:35:02Z",
+            "outcomes": [
+              {
+                "name": "Atletico Paranaense",
+                "price": 3.7
+              },
+              {
+                "name": "Sao Paulo",
+                "price": 1.78
+              },
+              {
+                "name": "Draw",
+                "price": 3.2
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betclic_fr",
+        "title": "Betclic (FR)",
+        "last_update": "2026-06-03T19:34:18Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2026-06-03T19:34:18Z",
+            "outcomes": [
+              {
+                "name": "Atletico Paranaense",
+                "price": 3.7
+              },
+              {
+                "name": "Sao Paulo",
+                "price": 1.72
+              },
+              {
+                "name": "Draw",
+                "price": 3.03
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "8dfe0eead1403d99f705d2bcd291a789",
+    "sport_key": "soccer_brazil_campeonato",
+    "sport_title": "Brazil Série A",
+    "commence_time": "2026-07-22T20:00:00Z",
+    "home_team": "Botafogo",
+    "away_team": "Santos",
+    "bookmakers": [
+      {
+        "key": "winamax_fr",
+        "title": "Winamax (FR)",
+        "last_update": "2026-06-03T19:34:05Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2026-06-03T19:34:05Z",
+            "outcomes": [
+              {
+                "name": "Botafogo",
+                "price": 1.76
+              },
+              {
+                "name": "Santos",
+                "price": 3.5
+              },
+              {
+                "name": "Draw",
+                "price": 3.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "onexbet",
+        "title": "1xBet",
+        "last_update": "2026-06-03T19:34:43Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2026-06-03T19:34:43Z",
+            "outcomes": [
+              {
+                "name": "Botafogo",
+                "price": 2.0
+              },
+              {
+                "name": "Santos",
+                "price": 4.03
+              },
+              {
+                "name": "Draw",
+                "price": 3.42
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2026-06-03T19:34:43Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.87,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "price": 1.98,
+                "point": 2.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "unibet_fr",
+        "title": "Unibet (FR)",
+        "last_update": "2026-06-03T19:34:43Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2026-06-03T19:34:43Z",
+            "outcomes": [
+              {
+                "name": "Botafogo",
+                "price": 1.77
+              },
+              {
+                "name": "Santos",
+                "price": 3.7
+              },
+              {
+                "name": "Draw",
+                "price": 3.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "codere_it",
+        "title": "Codere (IT)",
+        "last_update": "2026-06-03T19:34:42Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2026-06-03T19:34:42Z",
+            "outcomes": [
+              {
+                "name": "Botafogo",
+                "price": 1.91
+              },
+              {
+                "name": "Santos",
+                "price": 4.0
+              },
+              {
+                "name": "Draw",
+                "price": 3.25
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2026-06-03T19:34:42Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.79,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "price": 1.88,
+                "point": 2.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "marathonbet",
+        "title": "Marathon Bet",
+        "last_update": "2026-06-03T19:35:01Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2026-06-03T19:35:01Z",
+            "outcomes": [
+              {
+                "name": "Botafogo",
+                "price": 1.94
+              },
+              {
+                "name": "Santos",
+                "price": 3.92
+              },
+              {
+                "name": "Draw",
+                "price": 3.32
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "winamax_de",
+        "title": "Winamax (DE)",
+        "last_update": "2026-06-03T19:35:02Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2026-06-03T19:35:02Z",
+            "outcomes": [
+              {
+                "name": "Botafogo",
+                "price": 1.8
+              },
+              {
+                "name": "Santos",
+                "price": 3.65
+              },
+              {
+                "name": "Draw",
+                "price": 3.15
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betclic_fr",
+        "title": "Betclic (FR)",
+        "last_update": "2026-06-03T19:34:18Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2026-06-03T19:34:18Z",
+            "outcomes": [
+              {
+                "name": "Botafogo",
+                "price": 1.75
+              },
+              {
+                "name": "Santos",
+                "price": 3.63
+              },
+              {
+                "name": "Draw",
+                "price": 2.98
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "418b9adc21c20323f0b8311615c0cef4",
+    "sport_key": "soccer_brazil_campeonato",
+    "sport_title": "Brazil Série A",
+    "commence_time": "2026-07-22T20:00:00Z",
+    "home_team": "Chapecoense",
+    "away_team": "Flamengo",
+    "bookmakers": [
+      {
+        "key": "winamax_fr",
+        "title": "Winamax (FR)",
+        "last_update": "2026-06-03T19:34:05Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2026-06-03T19:34:05Z",
+            "outcomes": [
+              {
+                "name": "Chapecoense",
+                "price": 5.0
+              },
+              {
+                "name": "Flamengo",
+                "price": 1.4
+              },
+              {
+                "name": "Draw",
+                "price": 3.65
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "onexbet",
+        "title": "1xBet",
+        "last_update": "2026-06-03T19:34:43Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2026-06-03T19:34:43Z",
+            "outcomes": [
+              {
+                "name": "Chapecoense",
+                "price": 6.53
+              },
+              {
+                "name": "Flamengo",
+                "price": 1.53
+              },
+              {
+                "name": "Draw",
+                "price": 4.22
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2026-06-03T19:34:43Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.82,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "price": 2.03,
+                "point": 2.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "unibet_fr",
+        "title": "Unibet (FR)",
+        "last_update": "2026-06-03T19:34:43Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2026-06-03T19:34:43Z",
+            "outcomes": [
+              {
+                "name": "Chapecoense",
+                "price": 5.4
+              },
+              {
+                "name": "Flamengo",
+                "price": 1.4
+              },
+              {
+                "name": "Draw",
+                "price": 3.7
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "codere_it",
+        "title": "Codere (IT)",
+        "last_update": "2026-06-03T19:34:42Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2026-06-03T19:34:42Z",
+            "outcomes": [
+              {
+                "name": "Chapecoense",
+                "price": 6.2
+              },
+              {
+                "name": "Flamengo",
+                "price": 1.49
+              },
+              {
+                "name": "Draw",
+                "price": 4.1
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2026-06-03T19:34:42Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.75,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "price": 1.93,
+                "point": 2.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "marathonbet",
+        "title": "Marathon Bet",
+        "last_update": "2026-06-03T19:35:01Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2026-06-03T19:35:01Z",
+            "outcomes": [
+              {
+                "name": "Chapecoense",
+                "price": 6.35
+              },
+              {
+                "name": "Flamengo",
+                "price": 1.49
+              },
+              {
+                "name": "Draw",
+                "price": 4.1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "winamax_de",
+        "title": "Winamax (DE)",
+        "last_update": "2026-06-03T19:35:02Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2026-06-03T19:35:02Z",
+            "outcomes": [
+              {
+                "name": "Chapecoense",
+                "price": 5.3
+              },
+              {
+                "name": "Flamengo",
+                "price": 1.43
+              },
+              {
+                "name": "Draw",
+                "price": 3.9
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betclic_fr",
+        "title": "Betclic (FR)",
+        "last_update": "2026-06-03T19:34:18Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2026-06-03T19:34:18Z",
+            "outcomes": [
+              {
+                "name": "Chapecoense",
+                "price": 5.4
+              },
+              {
+                "name": "Flamengo",
+                "price": 1.39
+              },
+              {
+                "name": "Draw",
+                "price": 3.63
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "206e461c75201058f9ef7b6a4f53854a",
+    "sport_key": "soccer_brazil_campeonato",
+    "sport_title": "Brazil Série A",
+    "commence_time": "2026-07-22T20:00:00Z",
+    "home_team": "Corinthians",
+    "away_team": "Remo",
+    "bookmakers": [
+      {
+        "key": "winamax_fr",
+        "title": "Winamax (FR)",
+        "last_update": "2026-06-03T19:34:05Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2026-06-03T19:34:05Z",
+            "outcomes": [
+              {
+                "name": "Corinthians",
+                "price": 1.44
+              },
+              {
+                "name": "Remo",
+                "price": 5.0
+              },
+              {
+                "name": "Draw",
+                "price": 3.45
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "onexbet",
+        "title": "1xBet",
+        "last_update": "2026-06-03T19:34:43Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2026-06-03T19:34:43Z",
+            "outcomes": [
+              {
+                "name": "Corinthians",
+                "price": 1.58
+              },
+              {
+                "name": "Remo",
+                "price": 6.38
+              },
+              {
+                "name": "Draw",
+                "price": 3.93
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2026-06-03T19:34:43Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 2.03,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "price": 1.82,
+                "point": 2.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "unibet_fr",
+        "title": "Unibet (FR)",
+        "last_update": "2026-06-03T19:34:43Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2026-06-03T19:34:43Z",
+            "outcomes": [
+              {
+                "name": "Corinthians",
+                "price": 1.44
+              },
+              {
+                "name": "Remo",
+                "price": 5.4
+              },
+              {
+                "name": "Draw",
+                "price": 3.4
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "codere_it",
+        "title": "Codere (IT)",
+        "last_update": "2026-06-03T19:34:42Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2026-06-03T19:34:42Z",
+            "outcomes": [
+              {
+                "name": "Corinthians",
+                "price": 1.53
+              },
+              {
+                "name": "Remo",
+                "price": 6.2
+              },
+              {
+                "name": "Draw",
+                "price": 3.8
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2026-06-03T19:34:42Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.93,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "price": 1.75,
+                "point": 2.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "marathonbet",
+        "title": "Marathon Bet",
+        "last_update": "2026-06-03T19:35:01Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2026-06-03T19:35:01Z",
+            "outcomes": [
+              {
+                "name": "Corinthians",
+                "price": 1.54
+              },
+              {
+                "name": "Remo",
+                "price": 6.2
+              },
+              {
+                "name": "Draw",
+                "price": 3.82
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "winamax_de",
+        "title": "Winamax (DE)",
+        "last_update": "2026-06-03T19:35:02Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2026-06-03T19:35:02Z",
+            "outcomes": [
+              {
+                "name": "Corinthians",
+                "price": 1.47
+              },
+              {
+                "name": "Remo",
+                "price": 5.3
+              },
+              {
+                "name": "Draw",
+                "price": 3.6
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betclic_fr",
+        "title": "Betclic (FR)",
+        "last_update": "2026-06-03T19:34:18Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2026-06-03T19:34:18Z",
+            "outcomes": [
+              {
+                "name": "Corinthians",
+                "price": 1.43
+              },
+              {
+                "name": "Remo",
+                "price": 5.4
+              },
+              {
+                "name": "Draw",
+                "price": 3.4
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "1564002429f60a7c9faba9a3789eeaad",
+    "sport_key": "soccer_brazil_campeonato",
+    "sport_title": "Brazil Série A",
+    "commence_time": "2026-07-22T20:00:00Z",
+    "home_team": "Coritiba",
+    "away_team": "Palmeiras",
+    "bookmakers": [
+      {
+        "key": "winamax_fr",
+        "title": "Winamax (FR)",
+        "last_update": "2026-06-03T19:34:05Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2026-06-03T19:34:05Z",
+            "outcomes": [
+              {
+                "name": "Coritiba",
+                "price": 3.5
+              },
+              {
+                "name": "Palmeiras",
+                "price": 1.76
+              },
+              {
+                "name": "Draw",
+                "price": 3.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "onexbet",
+        "title": "1xBet",
+        "last_update": "2026-06-03T19:34:43Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2026-06-03T19:34:43Z",
+            "outcomes": [
+              {
+                "name": "Coritiba",
+                "price": 4.05
+              },
+              {
+                "name": "Palmeiras",
+                "price": 2.0
+              },
+              {
+                "name": "Draw",
+                "price": 3.4
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2026-06-03T19:34:43Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 2.14,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "price": 1.74,
+                "point": 2.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "unibet_fr",
+        "title": "Unibet (FR)",
+        "last_update": "2026-06-03T19:34:43Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2026-06-03T19:34:43Z",
+            "outcomes": [
+              {
+                "name": "Coritiba",
+                "price": 3.7
+              },
+              {
+                "name": "Palmeiras",
+                "price": 1.77
+              },
+              {
+                "name": "Draw",
+                "price": 3.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "codere_it",
+        "title": "Codere (IT)",
+        "last_update": "2026-06-03T19:34:42Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2026-06-03T19:34:42Z",
+            "outcomes": [
+              {
+                "name": "Coritiba",
+                "price": 4.0
+              },
+              {
+                "name": "Palmeiras",
+                "price": 1.91
+              },
+              {
+                "name": "Draw",
+                "price": 3.25
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2026-06-03T19:34:42Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 2.04,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "price": 1.66,
+                "point": 2.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "marathonbet",
+        "title": "Marathon Bet",
+        "last_update": "2026-06-03T19:35:01Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2026-06-03T19:35:01Z",
+            "outcomes": [
+              {
+                "name": "Coritiba",
+                "price": 3.94
+              },
+              {
+                "name": "Palmeiras",
+                "price": 1.94
+              },
+              {
+                "name": "Draw",
+                "price": 3.3
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "winamax_de",
+        "title": "Winamax (DE)",
+        "last_update": "2026-06-03T19:35:02Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2026-06-03T19:35:02Z",
+            "outcomes": [
+              {
+                "name": "Coritiba",
+                "price": 3.65
+              },
+              {
+                "name": "Palmeiras",
+                "price": 1.8
+              },
+              {
+                "name": "Draw",
+                "price": 3.15
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betclic_fr",
+        "title": "Betclic (FR)",
+        "last_update": "2026-06-03T19:34:18Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2026-06-03T19:34:18Z",
+            "outcomes": [
+              {
+                "name": "Coritiba",
+                "price": 3.63
+              },
+              {
+                "name": "Palmeiras",
+                "price": 1.75
+              },
+              {
+                "name": "Draw",
+                "price": 2.98
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "2c905510461ac679bb8c310470a1ae37",
+    "sport_key": "soccer_brazil_campeonato",
+    "sport_title": "Brazil Série A",
+    "commence_time": "2026-07-22T20:00:00Z",
+    "home_team": "Mirassol",
+    "away_team": "Grêmio",
+    "bookmakers": [
+      {
+        "key": "winamax_fr",
+        "title": "Winamax (FR)",
+        "last_update": "2026-06-03T19:34:05Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2026-06-03T19:34:05Z",
+            "outcomes": [
+              {
+                "name": "Grêmio",
+                "price": 3.1
+              },
+              {
+                "name": "Mirassol",
+                "price": 1.88
+              },
+              {
+                "name": "Draw",
+                "price": 3.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "onexbet",
+        "title": "1xBet",
+        "last_update": "2026-06-03T19:34:43Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2026-06-03T19:34:43Z",
+            "outcomes": [
+              {
+                "name": "Grêmio",
+                "price": 3.52
+              },
+              {
+                "name": "Mirassol",
+                "price": 2.16
+              },
+              {
+                "name": "Draw",
+                "price": 3.4
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2026-06-03T19:34:43Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 2.23,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "price": 1.68,
+                "point": 2.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "unibet_fr",
+        "title": "Unibet (FR)",
+        "last_update": "2026-06-03T19:34:43Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2026-06-03T19:34:43Z",
+            "outcomes": [
+              {
+                "name": "Grêmio",
+                "price": 3.2
+              },
+              {
+                "name": "Mirassol",
+                "price": 1.9
+              },
+              {
+                "name": "Draw",
+                "price": 3.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "codere_it",
+        "title": "Codere (IT)",
+        "last_update": "2026-06-03T19:34:42Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2026-06-03T19:34:42Z",
+            "outcomes": [
+              {
+                "name": "Grêmio",
+                "price": 3.5
+              },
+              {
+                "name": "Mirassol",
+                "price": 2.05
+              },
+              {
+                "name": "Draw",
+                "price": 3.25
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2026-06-03T19:34:42Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 2.12,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "price": 1.62,
+                "point": 2.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "marathonbet",
+        "title": "Marathon Bet",
+        "last_update": "2026-06-03T19:35:01Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2026-06-03T19:35:01Z",
+            "outcomes": [
+              {
+                "name": "Grêmio",
+                "price": 3.42
+              },
+              {
+                "name": "Mirassol",
+                "price": 2.1
+              },
+              {
+                "name": "Draw",
+                "price": 3.3
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "winamax_de",
+        "title": "Winamax (DE)",
+        "last_update": "2026-06-03T19:35:02Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2026-06-03T19:35:02Z",
+            "outcomes": [
+              {
+                "name": "Grêmio",
+                "price": 3.2
+              },
+              {
+                "name": "Mirassol",
+                "price": 1.94
+              },
+              {
+                "name": "Draw",
+                "price": 3.15
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betclic_fr",
+        "title": "Betclic (FR)",
+        "last_update": "2026-06-03T19:34:18Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2026-06-03T19:34:18Z",
+            "outcomes": [
+              {
+                "name": "Grêmio",
+                "price": 3.2
+              },
+              {
+                "name": "Mirassol",
+                "price": 1.87
+              },
+              {
+                "name": "Draw",
+                "price": 3.0
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]
