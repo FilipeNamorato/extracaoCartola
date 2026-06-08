@@ -538,6 +538,42 @@
       "aproveitamento_visitante": [
         "e",
         "v",
+        "d",
+        "d",
+        "d"
+      ],
+      "aproveitamento_mandante": [
+        "v",
+        "e",
+        "d",
+        "v",
+        "d"
+      ],
+      "transmissao": {
+        "label": "",
+        "url": ""
+      },
+      "local": "",
+      "status_transmissao_tr": "",
+      "status_cronometro_tr": "",
+      "periodo_tr": "",
+      "partida_data": "2026-07-22 00:00:00",
+      "inicio_cronometro_tr": "",
+      "placar_oficial_visitante": null,
+      "placar_oficial_mandante": null,
+      "partida_id": 346543,
+      "clube_visitante_posicao": 17,
+      "clube_visitante_id": 267,
+      "clube_casa_posicao": 13,
+      "clube_casa_id": 287,
+      "timestamp": 1784689200,
+      "campeonato_id": 26,
+      "valida": false
+    },
+    {
+      "aproveitamento_visitante": [
+        "e",
+        "v",
         "e",
         "d",
         "v"
@@ -603,42 +639,6 @@
       "clube_casa_posicao": 12,
       "clube_casa_id": 263,
       "timestamp": 1784763000,
-      "campeonato_id": 26,
-      "valida": false
-    },
-    {
-      "aproveitamento_visitante": [
-        "e",
-        "v",
-        "d",
-        "d",
-        "d"
-      ],
-      "aproveitamento_mandante": [
-        "v",
-        "e",
-        "d",
-        "v",
-        "d"
-      ],
-      "transmissao": {
-        "label": "",
-        "url": ""
-      },
-      "local": "",
-      "status_transmissao_tr": "",
-      "status_cronometro_tr": "",
-      "periodo_tr": "",
-      "partida_data": "2026-07-22 00:00:00",
-      "inicio_cronometro_tr": "",
-      "placar_oficial_visitante": null,
-      "placar_oficial_mandante": null,
-      "partida_id": 346543,
-      "clube_visitante_posicao": 17,
-      "clube_visitante_id": 267,
-      "clube_casa_posicao": 13,
-      "clube_casa_id": 287,
-      "timestamp": 1784689200,
       "campeonato_id": 26,
       "valida": false
     }
