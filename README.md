@@ -1,8 +1,8 @@
-# Cartola Data — Dashboard & Escalação Inteligente
+# Cartola Data — Dashboard Inteligente
 
-Pipeline completo de dados para o Cartola FC: coleta automática das APIs, enriquecimento estatístico, dashboard interativo e geração de escalação via LLM (Claude).
+Pipeline completo de dados para o Cartola FC: coleta automática das APIs, enriquecimento estatístico e dashboard interativo.
 
-**Dashboard ao vivo:** https://filipenamorato.github.io/extracaoCartola/
+**Dashboard ao vivo:** https://filipenamorato.github.io/namoratosdashboard/
 
 ---
 
@@ -12,8 +12,7 @@ Pipeline completo de dados para o Cartola FC: coleta automática das APIs, enriq
 2. **Enriquece** cada atleta com métricas calculadas: média bayesiana, score de confronto, armadilha de preço, pontos esperados e mais
 3. **Calibra** um modelo Ridge Regression com os dados reais de cada rodada, substituindo a heurística inicial quando o modelo performa melhor
 4. **Publica** um dashboard interativo no GitHub Pages com tabela do Brasileirão, rankings de custo-benefício e análise de confrontos
-5. **Gera escalação** automaticamente: envia os dados para o Claude (Anthropic) que analisa e monta o time ideal respeitando orçamento e formação
-6. **Agenda lembretes** no Google Calendar antes do fechamento do mercado de cada rodada
+5. **Agenda lembretes** no Google Calendar antes do fechamento do mercado de cada rodada
 
 ---
 
@@ -22,7 +21,6 @@ Pipeline completo de dados para o Cartola FC: coleta automática das APIs, enriq
 - **Linguagem:** Python 3.11
 - **Dados:** pandas, numpy, Ridge Regression (scikit-learn)
 - **APIs:** Cartola FC, The Odds API, football-data.org, Google Calendar
-- **LLM:** Claude (Anthropic) via SDK
 - **Infra:** GitHub Actions (CI/CD + coleta), GitHub Pages (dashboard)
 
 ---
@@ -67,7 +65,7 @@ Resultado salvo em `docs/data/current/calibracao_pontos.json`.
 
 ```
 docs/data/
-├── current/          # CSVs mais recentes (dashboard + LLM consomem daqui)
+├── current/          # CSVs mais recentes (dashboard consome daqui)
 │   ├── atletas.csv          # ~250 atletas com todas as métricas
 │   ├── atletas_pontuados.csv
 │   ├── partidas.csv
@@ -105,16 +103,13 @@ Para rodar manualmente: `Actions > Coleta Cartola FC > Run workflow`
 ## Uso local
 
 ```bash
-pip install requests pandas numpy scikit-learn anthropic google-auth google-auth-httplib2 google-api-python-client
+pip install requests pandas numpy scikit-learn google-auth google-auth-httplib2 google-api-python-client
 
 # Coleta e processa dados
 python cartola_extractor.py
 
 # Calibra modelo de previsão
 python calibrar_pontos_esperados.py
-
-# Gera escalação via LLM (requer ANTHROPIC_API_KEY)
-ANTHROPIC_API_KEY=sua_chave python gerarEscalacao.py
 ```
 
 Os arquivos serão gerados em `docs/data/`.
