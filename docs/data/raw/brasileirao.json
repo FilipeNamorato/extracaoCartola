@@ -218,14 +218,14 @@
         "tla": "BOT",
         "crest": "https://crests.football-data.org/1770.png"
       },
-      "playedGames": 17,
+      "playedGames": 18,
       "form": null,
       "won": 6,
-      "draw": 4,
+      "draw": 5,
       "lost": 7,
-      "points": 22,
-      "goalsFor": 31,
-      "goalsAgainst": 31,
+      "points": 23,
+      "goalsFor": 32,
+      "goalsAgainst": 32,
       "goalDifference": 0
     },
     {
@@ -237,18 +237,37 @@
         "tla": "VIT",
         "crest": "https://crests.football-data.org/1782.png"
       },
-      "playedGames": 17,
+      "playedGames": 18,
       "form": null,
       "won": 6,
-      "draw": 4,
+      "draw": 5,
       "lost": 7,
-      "points": 22,
+      "points": 23,
       "goalsFor": 21,
       "goalsAgainst": 25,
       "goalDifference": -4
     },
     {
       "position": 14,
+      "team": {
+        "id": 6685,
+        "name": "Santos FC",
+        "shortName": "Santos",
+        "tla": "SAN",
+        "crest": "https://crests.football-data.org/6685.png"
+      },
+      "playedGames": 19,
+      "form": null,
+      "won": 5,
+      "draw": 7,
+      "lost": 7,
+      "points": 22,
+      "goalsFor": 27,
+      "goalsAgainst": 30,
+      "goalDifference": -3
+    },
+    {
+      "position": 15,
       "team": {
         "id": 6684,
         "name": "SC Internacional",
@@ -265,25 +284,6 @@
       "goalsFor": 21,
       "goalsAgainst": 22,
       "goalDifference": -1
-    },
-    {
-      "position": 15,
-      "team": {
-        "id": 6685,
-        "name": "Santos FC",
-        "shortName": "Santos",
-        "tla": "SAN",
-        "crest": "https://crests.football-data.org/6685.png"
-      },
-      "playedGames": 18,
-      "form": null,
-      "won": 5,
-      "draw": 6,
-      "lost": 7,
-      "points": 21,
-      "goalsFor": 26,
-      "goalsAgainst": 29,
-      "goalDifference": -3
     },
     {
       "position": 16,
@@ -313,12 +313,12 @@
         "tla": "VAS",
         "crest": "https://crests.football-data.org/1780.png"
       },
-      "playedGames": 18,
+      "playedGames": 19,
       "form": null,
       "won": 5,
-      "draw": 5,
+      "draw": 6,
       "lost": 8,
-      "points": 20,
+      "points": 21,
       "goalsFor": 22,
       "goalsAgainst": 29,
       "goalDifference": -7
