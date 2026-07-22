@@ -442,15 +442,15 @@
         "e"
       ],
       "transmissao": {
-        "label": "ao vivo",
+        "label": "saiba como foi",
         "url": "https://ge.globo.com/mg/futebol/brasileirao-serie-a/jogo/21-07-2026/atletico-mg-bahia.ghtml?utm_source=cartolafc"
       },
       "local": "Arena MRV",
-      "status_transmissao_tr": "EM_ANDAMENTO",
-      "status_cronometro_tr": "INICIADO",
-      "periodo_tr": "SEGUNDO_TEMPO",
+      "status_transmissao_tr": "ENCERRADA",
+      "status_cronometro_tr": "PAUSADO",
+      "periodo_tr": "POS_JOGO",
       "partida_data": "2026-07-21 19:30:00",
-      "inicio_cronometro_tr": "2026-07-21T23:37:48.182Z",
+      "inicio_cronometro_tr": "2026-07-22T00:33:22.905Z",
       "placar_oficial_visitante": 1,
       "placar_oficial_mandante": 1,
       "partida_id": 346540,
@@ -466,16 +466,16 @@
       "aproveitamento_visitante": [
         "e",
         "e",
-        "e",
         "v",
-        "v"
+        "v",
+        "e"
       ],
       "aproveitamento_mandante": [
-        "d",
         "e",
         "v",
         "v",
-        "d"
+        "d",
+        "e"
       ],
       "transmissao": {
         "label": "fique por dentro",
@@ -500,18 +500,18 @@
     },
     {
       "aproveitamento_visitante": [
-        "e",
         "d",
         "e",
         "v",
-        "v"
+        "v",
+        "e"
       ],
       "aproveitamento_mandante": [
-        "e",
         "d",
         "d",
         "e",
-        "d"
+        "d",
+        "e"
       ],
       "transmissao": {
         "label": "fique por dentro",
@@ -536,18 +536,18 @@
     },
     {
       "aproveitamento_visitante": [
-        "d",
         "v",
         "e",
         "v",
+        "e",
         "e"
       ],
       "aproveitamento_mandante": [
-        "v",
         "e",
         "v",
         "d",
-        "d"
+        "d",
+        "e"
       ],
       "transmissao": {
         "label": "fique por dentro",
@@ -572,18 +572,18 @@
     },
     {
       "aproveitamento_visitante": [
-        "e",
         "v",
         "e",
         "d",
-        "v"
+        "v",
+        "e"
       ],
       "aproveitamento_mandante": [
-        "e",
         "d",
         "d",
         "d",
-        "d"
+        "d",
+        "e"
       ],
       "transmissao": {
         "label": "fique por dentro",
