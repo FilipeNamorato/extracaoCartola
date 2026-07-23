@@ -1,10 +1,10 @@
 ﻿endpoint,registros,status,erro,timestamp
-mercado,768,OK,,2026-07-23 08:13 BRT
-pontuados,177,OK,,2026-07-23 08:13 BRT
-partidas,10,OK,,2026-07-23 08:13 BRT
-rodadas,38,OK,,2026-07-23 08:13 BRT
-status,1,OK,,2026-07-23 08:13 BRT
-odds,0,ERRO,401 Client Error: Unauthorized for url: https://api.the-odds-api.com/v4/sports/soccer_brazil_campeonato/odds?apiKey=b6159d8d1f0716f2bbc17803c107763e&regions=eu&markets=h2h%2Ctotals&oddsFormat=decimal,2026-07-23 08:13 BRT
-brasileirao,20,OK,,2026-07-23 08:13 BRT
-atletas_enriquecido,145,OK,,2026-07-23 08:13 BRT
-times_rodada,1,OK,,2026-07-23 08:13 BRT
+mercado,768,OK,,2026-07-23 12:01 BRT
+pontuados,177,OK,,2026-07-23 12:01 BRT
+partidas,10,OK,,2026-07-23 12:01 BRT
+rodadas,38,OK,,2026-07-23 12:01 BRT
+status,1,OK,,2026-07-23 12:01 BRT
+odds,0,ERRO,401 Client Error: Unauthorized for url: https://api.the-odds-api.com/v4/sports/soccer_brazil_campeonato/odds?apiKey=b6159d8d1f0716f2bbc17803c107763e&regions=eu&markets=h2h%2Ctotals&oddsFormat=decimal,2026-07-23 12:01 BRT
+brasileirao,20,OK,,2026-07-23 12:01 BRT
+atletas_enriquecido,145,OK,,2026-07-23 12:01 BRT
+times_rodada,1,OK,,2026-07-23 12:01 BRT
