@@ -298,12 +298,12 @@
         "FC": 1,
         "FD": 1,
         "FF": 1,
-        "FS": 1,
+        "FS": 2,
         "I": 1
       },
       "apelido": "Gabriel Pec",
       "foto": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/clubes_2026/silhuetas/CRU/FORMATO.png",
-      "pontuacao": 3.6,
+      "pontuacao": 4.1,
       "posicao_id": 5,
       "clube_id": 283,
       "entrou_em_campo": true
@@ -555,12 +555,12 @@
     "111466": {
       "scout": {
         "CV": 1,
-        "FC": 1,
+        "FC": 2,
         "FD": 1
       },
       "apelido": "Victor Gabriel",
       "foto": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/clubes_2026/silhuetas/INT/FORMATO.png",
-      "pontuacao": -2.1,
+      "pontuacao": -2.4,
       "posicao_id": 3,
       "clube_id": 285,
       "entrou_em_campo": true
@@ -636,7 +636,7 @@
       "scout": {},
       "apelido": "Paulo Pezzolano",
       "foto": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/clubes_2026/silhuetas/INT/FORMATO.png",
-      "pontuacao": 3.74,
+      "pontuacao": 3.71,
       "posicao_id": 6,
       "clube_id": 285,
       "entrou_em_campo": true
@@ -845,7 +845,7 @@
       },
       "apelido": "Artur Jorge",
       "foto": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/clubes_2026/silhuetas/CRU/FORMATO.png",
-      "pontuacao": 7.7,
+      "pontuacao": 7.75,
       "posicao_id": 6,
       "clube_id": 283,
       "entrou_em_campo": true
@@ -993,12 +993,11 @@
     "145660": {
       "scout": {
         "DS": 2,
-        "FS": 1,
         "I": 1
       },
       "apelido": "Luiz Felipe",
       "foto": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/clubes_2026/silhuetas/INT/FORMATO.png",
-      "pontuacao": 3.4,
+      "pontuacao": 2.9,
       "posicao_id": 2,
       "clube_id": 285,
       "entrou_em_campo": true
@@ -2026,11 +2025,12 @@
     "98617": {
       "scout": {
         "FC": 2,
-        "FF": 1
+        "FF": 1,
+        "FS": 1
       },
       "apelido": "Maripán",
       "foto": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/clubes_2026/silhuetas/INT/FORMATO.png",
-      "pontuacao": 0.2,
+      "pontuacao": 0.7,
       "posicao_id": 3,
       "clube_id": 285,
       "entrou_em_campo": true
