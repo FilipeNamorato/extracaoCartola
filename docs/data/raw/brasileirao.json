@@ -11,13 +11,13 @@
       },
       "playedGames": 19,
       "form": null,
-      "won": 12,
-      "draw": 6,
+      "won": 13,
+      "draw": 5,
       "lost": 1,
-      "points": 42,
-      "goalsFor": 30,
+      "points": 44,
+      "goalsFor": 32,
       "goalsAgainst": 13,
-      "goalDifference": 17
+      "goalDifference": 19
     },
     {
       "position": 2,
@@ -126,12 +126,12 @@
       "playedGames": 19,
       "form": null,
       "won": 7,
-      "draw": 6,
-      "lost": 6,
-      "points": 27,
+      "draw": 5,
+      "lost": 7,
+      "points": 26,
       "goalsFor": 24,
-      "goalsAgainst": 24,
-      "goalDifference": 0
+      "goalsAgainst": 26,
+      "goalDifference": -2
     },
     {
       "position": 8,
@@ -408,7 +408,7 @@
         "venue": "Estádio Joaquim Américo Guimarães",
         "lastUpdated": "2022-04-06T13:14:06Z"
       },
-      "playedMatches": 17,
+      "playedMatches": 18,
       "goals": 11,
       "assists": 1,
       "penalties": 2
@@ -470,7 +470,7 @@
         "venue": "Estadio Jornalista Mário Filho",
         "lastUpdated": "2022-04-06T13:13:43Z"
       },
-      "playedMatches": 17,
+      "playedMatches": 18,
       "goals": 10,
       "assists": 4,
       "penalties": null
@@ -718,7 +718,7 @@
         "venue": "Estádio do Morumbi",
         "lastUpdated": "2023-02-18T08:43:44Z"
       },
-      "playedMatches": 15,
+      "playedMatches": 16,
       "goals": 6,
       "assists": 1,
       "penalties": null
@@ -749,7 +749,7 @@
         "venue": "Estádio do Morumbi",
         "lastUpdated": "2023-02-18T08:43:44Z"
       },
-      "playedMatches": 16,
+      "playedMatches": 17,
       "goals": 6,
       "assists": 1,
       "penalties": 1
@@ -811,7 +811,7 @@
         "venue": "Estádio Joaquim Américo Guimarães",
         "lastUpdated": "2022-04-06T13:14:06Z"
       },
-      "playedMatches": 18,
+      "playedMatches": 19,
       "goals": 5,
       "assists": null,
       "penalties": null

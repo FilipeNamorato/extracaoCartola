@@ -478,17 +478,17 @@
         "e"
       ],
       "transmissao": {
-        "label": "pré-jogo",
+        "label": "acompanhe em tempo real",
         "url": "https://ge.globo.com/pr/futebol/brasileirao-serie-a/jogo/22-07-2026/coritiba-palmeiras.ghtml?utm_source=cartolafc"
       },
       "local": "Couto Pereira",
       "status_transmissao_tr": "EM_ANDAMENTO",
-      "status_cronometro_tr": "PAUSADO",
-      "periodo_tr": "PRE_JOGO",
+      "status_cronometro_tr": "INICIADO",
+      "periodo_tr": "SEGUNDO_TEMPO",
       "partida_data": "2026-07-22 19:30:00",
-      "inicio_cronometro_tr": "2026-07-22T21:26:16.152Z",
-      "placar_oficial_visitante": null,
-      "placar_oficial_mandante": null,
+      "inicio_cronometro_tr": "2026-07-22T23:40:05.867Z",
+      "placar_oficial_visitante": 2,
+      "placar_oficial_mandante": 0,
       "partida_id": 346542,
       "clube_visitante_posicao": 1,
       "clube_visitante_id": 275,
@@ -514,15 +514,15 @@
         "e"
       ],
       "transmissao": {
-        "label": "fique por dentro",
+        "label": "ao vivo",
         "url": "https://ge.globo.com/sp/futebol/brasileirao-serie-a/jogo/22-07-2026/sao-paulo-atletico-pr.ghtml?utm_source=cartolafc"
       },
       "local": "Cícero de Souza Marques",
-      "status_transmissao_tr": "CRIADA",
+      "status_transmissao_tr": "EM_ANDAMENTO",
       "status_cronometro_tr": "PAUSADO",
-      "periodo_tr": "",
+      "periodo_tr": "PRE_JOGO",
       "partida_data": "2026-07-22 21:30:00",
-      "inicio_cronometro_tr": "",
+      "inicio_cronometro_tr": "2026-07-22T23:15:50.136Z",
       "placar_oficial_visitante": null,
       "placar_oficial_mandante": null,
       "partida_id": 346537,
@@ -550,15 +550,15 @@
         "e"
       ],
       "transmissao": {
-        "label": "fique por dentro",
+        "label": "ao vivo",
         "url": "https://ge.globo.com/rs/futebol/brasileirao-serie-a/jogo/22-07-2026/internacional-cruzeiro.ghtml?utm_source=cartolafc"
       },
       "local": "Beira-Rio",
-      "status_transmissao_tr": "CRIADA",
+      "status_transmissao_tr": "EM_ANDAMENTO",
       "status_cronometro_tr": "PAUSADO",
-      "periodo_tr": "",
+      "periodo_tr": "PRE_JOGO",
       "partida_data": "2026-07-22 21:30:00",
-      "inicio_cronometro_tr": "",
+      "inicio_cronometro_tr": "2026-07-22T23:06:56.427Z",
       "placar_oficial_visitante": null,
       "placar_oficial_mandante": null,
       "partida_id": 346541,
@@ -586,15 +586,15 @@
         "e"
       ],
       "transmissao": {
-        "label": "fique por dentro",
+        "label": "ao vivo",
         "url": "https://ge.globo.com/sc/futebol/brasileirao-serie-a/jogo/22-07-2026/chapecoense-flamengo.ghtml?utm_source=cartolafc"
       },
       "local": "Arena Condá",
-      "status_transmissao_tr": "CRIADA",
+      "status_transmissao_tr": "EM_ANDAMENTO",
       "status_cronometro_tr": "PAUSADO",
-      "periodo_tr": "",
+      "periodo_tr": "PRE_JOGO",
       "partida_data": "2026-07-22 21:30:00",
-      "inicio_cronometro_tr": "",
+      "inicio_cronometro_tr": "2026-07-22T23:12:37.951Z",
       "placar_oficial_visitante": null,
       "placar_oficial_mandante": null,
       "partida_id": 346544,
