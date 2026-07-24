@@ -3,14 +3,14 @@
   "n_rodadas": 9,
   "n_registros": 384,
   "coefs": {
-    "intercept": -0.8139177463051198,
-    "bayes": 0.4885678952935532,
-    "score_ratio": 1.9503328578589736,
-    "conf": 0.44331157843345553,
-    "interacao": -0.5539085071203586,
-    "forma_media_3r": 0.3512791808095495,
-    "forma_jogou_3r": 0.4907812177540285,
-    "forma_tendencia": -0.1797504366627621
+    "intercept": -0.8139177463047033,
+    "bayes": 0.48856789529350503,
+    "score_ratio": 1.9503328578587529,
+    "conf": 0.4433115784332871,
+    "interacao": -0.5539085071203123,
+    "forma_media_3r": 0.35127918080954484,
+    "forma_jogou_3r": 0.4907812177540253,
+    "forma_tendencia": -0.1797504366627607
   },
   "metricas": {
     "mae_heuristica": 2.934,
@@ -23,5 +23,5 @@
     "ridge_lambda": 1.0,
     "recency_decay": 0.9
   },
-  "atualizado_em": "2026-07-24 06:15 BRT"
+  "atualizado_em": "2026-07-24 08:05 BRT"
 }
