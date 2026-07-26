@@ -380,12 +380,12 @@
     },
     "111683": {
       "scout": {
-        "DE": 2,
+        "DE": 1,
         "GS": 2
       },
       "apelido": "Anthoni",
       "foto": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/clubes_2026/silhuetas/INT/FORMATO.png",
-      "pontuacao": 0.6,
+      "pontuacao": -0.7,
       "posicao_id": 1,
       "clube_id": 285,
       "entrou_em_campo": true
@@ -407,7 +407,7 @@
       "scout": {},
       "apelido": "Paulo Pezzolano",
       "foto": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/clubes_2026/silhuetas/INT/FORMATO.png",
-      "pontuacao": 2.6,
+      "pontuacao": 2.48,
       "posicao_id": 6,
       "clube_id": 285,
       "entrou_em_campo": true
