@@ -319,8 +319,8 @@
       "draw": 6,
       "lost": 9,
       "points": 21,
-      "goalsFor": 22,
-      "goalsAgainst": 30,
+      "goalsFor": 23,
+      "goalsAgainst": 31,
       "goalDifference": -8
     },
     {
@@ -338,8 +338,8 @@
       "draw": 5,
       "lost": 9,
       "points": 20,
-      "goalsFor": 20,
-      "goalsAgainst": 25,
+      "goalsFor": 21,
+      "goalsAgainst": 26,
       "goalDifference": -5
     },
     {
@@ -1206,7 +1206,8 @@
       "L",
       "W",
       "L",
-      "W"
+      "W",
+      "D"
     ],
     "CR Vasco da Gama": [
       "L",
@@ -1227,7 +1228,8 @@
       "L",
       "L",
       "L",
-      "L"
+      "L",
+      "D"
     ],
     "Botafogo FR": [
       "W",
@@ -1538,19 +1540,19 @@
         "l": 3
       },
       "away": {
-        "gf": 7,
-        "ga": 13,
+        "gf": 8,
+        "ga": 14,
         "w": 1,
-        "d": 1,
+        "d": 2,
         "l": 6
       }
     },
     "CR Vasco da Gama": {
       "home": {
-        "gf": 12,
-        "ga": 13,
+        "gf": 13,
+        "ga": 14,
         "w": 5,
-        "d": 1,
+        "d": 2,
         "l": 4
       },
       "away": {
