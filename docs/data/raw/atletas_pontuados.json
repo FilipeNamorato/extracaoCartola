@@ -2199,12 +2199,10 @@
       "entrou_em_campo": true
     },
     "146624": {
-      "scout": {
-        "A": 1
-      },
+      "scout": {},
       "apelido": "Heittor",
       "foto": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/clubes_2026/silhuetas/PAL/FORMATO.png",
-      "pontuacao": 5,
+      "pontuacao": 0,
       "posicao_id": 5,
       "clube_id": 275,
       "entrou_em_campo": true
@@ -4079,6 +4077,7 @@
     },
     "99815": {
       "scout": {
+        "A": 1,
         "DS": 7,
         "FD": 1,
         "FF": 4,
@@ -4086,7 +4085,7 @@
       },
       "apelido": "Arias",
       "foto": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/clubes_2026/silhuetas/PAL/FORMATO.png",
-      "pontuacao": 15.4,
+      "pontuacao": 20.4,
       "posicao_id": 4,
       "clube_id": 275,
       "entrou_em_campo": true
