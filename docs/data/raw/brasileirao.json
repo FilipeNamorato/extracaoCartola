@@ -15,8 +15,8 @@
       "draw": 5,
       "lost": 2,
       "points": 44,
-      "goalsFor": 33,
-      "goalsAgainst": 15,
+      "goalsFor": 34,
+      "goalsAgainst": 16,
       "goalDifference": 18
     },
     {
@@ -148,8 +148,8 @@
       "draw": 4,
       "lost": 8,
       "points": 28,
-      "goalsFor": 24,
-      "goalsAgainst": 24,
+      "goalsFor": 25,
+      "goalsAgainst": 25,
       "goalDifference": 0
     },
     {
@@ -868,7 +868,8 @@
       "W",
       "L",
       "W",
-      "D"
+      "D",
+      "W"
     ],
     "SE Palmeiras": [
       "D",
@@ -889,7 +890,8 @@
       "D",
       "W",
       "W",
-      "W"
+      "W",
+      "L"
     ],
     "Coritiba FBC": [
       "L",
@@ -998,7 +1000,8 @@
       "W",
       "L",
       "W",
-      "D"
+      "D",
+      "L"
     ],
     "Clube do Remo": [
       "L",
@@ -1019,7 +1022,8 @@
       "W",
       "L",
       "W",
-      "L"
+      "L",
+      "W"
     ],
     "Fluminense FC": [
       "W",
@@ -1294,20 +1298,20 @@
         "l": 1
       },
       "away": {
-        "gf": 9,
-        "ga": 11,
-        "w": 3,
+        "gf": 11,
+        "ga": 12,
+        "w": 4,
         "d": 0,
         "l": 7
       }
     },
     "SE Palmeiras": {
       "home": {
-        "gf": 16,
-        "ga": 6,
+        "gf": 17,
+        "ga": 8,
         "w": 7,
         "d": 2,
-        "l": 0
+        "l": 1
       },
       "away": {
         "gf": 17,
@@ -1391,17 +1395,17 @@
       },
       "away": {
         "gf": 7,
-        "ga": 22,
+        "ga": 24,
         "w": 0,
         "d": 4,
-        "l": 6
+        "l": 7
       }
     },
     "Clube do Remo": {
       "home": {
-        "gf": 11,
+        "gf": 13,
         "ga": 11,
-        "w": 2,
+        "w": 3,
         "d": 4,
         "l": 3
       },
