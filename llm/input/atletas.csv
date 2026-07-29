@@ -18,8 +18,10 @@ Alef Manga,REM,Atacante,Provável,9.29,1.28,4.9,20,False,MIR,alta,0.0,10.6,2.15,
 Erick Pulga,BAH,Atacante,Provável,7.24,-0.13,3.75,19,False,FLU,estavel,0.0,0.8,3.07,0.819,1.0,4.086,0.27,neutro,0.564,41,0.5,-24.8,42.8,neutro,1.85,False,WATCH,1.103,0.96,0.667,0.8,4.0
 Flaco López,PAL,Atacante,Provável,14.91,0.0,6.74,17,False,VIT,estavel,0.0,6.7,3.33,0.494,1.0,6.146,0.264,neutro,0.412,81,0.05,-11.5,25.7,desfavoravel,3.71,False,WATCH,1.059,1.0,0.727,0.741,-1.0
 Pedro Rocha,CFC,Atacante,Provável,7.3,0.97,3.71,19,True,CRU,alta,0.0,5.2,1.76,0.474,1.0,4.057,0.212,neutro,0.556,45,0.825,3.7,58.4,neutro,2.48,False,WATCH,1.12,1.185,0.923,0.667,1.0
+Arroyo,CRU,Atacante,Provável,5.37,0.11,3.2,16,False,CFC,estavel,0.0,1.5,1.89,0.591,1.0,2.841,-0.226,neutro,0.529,55,0.75,-3.7,58.7,neutro,2.18,False,WATCH,0.923,0.667,1.12,1.185,-1.0
 Kaio Jorge,CRU,Atacante,Provável,11.41,-1.03,4.94,14,False,CFC,baixa,0.0,3.1,2.08,0.421,1.0,4.919,-0.244,neutro,0.431,75,0.75,-3.7,58.7,neutro,2.19,False,WATCH,0.923,0.667,1.12,1.185,-1.0
 Bruno Santos,MIR,Atacante,Provável,3.92,-0.08,0.7,1,True,REM,estavel,0.0,0.7,0.7,1.0,0.125,1.964,-0.301,neutro,0.063,152,0.9,23.3,66.8,neutro,3.33,False,WATCH,0.905,0.877,1.217,0.875,2.0
+Bruno Rodrigues,CRU,Atacante,Provável,3.12,0.13,1.61,12,False,CFC,estavel,0.0,1.7,1.19,0.739,1.0,1.279,-0.447,neutro,0.41,82,0.75,-3.7,58.7,neutro,2.55,False,TITULAR,0.923,0.667,1.12,1.185,-1.0
 Yuri Alberto,COR,Atacante,Provável,10.23,-2.72,4.14,16,True,CAP,baixa,0.0,4.1,2.01,0.486,1.0,4.388,-0.491,neutro,0.429,76,0.45,19.7,64.8,neutro,3.39,False,WATCH,1.636,1.0,1.143,0.632,4.0
 Edson Carioca,MIR,Atacante,Provável,4.65,0.45,2.25,11,True,REM,estavel,0.0,4.0,1.52,0.676,1.0,2.196,-0.531,armadilha_leve,0.472,69,0.9,23.3,66.8,neutro,2.6,False,WATCH,0.905,0.877,1.217,0.875,2.0
 Hulk,FLU,Atacante,Provável,12.7,0.9,4.99,13,True,BAH,alta,0.0,10.3,2.61,0.523,1.0,4.949,-0.562,armadilha_leve,0.39,90,0.625,24.8,49.7,neutro,3.36,False,WATCH,0.667,0.8,1.103,0.96,3.0
@@ -95,7 +97,6 @@ Bruno Henrique,INT,Meia,Provável,4.06,-0.1,1.9,17,True,FLA,estavel,0.0,1.5,1.61
 Jadson,CAP,Meia,Provável,5.38,1.01,2.89,13,False,COR,alta,0.0,6.0,2.51,0.869,1.0,2.552,-0.165,neutro,0.474,74,0.175,-19.7,41.9,neutro,2.2,False,WATCH,1.143,0.632,1.636,1.0,5.0
 Erick Pulgar,FLA,Meia,Provável,7.64,1.59,2.55,9,False,INT,alta,0.0,11.0,2.55,1.0,1.0,3.274,-0.273,neutro,0.429,100,0.5,30.0,65.6,neutro,1.94,False,WATCH,0.95,1.118,1.091,1.538,3.0
 Yago Pikachu,REM,Meia,Provável,5.04,-0.14,2.35,19,False,MIR,estavel,0.0,1.0,1.56,0.664,1.0,2.247,-0.349,neutro,0.446,94,0.675,-23.3,55.7,neutro,2.47,False,TITULAR,1.217,0.875,0.905,0.877,1.0
-Matheus Henrique,CRU,Meia,Provável,5.14,-0.46,2.05,19,False,CFC,estavel,0.0,2.2,2.05,1.0,1.0,2.036,-0.647,armadilha_leve,0.396,114,0.75,-3.7,60.2,neutro,2.6,False,WATCH,0.923,0.667,1.12,1.185,-1.0
 Villagra,INT,Meia,Provável,5.56,0.55,2.07,15,True,FLA,alta,0.0,3.9,2.07,1.0,1.0,2.047,-0.842,armadilha_leve,0.368,126,0.1,-30.0,22.9,neutro,1.75,False,WATCH,1.091,1.538,0.95,1.118,-4.0
 Martinelli,FLU,Meia,Provável,5.22,-0.31,1.8,13,True,BAH,estavel,0.0,1.8,1.42,0.789,1.0,1.878,-0.872,armadilha_leve,0.36,128,0.625,24.8,51.4,neutro,2.27,False,WATCH,0.667,0.8,1.103,0.96,3.0
 Leonardo Jardim,FLA,Técnico,Provável,13.26,-0.75,7.22,16,False,INT,baixa,0.0,4.9,7.22,1.0,1.0,6.808,1.305,valor_bom,0.513,16,0.5,30.0,64.9,neutro,4.15,False,TITULAR,0.95,1.118,1.091,1.538,3.0
