@@ -1,10 +1,10 @@
 ﻿endpoint,registros,status,erro,timestamp
-mercado,768,OK,,2026-08-02 13:35 BRT
-pontuados,0,ERRO,Expecting value: line 1 column 1 (char 0),2026-08-02 13:35 BRT
-partidas,10,OK,,2026-08-02 13:35 BRT
-rodadas,38,OK,,2026-08-02 13:35 BRT
-status,1,OK,,2026-08-02 13:35 BRT
-odds,20,OK,,2026-08-02 13:35 BRT
-brasileirao,20,OK,,2026-08-02 13:35 BRT
-atletas_enriquecido,258,OK,,2026-08-02 13:35 BRT
-times_rodada,1,OK,,2026-08-02 13:35 BRT
+mercado,768,OK,,2026-08-02 14:59 BRT
+pontuados,0,ERRO,Expecting value: line 1 column 1 (char 0),2026-08-02 14:59 BRT
+partidas,10,OK,,2026-08-02 14:59 BRT
+rodadas,38,OK,,2026-08-02 14:59 BRT
+status,1,OK,,2026-08-02 14:59 BRT
+odds,20,OK,,2026-08-02 14:59 BRT
+brasileirao,20,OK,,2026-08-02 14:59 BRT
+atletas_enriquecido,258,OK,,2026-08-02 14:59 BRT
+times_rodada,1,OK,,2026-08-02 14:59 BRT
